@@ -1,0 +1,6 @@
+mission,type,area_ha,flight_minutes,reported_mapped_images,capture_gsd_cm,processed_pixel_cm,height_ft,product_linkage_status
+Crops,Map Capture,60.549,18.0,138,3.8557,3.8,300.0,"High-confidence crop crosswalk from source-image footprint, processed extent, and resolution; confirm against the original processing manifest before public release."
+Crops-2,Map Capture,6.557,15.0,326,1.2852,1.5,100.0,"High-confidence crop crosswalk from source-image footprint, processed extent, and resolution; confirm against the original processing manifest before public release."
+River,Map Capture,3.42,15.0,430,0.7722,0.8,60.0,Direct mission/product naming match.
+Village,Map Capture,21.089,17.0,85,5.1435,5.5,400.0,Direct mission/product naming match.
+Water well,3D Capture,0.007,8.0,122,0.254,0.155,,Direct mission/product naming match.

@@ -1,0 +1,401 @@
+[
+  {
+    "id": "morningside-ortho",
+    "title": "Morningside orthomosaic",
+    "place": "Morningside Park",
+    "kind": "Orthomosaic",
+    "date": "2025-12-18",
+    "image": "assets/field/morningside-ortho.jpg",
+    "thumb": "assets/field/morningside-ortho-thumb.jpg",
+    "caption": "Mapped Morningside Park imagery with a detail panel, labeled December 18, 2025 in the original layout.",
+    "source": "morningside/morningside/Layout-Morningside.png",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1700,
+    "sourceDimensions": [
+      3300,
+      2550
+    ],
+    "uncertainty": ""
+  },
+  {
+    "id": "morningside-dtm",
+    "title": "Morningside terrain model",
+    "place": "Morningside Park",
+    "kind": "Terrain model",
+    "date": "2025-12-18",
+    "image": "assets/field/morningside-dtm.jpg",
+    "thumb": "assets/field/morningside-dtm-thumb.jpg",
+    "caption": "Digital terrain model layout for Morningside Park, labeled December 18, 2025. Terrain classification is a processed interpretation; independent accuracy is not established here.",
+    "source": "morningside/morningside/Layout-Morningside-DTM.png",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1700,
+    "sourceDimensions": [
+      3300,
+      2550
+    ],
+    "uncertainty": ""
+  },
+  {
+    "id": "morningside-dsm",
+    "title": "Morningside surface model",
+    "place": "Morningside Park",
+    "kind": "Surface model",
+    "date": "2025-12-18",
+    "image": "assets/field/morningside-dsm.jpg",
+    "thumb": "assets/field/morningside-dsm-thumb.jpg",
+    "caption": "Digital surface model layout for Morningside Park, labeled December 18, 2025. Surface elevations include visible vegetation and structures.",
+    "source": "morningside/morningside/Layout-Morningside-DSM.png",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1700,
+    "sourceDimensions": [
+      3300,
+      2550
+    ],
+    "uncertainty": ""
+  },
+  {
+    "id": "morningside-3d",
+    "title": "Morningside in three dimensions",
+    "place": "Morningside Park",
+    "kind": "3D view",
+    "date": "2025-12-18",
+    "image": "assets/field/morningside-3d.jpg",
+    "thumb": "assets/field/morningside-3d-thumb.jpg",
+    "caption": "Rendered oblique view of the Morningside textured reconstruction.",
+    "source": "morningside/morningside/Layout-Morningside-3d.png",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 1314,
+    "height": 1700,
+    "sourceDimensions": [
+      2550,
+      3300
+    ],
+    "uncertainty": "Date follows companion layouts and field archive; source render has no visible date label."
+  },
+  {
+    "id": "northshore",
+    "title": "North Shore imagery",
+    "place": "North Shore Esplanade",
+    "kind": "Orthomosaic",
+    "date": "2025-12-01",
+    "image": "assets/field/northshore.jpg",
+    "thumb": "assets/field/northshore-thumb.jpg",
+    "caption": "North Shore Esplanade orthomosaic layout, labeled December 1, 2025 in the original map.",
+    "source": "morningside/morningside/Layout-North_Shore_Esplanade.png",
+    "credit": "EFPL / Columbia University; Staten Island community partnership",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1700,
+    "sourceDimensions": [
+      3300,
+      2550
+    ],
+    "uncertainty": ""
+  },
+  {
+    "id": "northshore-dtm",
+    "title": "North Shore terrain",
+    "place": "North Shore Esplanade",
+    "kind": "Terrain model",
+    "date": "2025-12-01",
+    "image": "assets/field/northshore-dtm.jpg",
+    "thumb": "assets/field/northshore-dtm-thumb.jpg",
+    "caption": "North Shore Esplanade terrain model layout, labeled December 1, 2025 in the original map.",
+    "source": "morningside/morningside/Layout-North_Shore_Esplanade-DTM.png",
+    "credit": "EFPL / Columbia University; Staten Island community partnership",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1700,
+    "sourceDimensions": [
+      3300,
+      2550
+    ],
+    "uncertainty": ""
+  },
+  {
+    "id": "northshore-dsm",
+    "title": "North Shore surface",
+    "place": "North Shore Esplanade",
+    "kind": "Surface model",
+    "date": "2025-12-01",
+    "image": "assets/field/northshore-dsm.jpg",
+    "thumb": "assets/field/northshore-dsm-thumb.jpg",
+    "caption": "North Shore Esplanade surface model layout, labeled December 1, 2025 in the original map.",
+    "source": "morningside/morningside/Layout-North_Shore_Esplanade-DSM.png",
+    "credit": "EFPL / Columbia University; Staten Island community partnership",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1700,
+    "sourceDimensions": [
+      3300,
+      2550
+    ],
+    "uncertainty": ""
+  },
+  {
+    "id": "northshore-community",
+    "title": "Community fieldwork on the North Shore",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/field/northshore-community.jpg",
+    "thumb": "assets/field/northshore-community-thumb.jpg",
+    "caption": "Participants gather along the North Shore waterfront during the December 2025 fieldwork.",
+    "source": "staten_island_field_work_120125/field_maps_photos/gyetman_columbia_Photo 2.jpg",
+    "credit": "Greg Yetman / Columbia field-mapping archive",
+    "status": "Research preview · web derivative",
+    "width": 960,
+    "height": 1280,
+    "sourceDimensions": [
+      960,
+      1280
+    ],
+    "uncertainty": "Participant names and roles are not inferred from this photograph; individual names and roles require source confirmation.",
+    "captureDateExif": "2025:12:01 15:19:10"
+  },
+  {
+    "id": "northshore-crew",
+    "title": "Preparing the drone together",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/field/northshore-crew.jpg",
+    "thumb": "assets/field/northshore-crew-thumb.jpg",
+    "caption": "Field participants with the drone and controller beside the North Shore Esplanade.",
+    "source": "staten_island_field_work_120125/field_maps_photos/gyetman_columbia_Photo 2_1.jpg",
+    "credit": "Greg Yetman / Columbia field-mapping archive",
+    "status": "Research preview · web derivative",
+    "width": 960,
+    "height": 1280,
+    "sourceDimensions": [
+      960,
+      1280
+    ],
+    "uncertainty": "Date follows containing December 1 archive; individual participant roles not verified.",
+    "captureDateExif": "2025:12:01 14:50:11"
+  },
+  {
+    "id": "northshore-ground",
+    "title": "The shoreline from ground level",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/field/northshore-ground.jpg",
+    "thumb": "assets/field/northshore-ground-thumb.jpg",
+    "caption": "Ground-level view along the waterfront: a useful companion to the aerial map.",
+    "source": "staten_island_field_work_120125/field_maps_photos/gyetman_columbia_Photo 3.jpg",
+    "credit": "Greg Yetman / Columbia field-mapping archive",
+    "status": "Research preview · web derivative",
+    "width": 960,
+    "height": 1280,
+    "sourceDimensions": [
+      960,
+      1280
+    ],
+    "uncertainty": "",
+    "captureDateExif": "2025:12:01 14:52:29"
+  },
+  {
+    "id": "four-sparrow-december",
+    "title": "Four Sparrow in winter",
+    "place": "Four Sparrow Marsh",
+    "kind": "Aerial photograph",
+    "date": "2025-12-05",
+    "image": "assets/field/four-sparrow-december.jpg",
+    "thumb": "assets/field/four-sparrow-december-thumb.jpg",
+    "caption": "Winter vegetation, channels, and adjacent urban landscape at Four Sparrow Marsh, photographed during the December 5 field archive.",
+    "source": "four_sparrows_marsh/field_work_120525/misc_photos/S1012984.JPG",
+    "credit": "EFPL / Columbia University; Four Sparrow research team",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "",
+    "captureDateExif": "2025:12:05 18:45:21"
+  },
+  {
+    "id": "four-sparrow-channel",
+    "title": "Channels and marsh vegetation",
+    "place": "Four Sparrow Marsh",
+    "kind": "Aerial photograph",
+    "date": "2025-12-05",
+    "image": "assets/field/four-sparrow-channel.jpg",
+    "thumb": "assets/field/four-sparrow-channel-thumb.jpg",
+    "caption": "An oblique aerial view of channels and vegetation in Four Sparrow Marsh.",
+    "source": "four_sparrows_marsh/field_work_120525/misc_photos/S1012978.JPG",
+    "credit": "EFPL / Columbia University; Four Sparrow research team",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "",
+    "captureDateExif": "2025:12:05 18:42:15"
+  },
+  {
+    "id": "four-sparrow-may-ortho",
+    "title": "May marsh survey overview",
+    "place": "Four Sparrow Marsh",
+    "kind": "Orthomosaic",
+    "date": "2025-05-02",
+    "image": "assets/field/four-sparrow-may-ortho.jpg",
+    "thumb": "assets/field/four-sparrow-may-ortho-thumb.jpg",
+    "caption": "Web-sized orthomosaic derived from the May 2, 2025 photogrammetric raster.",
+    "source": "four_sparrows_marsh/field_work_050225/field_work_drone2map_processing/Products/2D/True Ortho/field_work_drone2map_processing_True_Ortho.tif",
+    "credit": "EFPL / Columbia University; Natan Charytan",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1267,
+    "sourceDimensions": [
+      33000,
+      19000
+    ],
+    "uncertainty": ""
+  },
+  {
+    "id": "four-sparrow-august-ortho",
+    "title": "August marsh survey overview",
+    "place": "Four Sparrow Marsh",
+    "kind": "Orthomosaic",
+    "date": "2025-08-07",
+    "image": "assets/field/four-sparrow-august-ortho.jpg",
+    "thumb": "assets/field/four-sparrow-august-ortho-thumb.jpg",
+    "caption": "Web-sized orthomosaic derived from the August 7, 2025 photogrammetric raster. The mission Capture_Report and containing folder both give August 7.",
+    "source": "four_sparrows_marsh/field_work_080725/field_work_drone2map_processing/Products/2D/True Ortho/field_work_drone2map_processing_True_Ortho.tif",
+    "credit": "EFPL / Columbia University; Natan Charytan",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1294,
+    "sourceDimensions": [
+      34000,
+      20000
+    ],
+    "uncertainty": "An earlier slide title says August 27; the mission folder and Capture_Report establish August 7 for this specific archived dataset."
+  },
+  {
+    "id": "four-sparrow-relief",
+    "title": "Marsh terrain shaded relief",
+    "place": "Four Sparrow Marsh",
+    "kind": "Terrain model",
+    "date": "2025-05-02",
+    "image": "assets/field/four-sparrow-relief.jpg",
+    "thumb": "assets/field/four-sparrow-relief-thumb.jpg",
+    "caption": "Web-sized shaded-relief view derived from the May marsh terrain product. It shows processed terrain texture, not measured sediment change between visits.",
+    "source": "four_sparrows_marsh/field_work_050225/field_work_drone2map_processing/Products/2D/DEM/DTMShadedRelief/field_work_drone2map_processing_dtm_shaded_relief.tif",
+    "credit": "EFPL / Columbia University; Natan Charytan",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1274,
+    "sourceDimensions": [
+      6410,
+      3712
+    ],
+    "uncertainty": "Display derivative only; compare surveys only after alignment and uncertainty assessment."
+  },
+  {
+    "id": "lamont-ortho",
+    "title": "Lamont image-based mapping overview",
+    "place": "Lamont",
+    "kind": "Orthomosaic",
+    "date": "2025-03-05",
+    "image": "assets/field/lamont-ortho.jpg",
+    "thumb": "assets/field/lamont-ortho-thumb.jpg",
+    "caption": "Photogrammetric orthomosaic preview from the Lamont point-cloud processing report. The report states 46.3 hectares and a mean GSD of 0.032 m.",
+    "source": "lamont_point_cloud/Project/Data/Report/ortho.tif",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 512,
+    "height": 560,
+    "sourceDimensions": [
+      512,
+      560
+    ],
+    "uncertainty": "March 5 follows archived point-cloud product name, not an independently checked acquisition date. The report states no GCPs/checkpoints."
+  },
+  {
+    "id": "lamont-field-team",
+    "title": "Learning in the field at Lamont",
+    "place": "Lamont",
+    "kind": "Field photograph",
+    "date": "2024-02-19",
+    "image": "assets/field/lamont-field-team.jpg",
+    "thumb": "assets/field/lamont-field-team-thumb.jpg",
+    "caption": "Aerial field photograph showing a group beside a snowy lawn at Lamont.",
+    "source": "lamont_fieldwork_042325/dji2e/DJI_0035.JPG",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Caption describes visible scene; individual roles are not inferred.",
+    "captureDateExif": "2024:02:19 09:47:29"
+  },
+  {
+    "id": "lamont-landscape",
+    "title": "Lamont and the Hudson landscape",
+    "place": "Lamont",
+    "kind": "Aerial photograph",
+    "date": "2024-02-19",
+    "image": "assets/field/lamont-landscape.jpg",
+    "thumb": "assets/field/lamont-landscape-thumb.jpg",
+    "caption": "An oblique view across the Lamont campus and Hudson River, connecting local surface features to the wider landscape.",
+    "source": "lamont_fieldwork_042325/dji2e/DJI_0039.JPG",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Caption describes visible scene; individual roles are not inferred.",
+    "captureDateExif": "2024:02:19 10:14:13"
+  },
+  {
+    "id": "lamont-pointcloud-plan",
+    "title": "Lamont point cloud: plan view",
+    "place": "Lamont",
+    "kind": "Point cloud",
+    "date": "2025-03-05",
+    "image": "assets/field/lamont-pointcloud-plan.jpg",
+    "thumb": "assets/field/lamont-pointcloud-plan-thumb.jpg",
+    "caption": "A decimated visualization of the archived photogrammetric point cloud from 603 LAS tiles totaling 16,541,307 source points. Plan view, colored by source elevation.",
+    "source": "lamont_point_cloud/Products/3D/PointCloud/LAS/*.las",
+    "credit": "EFPL / Columbia University; derived visualization",
+    "status": "Research preview · web derivative",
+    "width": 1920,
+    "height": 1280,
+    "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established."
+  },
+  {
+    "id": "lamont-pointcloud-oblique",
+    "title": "Lamont point cloud: oblique view",
+    "place": "Lamont",
+    "kind": "Point cloud",
+    "date": "2025-03-05",
+    "image": "assets/field/lamont-pointcloud-oblique.jpg",
+    "thumb": "assets/field/lamont-pointcloud-oblique-thumb.jpg",
+    "caption": "A decimated visualization of the archived photogrammetric point cloud from 603 LAS tiles totaling 16,541,307 source points. Oblique projection with exaggerated vertical scale, colored by source elevation.",
+    "source": "lamont_point_cloud/Products/3D/PointCloud/LAS/*.las",
+    "credit": "EFPL / Columbia University; derived visualization",
+    "status": "Research preview · web derivative",
+    "width": 1920,
+    "height": 1280,
+    "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established."
+  }
+]

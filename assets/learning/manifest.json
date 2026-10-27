@@ -1,0 +1,37 @@
+[
+  {
+    "file": "village-ortho.jpg",
+    "source": "permits\\Petauke_Zambia\\review_2026-10-20\\Matt_1PWR_Handoff\\Mtukuzi_Results\\Previews\\Village-Orthomosaic.png",
+    "use": "private research-story learning preview",
+    "processing": "web-size JPEG derivative; no scientific values changed in original data",
+    "caveat": "display preview, not a native georeferenced raster"
+  },
+  {
+    "file": "village-terrain.jpg",
+    "source": "permits\\Petauke_Zambia\\review_2026-10-20\\Matt_1PWR_Handoff\\Mtukuzi_Results\\Previews\\Village-DTM_Digital_Terrain_Model.png",
+    "use": "private research-story learning preview",
+    "processing": "web-size JPEG derivative; no scientific values changed in original data",
+    "caveat": "display preview, not a native georeferenced raster"
+  },
+  {
+    "file": "river-ortho.jpg",
+    "source": "permits\\Petauke_Zambia\\review_2026-10-20\\Matt_1PWR_Handoff\\Mtukuzi_Results\\Previews\\River-Orthomosaic.png",
+    "use": "private research-story learning preview",
+    "processing": "web-size JPEG derivative; no scientific values changed in original data",
+    "caveat": "display preview, not a native georeferenced raster"
+  },
+  {
+    "file": "crop-ortho.jpg",
+    "source": "permits\\Petauke_Zambia\\review_2026-10-20\\Matt_1PWR_Handoff\\Mtukuzi_Results\\Previews\\Crops-Orthomosaic.png",
+    "use": "private research-story learning preview",
+    "processing": "web-size JPEG derivative; no scientific values changed in original data",
+    "caveat": "display preview, not a native georeferenced raster"
+  },
+  {
+    "file": "village-mesh.jpg",
+    "source": "permits\\Petauke_Zambia\\review_2026-10-20\\Matt_1PWR_Handoff\\Mtukuzi_Results\\Previews\\village_mesh_composite.jpg",
+    "use": "private research-story learning preview",
+    "processing": "web-size JPEG derivative; no scientific values changed in original data",
+    "caveat": "display preview, not a native georeferenced raster"
+  }
+]
