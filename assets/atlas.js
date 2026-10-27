@@ -2,8 +2,8 @@ const $=s=>document.querySelector(s);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const mode=(new URLSearchParams(location.search).get('edition')||window.DRONE_DEFAULT_EDITION)==='efpl'?'efpl':'personal';
 $('#brand-name').textContent=DRONE_BRANDING[mode].name;$('#footer-brand').textContent=DRONE_BRANDING[mode].footer;
-document.querySelectorAll('a[href$=".html"]').forEach(a=>{if(mode==='efpl')a.href=a.getAttribute('href')+'?edition=efpl';});
-$('#edition-link').href='explore.html?edition='+(mode==='efpl'?'personal':'efpl');$('#edition-link').textContent=mode==='efpl'?'Preview personal edition':'Preview EFPL edition';
+document.querySelectorAll('a[href]').forEach(a=>{const h=a.getAttribute('href');if(a.id!=='edition-link'&&mode==='efpl'&&/^[a-z-]+\.html(?:[?#]|$)/.test(h)){const u=new URL(h,location.href);u.searchParams.set('edition','efpl');a.href=u.href;}});
+$('#edition-link').href='explore.html?edition='+(mode==='efpl'?'personal':'efpl');$('#edition-link').textContent=mode==='efpl'?'View Kytt MacManus perspective':'View EFPL perspective';
 let catalog=[],visible=[],active=0;
 const params=new URLSearchParams(location.search);
 let theme=params.get('theme')||'all';
@@ -34,7 +34,7 @@ document.addEventListener('keydown',e=>{if(!$('#plate-dialog').open)return;if(e.
 function compare(side){const p=catalog.find(p=>p.id===$('#compare-'+side).value);if(!p)return;$('#compare-'+side+'-figure').innerHTML=`<img src="${p.image}" alt="${esc(p.title)}"><figcaption><b>${esc(p.title)}</b> · ${esc(p.place)}<br>${esc(p.caption)}<br>${esc(p.credit)}</figcaption>`;}
 async function init(){
  try{
-  const response=await fetch('assets/data/visual-catalog.json?v=3');if(!response.ok)throw Error('Could not load the visual source catalog');
+  const response=await fetch('assets/data/visual-catalog.json?v=4');if(!response.ok)throw Error('Could not load the visual source catalog');
   catalog=await response.json();
   ['place','kind'].forEach(key=>{const sel=$('#'+key+'-filter');[...new Set(catalog.map(p=>p[key]))].sort().forEach(v=>sel.add(new Option(v,v)));sel.onchange=render;});
   $('#catalog-search').oninput=render;$('#reset-filters').onclick=()=>{theme='all';document.querySelectorAll('[data-theme]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.theme==='all'?'true':'false'));$('#place-filter').value='all';$('#kind-filter').value='all';$('#catalog-search').value='';render();};
@@ -46,7 +46,7 @@ async function init(){
   }
   ['left','right'].forEach(side=>{const sel=$('#compare-'+side);catalog.forEach(p=>sel.add(new Option(p.place+' / '+p.title,p.id)));sel.onchange=()=>compare(side);});
   $('#compare-left').value='northshore';$('#compare-right').value='northshore-dtm';compare('left');compare('right');
- }catch(e){$('#catalog-status').textContent=e.message;$('#catalog-grid').innerHTML='<p class="atlas-error">The catalog could not be loaded. Serve the site through the documented local HTTP preview, or reload the hosted page.</p>';}
+ }catch(e){$('#catalog-status').textContent=e.message;$('#catalog-grid').innerHTML='<p class="atlas-error">The catalog could not be loaded. Reload this page to try again.</p>';}
 }
 init();
 // Draw a deterministic source-data sample with a simple orthographic camera.

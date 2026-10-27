@@ -1,0 +1,1373 @@
+{
+  "schema_version": 1,
+  "chapters": [
+    {
+      "id": "teaching",
+      "number": 1,
+      "title": "Teaching capability and field instruction",
+      "period": "2021–present",
+      "summary": "Provost support established drone and visualization capacity for teaching. Callicoon fieldwork, Lamont course sessions, research training and educator workshops connect field observation with spatial analysis.",
+      "case_studies": [
+        "callicoon",
+        "lamont-instruction"
+      ]
+    },
+    {
+      "id": "community",
+      "number": 2,
+      "title": "Community-engaged mapping",
+      "period": "2023–present",
+      "summary": "SDEV4650 connects students, the Staten Island Urban Center and community partners around waterfront questions. The work extends from the 60 Hannah Street field session to later North Shore mapping and partner access to spatial information.",
+      "case_studies": [
+        "hannah-street",
+        "north-shore"
+      ]
+    },
+    {
+      "id": "parks",
+      "number": 3,
+      "title": "NYC Parks UAS research",
+      "period": "2025–present",
+      "summary": "EFPL’s developing NYC Parks portfolio includes repeated Four Sparrow Marsh surveys, North Shore Esplanade and Morningside Park mapping, and forthcoming work at Highbridge Park. North Shore also continues the Staten Island community partnership.",
+      "case_studies": [
+        "four-sparrow",
+        "north-shore",
+        "morningside",
+        "highbridge"
+      ]
+    },
+    {
+      "id": "international",
+      "number": 4,
+      "title": "HOT, UNZA and mapping in Zambia",
+      "period": "2025–present",
+      "summary": "Work with the Humanitarian OpenStreetMap Team and University of Zambia colleagues connects international exchange, field methods and selected-site mapping around Mtukuzi. Fieldwork also contributed to a learning module developed for TOPSTSCHOOL.",
+      "case_studies": [
+        "hot-unza",
+        "mtukuzi"
+      ]
+    },
+    {
+      "id": "current",
+      "number": 5,
+      "title": "Current research and forthcoming work",
+      "period": "Ongoing and forthcoming",
+      "summary": "At Lamont, terrain and surface information support investigation of wind dynamics alongside field measurements. Ongoing Morningside research, methods development and forthcoming Highbridge work extend the program with partners.",
+      "case_studies": [
+        "lamont-research",
+        "morningside",
+        "highbridge",
+        "hubbard-creek"
+      ]
+    }
+  ],
+  "case_studies": [
+    {
+      "id": "callicoon",
+      "title": "Callicoon student fieldwork",
+      "place": "Callicoon, New York",
+      "period": "April 4–5, 2022",
+      "status": "completed",
+      "topics": [
+        "teaching",
+        "mapping"
+      ],
+      "chapters": [
+        "teaching"
+      ],
+      "summary": "SDEV3450 students collected drone observations and developed spatial analyses during a two-day field exercise led by Kytt MacManus and teaching assistant Juan Nathaniel.",
+      "question": "How can students connect field observations with spatial analysis?",
+      "contribution": "Field exercises in nighttime lights, terrain, vegetation and 3D modeling, followed by a jointly produced student StoryMap.",
+      "credit": "CIESIN · Columbia University · Kytt MacManus · Juan Nathaniel · SDEV3450 students",
+      "cover_plate_id": "archive-callicoon-group",
+      "visual_plate_ids": [
+        "archive-callicoon-acquisition",
+        "archive-callicoon-contours"
+      ],
+      "details": "The 2021 Provost Emerging Technology Grant supported equipment for Drones and AR/VR for 3D Modeling in GIS. Earth Institute Course Support funded travel and accommodation. These were distinct forms of support.",
+      "public_sources": [
+        {
+          "title": "Columbia account of the Callicoon fieldwork",
+          "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+        }
+      ],
+      "related_page": "teaching.html",
+      "cover": {
+        "id": "archive-callicoon-group",
+        "title": "SDEV3450 field group in Callicoon",
+        "place": "Callicoon",
+        "kind": "Workshop photograph",
+        "date": "April 4–5, 2022 fieldwork",
+        "caption": "Students, Kytt MacManus and teaching assistant Juan Nathaniel during the April 2022 SDEV3450 field exercise in Callicoon.",
+        "credit": "CIESIN / Columbia Climate School · published project photograph",
+        "image": "assets/discovery-archive/archive-callicoon-group.jpg",
+        "thumb": "assets/discovery-archive/archive-callicoon-group-thumb.jpg",
+        "uncertainty": "Display derivative. Camera time zone is not independently established; no participant identity or measurement accuracy is inferred from the image.",
+        "source_platform": "Project archive",
+        "source_url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+      },
+      "visuals": [
+        {
+          "id": "archive-callicoon-acquisition",
+          "title": "Callicoon aerial data collection",
+          "place": "Callicoon",
+          "kind": "Aerial image",
+          "date": "April 4–5, 2022 fieldwork",
+          "caption": "An aerial view records students collecting vegetation observations during the Callicoon field exercise.",
+          "credit": "CIESIN / Columbia Climate School · published project photograph",
+          "image": "assets/discovery-archive/archive-callicoon-acquisition.jpg",
+          "thumb": "assets/discovery-archive/archive-callicoon-acquisition-thumb.jpg",
+          "uncertainty": "Display derivative. Camera time zone is not independently established; no participant identity or measurement accuracy is inferred from the image.",
+          "source_platform": "Project archive",
+          "source_url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+        },
+        {
+          "id": "archive-callicoon-contours",
+          "title": "Callicoon student contour layout",
+          "place": "Callicoon",
+          "kind": "Map / analysis",
+          "date": "April 4–5, 2022 fieldwork",
+          "caption": "Student-generated contour layout from the SDEV3450 Callicoon drone-mapping exercise. The display retains the original symbology and visible reconstruction artifacts.",
+          "credit": "SDEV3450 student project team · Columbia University",
+          "image": "assets/discovery-archive/archive-callicoon-contours.jpg",
+          "thumb": "assets/discovery-archive/archive-callicoon-contours-thumb.jpg",
+          "uncertainty": "An educational processing output, not independently validated terrain or contour accuracy. Fine contours and canopy/reconstruction artifacts must not be interpreted as survey accuracy.",
+          "source_platform": "Project archive",
+          "source_url": "https://drive.google.com/file/d/1EmgQnKs8ooPHklI-M4_4yh2Eo2Leg9kq/view"
+        }
+      ]
+    },
+    {
+      "id": "lamont-instruction",
+      "title": "Lamont field instruction and workshops",
+      "place": "Lamont-Doherty Earth Observatory",
+      "period": "2023–present",
+      "status": "ongoing",
+      "topics": [
+        "teaching",
+        "lamont",
+        "mapping"
+      ],
+      "chapters": [
+        "teaching"
+      ],
+      "summary": "Course sessions, NSF REU/RET workshops and an NYESTA educator visit bring students and teachers into field-data collection, equipment practice and spatial interpretation.",
+      "question": "What does it take to turn camera observations into interpretable spatial information?",
+      "contribution": "Field instruction, visible-light and thermal demonstrations, GIS exercises and related mapping products.",
+      "credit": "Columbia University · CIESIN and EFPL by project · course teams, educators and research trainees",
+      "cover_plate_id": "drive-lamont-jan2023-overhead",
+      "visual_plate_ids": [
+        "drive-lamont-jan2023-landscape",
+        "ss-01-lamont-sdev3450",
+        "nyesta-2025-visible"
+      ],
+      "details": "SDEV3450 and SDEV4650 remain distinct courses. Kytt MacManus and Greg Yetman led the July 2023 NSF REU/RET workshop, with Joshua Fisher coordinating. Kytt and Juan F. Martinez contributed to the August 2025 NYESTA visit.",
+      "public_sources": [],
+      "related_page": "teaching.html",
+      "cover": {
+        "id": "drive-lamont-jan2023-overhead",
+        "title": "SDEV3450 group from an aerial viewpoint",
+        "place": "Lamont",
+        "kind": "Workshop photograph",
+        "date": "2023-01-30",
+        "caption": "An aerial view of the SDEV3450 group and open field at Lamont. The event folder and camera date agree on January 30, 2023.",
+        "credit": "CIESIN · Columbia University · project archive",
+        "image": "assets/drive/lamont-jan2023-overhead.jpg",
+        "thumb": "assets/drive/lamont-jan2023-overhead-thumb.jpg",
+        "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+        "source_platform": "Google Drive"
+      },
+      "visuals": [
+        {
+          "id": "drive-lamont-jan2023-landscape",
+          "title": "Lamont and the Hudson River setting",
+          "place": "Lamont",
+          "kind": "Workshop photograph",
+          "date": "2023-01-30",
+          "caption": "The Hudson River and campus edge in an oblique camera frame from the January 30, 2023 SDEV3450 archive. This is a source photograph, not a survey mosaic.",
+          "credit": "CIESIN · Columbia University · project archive",
+          "image": "assets/drive/lamont-jan2023-landscape.jpg",
+          "thumb": "assets/drive/lamont-jan2023-landscape-thumb.jpg",
+          "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+          "source_platform": "Google Drive"
+        },
+        {
+          "id": "ss-01-lamont-sdev3450",
+          "title": "Lamont January 2023 mapping",
+          "place": "Lamont",
+          "kind": "Site Scan orthomosaic",
+          "date": "2023-01-30",
+          "caption": "Lamont January 2023 mapping. Rendered from the authenticated Site Scan 2D viewer; source mission is Lamont_SDEV3450. Project: Lamont Workshop 07-14-2023.",
+          "credit": "Columbia University · CIESIN · teaching archive",
+          "image": "assets/sitescan/ss-01-lamont-sdev3450.jpg",
+          "thumb": "assets/sitescan/ss-01-lamont-sdev3450-thumb.jpg",
+          "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record.",
+          "source_platform": "ArcGIS SiteScan",
+          "source_url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde"
+        },
+        {
+          "id": "nyesta-2025-visible",
+          "title": "NYESTA educators at Lamont",
+          "place": "Lamont",
+          "kind": "Workshop photograph",
+          "date": "2025-08-05",
+          "caption": "Visible-light group photograph from the August 5, 2025 New York State Earth Science Teachers Association visit. Kytt MacManus and Juan F. Martinez contributed instruction on field-data collection.",
+          "credit": "Columbia University · Kytt MacManus / project archive",
+          "image": "assets/email/nyesta-2025-visible.jpg",
+          "thumb": "assets/email/nyesta-2025-visible-thumb.jpg",
+          "uncertainty": "The photograph documents the group and setting; participant identities and learning outcomes are not inferred from appearance.",
+          "source_platform": "Project archive"
+        }
+      ]
+    },
+    {
+      "id": "hannah-street",
+      "title": "60 Hannah Street community fieldwork",
+      "place": "Staten Island",
+      "period": "December 2023",
+      "status": "completed",
+      "topics": [
+        "community",
+        "staten-island",
+        "teaching",
+        "mapping"
+      ],
+      "chapters": [
+        "community"
+      ],
+      "summary": "SDEV4650 students and community partners worked around the historic firehouse at 60 Hannah Street. Drone observations and a 3D reconstruction formed part of the Building Climate Justice course contribution.",
+      "question": "How can course-based mapping contribute to community-defined waterfront questions?",
+      "contribution": "A rooftop field session, mapped imagery, a firehouse reconstruction and work toward partner-accessible student maps.",
+      "credit": "CIESIN · Columbia University · SDEV4650 · Staten Island Urban Center and community partners",
+      "cover_plate_id": "staten-island-2023-rooftop",
+      "visual_plate_ids": [
+        "staten-island-2023-context",
+        "ss-13-60hannahstreetsurvey",
+        "ss-15-60hannahstreet"
+      ],
+      "details": "Collaboratory support for SDEV4650 included a drone purchase. Follow-up work addressed sharing student StoryMap content and map layers with SIUC. These records establish the field contribution and access work; subsequent planning outcomes require partner evidence.",
+      "public_sources": [],
+      "related_page": "staten-island.html",
+      "cover": {
+        "id": "staten-island-2023-rooftop",
+        "title": "Staten Island rooftop drone session",
+        "place": "Staten Island",
+        "kind": "Workshop photograph",
+        "date": "2023-12-02",
+        "caption": "Participants and a marked landing pad on a rooftop during the December 2, 2023 Staten Island field session. Individual roles are not assigned from the photograph.",
+        "credit": "CIESIN · SDEV4650 · Community partners",
+        "image": "assets/students/staten-island-2023-rooftop.jpg",
+        "thumb": "assets/students/staten-island-2023-rooftop-thumb.jpg",
+        "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+        "source_platform": "Project archive"
+      },
+      "visuals": [
+        {
+          "id": "staten-island-2023-context",
+          "title": "Staten Island field context, 2023",
+          "place": "Staten Island",
+          "kind": "Field photograph",
+          "date": "2023-12-02",
+          "caption": "Field-context photograph from the early Staten Island course archive. The original EXIF date is December 2, 2023; later file modification dates are not acquisition dates.",
+          "credit": "CIESIN · SDEV4650 · Community partners",
+          "image": "assets/students/staten-island-2023-context.jpg",
+          "thumb": "assets/students/staten-island-2023-context-thumb.jpg",
+          "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+          "source_platform": "Project archive"
+        },
+        {
+          "id": "ss-13-60hannahstreetsurvey",
+          "title": "Staten Island firehouse survey",
+          "place": "Staten Island",
+          "kind": "Site Scan orthomosaic",
+          "date": "2023-12-02",
+          "caption": "Staten Island firehouse survey. Rendered from the authenticated Site Scan 2D viewer; source mission is 60HannahStreetSurvey. Project: StatenIslandFieldWork112923.",
+          "credit": "Columbia University · CIESIN · teaching archive",
+          "image": "assets/sitescan/ss-13-60hannahstreetsurvey.jpg",
+          "thumb": "assets/sitescan/ss-13-60hannahstreetsurvey-thumb.jpg",
+          "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record. Project name references November 29, 2023, while the mission list displays December 2, 2023.",
+          "source_platform": "ArcGIS SiteScan",
+          "source_url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/7996067d-abe5-49e9-be6e-78c866f769e6"
+        },
+        {
+          "id": "ss-15-60hannahstreet",
+          "title": "Staten Island firehouse reconstruction",
+          "place": "Staten Island",
+          "kind": "3D viewer",
+          "date": "2023-12-02",
+          "caption": "Staten Island firehouse reconstruction. Rendered 3D scene view from the authenticated Site Scan 3D viewer; source mission is 60HannahStreet. Project: StatenIslandFieldWork112923.",
+          "credit": "Columbia University · CIESIN · teaching archive",
+          "image": "assets/sitescan/ss-15-60hannahstreet.jpg",
+          "thumb": "assets/sitescan/ss-15-60hannahstreet-thumb.jpg",
+          "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record. Project name references November 29, 2023, while the mission list displays December 2, 2023. The rendered scene can contain holes, surface artifacts, and reconstructed vegetation or people; it is not a dimension check.",
+          "source_platform": "ArcGIS SiteScan",
+          "source_url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/64db7607-6292-480c-b82c-e82bfd47a01a/mesh"
+        }
+      ]
+    },
+    {
+      "id": "four-sparrow",
+      "title": "Repeated mapping at Four Sparrow Marsh",
+      "place": "Four Sparrow Marsh, Brooklyn",
+      "period": "2025–present",
+      "status": "ongoing",
+      "topics": [
+        "parks",
+        "research",
+        "mapping"
+      ],
+      "chapters": [
+        "parks"
+      ],
+      "summary": "EFPL and Natan Charytan use repeated drone surveys to document marsh conditions in an ecological and restoration research setting.",
+      "question": "How can repeated spatial observations support study of a restored marsh?",
+      "contribution": "Permitted UAS observations, orthomosaics, elevation products and reconstructed surface views for continued research.",
+      "credit": "EFPL · Columbia University · Natan Charytan · NYC Parks",
+      "cover_plate_id": "archive-four-sparrow-may-team",
+      "visual_plate_ids": [
+        "four-sparrow-may-ortho",
+        "four-sparrow-relief",
+        "archive-four-sparrow-june2026-frame"
+      ],
+      "details": "The April 18, 2025 operation was the first UAS flight approved by NYC Parks, according to Kytt MacManus’s first-hand project account. Wind curtailed that operation; the team returned on May 2. Repeated surveys provide observations for research, while registered comparisons and independent accuracy evaluation are separate tasks.",
+      "public_sources": [],
+      "related_page": "explore.html?place=Four%20Sparrow%20Marsh#catalog",
+      "cover": {
+        "id": "archive-four-sparrow-may-team",
+        "title": "Four Sparrow Marsh return-survey team",
+        "place": "Four Sparrow Marsh",
+        "kind": "Field photograph",
+        "date": "2025-05-02",
+        "caption": "The field team and landing pad at Four Sparrow Marsh during the May 2, 2025 return survey.",
+        "credit": "EFPL · Columbia University · Four Sparrow research archive",
+        "image": "assets/discovery-archive/archive-four-sparrow-may-team.jpg",
+        "thumb": "assets/discovery-archive/archive-four-sparrow-may-team-thumb.jpg",
+        "uncertainty": "Display derivative. Camera time zone is not independently established; no participant identity or measurement accuracy is inferred from the image.",
+        "source_platform": "Project archive"
+      },
+      "visuals": [
+        {
+          "id": "four-sparrow-may-ortho",
+          "title": "May marsh survey overview",
+          "place": "Four Sparrow Marsh",
+          "kind": "Orthomosaic",
+          "date": "2025-05-02",
+          "caption": "Web-sized orthomosaic derived from the May 2, 2025 photogrammetric raster.",
+          "credit": "EFPL / Columbia University; Natan Charytan",
+          "image": "assets/field/four-sparrow-may-ortho.jpg",
+          "thumb": "assets/field/four-sparrow-may-ortho-thumb.jpg",
+          "uncertainty": "",
+          "source_platform": "Project archive"
+        },
+        {
+          "id": "four-sparrow-relief",
+          "title": "Marsh terrain shaded relief",
+          "place": "Four Sparrow Marsh",
+          "kind": "Terrain model",
+          "date": "2025-05-02",
+          "caption": "Web-sized shaded-relief view derived from the May marsh terrain product. It shows processed terrain texture, not measured sediment change between visits.",
+          "credit": "EFPL / Columbia University; Natan Charytan",
+          "image": "assets/field/four-sparrow-relief.jpg",
+          "thumb": "assets/field/four-sparrow-relief-thumb.jpg",
+          "uncertainty": "Display derivative only; compare surveys only after alignment and uncertainty assessment.",
+          "source_platform": "Project archive"
+        },
+        {
+          "id": "archive-four-sparrow-june2026-frame",
+          "title": "Four Sparrow Marsh June 2026 acquisition",
+          "place": "Four Sparrow Marsh",
+          "kind": "Aerial image",
+          "date": "2026-06-25",
+          "caption": "A source aerial frame records marsh channels and vegetation during the June 25, 2026 survey.",
+          "credit": "EFPL · Columbia University · Four Sparrow research archive",
+          "image": "assets/discovery-archive/archive-four-sparrow-june2026-frame.jpg",
+          "thumb": "assets/discovery-archive/archive-four-sparrow-june2026-frame-thumb.jpg",
+          "uncertainty": "One source camera frame, not an orthomosaic or independently validated change map.",
+          "source_platform": "Project archive"
+        }
+      ]
+    },
+    {
+      "id": "north-shore",
+      "title": "North Shore Esplanade mapping",
+      "place": "North Shore Esplanade, Staten Island",
+      "period": "December 2025–present",
+      "status": "ongoing",
+      "topics": [
+        "parks",
+        "community",
+        "staten-island",
+        "research",
+        "mapping"
+      ],
+      "chapters": [
+        "community",
+        "parks"
+      ],
+      "summary": "EFPL’s North Shore Esplanade work connects a NYC Parks survey with the continuing Staten Island community partnership.",
+      "question": "What landscape information can help partners investigate waterfront conditions?",
+      "contribution": "Field and working-group documentation, an orthomosaic, and surface and terrain displays for partner interpretation.",
+      "credit": "EFPL · Columbia University · NYC Parks · Staten Island community partners",
+      "cover_plate_id": "northshore-controller-session",
+      "visual_plate_ids": [
+        "northshore-aerial-context",
+        "northshore",
+        "northshore-dtm"
+      ],
+      "details": "The December 1, 2025 fieldwork produced imagery and elevation products. The community relationship and NYC Parks setting are simultaneous contexts. Intended resilience applications remain questions for interpretation and follow-up with partners.",
+      "public_sources": [],
+      "related_page": "staten-island.html",
+      "cover": {
+        "id": "northshore-controller-session",
+        "title": "Controller use during fieldwork",
+        "place": "North Shore Esplanade",
+        "kind": "Workshop photograph",
+        "date": "2025-12-01",
+        "caption": "A participant holds a controller while others observe along the waterfront path.",
+        "credit": "EFPL · SDEV4650 · Staten Island community partners",
+        "image": "assets/students/northshore-controller-session.jpg",
+        "thumb": "assets/students/northshore-controller-session-thumb.jpg",
+        "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+        "source_platform": "Project archive"
+      },
+      "visuals": [
+        {
+          "id": "northshore-aerial-context",
+          "title": "North Shore waterfront aerial context",
+          "place": "North Shore Esplanade",
+          "kind": "Aerial photograph",
+          "date": "2025-12-01",
+          "caption": "Oblique drone view of waterfront structures, shoreline vegetation, and surrounding development.",
+          "credit": "EFPL · SDEV4650 · Staten Island community partners",
+          "image": "assets/students/northshore-aerial-context.jpg",
+          "thumb": "assets/students/northshore-aerial-context-thumb.jpg",
+          "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+          "source_platform": "Project archive"
+        },
+        {
+          "id": "northshore",
+          "title": "North Shore imagery",
+          "place": "North Shore Esplanade",
+          "kind": "Orthomosaic",
+          "date": "2025-12-01",
+          "caption": "North Shore Esplanade orthomosaic layout, labeled December 1, 2025 in the original map.",
+          "credit": "EFPL / Columbia University; Staten Island community partnership",
+          "image": "assets/field/northshore.jpg",
+          "thumb": "assets/field/northshore-thumb.jpg",
+          "uncertainty": "",
+          "source_platform": "Project archive"
+        },
+        {
+          "id": "northshore-dtm",
+          "title": "North Shore terrain",
+          "place": "North Shore Esplanade",
+          "kind": "Terrain model",
+          "date": "2025-12-01",
+          "caption": "North Shore Esplanade terrain model layout, labeled December 1, 2025 in the original map.",
+          "credit": "EFPL / Columbia University; Staten Island community partnership",
+          "image": "assets/field/northshore-dtm.jpg",
+          "thumb": "assets/field/northshore-dtm-thumb.jpg",
+          "uncertainty": "",
+          "source_platform": "Project archive"
+        }
+      ]
+    },
+    {
+      "id": "morningside",
+      "title": "Morningside Park mapping and research",
+      "place": "Morningside Park, Manhattan",
+      "period": "December 2025–present",
+      "status": "ongoing",
+      "topics": [
+        "parks",
+        "research",
+        "mapping"
+      ],
+      "chapters": [
+        "parks",
+        "current"
+      ],
+      "summary": "Completed Morningside Park mapping supports continuing investigation of terrain, runoff and drainage questions with collaborators.",
+      "question": "How do surface structure and terrain relate to runoff and drainage questions?",
+      "contribution": "An orthomosaic, surface and terrain models, and 3D views, with further research and field interpretation ongoing.",
+      "credit": "EFPL · Columbia University · NYC Parks · collaborating researchers",
+      "cover_plate_id": "archive-morningside-team",
+      "visual_plate_ids": [
+        "archive-morningside-controller",
+        "morningside-ortho",
+        "morningside-dtm"
+      ],
+      "details": "The existing products follow the December 18, 2025 fieldwork. Continued research is distinct from those completed observations. Elevation products describe the mapped surface; drainage behavior and intervention performance require additional evaluation.",
+      "public_sources": [],
+      "related_page": "explore.html?place=Morningside%20Park#catalog",
+      "cover": {
+        "id": "archive-morningside-team",
+        "title": "Morningside field operation",
+        "place": "Morningside Park",
+        "kind": "Field photograph",
+        "date": "2025-12-18",
+        "caption": "Field crew and aircraft at the basketball-court operation area during the December 2025 Morningside Park survey.",
+        "credit": "EFPL · Columbia University · Morningside field archive",
+        "image": "assets/discovery-archive/archive-morningside-team.jpg",
+        "thumb": "assets/discovery-archive/archive-morningside-team-thumb.jpg",
+        "uncertainty": "Date follows the explicitly dated source collection; this individual JPEG has no EXIF date. Participant identities are not inferred.",
+        "source_platform": "Project archive",
+        "source_url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view"
+      },
+      "visuals": [
+        {
+          "id": "archive-morningside-controller",
+          "title": "Morningside controller and field crew",
+          "place": "Morningside Park",
+          "kind": "Field photograph",
+          "date": "2025-12-18",
+          "caption": "The Morningside field crew works with the aircraft controller during the December 18, 2025 operation.",
+          "credit": "EFPL · Columbia University · Morningside field archive",
+          "image": "assets/discovery-archive/archive-morningside-controller.jpg",
+          "thumb": "assets/discovery-archive/archive-morningside-controller-thumb.jpg",
+          "uncertainty": "Display derivative. Camera time zone is not independently established; no participant identity or measurement accuracy is inferred from the image.",
+          "source_platform": "Project archive",
+          "source_url": "https://drive.google.com/file/d/1p_6HXDjBqYto_u17OH7SQuMhpYSdwU--/view"
+        },
+        {
+          "id": "morningside-ortho",
+          "title": "Morningside orthomosaic",
+          "place": "Morningside Park",
+          "kind": "Orthomosaic",
+          "date": "2025-12-18",
+          "caption": "Mapped Morningside Park imagery with a detail panel, labeled December 18, 2025 in the original layout.",
+          "credit": "EFPL / Columbia University",
+          "image": "assets/field/morningside-ortho.jpg",
+          "thumb": "assets/field/morningside-ortho-thumb.jpg",
+          "uncertainty": "",
+          "source_platform": "Project archive"
+        },
+        {
+          "id": "morningside-dtm",
+          "title": "Morningside terrain model",
+          "place": "Morningside Park",
+          "kind": "Terrain model",
+          "date": "2025-12-18",
+          "caption": "Digital terrain model layout for Morningside Park, labeled December 18, 2025. Terrain classification is a processed interpretation; independent accuracy is not established here.",
+          "credit": "EFPL / Columbia University",
+          "image": "assets/field/morningside-dtm.jpg",
+          "thumb": "assets/field/morningside-dtm-thumb.jpg",
+          "uncertainty": "",
+          "source_platform": "Project archive"
+        }
+      ]
+    },
+    {
+      "id": "highbridge",
+      "title": "Highbridge Park research",
+      "place": "Highbridge Park, Manhattan",
+      "period": "Forthcoming",
+      "status": "forthcoming",
+      "topics": [
+        "parks",
+        "research"
+      ],
+      "chapters": [
+        "parks",
+        "current"
+      ],
+      "summary": "Highbridge Park is a forthcoming extension of EFPL’s NYC Parks research portfolio.",
+      "question": "Which site and landscape questions will guide the next field collaboration?",
+      "contribution": "Research planning and partner coordination for future work.",
+      "credit": "EFPL · Columbia University · NYC Parks",
+      "cover_plate_id": null,
+      "visual_plate_ids": [],
+      "details": "This case describes forthcoming work. Acquired imagery and processed products are not presented for Highbridge.",
+      "public_sources": [],
+      "related_page": null,
+      "cover": null,
+      "visuals": []
+    },
+    {
+      "id": "lamont-research",
+      "title": "Lamont terrain and wind research",
+      "place": "Lamont-Doherty Earth Observatory",
+      "period": "Ongoing",
+      "status": "ongoing",
+      "topics": [
+        "research",
+        "terrain-wind",
+        "lamont",
+        "mapping"
+      ],
+      "chapters": [
+        "current"
+      ],
+      "summary": "EFPL investigates how terrain and surface geometry can inform interpretation of wind observations and airflow modeling at Lamont.",
+      "question": "How do terrain and surface features help us interpret local wind dynamics?",
+      "contribution": "Spatial surface information and field instrumentation for research alongside meteorological and Doppler LiDAR observations.",
+      "credit": "EFPL · Columbia Engineering · DURIP-supported instrumentation · ARO research",
+      "cover_plate_id": "lamont-pointcloud-oblique",
+      "visual_plate_ids": [
+        "archive-lamont-lidar-relative",
+        "lamont-ortho"
+      ],
+      "details": "DURIP supported the IF1200A purchase for an ARO project. The interactive Lamont point sample is photogrammetric surface reconstruction. A separate March 24, 2026 LiDAR plate uses relative coordinates because its LAS CRS label conflicts with coordinate magnitudes. Neither display establishes independent accuracy or validates a wind model.",
+      "public_sources": [],
+      "related_page": "explore.html#point-view",
+      "cover": {
+        "id": "lamont-pointcloud-oblique",
+        "title": "Lamont point cloud: oblique view",
+        "place": "Lamont",
+        "kind": "Point cloud",
+        "date": "2025-03-05",
+        "caption": "A decimated visualization of the archived photogrammetric point cloud from 603 LAS tiles totaling 16,541,307 source points. Oblique projection with exaggerated vertical scale, colored by source elevation.",
+        "credit": "EFPL / Columbia University; derived visualization",
+        "image": "assets/field/lamont-pointcloud-oblique.jpg",
+        "thumb": "assets/field/lamont-pointcloud-oblique-thumb.jpg",
+        "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established.",
+        "source_platform": "Project archive"
+      },
+      "visuals": [
+        {
+          "id": "archive-lamont-lidar-relative",
+          "title": "Lamont LiDAR point-cloud display",
+          "place": "Lamont",
+          "kind": "Point cloud",
+          "date": "2026-03-24",
+          "caption": "Plan and oblique views of a subsampled existing IF1200A LiDAR point cloud at Lamont. Colors represent relative height in source coordinate units.",
+          "credit": "EFPL · Columbia University",
+          "image": "assets/discovery-archive/archive-lamont-lidar-relative.jpg",
+          "thumb": "assets/discovery-archive/archive-lamont-lidar-relative-thumb.jpg",
+          "uncertainty": "Relative-coordinate display only: LAS header CRS EPSG:4326 conflicts with the UTM18n filename and projected-coordinate magnitudes. 140,012 display points are sampled from 71,265,603 stored points. No absolute accuracy, bare-earth classification, or validated wind model is claimed.",
+          "source_platform": "Project archive"
+        },
+        {
+          "id": "lamont-ortho",
+          "title": "Lamont image-based mapping overview",
+          "place": "Lamont",
+          "kind": "Orthomosaic",
+          "date": "2025-03-05",
+          "caption": "Photogrammetric orthomosaic preview from the Lamont point-cloud processing report. The report states 46.3 hectares and a mean GSD of 0.032 m.",
+          "credit": "EFPL / Columbia University",
+          "image": "assets/field/lamont-ortho.jpg",
+          "thumb": "assets/field/lamont-ortho-thumb.jpg",
+          "uncertainty": "March 5 follows archived point-cloud product name, not an independently checked acquisition date. The report states no GCPs/checkpoints.",
+          "source_platform": "Project archive"
+        }
+      ]
+    },
+    {
+      "id": "hot-unza",
+      "title": "HOT, UNZA and international collaboration",
+      "place": "Lusaka and international exchange",
+      "period": "2025–present",
+      "status": "ongoing",
+      "topics": [
+        "international",
+        "zambia",
+        "research",
+        "teaching"
+      ],
+      "chapters": [
+        "international"
+      ],
+      "summary": "Collaboration with HOT and University of Zambia colleagues connects citizen-engaged mapping, drone-data management teaching and field methods.",
+      "question": "What can communities and institutions learn from one another’s mapping practice?",
+      "contribution": "Institutional relationships, teaching contributions and exchange around community mapping needs.",
+      "credit": "EFPL + CIESIN · Columbia University · HOT · University of Zambia / NACUAS · local partners",
+      "cover_plate_id": "archive-unza-field-team",
+      "visual_plate_ids": [
+        "archive-unza-working-session",
+        "v4-unza-ortho"
+      ],
+      "details": "A February 2026 exchange connected stakeholders in Freetown, Lusaka and New York. Work with UNZA/NACUAS included teaching and discussion of data-processing needs. A shared operational computing service is not claimed as an accomplished outcome.",
+      "public_sources": [],
+      "related_page": null,
+      "cover": {
+        "id": "archive-unza-field-team",
+        "title": "Field collaborators during the Zambia exchange",
+        "place": "Zambia",
+        "kind": "Field photograph",
+        "date": "2026-06-10",
+        "caption": "Field collaborators during the June 2026 Zambia exchange, from the UNZA project photograph collection.",
+        "credit": "University of Zambia / EFPL / CIESIN · Columbia University",
+        "image": "assets/discovery-archive/archive-unza-field-team.jpg",
+        "thumb": "assets/discovery-archive/archive-unza-field-team-thumb.jpg",
+        "uncertainty": "Capture date follows original camera EXIF. The photograph does not by itself establish individual identities, a formal course outcome, or the exact meeting/event name.",
+        "source_platform": "Project archive"
+      },
+      "visuals": [
+        {
+          "id": "archive-unza-working-session",
+          "title": "A working session in the UNZA exchange archive",
+          "place": "University of Zambia",
+          "kind": "Workshop photograph",
+          "date": "2026-06",
+          "caption": "Collaborators work around a shared table in the UNZA project photograph collection from June 2026.",
+          "credit": "University of Zambia / EFPL / CIESIN · Columbia University",
+          "image": "assets/discovery-archive/archive-unza-working-session.jpg",
+          "thumb": "assets/discovery-archive/archive-unza-working-session-thumb.jpg",
+          "uncertainty": "Date is month-level collection context, not a verified individual-photo capture timestamp. Specific meeting identity, participant names and outcomes are not inferred.",
+          "source_platform": "Project archive",
+          "source_url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view"
+        },
+        {
+          "id": "v4-unza-ortho",
+          "title": "UNZA campus orthomosaic",
+          "place": "Lusaka",
+          "kind": "Orthomosaic",
+          "date": "2026-06-08",
+          "caption": "UNZA campus orthomosaic, rendered from the existing Site Scan 2D viewer. Mission: UNZA-1.",
+          "credit": "Columbia University / EFPL / CIESIN",
+          "image": "assets/discovery-sitescan/v4-unza-ortho.jpg",
+          "thumb": "assets/discovery-sitescan/v4-unza-ortho-thumb.jpg",
+          "uncertainty": "Displayed Site Scan mission-record date; source-image capture EXIF was not independently verified. This is a web display derivative, not an analysis-ready raster or validated accuracy report. GSD does not establish positional accuracy; independent checkpoint accuracy was not assessed.",
+          "source_platform": "ArcGIS Site Scan",
+          "source_url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/6ac2444b-1fc8-47f7-8ee6-907135cbc213"
+        }
+      ]
+    },
+    {
+      "id": "mtukuzi",
+      "title": "Mtukuzi selected-site mapping",
+      "place": "Mtukuzi, Eastern Zambia",
+      "period": "June 2026",
+      "status": "completed",
+      "topics": [
+        "international",
+        "zambia",
+        "mapping",
+        "teaching"
+      ],
+      "chapters": [
+        "international"
+      ],
+      "summary": "Fieldwork with UNZA colleagues documented selected village and school, agricultural, river and water-well areas around Mtukuzi.",
+      "question": "What can landscape observations contribute to inquiry about water, agriculture and everyday needs?",
+      "contribution": "Selected-site imagery, elevation and 3D products, field observations, and a subsequent learning-module contribution.",
+      "credit": "EFPL + CIESIN · Columbia University · University of Zambia colleagues and local partners",
+      "cover_plate_id": "zm-village-map",
+      "visual_plate_ids": [
+        "zm-village-frames",
+        "zm-village-mesh",
+        "zm-well-map"
+      ],
+      "details": "The mapping covers selected sites rather than the full wider catchment. Raphael Sutiono and Kytt MacManus developed a learning module on drone-data organization, interpretation and local follow-up for TOPSTSCHOOL.",
+      "public_sources": [],
+      "related_page": "learning.html",
+      "cover": {
+        "id": "zm-village-map",
+        "title": "Village & school orthomosaic",
+        "place": "Mtukuzi",
+        "kind": "Orthomosaic",
+        "date": "2026-06-13",
+        "caption": "An overhead composite of selected village and school areas; selected-site coverage only.",
+        "credit": "EFPL + CIESIN · UNZA colleagues",
+        "image": "assets/zambia/village-map.jpg",
+        "thumb": "assets/zambia/village-map-thumb.jpg",
+        "source_platform": "Project archive"
+      },
+      "visuals": [
+        {
+          "id": "zm-village-frames",
+          "title": "Source frames: village",
+          "place": "Mtukuzi",
+          "kind": "Source imagery",
+          "date": "2026-06-13",
+          "caption": "Selected source drone frames provide visual context for the village map.",
+          "credit": "EFPL + CIESIN · UNZA colleagues",
+          "image": "assets/zambia/village-frames.jpg",
+          "thumb": "assets/zambia/village-frames-thumb.jpg",
+          "source_platform": "Project archive"
+        },
+        {
+          "id": "zm-village-mesh",
+          "title": "Village & school in 3D",
+          "place": "Mtukuzi",
+          "kind": "3D mesh",
+          "date": "2026-06-13",
+          "caption": "Rendered top and oblique views of the textured village mesh; not an independently surveyed building model.",
+          "credit": "EFPL + CIESIN · UNZA colleagues",
+          "image": "assets/zambia/village-mesh.jpg",
+          "thumb": "assets/zambia/village-mesh-thumb.jpg",
+          "source_platform": "Project archive"
+        },
+        {
+          "id": "zm-well-map",
+          "title": "Water-well structure",
+          "place": "Mtukuzi",
+          "kind": "Orthomosaic",
+          "date": "2026-06-13",
+          "caption": "Close mapping of a visible water-well structure. Imagery does not establish water safety or yield.",
+          "credit": "EFPL + CIESIN · UNZA colleagues",
+          "image": "assets/zambia/well-map.jpg",
+          "thumb": "assets/zambia/well-map-thumb.jpg",
+          "source_platform": "Project archive"
+        }
+      ]
+    },
+    {
+      "id": "hubbard-creek",
+      "title": "Hubbard Creek mapping",
+      "place": "Long Island, New York",
+      "period": "June 24, 2026",
+      "status": "completed",
+      "topics": [
+        "research",
+        "mapping"
+      ],
+      "chapters": [
+        "current"
+      ],
+      "summary": "Fieldwork with Natan combined observations of tidal channels and marsh surfaces with drone imagery and reconstructed mapping products.",
+      "question": "How can aerial imagery describe tidal channels and surrounding marsh surfaces?",
+      "contribution": "A shared field session produced source imagery and processed spatial products for examining the creek and marsh setting.",
+      "credit": "EFPL · Columbia University · Kytt MacManus · Natan Charytan",
+      "cover_plate_id": "archive-hubbard-field-team",
+      "visual_plate_ids": [
+        "archive-hubbard-marsh-context",
+        "v4-hubbard-ortho"
+      ],
+      "details": "The June 24 source collection is labeled Hubbard County Park. Imagery and surface reconstruction describe the site; independent positional accuracy and ecological change are not established by these displays.",
+      "public_sources": [],
+      "related_page": "explore.html?place=Hubbard%20County%20Park#catalog",
+      "cover": {
+        "id": "archive-hubbard-field-team",
+        "title": "Hubbard Creek field team",
+        "place": "Hubbard Creek",
+        "kind": "Field photograph",
+        "date": "2026-06-24",
+        "caption": "The field team and aircraft operation area in the Hubbard Creek marsh during the June 24, 2026 survey.",
+        "credit": "EFPL · Columbia University · research with Natan Charytan",
+        "image": "assets/discovery-archive/archive-hubbard-field-team.jpg",
+        "thumb": "assets/discovery-archive/archive-hubbard-field-team-thumb.jpg",
+        "uncertainty": "User identifies the collaboration with Natan Charytan. Individual identities in this photograph are not assigned from appearance. Local source archive is labeled Hubbard County Park.",
+        "source_platform": "Project archive"
+      },
+      "visuals": [
+        {
+          "id": "archive-hubbard-marsh-context",
+          "title": "Hubbard Creek marsh and bay",
+          "place": "Hubbard Creek",
+          "kind": "Aerial image",
+          "date": "2026-06-24",
+          "caption": "Oblique aerial context of the marsh, tidal channels and bay at the Hubbard Creek field site.",
+          "credit": "EFPL · Columbia University · research with Natan Charytan",
+          "image": "assets/discovery-archive/archive-hubbard-marsh-context.jpg",
+          "thumb": "assets/discovery-archive/archive-hubbard-marsh-context-thumb.jpg",
+          "uncertainty": "Display derivative. Camera time zone is not independently established; no participant identity or measurement accuracy is inferred from the image.",
+          "source_platform": "Project archive"
+        },
+        {
+          "id": "v4-hubbard-ortho",
+          "title": "Hubbard County Park orthomosaic",
+          "place": "Hubbard County Park",
+          "kind": "Orthomosaic",
+          "date": "2026-06-24",
+          "caption": "Hubbard County Park orthomosaic, rendered from the existing Site Scan 2D viewer. Mission: June-2026.",
+          "credit": "Columbia University / EFPL",
+          "image": "assets/discovery-sitescan/v4-hubbard-ortho.jpg",
+          "thumb": "assets/discovery-sitescan/v4-hubbard-ortho-thumb.jpg",
+          "uncertainty": "Displayed Site Scan mission-record date; source-image capture EXIF was not independently verified. This is a web display derivative, not an analysis-ready raster or validated accuracy report. GSD does not establish positional accuracy; independent checkpoint accuracy was not assessed. Source project label: Hubbard-County-Park. This coastal mapping source belongs outside the NYC Parks portfolio.",
+          "source_platform": "ArcGIS Site Scan",
+          "source_url": "https://sitescan.arcgis.com/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions/854d49a1-584f-4036-ae5a-6d8b18604d17"
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "name": "Kytt MacManus",
+    "titles": [
+      "Applied Science Lead, Environmental Flow Physics Laboratory",
+      "Officer of Research, Senior Staff Associate III, Columbia University"
+    ],
+    "summary": "Kytt MacManus connects spatial analysis, field research, teaching and community partnerships at Columbia University.",
+    "contact": "km2505@columbia.edu"
+  },
+  "education": {
+    "provider": "TOPSTSCHOOL",
+    "title": "Mtukuzi learning-module contribution",
+    "catalog_url": "https://topstschool.org/modules.html",
+    "module_url": null,
+    "authors": [
+      "Raphael Sutiono",
+      "Kytt MacManus"
+    ],
+    "summary": "A learning module developed from the Zambia/Mtukuzi work addresses drone-data organization, interpretation, local follow-up and open-science practice."
+  },
+  "sequences": [
+    {
+      "id": "callicoon-sequence",
+      "case_study": "callicoon",
+      "title": "Callicoon student fieldwork",
+      "summary": "Field instruction connected group observations, aerial data collection and student spatial analysis.",
+      "steps": [
+        {
+          "role": "People",
+          "plate_id": "archive-callicoon-group",
+          "visual": {
+            "id": "archive-callicoon-group",
+            "title": "SDEV3450 field group in Callicoon",
+            "place": "Callicoon",
+            "kind": "Workshop photograph",
+            "date": "April 4–5, 2022 fieldwork",
+            "caption": "Students, Kytt MacManus and teaching assistant Juan Nathaniel during the April 2022 SDEV3450 field exercise in Callicoon.",
+            "credit": "CIESIN / Columbia Climate School · published project photograph",
+            "image": "assets/discovery-archive/archive-callicoon-group.jpg",
+            "thumb": "assets/discovery-archive/archive-callicoon-group-thumb.jpg",
+            "uncertainty": "Display derivative. Camera time zone is not independently established; no participant identity or measurement accuracy is inferred from the image.",
+            "source_platform": "Project archive",
+            "source_url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+          }
+        },
+        {
+          "role": "Field observation",
+          "plate_id": "archive-callicoon-acquisition",
+          "visual": {
+            "id": "archive-callicoon-acquisition",
+            "title": "Callicoon aerial data collection",
+            "place": "Callicoon",
+            "kind": "Aerial image",
+            "date": "April 4–5, 2022 fieldwork",
+            "caption": "An aerial view records students collecting vegetation observations during the Callicoon field exercise.",
+            "credit": "CIESIN / Columbia Climate School · published project photograph",
+            "image": "assets/discovery-archive/archive-callicoon-acquisition.jpg",
+            "thumb": "assets/discovery-archive/archive-callicoon-acquisition-thumb.jpg",
+            "uncertainty": "Display derivative. Camera time zone is not independently established; no participant identity or measurement accuracy is inferred from the image.",
+            "source_platform": "Project archive",
+            "source_url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+          }
+        },
+        {
+          "role": "Student analysis",
+          "plate_id": "archive-callicoon-contours",
+          "visual": {
+            "id": "archive-callicoon-contours",
+            "title": "Callicoon student contour layout",
+            "place": "Callicoon",
+            "kind": "Map / analysis",
+            "date": "April 4–5, 2022 fieldwork",
+            "caption": "Student-generated contour layout from the SDEV3450 Callicoon drone-mapping exercise. The display retains the original symbology and visible reconstruction artifacts.",
+            "credit": "SDEV3450 student project team · Columbia University",
+            "image": "assets/discovery-archive/archive-callicoon-contours.jpg",
+            "thumb": "assets/discovery-archive/archive-callicoon-contours-thumb.jpg",
+            "uncertainty": "An educational processing output, not independently validated terrain or contour accuracy. Fine contours and canopy/reconstruction artifacts must not be interpreted as survey accuracy.",
+            "source_platform": "Project archive",
+            "source_url": "https://drive.google.com/file/d/1EmgQnKs8ooPHklI-M4_4yh2Eo2Leg9kq/view"
+          }
+        }
+      ]
+    },
+    {
+      "id": "lamont-field-sequence",
+      "case_study": "lamont-instruction",
+      "title": "Lamont: students, field observations and an orthomosaic",
+      "summary": "The January 30, 2023 SDEV3450 collection connects the field group and campus setting with an archived mapping product.",
+      "steps": [
+        {
+          "role": "Field activity",
+          "plate_id": "drive-lamont-jan2023-overhead",
+          "visual": {
+            "id": "drive-lamont-jan2023-overhead",
+            "title": "SDEV3450 group from an aerial viewpoint",
+            "place": "Lamont",
+            "kind": "Workshop photograph",
+            "date": "2023-01-30",
+            "caption": "An aerial view of the SDEV3450 group and open field at Lamont. The event folder and camera date agree on January 30, 2023.",
+            "credit": "CIESIN · Columbia University · project archive",
+            "image": "assets/drive/lamont-jan2023-overhead.jpg",
+            "thumb": "assets/drive/lamont-jan2023-overhead-thumb.jpg",
+            "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+            "source_platform": "Google Drive"
+          }
+        },
+        {
+          "role": "Place and observation",
+          "plate_id": "drive-lamont-jan2023-landscape",
+          "visual": {
+            "id": "drive-lamont-jan2023-landscape",
+            "title": "Lamont and the Hudson River setting",
+            "place": "Lamont",
+            "kind": "Workshop photograph",
+            "date": "2023-01-30",
+            "caption": "The Hudson River and campus edge in an oblique camera frame from the January 30, 2023 SDEV3450 archive. This is a source photograph, not a survey mosaic.",
+            "credit": "CIESIN · Columbia University · project archive",
+            "image": "assets/drive/lamont-jan2023-landscape.jpg",
+            "thumb": "assets/drive/lamont-jan2023-landscape-thumb.jpg",
+            "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+            "source_platform": "Google Drive"
+          }
+        },
+        {
+          "role": "Spatial product",
+          "plate_id": "ss-01-lamont-sdev3450",
+          "visual": {
+            "id": "ss-01-lamont-sdev3450",
+            "title": "Lamont January 2023 mapping",
+            "place": "Lamont",
+            "kind": "Site Scan orthomosaic",
+            "date": "2023-01-30",
+            "caption": "Lamont January 2023 mapping. Rendered from the authenticated Site Scan 2D viewer; source mission is Lamont_SDEV3450. Project: Lamont Workshop 07-14-2023.",
+            "credit": "Columbia University · CIESIN · teaching archive",
+            "image": "assets/sitescan/ss-01-lamont-sdev3450.jpg",
+            "thumb": "assets/sitescan/ss-01-lamont-sdev3450-thumb.jpg",
+            "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record.",
+            "source_platform": "ArcGIS SiteScan",
+            "source_url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde"
+          }
+        }
+      ]
+    },
+    {
+      "id": "northshore-field-sequence",
+      "case_study": "north-shore",
+      "title": "North Shore: community fieldwork and mapped shoreline",
+      "summary": "December 1, 2025 photographs show the working context and waterfront, alongside the mapped imagery from the project.",
+      "steps": [
+        {
+          "role": "Field activity",
+          "plate_id": "northshore-controller-session",
+          "visual": {
+            "id": "northshore-controller-session",
+            "title": "Controller use during fieldwork",
+            "place": "North Shore Esplanade",
+            "kind": "Workshop photograph",
+            "date": "2025-12-01",
+            "caption": "A participant holds a controller while others observe along the waterfront path.",
+            "credit": "EFPL · SDEV4650 · Staten Island community partners",
+            "image": "assets/students/northshore-controller-session.jpg",
+            "thumb": "assets/students/northshore-controller-session-thumb.jpg",
+            "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+            "source_platform": "Project archive"
+          }
+        },
+        {
+          "role": "Place and observation",
+          "plate_id": "northshore-aerial-context",
+          "visual": {
+            "id": "northshore-aerial-context",
+            "title": "North Shore waterfront aerial context",
+            "place": "North Shore Esplanade",
+            "kind": "Aerial photograph",
+            "date": "2025-12-01",
+            "caption": "Oblique drone view of waterfront structures, shoreline vegetation, and surrounding development.",
+            "credit": "EFPL · SDEV4650 · Staten Island community partners",
+            "image": "assets/students/northshore-aerial-context.jpg",
+            "thumb": "assets/students/northshore-aerial-context-thumb.jpg",
+            "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+            "source_platform": "Project archive"
+          }
+        },
+        {
+          "role": "Spatial product",
+          "plate_id": "northshore",
+          "visual": {
+            "id": "northshore",
+            "title": "North Shore imagery",
+            "place": "North Shore Esplanade",
+            "kind": "Orthomosaic",
+            "date": "2025-12-01",
+            "caption": "North Shore Esplanade orthomosaic layout, labeled December 1, 2025 in the original map.",
+            "credit": "EFPL / Columbia University; Staten Island community partnership",
+            "image": "assets/field/northshore.jpg",
+            "thumb": "assets/field/northshore-thumb.jpg",
+            "uncertainty": "",
+            "source_platform": "Project archive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mtukuzi-field-sequence",
+      "case_study": "mtukuzi",
+      "title": "Mtukuzi: field collaboration and selected-site mapping",
+      "summary": "Field documentation, source imagery and a processed village/school-area map describe different parts of the selected-site work.",
+      "steps": [
+        {
+          "role": "Field collaboration",
+          "plate_id": "zm-team",
+          "visual": {
+            "id": "zm-team",
+            "title": "The field team & partners",
+            "place": "Mtukuzi",
+            "kind": "Field photograph",
+            "date": "2026-06-13",
+            "caption": "Field team and local partners during the June 13, 2026 visit.",
+            "credit": "EFPL + CIESIN · UNZA colleagues",
+            "image": "assets/zambia/team.jpg",
+            "thumb": "assets/zambia/team-thumb.jpg",
+            "source_platform": "Project archive"
+          }
+        },
+        {
+          "role": "Source imagery",
+          "plate_id": "zm-village-frames",
+          "visual": {
+            "id": "zm-village-frames",
+            "title": "Source frames: village",
+            "place": "Mtukuzi",
+            "kind": "Source imagery",
+            "date": "2026-06-13",
+            "caption": "Selected source drone frames provide visual context for the village map.",
+            "credit": "EFPL + CIESIN · UNZA colleagues",
+            "image": "assets/zambia/village-frames.jpg",
+            "thumb": "assets/zambia/village-frames-thumb.jpg",
+            "source_platform": "Project archive"
+          }
+        },
+        {
+          "role": "Spatial product",
+          "plate_id": "zm-village-map",
+          "visual": {
+            "id": "zm-village-map",
+            "title": "Village & school orthomosaic",
+            "place": "Mtukuzi",
+            "kind": "Orthomosaic",
+            "date": "2026-06-13",
+            "caption": "An overhead composite of selected village and school areas; selected-site coverage only.",
+            "credit": "EFPL + CIESIN · UNZA colleagues",
+            "image": "assets/zambia/village-map.jpg",
+            "thumb": "assets/zambia/village-map-thumb.jpg",
+            "source_platform": "Project archive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "morningside-sequence",
+      "case_study": "morningside",
+      "title": "Morningside Park mapping",
+      "summary": "Ground photographs connect the December 18, 2025 field team with the resulting spatial products.",
+      "steps": [
+        {
+          "role": "People and equipment",
+          "plate_id": "archive-morningside-team",
+          "visual": {
+            "id": "archive-morningside-team",
+            "title": "Morningside field operation",
+            "place": "Morningside Park",
+            "kind": "Field photograph",
+            "date": "2025-12-18",
+            "caption": "Field crew and aircraft at the basketball-court operation area during the December 2025 Morningside Park survey.",
+            "credit": "EFPL · Columbia University · Morningside field archive",
+            "image": "assets/discovery-archive/archive-morningside-team.jpg",
+            "thumb": "assets/discovery-archive/archive-morningside-team-thumb.jpg",
+            "uncertainty": "Date follows the explicitly dated source collection; this individual JPEG has no EXIF date. Participant identities are not inferred.",
+            "source_platform": "Project archive",
+            "source_url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view"
+          }
+        },
+        {
+          "role": "Mapped imagery",
+          "plate_id": "morningside-ortho",
+          "visual": {
+            "id": "morningside-ortho",
+            "title": "Morningside orthomosaic",
+            "place": "Morningside Park",
+            "kind": "Orthomosaic",
+            "date": "2025-12-18",
+            "caption": "Mapped Morningside Park imagery with a detail panel, labeled December 18, 2025 in the original layout.",
+            "credit": "EFPL / Columbia University",
+            "image": "assets/field/morningside-ortho.jpg",
+            "thumb": "assets/field/morningside-ortho-thumb.jpg",
+            "uncertainty": "",
+            "source_platform": "Project archive"
+          }
+        },
+        {
+          "role": "Terrain product",
+          "plate_id": "morningside-dtm",
+          "visual": {
+            "id": "morningside-dtm",
+            "title": "Morningside terrain model",
+            "place": "Morningside Park",
+            "kind": "Terrain model",
+            "date": "2025-12-18",
+            "caption": "Digital terrain model layout for Morningside Park, labeled December 18, 2025. Terrain classification is a processed interpretation; independent accuracy is not established here.",
+            "credit": "EFPL / Columbia University",
+            "image": "assets/field/morningside-dtm.jpg",
+            "thumb": "assets/field/morningside-dtm-thumb.jpg",
+            "uncertainty": "",
+            "source_platform": "Project archive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hubbard-sequence",
+      "case_study": "hubbard-creek",
+      "title": "Hubbard Creek fieldwork with Natan",
+      "summary": "The June 24, 2026 field session connects people, the marsh setting and channel observations.",
+      "steps": [
+        {
+          "role": "Field team",
+          "plate_id": "archive-hubbard-field-team",
+          "visual": {
+            "id": "archive-hubbard-field-team",
+            "title": "Hubbard Creek field team",
+            "place": "Hubbard Creek",
+            "kind": "Field photograph",
+            "date": "2026-06-24",
+            "caption": "The field team and aircraft operation area in the Hubbard Creek marsh during the June 24, 2026 survey.",
+            "credit": "EFPL · Columbia University · research with Natan Charytan",
+            "image": "assets/discovery-archive/archive-hubbard-field-team.jpg",
+            "thumb": "assets/discovery-archive/archive-hubbard-field-team-thumb.jpg",
+            "uncertainty": "User identifies the collaboration with Natan Charytan. Individual identities in this photograph are not assigned from appearance. Local source archive is labeled Hubbard County Park.",
+            "source_platform": "Project archive"
+          }
+        },
+        {
+          "role": "Marsh setting",
+          "plate_id": "archive-hubbard-marsh-context",
+          "visual": {
+            "id": "archive-hubbard-marsh-context",
+            "title": "Hubbard Creek marsh and bay",
+            "place": "Hubbard Creek",
+            "kind": "Aerial image",
+            "date": "2026-06-24",
+            "caption": "Oblique aerial context of the marsh, tidal channels and bay at the Hubbard Creek field site.",
+            "credit": "EFPL · Columbia University · research with Natan Charytan",
+            "image": "assets/discovery-archive/archive-hubbard-marsh-context.jpg",
+            "thumb": "assets/discovery-archive/archive-hubbard-marsh-context-thumb.jpg",
+            "uncertainty": "Display derivative. Camera time zone is not independently established; no participant identity or measurement accuracy is inferred from the image.",
+            "source_platform": "Project archive"
+          }
+        },
+        {
+          "role": "Mapped imagery",
+          "plate_id": "v4-hubbard-ortho",
+          "visual": {
+            "id": "v4-hubbard-ortho",
+            "title": "Hubbard County Park orthomosaic",
+            "place": "Hubbard County Park",
+            "kind": "Orthomosaic",
+            "date": "2026-06-24",
+            "caption": "Hubbard County Park orthomosaic, rendered from the existing Site Scan 2D viewer. Mission: June-2026.",
+            "credit": "Columbia University / EFPL",
+            "image": "assets/discovery-sitescan/v4-hubbard-ortho.jpg",
+            "thumb": "assets/discovery-sitescan/v4-hubbard-ortho-thumb.jpg",
+            "uncertainty": "Displayed Site Scan mission-record date; source-image capture EXIF was not independently verified. This is a web display derivative, not an analysis-ready raster or validated accuracy report. GSD does not establish positional accuracy; independent checkpoint accuracy was not assessed. Source project label: Hubbard-County-Park. This coastal mapping source belongs outside the NYC Parks portfolio.",
+            "source_platform": "ArcGIS Site Scan",
+            "source_url": "https://sitescan.arcgis.com/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions/854d49a1-584f-4036-ae5a-6d8b18604d17"
+          }
+        }
+      ]
+    },
+    {
+      "id": "four-sparrow-sequence",
+      "case_study": "four-sparrow",
+      "title": "Four Sparrow Marsh research",
+      "summary": "May 2, 2025 field photographs and mapped imagery connect the research team, marsh setting and surface reconstruction.",
+      "steps": [
+        {
+          "role": "Research team",
+          "plate_id": "archive-four-sparrow-may-team",
+          "visual": {
+            "id": "archive-four-sparrow-may-team",
+            "title": "Four Sparrow Marsh return-survey team",
+            "place": "Four Sparrow Marsh",
+            "kind": "Field photograph",
+            "date": "2025-05-02",
+            "caption": "The field team and landing pad at Four Sparrow Marsh during the May 2, 2025 return survey.",
+            "credit": "EFPL · Columbia University · Four Sparrow research archive",
+            "image": "assets/discovery-archive/archive-four-sparrow-may-team.jpg",
+            "thumb": "assets/discovery-archive/archive-four-sparrow-may-team-thumb.jpg",
+            "uncertainty": "Display derivative. Camera time zone is not independently established; no participant identity or measurement accuracy is inferred from the image.",
+            "source_platform": "Project archive"
+          }
+        },
+        {
+          "role": "Mapped imagery",
+          "plate_id": "four-sparrow-may-ortho",
+          "visual": {
+            "id": "four-sparrow-may-ortho",
+            "title": "May marsh survey overview",
+            "place": "Four Sparrow Marsh",
+            "kind": "Orthomosaic",
+            "date": "2025-05-02",
+            "caption": "Web-sized orthomosaic derived from the May 2, 2025 photogrammetric raster.",
+            "credit": "EFPL / Columbia University; Natan Charytan",
+            "image": "assets/field/four-sparrow-may-ortho.jpg",
+            "thumb": "assets/field/four-sparrow-may-ortho-thumb.jpg",
+            "uncertainty": "",
+            "source_platform": "Project archive"
+          }
+        },
+        {
+          "role": "Surface context",
+          "plate_id": "four-sparrow-relief",
+          "visual": {
+            "id": "four-sparrow-relief",
+            "title": "Marsh terrain shaded relief",
+            "place": "Four Sparrow Marsh",
+            "kind": "Terrain model",
+            "date": "2025-05-02",
+            "caption": "Web-sized shaded-relief view derived from the May marsh terrain product. It shows processed terrain texture, not measured sediment change between visits.",
+            "credit": "EFPL / Columbia University; Natan Charytan",
+            "image": "assets/field/four-sparrow-relief.jpg",
+            "thumb": "assets/field/four-sparrow-relief-thumb.jpg",
+            "uncertainty": "Display derivative only; compare surveys only after alignment and uncertainty assessment.",
+            "source_platform": "Project archive"
+          }
+        }
+      ]
+    },
+    {
+      "id": "unza-sequence",
+      "case_study": "hot-unza",
+      "title": "Collaboration with University of Zambia colleagues",
+      "summary": "Working-session and field photographs from the June 2026 UNZA collection accompany a campus mapping product. They document different parts of the collaboration, with their own date bases.",
+      "steps": [
+        {
+          "role": "Working session",
+          "plate_id": "archive-unza-working-session",
+          "visual": {
+            "id": "archive-unza-working-session",
+            "title": "A working session in the UNZA exchange archive",
+            "place": "University of Zambia",
+            "kind": "Workshop photograph",
+            "date": "2026-06",
+            "caption": "Collaborators work around a shared table in the UNZA project photograph collection from June 2026.",
+            "credit": "University of Zambia / EFPL / CIESIN · Columbia University",
+            "image": "assets/discovery-archive/archive-unza-working-session.jpg",
+            "thumb": "assets/discovery-archive/archive-unza-working-session-thumb.jpg",
+            "uncertainty": "Date is month-level collection context, not a verified individual-photo capture timestamp. Specific meeting identity, participant names and outcomes are not inferred.",
+            "source_platform": "Project archive",
+            "source_url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view"
+          }
+        },
+        {
+          "role": "Field team",
+          "plate_id": "archive-unza-field-team",
+          "visual": {
+            "id": "archive-unza-field-team",
+            "title": "Field collaborators during the Zambia exchange",
+            "place": "Zambia",
+            "kind": "Field photograph",
+            "date": "2026-06-10",
+            "caption": "Field collaborators during the June 2026 Zambia exchange, from the UNZA project photograph collection.",
+            "credit": "University of Zambia / EFPL / CIESIN · Columbia University",
+            "image": "assets/discovery-archive/archive-unza-field-team.jpg",
+            "thumb": "assets/discovery-archive/archive-unza-field-team-thumb.jpg",
+            "uncertainty": "Capture date follows original camera EXIF. The photograph does not by itself establish individual identities, a formal course outcome, or the exact meeting/event name.",
+            "source_platform": "Project archive"
+          }
+        },
+        {
+          "role": "Campus mapping",
+          "plate_id": "v4-unza-ortho",
+          "visual": {
+            "id": "v4-unza-ortho",
+            "title": "UNZA campus orthomosaic",
+            "place": "Lusaka",
+            "kind": "Orthomosaic",
+            "date": "2026-06-08",
+            "caption": "UNZA campus orthomosaic, rendered from the existing Site Scan 2D viewer. Mission: UNZA-1.",
+            "credit": "Columbia University / EFPL / CIESIN",
+            "image": "assets/discovery-sitescan/v4-unza-ortho.jpg",
+            "thumb": "assets/discovery-sitescan/v4-unza-ortho-thumb.jpg",
+            "uncertainty": "Displayed Site Scan mission-record date; source-image capture EXIF was not independently verified. This is a web display derivative, not an analysis-ready raster or validated accuracy report. GSD does not establish positional accuracy; independent checkpoint accuracy was not assessed.",
+            "source_platform": "ArcGIS Site Scan",
+            "source_url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/6ac2444b-1fc8-47f7-8ee6-907135cbc213"
+          }
+        }
+      ]
+    }
+  ]
+}

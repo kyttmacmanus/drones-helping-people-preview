@@ -1,56 +1,28 @@
-const mode=(new URLSearchParams(location.search).get('edition')||window.DRONE_DEFAULT_EDITION)==='efpl'?'efpl':'personal';
-const brand=DRONE_BRANDING[mode];
-document.querySelector('#brand-name').textContent=brand.name;
-document.querySelector('#footer-brand').textContent=brand.footer;
-if(mode==='efpl'){
- document.title='Drones Helping People | EFPL · Columbia';
- document.querySelector('#byline').textContent='An EFPL research story with Kytt MacManus and collaborators';
- document.querySelector('#edition-link').href='?edition=personal';
- document.querySelector('#edition-link').textContent='Preview personal edition';
-}
-const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const schematic=id=>id==='lamont'?'<div class="diagram"><span>TERRAIN & SURFACE FEATURES</span><svg viewBox="0 0 600 180" role="img" aria-label="Conceptual terrain profile with airflow paths"><path d="M0 150L90 130 155 145 240 70 310 100 390 30 470 100 600 130" fill="none" stroke="currentColor" stroke-width="3"/><path d="M15 65 Q120 30 220 25 T580 20 M20 92 Q120 60 205 55 T580 50 M15 120 Q130 95 200 90 T350 70 T580 85" fill="none" stroke="#ad7f3a" stroke-width="2" stroke-dasharray="9 6"/></svg><span>MEASUREMENTS → INTERPRETATION → MODELING</span></div>':'<div class="diagram exchange"><span>CITY-TO-CITY EXCHANGE / FEBRUARY 2026</span><div><b>New York</b><i>↔</i><b>Lusaka</b><i>↔</i><b>Freetown</b></div><span>CITIZEN-ENGAGED DRONE MAPPING</span></div>';
-const galleries={
- students:{place:'Lamont',items:[['students/lamont-autumn-workshop-thumb.jpg','Lamont field group'],['students/lamont-march-visible-thumb.jpg','Visible-light sensor record']]},
- 'four-sparrow':{place:'Four Sparrow Marsh',items:[['field/four-sparrow-december-thumb.jpg','December field imagery'],['field/four-sparrow-relief-thumb.jpg','Terrain shaded relief']]},
- 'nyc-parks':{place:'Morningside Park',items:[['field/morningside-dtm-thumb.jpg','Terrain model'],['field/morningside-3d-thumb.jpg','3D reconstruction']]},
- lamont:{place:'Lamont',items:[['field/lamont-ortho-thumb.jpg','Orthomosaic'],['field/lamont-field-team-thumb.jpg','Field archive / 2024']]},
- lusaka:{place:'Mtukuzi',items:[['zambia/team-thumb.jpg','Field collaboration'],['zambia/equipment-thumb.jpg','Drone field equipment']]},
- mtukuzi:{place:'Mtukuzi',items:[['zambia/river-map-thumb.jpg','River corridor'],['zambia/well-mesh-thumb.jpg','Water structure in 3D']]}
-};
-function previewGallery(id){const g=galleries[id];return `<div class="project-gallery">${g.items.map(([image,label])=>`<a href="explore.html?place=${encodeURIComponent(g.place)}#catalog"><img src="assets/${image}" alt="${esc(label)}" loading="lazy"><span>${esc(label)} ↗</span></a>`).join('')}</div><a class="project-atlas-link" href="explore.html?place=${encodeURIComponent(g.place)}#catalog">Explore this evidence in the atlas →</a>${id==='students'?'<p><a class="project-atlas-link" href="teaching.html">Students and workshops collection →</a></p>':id==='nyc-parks'?'<p><a class="project-atlas-link" href="staten-island.html">Staten Island fieldwork collection →</a></p>':''}`;}
-document.querySelector('#projects').innerHTML=DRONE_PROJECTS.map((p,i)=>`<article class="project" id="${p.id}" data-group="${p.group}"><figure>${p.image?`<button class="image-open" data-image="${p.image}" data-alt="${esc(p.alt)}" data-caption="${esc(p.caption)}" aria-label="Enlarge ${esc(p.alt)}"><img src="assets/${p.image}" alt="${esc(p.alt)}" loading="lazy"><span class="enlarge">Enlarge ↗</span></button>`:schematic(p.id)}<figcaption>${esc(p.caption)}</figcaption></figure><div class="project-copy"><p class="eyebrow">${String(i+1).padStart(2,'0')} / ${p.label}</p><div class="project-meta">${p.year} · ${p.place}</div><h3>${p.title}</h3><p>${p.body}</p><p class="credit">${p.credit}</p><dl><dt>THE QUESTION</dt><dd>${p.question}</dd><dt>THE CONTRIBUTION</dt><dd>${p.output}</dd></dl>${previewGallery(p.id)}<details><summary>Field notes & sources</summary><p>${p.detail}</p><p class="small">${p.sources}</p></details></div></article>`).join('');
-const projects=[...document.querySelectorAll('.project')];
-document.querySelector('#results').textContent='6 connected chapters';
-function filter(value){
- document.querySelectorAll('[data-filter]').forEach(x=>x.setAttribute('aria-pressed',x.dataset.filter===value?'true':'false'));
- let count=0;projects.forEach(p=>{p.hidden=value!=='all'&&p.dataset.group!==value;if(!p.hidden)count++;});
- document.querySelector('#results').textContent=count+' chapters shown';
-}
-document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>filter(b.dataset.filter));
-// Timeline links must still work after a visitor has filtered the projects.
-document.querySelectorAll('.timeline a').forEach(a=>a.addEventListener('click',()=>filter('all')));
-const dialog=document.querySelector('#image-dialog');
-document.querySelectorAll('[data-image]').forEach(b=>b.onclick=()=>{
- dialog.querySelector('img').src='assets/'+b.dataset.image;dialog.querySelector('img').alt=b.dataset.alt;
- dialog.querySelector('p').textContent=b.dataset.caption;dialog.showModal();
-});
-document.querySelector('#close-image').onclick=()=>dialog.close();
-dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
-document.querySelector('#present').onclick=()=>{
- filter('all');document.body.classList.toggle('presenting');
- document.querySelector('#present').textContent=document.body.classList.contains('presenting')?'Exit presentation ×':'Present ↗';
-};
-document.addEventListener('keydown',e=>{
- if(e.key==='Escape'){document.body.classList.remove('presenting');document.querySelector('#present').textContent='Present ↗';}
- if(document.body.classList.contains('presenting')&&['ArrowRight','ArrowLeft'].includes(e.key)&&!dialog.open){
-  const sections=[...document.querySelectorAll('.hero,.band,#story,.project:not([hidden]),.quote,#next,#people')];
-  let idx=0,distance=Infinity;sections.forEach((s,i)=>{let d=Math.abs(s.getBoundingClientRect().top-110);if(d<distance){idx=i;distance=d;}});
-  sections[Math.max(0,Math.min(sections.length-1,idx+(e.key==='ArrowRight'?1:-1)))].scrollIntoView();e.preventDefault();
- }
-});
-
-// Keep host branding when moving between local pages, including filtered atlas links.
-if(mode==='efpl')document.querySelectorAll('a[href]').forEach(a=>{const href=a.getAttribute('href');if(a.id!=='edition-link' && /^[a-z-]+\.html(?:[?#]|$)/.test(href)){const url=new URL(href,location.href);url.searchParams.set('edition','efpl');a.href=url.href;}});
-
-fetch('assets/data/catalog-summary.json?v=3').then(r=>r.json()).then(s=>{const label=document.querySelector('#plate-count-label');if(label)label.textContent=s.catalog_plate_count+' CURATED PLATES';}).catch(()=>{});
+(() => {
+ const $=s=>document.querySelector(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const mode=(new URLSearchParams(location.search).get('edition')||window.DRONE_DEFAULT_EDITION)==='efpl'?'efpl':'personal',brand=DRONE_BRANDING[mode];
+ $('#brand-name').textContent=brand.name;$('#footer-brand').textContent=brand.footer;
+ if(mode==='efpl'){$('#byline').textContent='Environmental Flow Physics Laboratory · Kytt MacManus and collaborators';document.title='Drones Helping People | EFPL · Columbia';}
+ $('#edition-link').href='?edition='+(mode==='efpl'?'personal':'efpl');$('#edition-link').textContent=mode==='efpl'?'View Kytt MacManus perspective':'View EFPL perspective';
+ const labels={teaching:'Teaching',community:'Community engagement','staten-island':'Staten Island',parks:'NYC Parks',research:'Research','terrain-wind':'Terrain & wind',international:'International collaboration',zambia:'Zambia',lamont:'Lamont',mapping:'Spatial mapping'};
+ const statuses={completed:'Completed',ongoing:'Ongoing',forthcoming:'Forthcoming','in-development':'In development'},visuals=new Map();
+ const remember=v=>{if(v)visuals.set(v.id,v);};
+ DRONE_CASE_STUDIES.forEach(c=>{remember(c.cover);c.visuals.forEach(remember);});DRONE_SEQUENCES.forEach(s=>s.steps.forEach(x=>remember(x.visual)));
+ function image(v,role='') {return `<figure><button class="image-open" data-visual="${esc(v.id)}" aria-label="Enlarge ${esc(v.title)}"><img src="${esc(v.thumb||v.image)}" alt="${esc(v.title)}" loading="lazy"><span class="enlarge">Enlarge ↗</span></button><figcaption>${role?`<b>${esc(role)}</b><br>`:''}${esc(v.title)} · ${esc(v.date||'Date in source notes')}</figcaption></figure>`;}
+ $('#chapter-nav').innerHTML=DRONE_CHAPTERS.map(c=>`<li><b>${esc(c.period)}</b><a href="#chapter-${c.id}">${esc(c.title)}</a></li>`).join('');
+ $('#chapter-summaries').innerHTML=DRONE_CHAPTERS.map(c=>`<article class="narrative-chapter" id="chapter-${c.id}"><span class="chapter-number">${String(c.number).padStart(2,'0')}</span><div><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p><div class="chapter-cases">${c.case_studies.map(id=>{const item=DRONE_CASE_STUDIES.find(x=>x.id===id);return `<a href="#${id}" data-case-link>${esc(item.title)} →</a>`;}).join('')}</div></div></article>`).join('');
+ $('#projects').innerHTML=DRONE_CASE_STUDIES.map(c=>`<article class="case-study" id="${c.id}" data-topics="${esc(c.topics.join(' '))}" data-status="${c.status}"><div class="case-visual">${c.cover?image(c.cover):`<div class="case-placeholder"><span class="status">${statuses[c.status]}</span><h3>${esc(c.place)}</h3>${c.status==='forthcoming'?'<p>Research planning</p>':''}</div>`}</div><div class="case-copy"><p class="case-status"><span>${statuses[c.status]}</span> · ${esc(c.period)}</p><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p><div class="topic-list">${c.topics.map(t=>`<span>${esc(labels[t]||t)}</span>`).join('')}</div><dl><dt>Research or teaching question</dt><dd>${esc(c.question)}</dd><dt>Contribution</dt><dd>${esc(c.contribution)}</dd></dl><p class="credit">${esc(c.credit)}</p><details><summary>Project context and sources</summary><p>${esc(c.details)}</p>${c.public_sources.map(s=>`<p><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)} ↗</a></p>`).join('')}${c.related_page?`<p><a href="${esc(c.related_page)}">Explore the related collection →</a></p>`:''}${c.visuals.length?`<div class="case-secondary">${c.visuals.slice(0,2).map(v=>image(v)).join('')}</div>`:''}</details></div></article>`).join('');
+ function filter(topic){document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.filter===topic)));let count=0;document.querySelectorAll('.case-study').forEach(card=>{card.hidden=topic!=='all'&&!card.dataset.topics.split(' ').includes(topic);if(!card.hidden)count++;});$('#results').textContent=`${count} ${count===1?'case study':'case studies'}${topic==='all'?'':` · ${labels[topic]||topic}`}`;}
+ document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>filter(b.dataset.filter));filter('all');
+ $('#evidence-sequences').innerHTML=DRONE_SEQUENCES.map(s=>`<article class="evidence-sequence"><h3>${esc(s.title)}</h3><p>${esc(s.summary)}</p><div class="sequence-grid">${s.steps.map(step=>image(step.visual,step.role)).join('')}</div><p><a href="#${s.case_study}" data-case-link>Read this case study →</a></p></article>`).join('');
+ document.querySelectorAll('[data-case-link]').forEach(a=>a.addEventListener('click',()=>filter('all')));
+ $('#profile-name').textContent=DRONE_PROFILE.name;$('#profile-titles').innerHTML=DRONE_PROFILE.titles.map(t=>`<span>${esc(t)}</span>`).join('');
+ $('#education-link').href=DRONE_EDUCATION.module_url||DRONE_EDUCATION.catalog_url;
+ const dialog=$('#image-dialog');
+ document.querySelectorAll('[data-visual]').forEach(b=>b.onclick=()=>{const v=visuals.get(b.dataset.visual);$('#dialog-image').src=v.image;$('#dialog-image').alt=v.title;$('#dialog-caption').textContent=[v.caption,v.credit,v.uncertainty].filter(Boolean).join(' ');$('#dialog-atlas').href='explore.html?plate='+encodeURIComponent(v.id)+(mode==='efpl'?'&edition=efpl':'')+'#catalog';dialog.showModal();});
+ $('#close-image').onclick=()=>dialog.close();dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close();});
+ $('#present').onclick=()=>{filter('all');document.body.classList.toggle('presenting');$('#present').textContent=document.body.classList.contains('presenting')?'Exit presentation ×':'Present ↗';};
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.body.classList.remove('presenting');$('#present').textContent='Present ↗';}if(document.body.classList.contains('presenting')&&['ArrowRight','ArrowLeft'].includes(e.key)&&!dialog.open){const sections=[...document.querySelectorAll('.hero,#story,.narrative-chapter,.evidence-sequence,#next,#people')];let i=0,d=Infinity;sections.forEach((s,n)=>{const y=Math.abs(s.getBoundingClientRect().top-100);if(y<d){d=y;i=n;}});sections[Math.max(0,Math.min(sections.length-1,i+(e.key==='ArrowRight'?1:-1)))].scrollIntoView();e.preventDefault();}});
+ if(mode==='efpl')document.querySelectorAll('a[href]').forEach(a=>{const h=a.getAttribute('href');if(a.id!=='edition-link'&&/^[a-z-]+\.html(?:[?#]|$)/.test(h)){const u=new URL(h,location.href);u.searchParams.set('edition','efpl');a.href=u.href;}});
+ const legacy={students:'chapter-teaching','nyc-parks':'chapter-parks',lamont:'lamont-research',lusaka:'hot-unza'};if(legacy[location.hash.slice(1)])document.getElementById(legacy[location.hash.slice(1)])?.scrollIntoView();
+})();

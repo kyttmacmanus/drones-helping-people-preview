@@ -1,5 +1,22 @@
 [
   {
+    "id": "callicoon-2022-04-04",
+    "date": "2022-04-04",
+    "dateLabel": "April 4–5, 2022",
+    "title": "SDEV3450 Callicoon field exercise",
+    "collections": [
+      "teaching"
+    ],
+    "description": "Students connected field observations with drone mapping and jointly developed spatial analyses, including contour and shaded-relief layouts.",
+    "sourceNote": "The published account dates the exercise April 4–5, 2022. Exact photograph days and independent map accuracy are not established.",
+    "plates": [
+      "archive-callicoon-group",
+      "archive-callicoon-acquisition",
+      "archive-callicoon-contours"
+    ],
+    "relatedPlateCount": 3
+  },
+  {
     "id": "lamont-2022-06-07",
     "date": "2022-06-07",
     "dateLabel": "2022-06-07",
@@ -8,7 +25,7 @@
       "teaching"
     ],
     "description": "A collaborative session combined discussion of future work with drone data collection. Source photographs provide context for the Lamont setting.",
-    "sourceNote": "A June 8 follow-up reports processing data collected during the previous day’s brainstorming session. Selected original camera dates agree with June 7; no student course is assigned.",
+    "sourceNote": "June 7, 2022 camera metadata identifies these Lamont setting photographs. No course is assigned to this session.",
     "plates": [
       "drive-lamont-jun2022-building",
       "drive-lamont-jun2022-river"
@@ -24,7 +41,7 @@
       "teaching"
     ],
     "description": "Photographs document a field group, an operation area, and the surrounding Lamont landscape in the SDEV3450 collection.",
-    "sourceNote": "The course collection label and selected camera EXIF dates agree on January 30, 2023. Related Site Scan records retain their own mission metadata.",
+    "sourceNote": "January 30, 2023 camera metadata and the SDEV3450 collection identify this field session. Mission products retain their own metadata.",
     "plates": [
       "drive-lamont-jan2023-landscape",
       "drive-lamont-jan2023-launch-area",
@@ -32,7 +49,7 @@
       "drive-lamont-jan2023-side",
       "ss-01-lamont-sdev3450"
     ],
-    "relatedPlateCount": 6
+    "relatedPlateCount": 5
   },
   {
     "id": "lamont-2023-04-10",
@@ -43,7 +60,7 @@
       "teaching"
     ],
     "description": "Indoor photographs document equipment and a group session in the SDEV3450 collection. These are records of instruction and preparation rather than survey products.",
-    "sourceNote": "Selected source photographs have April 10, 2023 EXIF dates, concordant with the source collection.",
+    "sourceNote": "April 10, 2023 camera metadata identifies this equipment session in the SDEV3450 collection.",
     "plates": [
       "drive-lamont-apr2023-briefing",
       "drive-lamont-apr2023-equipment"
@@ -59,7 +76,7 @@
       "teaching"
     ],
     "description": "Students and educators took part in a CIESIN workshop led by Kytt MacManus and Greg Yetman, with Joshua Fisher coordinating the group. Photographs and mission products document the field and spatial-data context.",
-    "sourceNote": "The invitation identifies NSF REU/RET participants and both workshop leaders. Same-day photographs/resource exchanges and post-event thanks corroborate the July 14 workshop. These records do not establish a grant identifier or measured learning outcome.",
+    "sourceNote": "July 14, 2023 field photographs and mission products document the NSF REU/RET workshop. Photographs do not measure learning outcomes.",
     "plates": [
       "drive-lamont-jul2023-field",
       "drive-lamont-jul2023-group",
@@ -77,7 +94,7 @@
       "teaching"
     ],
     "description": "The Building Climate Justice class workshop connected safety, a Field Maps collection schema and drone observations. The archived optical, thermal and reconstruction displays provide related mission context.",
-    "sourceNote": "Course-specific October 9–10 correspondence identifies SDEV4650 and the October 11 workshop. Reviewed Site Scan missions corroborate acquisition on that date. This activity is distinct from SDEV3450.",
+    "sourceNote": "October 11, 2023 mission dates identify the optical, thermal and reconstruction products. Thermal displays are qualitative; photo counts are not calibration counts.",
     "plates": [
       "ss-03-dji3optical",
       "ss-04-dji3thermal",
@@ -96,7 +113,7 @@
       "teaching"
     ],
     "description": "Photographs document a rooftop drone session and waterfront context in the early Staten Island course archive. The Site Scan record includes survey and reconstruction views associated with the Hannah Street project.",
-    "sourceNote": "The selected photographs and reviewed mission records indicate December 2, 2023. The project container name includes 112923; the catalog keeps that naming/date distinction.",
+    "sourceNote": "Camera and mission dates identify December 2, 2023. The project name retains 112923, a separate container label.",
     "plates": [
       "staten-island-2023-rooftop",
       "staten-island-2023-context",
@@ -115,7 +132,7 @@
       "teaching"
     ],
     "description": "SDEV3450 convened at Lamont for fieldwork involving drone-camera observations. The winter group photograph is shown with related optical, thermal and reconstruction mission displays.",
-    "sourceNote": "The February 18 course-specific logistics announcement identifies the February 19 Lamont session. Source camera dates and reviewed Site Scan dates corroborate the activity. Proposed agenda items are not each treated as completed solely from the announcement.",
+    "sourceNote": "February 19, 2024 camera and mission dates identify the SDEV3450 session. Photographs and products have different observational roles.",
     "plates": [
       "lamont-winter-operations",
       "lamont-field-team",
@@ -123,7 +140,7 @@
       "ss-07-lamont021924-optical",
       "ss-08-lamont021924-thermal"
     ],
-    "relatedPlateCount": 6
+    "relatedPlateCount": 5
   },
   {
     "id": "lamont-2024-10-16",
@@ -134,7 +151,7 @@
       "teaching"
     ],
     "description": "Building Climate Justice students completed drone-flight training at Lamont. The session included mission-planning context relevant to the South Bronx, alongside the group, equipment and operation-area records shown here.",
-    "sourceNote": "An October 17 retrospective explicitly reports that Building Climate Justice students did drone-flight training the previous day. October 16 camera metadata supplies separate corroboration. The South Bronx walk was a separate, postponed activity; it is not counted as completed that day.",
+    "sourceNote": "October 16, 2024 source-camera dates identify these Building Climate Justice images. Some folder labels refer to October 21.",
     "plates": [
       "lamont-autumn-overhead",
       "lamont-autumn-workshop",
@@ -151,7 +168,7 @@
       "teaching"
     ],
     "description": "A SDEV3450 class visit combined a drone demonstration with visible-light and thermal group observations. The selected pair shares a camera timestamp of 10:22:02.",
-    "sourceNote": "March 4 correspondence corrects the reused subject to SDEV3450, March 5, 2025. Camera metadata corroborates that date. Thermal colors remain qualitative, without a calibrated temperature scale.",
+    "sourceNote": "The visible and thermal pair share March 5, 2025 at 10:22:02 in camera metadata. Thermal colors have no calibrated temperature scale here.",
     "plates": [
       "lamont-march-group-wide",
       "lamont-march-thermal",
@@ -159,7 +176,7 @@
       "lamont-ortho",
       "lamont-pointcloud-oblique"
     ],
-    "relatedPlateCount": 6
+    "relatedPlateCount": 5
   },
   {
     "id": "lamont-2025-08-05",
@@ -170,7 +187,7 @@
       "teaching"
     ],
     "description": "Kytt MacManus and Juan F. Martinez contributed a presentation to the New York State Earth Science Teachers Association conference visit. The drone demonstration produced visible-light and thermal group photographs.",
-    "sourceNote": "The final schedule identifies August 5, 2025. August 6 resource/photo sharing and later thanks establish that the session took place; selected camera metadata agrees. Colors in the thermal view are qualitative.",
+    "sourceNote": "August 5, 2025 camera metadata identifies the NYESTA field demonstration. Thermal colors are qualitative.",
     "plates": [
       "nyesta-2025-visible",
       "nyesta-2025-thermal"
@@ -185,12 +202,14 @@
     "collections": [
       "teaching"
     ],
-    "description": "The fall SDEV4650 class attended a drone operations workshop at Lamont. The recovered camera frame below records the campus landscape, while post-event correspondence establishes the workshop identity.",
-    "sourceNote": "October 14 confirms the following day’s SDEV4650 workshop. October 20 follow-ups describe the completed workshop and share photographs; the selected landscape frame has October 15 camera metadata. This is distinct from the October 16, 2024 session.",
+    "description": "SDEV4650 students attended a drone operations workshop at Lamont. Group, visible-light and thermal photographs document the operation area and campus context.",
+    "sourceNote": "October 15, 2025 camera dates identify the SDEV4650 field collection. It is distinct from the October 16, 2024 session.",
     "plates": [
-      "lamont-2025-october-workshop"
+      "archive-lamont-oct2025-group",
+      "archive-lamont-oct2025-visible",
+      "archive-lamont-oct2025-thermal"
     ],
-    "relatedPlateCount": 1
+    "relatedPlateCount": 3
   },
   {
     "id": "north-shore-esplanade-2025-12-01",
@@ -202,7 +221,7 @@
       "teaching"
     ],
     "description": "Ground and drone photographs document participants, equipment preparation, controller use, and waterfront conditions during the North Shore field visit. Companion layouts show mapped imagery and elevation products.",
-    "sourceNote": "December 1, 2025 is supported by the field archive, selected camera records, and dated map layouts. Individual participant roles are not assigned from photographs alone.",
+    "sourceNote": "December 1, 2025 camera records and map layouts identify the North Shore visit. Participant roles are credited from project records, not inferred from photographs.",
     "plates": [
       "northshore-controller-session",
       "northshore-equipment-check",
@@ -210,7 +229,7 @@
       "northshore-community",
       "northshore"
     ],
-    "relatedPlateCount": 18
+    "relatedPlateCount": 5
   },
   {
     "id": "lamont-2026-03-04",
@@ -221,7 +240,7 @@
       "teaching"
     ],
     "description": "A reviewed field-trip mission in Site Scan provides a later record of data collection at Lamont. The plate is a mission display, not a photograph of workshop participants.",
-    "sourceNote": "Date and activity label follow the reviewed Site Scan mission record.",
+    "sourceNote": "March 4, 2026 follows the SiteScan field-trip mission metadata. The plate shows a processed mission product.",
     "plates": [
       "ss-10-field-trip-lamont-03042026"
     ],
@@ -236,7 +255,7 @@
       "teaching"
     ],
     "description": "The October workshop project includes a DJI survey and a Skydio statue reconstruction. The views document different mission outputs within the same project context.",
-    "sourceNote": "October 5, 2026 follows the reviewed Site Scan mission records. Source-photo counts describe records in those missions; they are not unique totals across the workshop.",
+    "sourceNote": "October 5, 2026 follows the SiteScan workshop mission dates. Mission photo counts are not summed as unique workshop observations.",
     "plates": [
       "ss-11-dji-survey",
       "ss-12-skydio-statue"

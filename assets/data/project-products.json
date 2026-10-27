@@ -1,0 +1,293 @@
+{
+  "projects": [
+    {
+      "case_study_id": "callicoon",
+      "title": "Callicoon student fieldwork",
+      "place": "Callicoon, New York",
+      "products": [
+        "Map / analysis",
+        "Terrain model"
+      ],
+      "source_platforms": [
+        "Project archive"
+      ],
+      "source_links": [
+        {
+          "title": "Columbia account of the Callicoon fieldwork",
+          "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+        }
+      ],
+      "limitations": "Student contour and relief layouts illustrate spatial analysis; independent terrain accuracy was not evaluated."
+    },
+    {
+      "case_study_id": "lamont-instruction",
+      "title": "Lamont field instruction and workshops",
+      "place": "Lamont-Doherty Earth Observatory",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Gaussian splats",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Site Scan orthomosaic",
+        "Textured 3D mesh (OBJ)",
+        "Thermal display"
+      ],
+      "source_platforms": [
+        "ArcGIS SiteScan",
+        "Google Drive",
+        "Project archive"
+      ],
+      "source_links": [
+        {
+          "title": "Lamont Workshop 07-14-2023 · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions"
+        },
+        {
+          "title": "Lamont-Workshop-10-11-2023 · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions"
+        },
+        {
+          "title": "SDEV3450-Spring2024 · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/0472c68a-f1cd-4305-996c-b8fe74d668af/missions"
+        },
+        {
+          "title": "Lamont-Workshop-10-5-2026 · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/d592eed3-757b-41c0-ae01-c915128732ca/missions"
+        },
+        {
+          "title": "SDEV-3450 · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/702a9776-e18d-483b-a811-92242f651304/missions"
+        },
+        {
+          "title": "RoseGarden3D · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/2f13699b-9205-49c7-b0a7-b5002b534842/missions"
+        }
+      ],
+      "limitations": "Mission products retain their own dates and sensors. Thermal display colors are qualitative without calibrated temperature data."
+    },
+    {
+      "case_study_id": "hannah-street",
+      "title": "60 Hannah Street community fieldwork",
+      "place": "Staten Island",
+      "products": [
+        "3D mesh (I3S)",
+        "3D viewer",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Site Scan orthomosaic",
+        "Textured 3D mesh (OBJ)",
+        "Thermal display"
+      ],
+      "source_platforms": [
+        "ArcGIS SiteScan",
+        "Project archive"
+      ],
+      "source_links": [
+        {
+          "title": "StatenIslandFieldWork112923 · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions"
+        }
+      ],
+      "limitations": "Structural reconstruction and thermal displays describe different observations. Subsequent planning use and community outcomes have not been evaluated here."
+    },
+    {
+      "case_study_id": "four-sparrow",
+      "title": "Repeated mapping at Four Sparrow Marsh",
+      "place": "Four Sparrow Marsh, Brooklyn",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Gaussian splats",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Terrain model",
+        "Textured 3D mesh (OBJ)"
+      ],
+      "source_platforms": [
+        "ArcGIS Site Scan",
+        "ArcGIS SiteScan",
+        "Project archive"
+      ],
+      "source_links": [
+        {
+          "title": "Four-Sparrow-Marsh · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/55dacbc2-0018-41a8-bcac-2834945bf192/missions"
+        }
+      ],
+      "limitations": "Repeat-survey products have different extents and processing identities. They are not a registered change-detection comparison."
+    },
+    {
+      "case_study_id": "north-shore",
+      "title": "North Shore Esplanade mapping",
+      "place": "North Shore Esplanade, Staten Island",
+      "products": [
+        "Orthomosaic",
+        "Terrain model"
+      ],
+      "source_platforms": [
+        "Project archive"
+      ],
+      "source_links": [],
+      "limitations": "Waterfront imagery and terrain products require field verification and independent accuracy assessment for analytical use."
+    },
+    {
+      "case_study_id": "morningside",
+      "title": "Morningside Park mapping and research",
+      "place": "Morningside Park, Manhattan",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Terrain model"
+      ],
+      "source_platforms": [
+        "ArcGIS Site Scan",
+        "ArcGIS SiteScan",
+        "Project archive"
+      ],
+      "source_links": [
+        {
+          "title": "Morningside-Park · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/4e4b0a07-8f1e-4317-9000-85a8c80b603d/missions"
+        }
+      ],
+      "limitations": "Mapped terrain and reconstructed surfaces are research inputs; these displays do not validate drainage or wind models."
+    },
+    {
+      "case_study_id": "highbridge",
+      "title": "Highbridge Park research",
+      "place": "Highbridge Park, Manhattan",
+      "products": [],
+      "source_platforms": [],
+      "source_links": [],
+      "limitations": "Forthcoming research; no completed spatial product is presented."
+    },
+    {
+      "case_study_id": "lamont-research",
+      "title": "Lamont terrain and wind research",
+      "place": "Lamont-Doherty Earth Observatory",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point cloud",
+        "Point-cloud viewer",
+        "Textured 3D mesh (OBJ)"
+      ],
+      "source_platforms": [
+        "ArcGIS SiteScan",
+        "Project archive"
+      ],
+      "source_links": [
+        {
+          "title": "RoseGarden3D · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/2f13699b-9205-49c7-b0a7-b5002b534842/missions"
+        }
+      ],
+      "limitations": "Photogrammetric reconstruction is distinct from LiDAR. The LiDAR display uses relative coordinates because the source CRS label conflicts with coordinate magnitudes; it does not establish georeferencing or accuracy."
+    },
+    {
+      "case_study_id": "hot-unza",
+      "title": "HOT, UNZA and international collaboration",
+      "place": "Lusaka and international exchange",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Gaussian splats",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Textured 3D mesh (OBJ)"
+      ],
+      "source_platforms": [
+        "ArcGIS Site Scan",
+        "ArcGIS SiteScan",
+        "Project archive"
+      ],
+      "source_links": [
+        {
+          "title": "UNZA · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions"
+        }
+      ],
+      "limitations": "Campus mapping products and Mtukuzi field photographs document distinct activities; project participation does not establish a measured humanitarian outcome."
+    },
+    {
+      "case_study_id": "mtukuzi",
+      "title": "Mtukuzi selected-site mapping",
+      "place": "Mtukuzi, Eastern Zambia",
+      "products": [
+        "3D mesh",
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Gaussian splats",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Source imagery",
+        "Textured 3D mesh (OBJ)"
+      ],
+      "source_platforms": [
+        "ArcGIS SiteScan",
+        "Project archive"
+      ],
+      "source_links": [
+        {
+          "title": "Eastern-Province · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/a39ea86f-c1f6-44de-8909-08f482fa8305/missions"
+        }
+      ],
+      "limitations": "Capture reports and processing records describe different units. GSD is distinct from independent accuracy; the combined reconstruction lacks ground control and checkpoints."
+    },
+    {
+      "case_study_id": "hubbard-creek",
+      "title": "Hubbard Creek mapping",
+      "place": "Long Island, New York",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Gaussian splats",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Textured 3D mesh (OBJ)"
+      ],
+      "source_platforms": [
+        "ArcGIS Site Scan",
+        "ArcGIS SiteScan",
+        "Project archive"
+      ],
+      "source_links": [
+        {
+          "title": "Hubbard-County-Park · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions"
+        }
+      ],
+      "limitations": "Marsh and channel products describe the mapped surface. Independent positional accuracy and ecological change are not established by these displays."
+    }
+  ]
+}

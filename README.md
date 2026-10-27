@@ -1,17 +1,11 @@
-# Drones Helping People — research preview
+# Drones Helping People
 
-A public HTML research preview by Kytt MacManus, Columbia University. It presents drone-based mapping, field education, and community-engaged research through EFPL and CIESIN.
+A Columbia University portfolio by Kytt MacManus and collaborators: drone-based mapping, field education and community-engaged research through EFPL and CIESIN.
 
-The site contains selected photographs, derived display products, source metadata, a sampled Lamont point-cloud viewer, and an interactive preview of Raphael Sutiono and Kytt MacManus’s Mtukuzi lesson. The complete internal learner package and private development/planning records are not included.
+The [HTML site](https://kyttmacmanus.github.io/drones-helping-people-preview/) connects five narrative chapters with independent project case studies, field photographs, spatial products, teaching activities and scientific methods. The atlas includes a sampled Lamont photogrammetric point viewer. The Mtukuzi educational contribution links to its canonical home at TOPSTSCHOOL.
 
-## Scientific language
+Descriptions distinguish observations, derived products, interpretations, intended applications and forthcoming work. Resolution is distinct from independent accuracy, and terrain geometry is an input to research rather than a validated wind model.
 
-Descriptions distinguish source observations, derived products, interpretation, intended application, and planned work. Product resolution and internal processing metrics are distinct from independent positional accuracy. Current editorial status is separate from historical source records.
+The default personal perspective uses Kytt's byline; append `?edition=efpl` for the Environmental Flow Physics Laboratory perspective. Project-specific institutional and collaborator credits persist across both.
 
-## Preview editions
-
-The default is the personal edition. Append `?edition=efpl` to preview EFPL branding. Project-specific attribution, including shared EFPL + CIESIN credit for HOT/Zambia, remains the same.
-
-## Hosting
-
-GitHub Pages serves the static HTML and assets from the repository root. `.nojekyll` disables Jekyll processing. This repository is a curated website-only publication snapshot; development and planning records are maintained separately.
+GitHub Pages serves this curated website-only snapshot from the main branch root. Development records and source archives are maintained separately.
