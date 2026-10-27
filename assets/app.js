@@ -53,4 +53,4 @@ document.addEventListener('keydown',e=>{
 // Keep host branding when moving between local pages, including filtered atlas links.
 if(mode==='efpl')document.querySelectorAll('a[href]').forEach(a=>{const href=a.getAttribute('href');if(a.id!=='edition-link' && /^[a-z-]+\.html(?:[?#]|$)/.test(href)){const url=new URL(href,location.href);url.searchParams.set('edition','efpl');a.href=url.href;}});
 
-fetch('assets/data/catalog-summary.json?v=2').then(r=>r.json()).then(s=>{const label=document.querySelector('#plate-count-label');if(label)label.textContent=s.catalog_plate_count+' CURATED PLATES';}).catch(()=>{});
+fetch('assets/data/catalog-summary.json?v=3').then(r=>r.json()).then(s=>{const label=document.querySelector('#plate-count-label');if(label)label.textContent=s.catalog_plate_count+' CURATED PLATES';}).catch(()=>{});

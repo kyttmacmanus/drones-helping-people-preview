@@ -1,0 +1,86 @@
+[
+  {
+    "id": "nyesta-2025-visible",
+    "title": "NYESTA educators at Lamont",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2025-08-05",
+    "image": "assets/email/nyesta-2025-visible.jpg",
+    "thumb": "assets/email/nyesta-2025-visible-thumb.jpg",
+    "caption": "A visible-light camera frame records the group during the New York State Earth Science Teachers Association conference visit. Kytt MacManus and Juan F. Martinez contributed a presentation on field-data collection; the follow-up correspondence includes the group photographs.",
+    "source": "Reviewed workshop correspondence and original camera file: DJI_20250805163218_0006_V.JPG",
+    "source_file": "DJI_20250805163218_0006_V.JPG",
+    "credit": "Columbia University · Kytt MacManus / project archive",
+    "source_sha256": "c7a59d2ae9f30d30416beffb142986adfdac64561705341ee9f32eaff921fd03",
+    "date_basis": "Camera metadata 2025:08:05 16:32:18; event date corroborated by planning and post-event correspondence reviewed privately.",
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "width": 2200,
+    "height": 1650,
+    "course_or_program": "New York State Earth Science Teachers Association (NYESTA)",
+    "uncertainty": "The photograph documents the group and setting; participant identities and learning outcomes are not inferred from appearance.",
+    "status": "Research preview · web derivative",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "nyesta-2025-thermal",
+    "title": "NYESTA group: thermal-camera display",
+    "place": "Lamont",
+    "kind": "Thermal display",
+    "date": "2025-08-05",
+    "image": "assets/email/nyesta-2025-thermal.jpg",
+    "thumb": "assets/email/nyesta-2025-thermal-thumb.jpg",
+    "caption": "A thermal-camera rendering of the educator group and paths at Lamont. It accompanied the visible-light photographs shared after the August 5, 2025 conference session.",
+    "source": "Reviewed workshop correspondence and original camera file: DJI_20250805163219_0007_T.JPG",
+    "source_file": "DJI_20250805163219_0007_T.JPG",
+    "credit": "Columbia University · Kytt MacManus / project archive",
+    "source_sha256": "965d467fb24904211ba051d31385d48e685488bdd2a2aa4970033372a48a19ff",
+    "date_basis": "Camera metadata 2025:08:05 16:32:19; event date corroborated by planning and post-event correspondence reviewed privately.",
+    "sourceDimensions": [
+      640,
+      512
+    ],
+    "width": 640,
+    "height": 512,
+    "course_or_program": "New York State Earth Science Teachers Association (NYESTA)",
+    "uncertainty": "Colors are a qualitative thermal display. No temperature scale, radiometric calibration or participant-level temperature interpretation is established here.",
+    "status": "Research preview · web derivative",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "lamont-2025-october-workshop",
+    "title": "Lamont aerial context, October 2025 workshop",
+    "place": "Lamont",
+    "kind": "Aerial photograph",
+    "date": "2025-10-15",
+    "image": "assets/email/lamont-2025-october-workshop.jpg",
+    "thumb": "assets/email/lamont-2025-october-workshop-thumb.jpg",
+    "caption": "An oblique campus view shared in the follow-up to the October 15, 2025 SDEV4650 Lamont drone workshop. Camera metadata agrees with the event date. This frame records the landscape rather than workshop participants.",
+    "source": "Reviewed workshop correspondence and original camera file: lamont-2025-10-15-DJI_0237.JPG",
+    "source_file": "lamont-2025-10-15-DJI_0237.JPG",
+    "credit": "Columbia University · Kytt MacManus / project archive",
+    "source_sha256": "8d8dca95425a4079d4c4e89d0c6d60e67befb764d7614f33480bd841335f978a",
+    "date_basis": "Camera metadata 2025:10:15 15:57:10; event date corroborated by planning and post-event correspondence reviewed privately.",
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "width": 2200,
+    "height": 1650,
+    "course_or_program": "SDEV4650",
+    "uncertainty": "The workshop identity follows reviewed correspondence; the landscape image alone does not establish student participation or learning outcomes.",
+    "status": "Research preview · web derivative",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  }
+]

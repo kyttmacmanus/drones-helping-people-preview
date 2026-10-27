@@ -1,15 +1,16 @@
 {
-  "revision": 2,
-  "catalog_plate_count": 91,
+  "revision": 3,
+  "catalog_plate_count": 94,
   "topic_counts": {
-    "teaching": 45,
+    "teaching": 48,
     "staten-island": 23,
-    "lamont": 38,
+    "lamont": 41,
     "parks": 27,
     "zambia": 21
   },
   "source_platform_counts": {
     "ArcGIS Site Scan": 15,
+    "Email archive": 3,
     "Google Drive": 12,
     "Local archive": 64
   },

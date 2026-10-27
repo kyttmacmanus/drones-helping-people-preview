@@ -1,0 +1,43 @@
+{
+  "review_date": "2026-10-27",
+  "mailbox_screening": {
+    "files": 228,
+    "archive_bytes": 38027199343,
+    "message_records_screened": 210989,
+    "archive_years": "2007–2025",
+    "parse_errors": 0,
+    "message_prefix_limit_bytes": 16777216,
+    "retained_candidate_body_limit_characters": 90000,
+    "attachment_contents_systematically_searched": false,
+    "method": "Read-only keyword screening; relevant decoded plain-text and HTML messages reviewed with source dates, identifiers and private archive offsets."
+  },
+  "gmail_broader_pass": {
+    "queries": 33,
+    "search_requests": 41,
+    "result_rows": 2042,
+    "distinct_search_metadata_messages": 1165,
+    "unique_full_threads_retrieved": 30,
+    "unique_messages_in_retrieved_threads": 232,
+    "individual_full_email_reads": 2,
+    "curated_event_records": 12
+  },
+  "gmail_separate_nyesta_pass": {
+    "query_metadata_results": 52,
+    "full_threads_read": 4,
+    "messages_in_threads": 24,
+    "note": "Overlaps with broader discovery results; do not add these as independent unique totals."
+  },
+  "public_chronology": {
+    "records": 24,
+    "documented": 19,
+    "scheduled_completion_unverified": 4,
+    "cancelled_or_rescheduled_dates": 1
+  },
+  "limitations": [
+    "Screening is keyword-based, followed by review of relevant candidates; it is not a full semantic reading of every message.",
+    "Oversized mbox messages were screened within a 16 MiB prefix, and retained candidate text was capped at 90,000 characters. Attachment contents were not systematically searched.",
+    "The main Lamont/drone/teaching Gmail query was paged to the end. Broader teaching searches reached a five-page bound; the entire Gmail account is not claimed as exhaustively reviewed.",
+    "Monthly archive files describe the locally available mail, not proof of a complete server archive or exact event dates.",
+    "Activity records describe instruction and operations, not unique flights, verified attendance totals, measured learning gains or independently validated survey accuracy."
+  ]
+}

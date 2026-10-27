@@ -34,7 +34,7 @@ document.addEventListener('keydown',e=>{if(!$('#plate-dialog').open)return;if(e.
 function compare(side){const p=catalog.find(p=>p.id===$('#compare-'+side).value);if(!p)return;$('#compare-'+side+'-figure').innerHTML=`<img src="${p.image}" alt="${esc(p.title)}"><figcaption><b>${esc(p.title)}</b> · ${esc(p.place)}<br>${esc(p.caption)}<br>${esc(p.credit)}</figcaption>`;}
 async function init(){
  try{
-  const response=await fetch('assets/data/visual-catalog.json?v=2');if(!response.ok)throw Error('Could not load the visual source catalog');
+  const response=await fetch('assets/data/visual-catalog.json?v=3');if(!response.ok)throw Error('Could not load the visual source catalog');
   catalog=await response.json();
   ['place','kind'].forEach(key=>{const sel=$('#'+key+'-filter');[...new Set(catalog.map(p=>p[key]))].sort().forEach(v=>sel.add(new Option(v,v)));sel.onchange=render;});
   $('#catalog-search').oninput=render;$('#reset-filters').onclick=()=>{theme='all';document.querySelectorAll('[data-theme]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.theme==='all'?'true':'false'));$('#place-filter').value='all';$('#kind-filter').value='all';$('#catalog-search').value='';render();};

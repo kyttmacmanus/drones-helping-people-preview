@@ -7,10 +7,10 @@
  function atlasLink(p){const u=new URL('explore.html',location.href);u.searchParams.set('plate',p.id);if(mode==='efpl')u.searchParams.set('edition','efpl');u.hash='catalog';return u.href;}
  function figure(p,feature=false){return `<figure><a href="${atlasLink(p)}"><img src="${p.image}" alt="${esc(p.title)}" ${feature?'':'loading="lazy"'}></a><figcaption><strong>${esc(p.title)}</strong>${esc(p.caption)}<br>${esc(p.credit)} · ${esc(p.date||'See source notes')}</figcaption></figure>`;}
  async function init(){try{
-  const [catalogResponse,eventResponse]=await Promise.all([fetch('assets/data/visual-catalog.json?v=2'),fetch('assets/data/collection-events.json?v=2')]);
+  const [catalogResponse,eventResponse]=await Promise.all([fetch('assets/data/visual-catalog.json?v=3'),fetch('assets/data/collection-events.json?v=3')]);
   if(!catalogResponse.ok||!eventResponse.ok)throw Error('Collection data unavailable');const catalog=await catalogResponse.json(),events=await eventResponse.json();
   const related=catalog.filter(p=>(p.topics||[]).includes(kind));
-  const preferred=kind==='teaching'?['drive-lamont-jan2023-overhead','drive-lamont-apr2023-equipment']:['staten-island-2023-rooftop','northshore-controller-session'];
+  const preferred=kind==='teaching'?['drive-lamont-jan2023-overhead','nyesta-2025-visible']:['staten-island-2023-rooftop','northshore-controller-session'];
   const featured=preferred.map(id=>catalog.find(p=>p.id===id)).filter(Boolean);
   if(featured.length<2)featured.push(...related.filter(p=>/Field photograph|Workshop photograph/.test(p.kind)&&!featured.includes(p)).slice(0,2-featured.length));
   $('#collection-feature').innerHTML=featured.map(p=>figure(p,true)).join('');
