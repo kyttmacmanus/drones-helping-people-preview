@@ -1,0 +1,130 @@
+[
+  {
+    "project": "Lamont Workshop 07-14-2023",
+    "mission": "Workshop_071423",
+    "displayed_date": "7/14/2023, 12:00 AM",
+    "source_photo_count": 162,
+    "source_url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/60f01d86-dc89-4f89-9d22-4d6a4d132d02",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "Lamont Workshop 07-14-2023",
+    "mission": "Lamont_SDEV3450",
+    "displayed_date": "1/30/2023, 12:00 AM",
+    "source_photo_count": 60,
+    "source_url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "Lamont-Workshop-10-11-2023",
+    "mission": "Field",
+    "displayed_date": "10/11/2023, 4:16 PM",
+    "source_photo_count": "not recorded in this review",
+    "source_url": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/b7ff29ca-a47d-46ff-ae39-fe0d587c0f87",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "Lamont-Workshop-10-11-2023",
+    "mission": "DJI3OPTICAL",
+    "displayed_date": "10/11/2023, 12:00 AM",
+    "source_photo_count": 181,
+    "source_url": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/1a92fbb0-ac9d-4efe-ae70-44c6e7804bbc",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "Lamont-Workshop-10-11-2023",
+    "mission": "DJI3THERMAL",
+    "displayed_date": "10/11/2023, 12:00 AM",
+    "source_photo_count": 181,
+    "source_url": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/1681ea95-d18c-48b7-b1f0-9dbb970c766a",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "Lamont-Workshop-10-11-2023",
+    "mission": "MAPIR",
+    "displayed_date": "10/11/2023, 12:00 AM",
+    "source_photo_count": 224,
+    "source_url": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/30c26cb6-dcfe-4bca-82fe-a55f284115b6",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "Lamont-Workshop-10-11-2023",
+    "mission": "SKYDIO3d",
+    "displayed_date": "10/11/2023, 12:00 AM",
+    "source_photo_count": "not recorded in this review",
+    "source_url": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/716679aa-52b4-4b71-8390-4d86af2ce54c",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "Lamont-Workshop-10-5-2026",
+    "mission": "DJI-Survey",
+    "displayed_date": "10/5/2026, 12:00 AM",
+    "source_photo_count": 428,
+    "source_url": "https://sitescan.arcgis.com/projects/d592eed3-757b-41c0-ae01-c915128732ca/missions/ff8d5934-35f3-429b-9f09-e0eaf3200177",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "Lamont-Workshop-10-5-2026",
+    "mission": "Skydio-Statue",
+    "displayed_date": "10/5/2026, 12:00 AM",
+    "source_photo_count": "not recorded in this review",
+    "source_url": "https://sitescan.arcgis.com/projects/d592eed3-757b-41c0-ae01-c915128732ca/missions/6a5a9359-f16e-4862-b34b-d5e71779ebce",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "SDEV3450-Spring2024",
+    "mission": "Lamont021924-3d",
+    "displayed_date": "2/19/2024, 12:00 AM",
+    "source_photo_count": "not recorded in this review",
+    "source_url": "https://sitescan.arcgis.com/projects/0472c68a-f1cd-4305-996c-b8fe74d668af/missions/e2d43a5d-4012-4817-be76-db567fd2538b",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "SDEV3450-Spring2024",
+    "mission": "Lamont021924-Optical",
+    "displayed_date": "2/19/2024, 12:00 AM",
+    "source_photo_count": 455,
+    "source_url": "https://sitescan.arcgis.com/projects/0472c68a-f1cd-4305-996c-b8fe74d668af/missions/4684b00a-d71c-4bb0-9516-8dfcdcc8492b",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "SDEV3450-Spring2024",
+    "mission": "Lamont021924-Thermal",
+    "displayed_date": "2/19/2024, 12:00 AM",
+    "source_photo_count": 455,
+    "source_url": "https://sitescan.arcgis.com/projects/0472c68a-f1cd-4305-996c-b8fe74d668af/missions/f6733139-21ad-4458-a763-fe4e681670f4",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "StatenIslandFieldWork112923",
+    "mission": "60HannahStreet",
+    "displayed_date": "12/2/2023, 12:00 AM",
+    "source_photo_count": "not recorded in this review",
+    "source_url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/64db7607-6292-480c-b82c-e82bfd47a01a",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "StatenIslandFieldWork112923",
+    "mission": "60HannahStreetSurvey",
+    "displayed_date": "12/2/2023, 12:00 AM",
+    "source_photo_count": 114,
+    "source_url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/7996067d-abe5-49e9-be6e-78c866f769e6",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "StatenIslandFieldWork112923",
+    "mission": "60HannahStreetThermal",
+    "displayed_date": "12/2/2023, 12:00 AM",
+    "source_photo_count": 123,
+    "source_url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/5dc05e04-88ca-4380-91f1-fe78b3c8de96",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  },
+  {
+    "project": "SDEV-3450",
+    "mission": "Field-trip-Lamont-03042026",
+    "displayed_date": "3/4/2026, 12:00 AM",
+    "source_photo_count": 190,
+    "source_url": "https://sitescan.arcgis.com/projects/702a9776-e18d-483b-a811-92242f651304/missions/470d2417-0645-4894-8915-56f534e61f98",
+    "date_basis": "Site Scan mission-list display; not independently verified capture EXIF"
+  }
+]

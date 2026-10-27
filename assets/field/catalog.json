@@ -17,7 +17,10 @@
       3300,
       2550
     ],
-    "uncertainty": ""
+    "uncertainty": "",
+    "topics": [
+      "parks"
+    ]
   },
   {
     "id": "morningside-dtm",
@@ -37,7 +40,10 @@
       3300,
       2550
     ],
-    "uncertainty": ""
+    "uncertainty": "",
+    "topics": [
+      "parks"
+    ]
   },
   {
     "id": "morningside-dsm",
@@ -57,7 +63,10 @@
       3300,
       2550
     ],
-    "uncertainty": ""
+    "uncertainty": "",
+    "topics": [
+      "parks"
+    ]
   },
   {
     "id": "morningside-3d",
@@ -77,7 +86,10 @@
       2550,
       3300
     ],
-    "uncertainty": "Date follows companion layouts and field archive; source render has no visible date label."
+    "uncertainty": "Date follows companion layouts and field archive; source render has no visible date label.",
+    "topics": [
+      "parks"
+    ]
   },
   {
     "id": "northshore",
@@ -97,7 +109,12 @@
       3300,
       2550
     ],
-    "uncertainty": ""
+    "uncertainty": "",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
     "id": "northshore-dtm",
@@ -117,7 +134,12 @@
       3300,
       2550
     ],
-    "uncertainty": ""
+    "uncertainty": "",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
     "id": "northshore-dsm",
@@ -137,7 +159,12 @@
       3300,
       2550
     ],
-    "uncertainty": ""
+    "uncertainty": "",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
     "id": "northshore-community",
@@ -158,7 +185,11 @@
       1280
     ],
     "uncertainty": "Participant names and roles are not inferred from this photograph; individual names and roles require source confirmation.",
-    "captureDateExif": "2025:12:01 15:19:10"
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
     "id": "northshore-crew",
@@ -179,7 +210,11 @@
       1280
     ],
     "uncertainty": "Date follows containing December 1 archive; individual participant roles not verified.",
-    "captureDateExif": "2025:12:01 14:50:11"
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
     "id": "northshore-ground",
@@ -200,7 +235,11 @@
       1280
     ],
     "uncertainty": "",
-    "captureDateExif": "2025:12:01 14:52:29"
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
     "id": "four-sparrow-december",
@@ -221,7 +260,9 @@
       3040
     ],
     "uncertainty": "",
-    "captureDateExif": "2025:12:05 18:45:21"
+    "topics": [
+      "parks"
+    ]
   },
   {
     "id": "four-sparrow-channel",
@@ -242,7 +283,9 @@
       3040
     ],
     "uncertainty": "",
-    "captureDateExif": "2025:12:05 18:42:15"
+    "topics": [
+      "parks"
+    ]
   },
   {
     "id": "four-sparrow-may-ortho",
@@ -262,7 +305,10 @@
       33000,
       19000
     ],
-    "uncertainty": ""
+    "uncertainty": "",
+    "topics": [
+      "parks"
+    ]
   },
   {
     "id": "four-sparrow-august-ortho",
@@ -282,7 +328,10 @@
       34000,
       20000
     ],
-    "uncertainty": "An earlier slide title says August 27; the mission folder and Capture_Report establish August 7 for this specific archived dataset."
+    "uncertainty": "An earlier slide title says August 27; the mission folder and Capture_Report establish August 7 for this specific archived dataset.",
+    "topics": [
+      "parks"
+    ]
   },
   {
     "id": "four-sparrow-relief",
@@ -302,7 +351,10 @@
       6410,
       3712
     ],
-    "uncertainty": "Display derivative only; compare surveys only after alignment and uncertainty assessment."
+    "uncertainty": "Display derivative only; compare surveys only after alignment and uncertainty assessment.",
+    "topics": [
+      "parks"
+    ]
   },
   {
     "id": "lamont-ortho",
@@ -322,7 +374,10 @@
       512,
       560
     ],
-    "uncertainty": "March 5 follows archived point-cloud product name, not an independently checked acquisition date. The report states no GCPs/checkpoints."
+    "uncertainty": "March 5 follows archived point-cloud product name, not an independently checked acquisition date. The report states no GCPs/checkpoints.",
+    "topics": [
+      "lamont"
+    ]
   },
   {
     "id": "lamont-field-team",
@@ -343,7 +398,9 @@
       3000
     ],
     "uncertainty": "Caption describes visible scene; individual roles are not inferred.",
-    "captureDateExif": "2024:02:19 09:47:29"
+    "topics": [
+      "lamont"
+    ]
   },
   {
     "id": "lamont-landscape",
@@ -364,7 +421,9 @@
       3000
     ],
     "uncertainty": "Caption describes visible scene; individual roles are not inferred.",
-    "captureDateExif": "2024:02:19 10:14:13"
+    "topics": [
+      "lamont"
+    ]
   },
   {
     "id": "lamont-pointcloud-plan",
@@ -380,7 +439,10 @@
     "status": "Research preview · web derivative",
     "width": 1920,
     "height": 1280,
-    "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established."
+    "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established.",
+    "topics": [
+      "lamont"
+    ]
   },
   {
     "id": "lamont-pointcloud-oblique",
@@ -396,6 +458,9 @@
     "status": "Research preview · web derivative",
     "width": 1920,
     "height": 1280,
-    "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established."
+    "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established.",
+    "topics": [
+      "lamont"
+    ]
   }
 ]

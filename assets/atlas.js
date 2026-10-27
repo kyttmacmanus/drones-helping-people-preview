@@ -6,9 +6,10 @@ document.querySelectorAll('a[href$=".html"]').forEach(a=>{if(mode==='efpl')a.hre
 $('#edition-link').href='explore.html?edition='+(mode==='efpl'?'personal':'efpl');$('#edition-link').textContent=mode==='efpl'?'Preview personal edition':'Preview EFPL edition';
 let catalog=[],visible=[],active=0;
 const params=new URLSearchParams(location.search);
+let theme=params.get('theme')||'all';
 function render(){
  const place=$('#place-filter').value,kind=$('#kind-filter').value,q=$('#catalog-search').value.trim().toLowerCase();
- visible=catalog.filter(p=>(place==='all'||p.place===place)&&(kind==='all'||p.kind===kind)&&(!q||[p.title,p.caption,p.place,p.kind,p.credit].join(' ').toLowerCase().includes(q)));
+ visible=catalog.filter(p=>(theme==='all'||(p.topics||[]).includes(theme))&&(place==='all'||p.place===place)&&(kind==='all'||p.kind===kind)&&(!q||[p.title,p.caption,p.place,p.kind,p.credit,p.event||'',p.source_platform||''].join(' ').toLowerCase().includes(q)));
  $('#catalog-status').textContent=`${visible.length} of ${catalog.length} curated plates shown`;
  $('#catalog-empty').hidden=visible.length>0;
  $('#catalog-grid').innerHTML=visible.map(p=>`<article class="plate-card"><button data-plate="${p.id}" aria-label="Examine ${esc(p.title)}"><img src="${p.thumb||p.image}" alt="${esc(p.title)}" loading="lazy"><span class="plate-action">Examine plate ↗</span></button><p class="eyebrow">${esc(p.place)} / ${esc(p.kind)}</p><h3>${esc(p.title)}</h3><p>${esc(p.caption)}</p><p class="small">${esc(p.date||'Date in source notes')} · ${esc(p.credit)}</p></article>`).join('');
@@ -22,7 +23,8 @@ function showPlate(){
  const p=visible[active];$('#plate-image').src=p.image;$('#plate-image').alt=p.title;
  $('#plate-title').textContent=p.title;$('#plate-kind').textContent=p.kind+' / '+p.place;
  $('#plate-caption').textContent=p.caption;$('#plate-position').textContent=`${active+1} / ${visible.length}`;
- $('#plate-meta').innerHTML=[['DATE',p.date||'See source'],['CREDIT',p.credit],['STATUS',p.status||'Curated research derivative'],['SOURCE IN LOCAL ARCHIVE',p.source],['DISPLAY PRODUCT',`${p.width} × ${p.height} pixels · web derivative`],...(p.uncertainty?[['INTERPRETATION / LIMITS',p.uncertainty]]:[])].map(([a,b])=>`<dt>${a}</dt><dd>${esc(b)}</dd>`).join('');
+ $('#plate-meta').innerHTML=[['IMAGE / MISSION DATE',p.date||'See source'],...(p.date_basis?[['DATE BASIS',p.date_basis]]:[]),...(p.display_captured_on?[['VIEW CAPTURED',p.display_captured_on]]:[]),['CREDIT',p.credit],['SOURCE PLATFORM',p.source_platform||'Local archive'],['STATUS',p.status||'Curated research derivative'],['SOURCE RECORD',p.source_file||p.source],['DISPLAY PRODUCT',`${p.width} × ${p.height} pixels · web derivative`],...(p.uncertainty?[['INTERPRETATION / LIMITS',p.uncertainty]]:[])].map(([a,b])=>`<dt>${a}</dt><dd>${esc(b)}</dd>`).join('');
+ const original=p.source_url||p.mission_url||(/^https:\/\//.test(p.source)?p.source:null);const sourceLink=$('#plate-source-link');sourceLink.hidden=!original;if(original)sourceLink.href=original;
  $('#plate-download').href=p.image;$('#plate-prev').disabled=active===0;$('#plate-next').disabled=active===visible.length-1;
 }
 $('#plate-close').onclick=()=>$('#plate-dialog').close();
@@ -32,14 +34,18 @@ document.addEventListener('keydown',e=>{if(!$('#plate-dialog').open)return;if(e.
 function compare(side){const p=catalog.find(p=>p.id===$('#compare-'+side).value);if(!p)return;$('#compare-'+side+'-figure').innerHTML=`<img src="${p.image}" alt="${esc(p.title)}"><figcaption><b>${esc(p.title)}</b> · ${esc(p.place)}<br>${esc(p.caption)}<br>${esc(p.credit)}</figcaption>`;}
 async function init(){
  try{
-  const responses=await Promise.all(['assets/zambia-catalog.json','assets/field/catalog.json'].map(async url=>{const r=await fetch(url);if(!r.ok)throw Error('Could not load '+url);return r.json();}));
-  catalog=responses.flat();
+  const response=await fetch('assets/data/visual-catalog.json?v=2');if(!response.ok)throw Error('Could not load the visual source catalog');
+  catalog=await response.json();
   ['place','kind'].forEach(key=>{const sel=$('#'+key+'-filter');[...new Set(catalog.map(p=>p[key]))].sort().forEach(v=>sel.add(new Option(v,v)));sel.onchange=render;});
-  $('#catalog-search').oninput=render;$('#reset-filters').onclick=()=>{$('#place-filter').value='all';$('#kind-filter').value='all';$('#catalog-search').value='';render();};
+  $('#catalog-search').oninput=render;$('#reset-filters').onclick=()=>{theme='all';document.querySelectorAll('[data-theme]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.theme==='all'?'true':'false'));$('#place-filter').value='all';$('#kind-filter').value='all';$('#catalog-search').value='';render();};
+  document.querySelectorAll('[data-theme]').forEach(b=>{b.setAttribute('aria-pressed',b.dataset.theme===theme?'true':'false');b.onclick=()=>{theme=b.dataset.theme;document.querySelectorAll('[data-theme]').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));$('#place-filter').value='all';$('#kind-filter').value='all';render();};});
   if(params.has('place')&&[...$('#place-filter').options].some(o=>o.value===params.get('place')))$('#place-filter').value=params.get('place');
   render();
+  if(params.has('plate')){
+   theme='all';$('#place-filter').value='all';$('#kind-filter').value='all';render();openPlate(params.get('plate'));
+  }
   ['left','right'].forEach(side=>{const sel=$('#compare-'+side);catalog.forEach(p=>sel.add(new Option(p.place+' / '+p.title,p.id)));sel.onchange=()=>compare(side);});
-  $('#compare-left').value='zm-river-map';$('#compare-right').value='zm-river-mesh';compare('left');compare('right');
+  $('#compare-left').value='northshore';$('#compare-right').value='northshore-dtm';compare('left');compare('right');
  }catch(e){$('#catalog-status').textContent=e.message;$('#catalog-grid').innerHTML='<p class="atlas-error">The catalog could not be loaded. Serve the site through the documented local HTTP preview, or reload the hosted page.</p>';}
 }
 init();

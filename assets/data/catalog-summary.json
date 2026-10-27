@@ -1,0 +1,18 @@
+{
+  "revision": 2,
+  "catalog_plate_count": 91,
+  "topic_counts": {
+    "teaching": 45,
+    "staten-island": 23,
+    "lamont": 38,
+    "parks": 27,
+    "zambia": 21
+  },
+  "source_platform_counts": {
+    "ArcGIS Site Scan": 15,
+    "Google Drive": 12,
+    "Local archive": 64
+  },
+  "review_date": "2026-10-27",
+  "note": "Topics overlap. This is a curated reference catalog; scientific originals remain in their source archives."
+}

@@ -1,143 +1,280 @@
 [
   {
-    "id": "morningside-ortho",
-    "title": "Morningside orthomosaic",
-    "place": "Morningside Park",
-    "kind": "Orthomosaic",
-    "date": "2025-12-18",
-    "image": "assets/field/morningside-ortho.jpg",
-    "thumb": "assets/field/morningside-ortho-thumb.jpg",
-    "caption": "Mapped Morningside Park imagery with a detail panel, labeled December 18, 2025 in the original layout.",
-    "source": "morningside/morningside/Layout-Morningside.png",
-    "credit": "EFPL / Columbia University",
+    "id": "drive-lamont-jan2023-landscape",
+    "title": "Lamont and the Hudson River setting",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2023-01-30",
+    "image": "assets/drive/lamont-jan2023-landscape.jpg",
+    "thumb": "assets/drive/lamont-jan2023-landscape-thumb.jpg",
+    "caption": "The Hudson River and campus edge in an oblique camera frame from the January 30, 2023 SDEV3450 archive. This is a source photograph, not a survey mosaic.",
+    "source": "https://drive.google.com/file/d/1xDYn9DU3RP9LGCpQULnBOI9rjUTiSCaV/view?usp=drivesdk",
+    "source_file": "DJI_0864.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj",
+    "source_sha256": "6bb33f53e9fb6da7547fd224b13fb7ebc45270da7f492f07092f1f93c8a2b9ec",
+    "credit": "CIESIN · Columbia University · project archive",
     "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1700,
-    "sourceDimensions": [
-      3300,
-      2550
-    ],
-    "uncertainty": ""
+    "height": 1650,
+    "event": "SDEV3450 field workshop",
+    "course_or_program": "SDEV3450",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2023:01:30 11:25:20; source folder concordant",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+    "date_basis": "EXIF DateTimeOriginal 2023:01:30 11:25:20; source folder concordant",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
   },
   {
-    "id": "morningside-dtm",
-    "title": "Morningside terrain model",
-    "place": "Morningside Park",
-    "kind": "Terrain model",
-    "date": "2025-12-18",
-    "image": "assets/field/morningside-dtm.jpg",
-    "thumb": "assets/field/morningside-dtm-thumb.jpg",
-    "caption": "Digital terrain model layout for Morningside Park, labeled December 18, 2025. Terrain classification is a processed interpretation; independent accuracy is not established here.",
-    "source": "morningside/morningside/Layout-Morningside-DTM.png",
-    "credit": "EFPL / Columbia University",
+    "id": "drive-lamont-jan2023-launch-area",
+    "title": "Working group and launch marker",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2023-01-30",
+    "image": "assets/drive/lamont-jan2023-launch-area.jpg",
+    "thumb": "assets/drive/lamont-jan2023-launch-area-thumb.jpg",
+    "caption": "Participants and a circular launch marker visible in an overhead frame from the Lamont SDEV3450 activity. Individual names and roles are not assigned from the image.",
+    "source": "https://drive.google.com/file/d/1SFPd8k0lptiLZnbFz-8mYnn6CwrO_PZe/view?usp=drivesdk",
+    "source_file": "DJI_0866.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj",
+    "source_sha256": "281f88e8921072bf234c5fcf6325da2e60ddbe502838cdd300b7a8249aa941f9",
+    "credit": "CIESIN · Columbia University · project archive",
     "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1700,
-    "sourceDimensions": [
-      3300,
-      2550
-    ],
-    "uncertainty": ""
+    "height": 1650,
+    "event": "SDEV3450 field workshop",
+    "course_or_program": "SDEV3450",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2023:01:30 11:26:51; source folder concordant",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+    "date_basis": "EXIF DateTimeOriginal 2023:01:30 11:26:51; source folder concordant",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
   },
   {
-    "id": "morningside-dsm",
-    "title": "Morningside surface model",
-    "place": "Morningside Park",
-    "kind": "Surface model",
-    "date": "2025-12-18",
-    "image": "assets/field/morningside-dsm.jpg",
-    "thumb": "assets/field/morningside-dsm-thumb.jpg",
-    "caption": "Digital surface model layout for Morningside Park, labeled December 18, 2025. Surface elevations include visible vegetation and structures.",
-    "source": "morningside/morningside/Layout-Morningside-DSM.png",
-    "credit": "EFPL / Columbia University",
+    "id": "drive-lamont-jan2023-overhead",
+    "title": "SDEV3450 group from an aerial viewpoint",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2023-01-30",
+    "image": "assets/drive/lamont-jan2023-overhead.jpg",
+    "thumb": "assets/drive/lamont-jan2023-overhead-thumb.jpg",
+    "caption": "An aerial view of the SDEV3450 group and open field at Lamont. The event folder and camera date agree on January 30, 2023.",
+    "source": "https://drive.google.com/file/d/1oyYS--AaTdeyeZfOpacXznJvO3Cgx14u/view?usp=drivesdk",
+    "source_file": "DJI_0036.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj",
+    "source_sha256": "5d97d2afb7c922dc00d31045ec0e9ce8da51222dbb9ff873a9f247d391f3b8b7",
+    "credit": "CIESIN · Columbia University · project archive",
     "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1700,
-    "sourceDimensions": [
-      3300,
-      2550
-    ],
-    "uncertainty": ""
+    "height": 1650,
+    "event": "SDEV3450 field workshop",
+    "course_or_program": "SDEV3450",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2023:01:30 11:51:36; source folder concordant",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+    "date_basis": "EXIF DateTimeOriginal 2023:01:30 11:51:36; source folder concordant",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
   },
   {
-    "id": "morningside-3d",
-    "title": "Morningside in three dimensions",
-    "place": "Morningside Park",
-    "kind": "3D view",
-    "date": "2025-12-18",
-    "image": "assets/field/morningside-3d.jpg",
-    "thumb": "assets/field/morningside-3d-thumb.jpg",
-    "caption": "Rendered oblique view of the Morningside textured reconstruction.",
-    "source": "morningside/morningside/Layout-Morningside-3d.png",
-    "credit": "EFPL / Columbia University",
-    "status": "Research preview · web derivative",
-    "width": 1314,
-    "height": 1700,
-    "sourceDimensions": [
-      2550,
-      3300
-    ],
-    "uncertainty": "Date follows companion layouts and field archive; source render has no visible date label."
-  },
-  {
-    "id": "northshore",
-    "title": "North Shore imagery",
-    "place": "North Shore Esplanade",
-    "kind": "Orthomosaic",
-    "date": "2025-12-01",
-    "image": "assets/field/northshore.jpg",
-    "thumb": "assets/field/northshore-thumb.jpg",
-    "caption": "North Shore Esplanade orthomosaic layout, labeled December 1, 2025 in the original map.",
-    "source": "morningside/morningside/Layout-North_Shore_Esplanade.png",
-    "credit": "EFPL / Columbia University; Staten Island community partnership",
+    "id": "drive-lamont-jan2023-side",
+    "title": "SDEV3450 field group at Lamont",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2023-01-30",
+    "image": "assets/drive/lamont-jan2023-side.jpg",
+    "thumb": "assets/drive/lamont-jan2023-side-thumb.jpg",
+    "caption": "A field group on the Lamont lawn during the January 30, 2023 SDEV3450 activity. The camera viewpoint records the working group and its immediate field setting.",
+    "source": "https://drive.google.com/file/d/1eJ3PMWOGF1TYa7q_BM-IX7D1jVyvvZKE/view?usp=drivesdk",
+    "source_file": "DJI_0035.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj",
+    "source_sha256": "551aa7b72ba81b225de242949ef64db56d32c257b93cd5f9cabd2ecb1f1a5251",
+    "credit": "CIESIN · Columbia University · project archive",
     "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1700,
-    "sourceDimensions": [
-      3300,
-      2550
-    ],
-    "uncertainty": ""
+    "height": 1650,
+    "event": "SDEV3450 field workshop",
+    "course_or_program": "SDEV3450",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2023:01:30 11:50:53; source folder concordant",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+    "date_basis": "EXIF DateTimeOriginal 2023:01:30 11:50:53; source folder concordant",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
   },
   {
-    "id": "northshore-dtm",
-    "title": "North Shore terrain",
-    "place": "North Shore Esplanade",
-    "kind": "Terrain model",
-    "date": "2025-12-01",
-    "image": "assets/field/northshore-dtm.jpg",
-    "thumb": "assets/field/northshore-dtm-thumb.jpg",
-    "caption": "North Shore Esplanade terrain model layout, labeled December 1, 2025 in the original map.",
-    "source": "morningside/morningside/Layout-North_Shore_Esplanade-DTM.png",
-    "credit": "EFPL / Columbia University; Staten Island community partnership",
+    "id": "drive-lamont-jan2023-wide",
+    "title": "Field group in the Lamont landscape",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2023-01-30",
+    "image": "assets/drive/lamont-jan2023-wide.jpg",
+    "thumb": "assets/drive/lamont-jan2023-wide-thumb.jpg",
+    "caption": "The field group and surrounding campus landscape in a wider oblique view. The photograph provides operational context rather than a mapped surface product.",
+    "source": "https://drive.google.com/file/d/1V008g2vmM8F3hpTPPYq5lAFSv33gKJZo/view?usp=drivesdk",
+    "source_file": "DJI_0865.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj",
+    "source_sha256": "00d5baa2400a6af57b5949c9b5e6ccdd8ce3c4791b87af1173c605843567dcbe",
+    "credit": "CIESIN · Columbia University · project archive",
     "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1700,
-    "sourceDimensions": [
-      3300,
-      2550
-    ],
-    "uncertainty": ""
+    "height": 1650,
+    "event": "SDEV3450 field workshop",
+    "course_or_program": "SDEV3450",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2023:01:30 11:25:58; source folder concordant",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+    "date_basis": "EXIF DateTimeOriginal 2023:01:30 11:25:58; source folder concordant",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
   },
   {
-    "id": "northshore-dsm",
-    "title": "North Shore surface",
-    "place": "North Shore Esplanade",
-    "kind": "Surface model",
-    "date": "2025-12-01",
-    "image": "assets/field/northshore-dsm.jpg",
-    "thumb": "assets/field/northshore-dsm-thumb.jpg",
-    "caption": "North Shore Esplanade surface model layout, labeled December 1, 2025 in the original map.",
-    "source": "morningside/morningside/Layout-North_Shore_Esplanade-DSM.png",
-    "credit": "EFPL / Columbia University; Staten Island community partnership",
+    "id": "drive-lamont-apr2023-briefing",
+    "title": "SDEV3450 indoor equipment session",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2023-04-10",
+    "image": "assets/drive/lamont-apr2023-briefing.jpg",
+    "thumb": "assets/drive/lamont-apr2023-briefing-thumb.jpg",
+    "caption": "An indoor group session from the April 10, 2023 SDEV3450 Lamont folder. Equipment cases and a laptop appear in the working area.",
+    "source": "https://drive.google.com/file/d/14ag9tMPEirU5Hw_1F_Ds1wcHvOKXK64U/view?usp=drivesdk",
+    "source_file": "2023_0410_043717_001.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/1Wc2l52Woi2NMVE0MndancxLSzdVnHP5r",
+    "source_sha256": "bbc7e1866cdfcfe3dd9869b8da34476b9485a318b5d22d6feeaa464c259e6670",
+    "credit": "CIESIN · Columbia University · project archive",
     "status": "Research preview · web derivative",
     "width": 2200,
+    "height": 1650,
+    "event": "SDEV3450 equipment session",
+    "course_or_program": "SDEV3450",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2023:04:10 04:37:17; source folder concordant",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified. Camera GPS is zero-valued; location follows the explicit course-event folder.",
+    "date_basis": "EXIF DateTimeOriginal 2023:04:10 04:37:17; source folder concordant",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "drive-lamont-apr2023-equipment",
+    "title": "Drone equipment and laptop workflow",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2023-04-10",
+    "image": "assets/drive/lamont-apr2023-equipment.jpg",
+    "thumb": "assets/drive/lamont-apr2023-equipment-thumb.jpg",
+    "caption": "A closer view of the laptop, drone equipment, and participants during the indoor session. The source archive identifies the activity as SDEV3450 at Lamont.",
+    "source": "https://drive.google.com/file/d/1iiDffqH1-RBCHcuqG318ltUKFia3Zh15/view?usp=drivesdk",
+    "source_file": "2023_0410_043725_004.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/1Wc2l52Woi2NMVE0MndancxLSzdVnHP5r",
+    "source_sha256": "4604f23c08177421e8fd253e5367c197d3ece3c10025b5a9f223a1153ea6c316",
+    "credit": "CIESIN · Columbia University · project archive",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "event": "SDEV3450 equipment session",
+    "course_or_program": "SDEV3450",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2023:04:10 04:37:24; source folder concordant",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified. Camera GPS is zero-valued; location follows the explicit course-event folder.",
+    "date_basis": "EXIF DateTimeOriginal 2023:04:10 04:37:24; source folder concordant",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "staten-island-2023-context",
+    "title": "Staten Island field context, 2023",
+    "place": "Staten Island",
+    "kind": "Field photograph",
+    "date": "2023-12-02",
+    "image": "assets/students/staten-island-2023-context.jpg",
+    "thumb": "assets/students/staten-island-2023-context-thumb.jpg",
+    "caption": "Field-context photograph from the early Staten Island course archive. The original EXIF date is December 2, 2023; later file modification dates are not acquisition dates.",
+    "source": "../eclip/staten_island_2023.png",
+    "credit": "CIESIN · SDEV4650 · Community partners",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4032,
+      3024
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2023-12-02",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "staten-island-2023-rooftop",
+    "title": "Staten Island rooftop drone session",
+    "place": "Staten Island",
+    "kind": "Workshop photograph",
+    "date": "2023-12-02",
+    "image": "assets/students/staten-island-2023-rooftop.jpg",
+    "thumb": "assets/students/staten-island-2023-rooftop-thumb.jpg",
+    "caption": "Participants and a marked landing pad on a rooftop during the December 2, 2023 Staten Island field session. Individual roles are not assigned from the photograph.",
+    "source": "../eclip/staten_island_2023_drone.png",
+    "credit": "CIESIN · SDEV4650 · Community partners",
+    "status": "Research preview · web derivative",
+    "width": 1275,
     "height": 1700,
     "sourceDimensions": [
-      3300,
-      2550
+      3024,
+      4032
     ],
-    "uncertainty": ""
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2023-12-02",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "lamont-autumn-workshop",
+    "title": "Lamont workshop group",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2024-10-16",
+    "image": "assets/students/lamont-autumn-workshop.jpg",
+    "thumb": "assets/students/lamont-autumn-workshop-thumb.jpg",
+    "caption": "A group stands beside the landing pad and equipment during the October 2024 Lamont drone session.",
+    "source": "lamont_fieldwork_042325/dji2e/DJI_0200.JPG",
+    "credit": "CIESIN · Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2024-10-16",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
   },
   {
     "id": "northshore-community",
@@ -158,7 +295,40 @@
       1280
     ],
     "uncertainty": "Participant names and roles are not inferred from this photograph; individual names and roles require source confirmation.",
-    "captureDateExif": "2025:12:01 15:19:10"
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-controller-session",
+    "title": "Controller use during fieldwork",
+    "place": "North Shore Esplanade",
+    "kind": "Workshop photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-controller-session.jpg",
+    "thumb": "assets/students/northshore-controller-session-thumb.jpg",
+    "caption": "A participant holds a controller while others observe along the waterfront path.",
+    "source": "staten_island_field_work_120125/field_maps_photos/jmv2196_columbia_Photo 2.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 960,
+    "height": 1280,
+    "sourceDimensions": [
+      960,
+      1280
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
     "id": "northshore-crew",
@@ -179,7 +349,96 @@
       1280
     ],
     "uncertainty": "Date follows containing December 1 archive; individual participant roles not verified.",
-    "captureDateExif": "2025:12:01 14:50:11"
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-drone-ground",
+    "title": "Drone on the waterfront path",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-drone-ground.jpg",
+    "thumb": "assets/students/northshore-drone-ground-thumb.jpg",
+    "caption": "Ground-level record of the drone and equipment on the waterfront path.",
+    "source": "staten_island_field_work_120125/field_maps_photos/chl2154_columbia_Photo 1_1.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 1280,
+    "height": 960,
+    "sourceDimensions": [
+      1280,
+      960
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-equipment-check",
+    "title": "Equipment check during fieldwork",
+    "place": "North Shore Esplanade",
+    "kind": "Workshop photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-equipment-check.jpg",
+    "thumb": "assets/students/northshore-equipment-check-thumb.jpg",
+    "caption": "Participants gathered around the drone and equipment during the December 1 visit.",
+    "source": "staten_island_field_work_120125/field_maps_photos/jmv2196_columbia_Photo 1_4.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 960,
+    "height": 1280,
+    "sourceDimensions": [
+      960,
+      1280
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-equipment-group",
+    "title": "Equipment preparation at North Shore",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-equipment-group.jpg",
+    "thumb": "assets/students/northshore-equipment-group-thumb.jpg",
+    "caption": "Participants and drone equipment along the waterfront during the December 1, 2025 field visit.",
+    "source": "staten_island_field_work_120125/field_maps_photos/chl2154_columbia_Photo 1.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 1280,
+    "height": 960,
+    "sourceDimensions": [
+      1280,
+      960
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
     "id": "northshore-ground",
@@ -200,19 +459,24 @@
       1280
     ],
     "uncertainty": "",
-    "captureDateExif": "2025:12:01 14:52:29"
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
-    "id": "four-sparrow-december",
-    "title": "Four Sparrow in winter",
-    "place": "Four Sparrow Marsh",
-    "kind": "Aerial photograph",
-    "date": "2025-12-05",
-    "image": "assets/field/four-sparrow-december.jpg",
-    "thumb": "assets/field/four-sparrow-december-thumb.jpg",
-    "caption": "Winter vegetation, channels, and adjacent urban landscape at Four Sparrow Marsh, photographed during the December 5 field archive.",
-    "source": "four_sparrows_marsh/field_work_120525/misc_photos/S1012984.JPG",
-    "credit": "EFPL / Columbia University; Four Sparrow research team",
+    "id": "northshore-group-aerial",
+    "title": "North Shore working group from above",
+    "place": "North Shore Esplanade",
+    "kind": "Workshop photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-group-aerial.jpg",
+    "thumb": "assets/students/northshore-group-aerial-thumb.jpg",
+    "caption": "Drone photograph of the field group beside the waterfront path and equipment.",
+    "source": "staten_island_field_work_120125/misc/S1012534.JPG",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
     "status": "Research preview · web derivative",
     "width": 2200,
     "height": 1649,
@@ -220,20 +484,224 @@
       4056,
       3040
     ],
-    "uncertainty": "",
-    "captureDateExif": "2025:12:05 18:45:21"
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
-    "id": "four-sparrow-channel",
-    "title": "Channels and marsh vegetation",
-    "place": "Four Sparrow Marsh",
+    "id": "northshore-handheld-instrument",
+    "title": "Handheld field instrument",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-handheld-instrument.jpg",
+    "thumb": "assets/students/northshore-handheld-instrument-thumb.jpg",
+    "caption": "A handheld instrument documented with the December 1 fieldwork archive. Instrument model, variable, and reading are not established by this plate.",
+    "source": "staten_island_field_work_120125/field_maps_photos/chl2154_columbia_Photo 2.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 960,
+    "height": 1280,
+    "sourceDimensions": [
+      960,
+      1280
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-launch-context",
+    "title": "Waterfront operation-area context",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-launch-context.jpg",
+    "thumb": "assets/students/northshore-launch-context-thumb.jpg",
+    "caption": "A ground view records the drone operation area and adjacent waterfront path.",
+    "source": "staten_island_field_work_120125/field_maps_photos/chl2154_columbia_Photo 1_2.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 1280,
+    "height": 960,
+    "sourceDimensions": [
+      1280,
+      960
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-waterfront-deck",
+    "title": "Waterfront deck and shoreline context",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-waterfront-deck.jpg",
+    "thumb": "assets/students/northshore-waterfront-deck-thumb.jpg",
+    "caption": "Ground-level waterfront view from the field-photo collection.",
+    "source": "staten_island_field_work_120125/field_maps_photos/ona2107_columbia_Photo 1.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 960,
+    "height": 1280,
+    "sourceDimensions": [
+      960,
+      1280
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-13-60hannahstreetsurvey",
+    "title": "Staten Island firehouse survey",
+    "place": "Staten Island",
+    "kind": "Site Scan orthomosaic",
+    "date": "2023-12-02",
+    "image": "assets/sitescan/ss-13-60hannahstreetsurvey.jpg",
+    "thumb": "assets/sitescan/ss-13-60hannahstreetsurvey-thumb.jpg",
+    "caption": "Staten Island firehouse survey. Rendered from the authenticated Site Scan 2D viewer; source mission is 60HannahStreetSurvey. Project: StatenIslandFieldWork112923.",
+    "source": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/7996067d-abe5-49e9-be6e-78c866f769e6",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record. Project name references November 29, 2023, while the mission list displays December 2, 2023.",
+    "project": "StatenIslandFieldWork112923",
+    "mission": "60HannahStreetSurvey",
+    "displayed_mission_date": "12/2/2023, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "StatenIslandFieldWork112923",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/7996067d-abe5-49e9-be6e-78c866f769e6",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-14-60hannahstreetthermal",
+    "title": "Staten Island firehouse thermal display",
+    "place": "Staten Island",
+    "kind": "Thermal display",
+    "date": "2023-12-02",
+    "image": "assets/sitescan/ss-14-60hannahstreetthermal.jpg",
+    "thumb": "assets/sitescan/ss-14-60hannahstreetthermal-thumb.jpg",
+    "caption": "Staten Island firehouse thermal display. Rendered from the authenticated Site Scan 2D viewer; source mission is 60HannahStreetThermal. Project: StatenIslandFieldWork112923.",
+    "source": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/5dc05e04-88ca-4380-91f1-fe78b3c8de96",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record. Thermal values and calibration were not verified; do not interpret apparent colors as calibrated temperatures. Project name references November 29, 2023, while the mission list displays December 2, 2023.",
+    "project": "StatenIslandFieldWork112923",
+    "mission": "60HannahStreetThermal",
+    "displayed_mission_date": "12/2/2023, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "StatenIslandFieldWork112923",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/5dc05e04-88ca-4380-91f1-fe78b3c8de96",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-15-60hannahstreet",
+    "title": "Staten Island firehouse reconstruction",
+    "place": "Staten Island",
+    "kind": "3D viewer",
+    "date": "2023-12-02",
+    "image": "assets/sitescan/ss-15-60hannahstreet.jpg",
+    "thumb": "assets/sitescan/ss-15-60hannahstreet-thumb.jpg",
+    "caption": "Staten Island firehouse reconstruction. Rendered 3D scene view from the authenticated Site Scan 3D viewer; source mission is 60HannahStreet. Project: StatenIslandFieldWork112923.",
+    "source": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/64db7607-6292-480c-b82c-e82bfd47a01a/mesh",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record. Project name references November 29, 2023, while the mission list displays December 2, 2023. The rendered scene can contain holes, surface artifacts, and reconstructed vegetation or people; it is not a dimension check.",
+    "project": "StatenIslandFieldWork112923",
+    "mission": "60HannahStreet",
+    "displayed_mission_date": "12/2/2023, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "StatenIslandFieldWork112923",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/64db7607-6292-480c-b82c-e82bfd47a01a/mesh",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore",
+    "title": "North Shore imagery",
+    "place": "North Shore Esplanade",
+    "kind": "Orthomosaic",
+    "date": "2025-12-01",
+    "image": "assets/field/northshore.jpg",
+    "thumb": "assets/field/northshore-thumb.jpg",
+    "caption": "North Shore Esplanade orthomosaic layout, labeled December 1, 2025 in the original map.",
+    "source": "morningside/morningside/Layout-North_Shore_Esplanade.png",
+    "credit": "EFPL / Columbia University; Staten Island community partnership",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1700,
+    "sourceDimensions": [
+      3300,
+      2550
+    ],
+    "uncertainty": "",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-aerial-context",
+    "title": "North Shore waterfront aerial context",
+    "place": "North Shore Esplanade",
     "kind": "Aerial photograph",
-    "date": "2025-12-05",
-    "image": "assets/field/four-sparrow-channel.jpg",
-    "thumb": "assets/field/four-sparrow-channel-thumb.jpg",
-    "caption": "An oblique aerial view of channels and vegetation in Four Sparrow Marsh.",
-    "source": "four_sparrows_marsh/field_work_120525/misc_photos/S1012978.JPG",
-    "credit": "EFPL / Columbia University; Four Sparrow research team",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-aerial-context.jpg",
+    "thumb": "assets/students/northshore-aerial-context-thumb.jpg",
+    "caption": "Oblique drone view of waterfront structures, shoreline vegetation, and surrounding development.",
+    "source": "staten_island_field_work_120125/misc/S1012536.JPG",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
     "status": "Research preview · web derivative",
     "width": 2200,
     "height": 1649,
@@ -241,88 +709,461 @@
       4056,
       3040
     ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-dsm",
+    "title": "North Shore surface",
+    "place": "North Shore Esplanade",
+    "kind": "Surface model",
+    "date": "2025-12-01",
+    "image": "assets/field/northshore-dsm.jpg",
+    "thumb": "assets/field/northshore-dsm-thumb.jpg",
+    "caption": "North Shore Esplanade surface model layout, labeled December 1, 2025 in the original map.",
+    "source": "morningside/morningside/Layout-North_Shore_Esplanade-DSM.png",
+    "credit": "EFPL / Columbia University; Staten Island community partnership",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1700,
+    "sourceDimensions": [
+      3300,
+      2550
+    ],
     "uncertainty": "",
-    "captureDateExif": "2025:12:05 18:42:15"
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
-    "id": "four-sparrow-may-ortho",
-    "title": "May marsh survey overview",
-    "place": "Four Sparrow Marsh",
-    "kind": "Orthomosaic",
-    "date": "2025-05-02",
-    "image": "assets/field/four-sparrow-may-ortho.jpg",
-    "thumb": "assets/field/four-sparrow-may-ortho-thumb.jpg",
-    "caption": "Web-sized orthomosaic derived from the May 2, 2025 photogrammetric raster.",
-    "source": "four_sparrows_marsh/field_work_050225/field_work_drone2map_processing/Products/2D/True Ortho/field_work_drone2map_processing_True_Ortho.tif",
-    "credit": "EFPL / Columbia University; Natan Charytan",
-    "status": "Research preview · web derivative",
-    "width": 2200,
-    "height": 1267,
-    "sourceDimensions": [
-      33000,
-      19000
-    ],
-    "uncertainty": ""
-  },
-  {
-    "id": "four-sparrow-august-ortho",
-    "title": "August marsh survey overview",
-    "place": "Four Sparrow Marsh",
-    "kind": "Orthomosaic",
-    "date": "2025-08-07",
-    "image": "assets/field/four-sparrow-august-ortho.jpg",
-    "thumb": "assets/field/four-sparrow-august-ortho-thumb.jpg",
-    "caption": "Web-sized orthomosaic derived from the August 7, 2025 photogrammetric raster. The mission Capture_Report and containing folder both give August 7.",
-    "source": "four_sparrows_marsh/field_work_080725/field_work_drone2map_processing/Products/2D/True Ortho/field_work_drone2map_processing_True_Ortho.tif",
-    "credit": "EFPL / Columbia University; Natan Charytan",
-    "status": "Research preview · web derivative",
-    "width": 2200,
-    "height": 1294,
-    "sourceDimensions": [
-      34000,
-      20000
-    ],
-    "uncertainty": "An earlier slide title says August 27; the mission folder and Capture_Report establish August 7 for this specific archived dataset."
-  },
-  {
-    "id": "four-sparrow-relief",
-    "title": "Marsh terrain shaded relief",
-    "place": "Four Sparrow Marsh",
+    "id": "northshore-dtm",
+    "title": "North Shore terrain",
+    "place": "North Shore Esplanade",
     "kind": "Terrain model",
-    "date": "2025-05-02",
-    "image": "assets/field/four-sparrow-relief.jpg",
-    "thumb": "assets/field/four-sparrow-relief-thumb.jpg",
-    "caption": "Web-sized shaded-relief view derived from the May marsh terrain product. It shows processed terrain texture, not measured sediment change between visits.",
-    "source": "four_sparrows_marsh/field_work_050225/field_work_drone2map_processing/Products/2D/DEM/DTMShadedRelief/field_work_drone2map_processing_dtm_shaded_relief.tif",
-    "credit": "EFPL / Columbia University; Natan Charytan",
+    "date": "2025-12-01",
+    "image": "assets/field/northshore-dtm.jpg",
+    "thumb": "assets/field/northshore-dtm-thumb.jpg",
+    "caption": "North Shore Esplanade terrain model layout, labeled December 1, 2025 in the original map.",
+    "source": "morningside/morningside/Layout-North_Shore_Esplanade-DTM.png",
+    "credit": "EFPL / Columbia University; Staten Island community partnership",
     "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1274,
+    "height": 1700,
     "sourceDimensions": [
-      6410,
-      3712
+      3300,
+      2550
     ],
-    "uncertainty": "Display derivative only; compare surveys only after alignment and uncertainty assessment."
+    "uncertainty": "",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
   },
   {
-    "id": "lamont-ortho",
-    "title": "Lamont image-based mapping overview",
-    "place": "Lamont",
-    "kind": "Orthomosaic",
-    "date": "2025-03-05",
-    "image": "assets/field/lamont-ortho.jpg",
-    "thumb": "assets/field/lamont-ortho-thumb.jpg",
-    "caption": "Photogrammetric orthomosaic preview from the Lamont point-cloud processing report. The report states 46.3 hectares and a mean GSD of 0.032 m.",
-    "source": "lamont_point_cloud/Project/Data/Report/ortho.tif",
-    "credit": "EFPL / Columbia University",
+    "id": "northshore-late-day-context",
+    "title": "North Shore late-day field context",
+    "place": "North Shore Esplanade",
+    "kind": "Aerial photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-late-day-context.jpg",
+    "thumb": "assets/students/northshore-late-day-context-thumb.jpg",
+    "caption": "Late-day aerial context from the December 1, 2025 mission archive. Shadow and illumination differ from earlier frames.",
+    "source": "staten_island_field_work_120125/misc/S1012549.JPG",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
     "status": "Research preview · web derivative",
-    "width": 512,
-    "height": 560,
+    "width": 2200,
+    "height": 1649,
     "sourceDimensions": [
-      512,
-      560
+      4056,
+      3040
     ],
-    "uncertainty": "March 5 follows archived point-cloud product name, not an independently checked acquisition date. The report states no GCPs/checkpoints."
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-shoreline-frame",
+    "title": "North Shore shoreline source frame",
+    "place": "North Shore Esplanade",
+    "kind": "Aerial photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-shoreline-frame.jpg",
+    "thumb": "assets/students/northshore-shoreline-frame-thumb.jpg",
+    "caption": "Aerial source frame showing water, shoreline vegetation, and the adjacent built waterfront.",
+    "source": "staten_island_field_work_120125/misc/S1012538.JPG",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-waterfront-structures",
+    "title": "Waterfront structures in context",
+    "place": "North Shore Esplanade",
+    "kind": "Aerial photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-waterfront-structures.jpg",
+    "thumb": "assets/students/northshore-waterfront-structures-thumb.jpg",
+    "caption": "Oblique drone view of waterfront structures and adjacent shoreline, retained as visual context rather than a measured change product.",
+    "source": "staten_island_field_work_120125/misc/S1012542.JPG",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "drive-lamont-jun2022-building",
+    "title": "Lamont campus building and canopy",
+    "place": "Lamont",
+    "kind": "Aerial photograph",
+    "date": "2022-06-07",
+    "image": "assets/drive/lamont-jun2022-building.jpg",
+    "thumb": "assets/drive/lamont-jun2022-building-thumb.jpg",
+    "caption": "A source frame of a Lamont campus building and surrounding canopy, captured June 7, 2022. This is an aerial observation, not a georeferenced derived map.",
+    "source": "https://drive.google.com/file/d/1BrkrL1S4xU-QwSrBr6-695yu8FqNNPPt/view?usp=drivesdk",
+    "source_file": "DJI_0088.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/1BgqdG6eYpVMAWp9INyN9KoVLMqn5M5u-",
+    "source_sha256": "7797901f617b520f957d4a51891bfc4809e32cc768f07b2dbdc2d96005469fdb",
+    "credit": "CIESIN · Columbia University · project archive",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "event": "Lamont aerial observations",
+    "course_or_program": "Not established by source folder",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2022:06:07 14:36:18; GPS consistent with Lamont",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+    "date_basis": "EXIF DateTimeOriginal 2022:06:07 14:36:18; GPS consistent with Lamont",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "drive-lamont-jun2022-river",
+    "title": "Lamont aerial observation toward the Hudson",
+    "place": "Lamont",
+    "kind": "Aerial photograph",
+    "date": "2022-06-07",
+    "image": "assets/drive/lamont-jun2022-river.jpg",
+    "thumb": "assets/drive/lamont-jun2022-river-thumb.jpg",
+    "caption": "Oblique source imagery toward the Hudson River, captured June 7, 2022. Camera GPS places this frame at Lamont; no particular workshop is assigned.",
+    "source": "https://drive.google.com/file/d/1IQcZA2etaGEwteWVP_7aLmWOf-kALKl6/view?usp=drivesdk",
+    "source_file": "DJI_0087.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/1BgqdG6eYpVMAWp9INyN9KoVLMqn5M5u-",
+    "source_sha256": "858c1c7961e670e0782c8543cfd13916f4bf018f795a67ad186873cd29289c9a",
+    "credit": "CIESIN · Columbia University · project archive",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "event": "Lamont aerial observations",
+    "course_or_program": "Not established by source folder",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2022:06:07 14:34:25; GPS consistent with Lamont",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+    "date_basis": "EXIF DateTimeOriginal 2022:06:07 14:34:25; GPS consistent with Lamont",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-01-lamont-sdev3450",
+    "title": "Lamont January 2023 mapping",
+    "place": "Lamont",
+    "kind": "Site Scan orthomosaic",
+    "date": "2023-01-30",
+    "image": "assets/sitescan/ss-01-lamont-sdev3450.jpg",
+    "thumb": "assets/sitescan/ss-01-lamont-sdev3450-thumb.jpg",
+    "caption": "Lamont January 2023 mapping. Rendered from the authenticated Site Scan 2D viewer; source mission is Lamont_SDEV3450. Project: Lamont Workshop 07-14-2023.",
+    "source": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record.",
+    "project": "Lamont Workshop 07-14-2023",
+    "mission": "Lamont_SDEV3450",
+    "displayed_mission_date": "1/30/2023, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "Lamont Workshop 07-14-2023",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "drive-lamont-jul2023-field",
+    "title": "July 2023 Lamont field activity",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2023-07-14",
+    "image": "assets/drive/lamont-jul2023-field.jpg",
+    "thumb": "assets/drive/lamont-jul2023-field-thumb.jpg",
+    "caption": "An oblique view of a field group at Lamont on July 14, 2023. The source folder is labeled nsf_lamont_071423; the precise program and participant roles require author confirmation.",
+    "source": "https://drive.google.com/file/d/1i31GYfaplWsd0ByrN75vXCQ3i4tbvGyZ/view?usp=drivesdk",
+    "source_file": "DJI_0508.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/10Wg5L8pImt6612TS06eW_jU3pdl1mEU9",
+    "source_sha256": "6c83652323ab9632819253a32d0265c4f216ad93e3db7b09366c3cce7e4ce65e",
+    "credit": "CIESIN · Columbia University · project archive",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "event": "July 2023 Lamont field activity",
+    "course_or_program": "NSF-labeled source folder",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2023:07:14 11:15:41; source folder concordant",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+    "date_basis": "EXIF DateTimeOriginal 2023:07:14 11:15:41; source folder concordant",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "drive-lamont-jul2023-group",
+    "title": "July 2023 Lamont working group",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2023-07-14",
+    "image": "assets/drive/lamont-jul2023-group.jpg",
+    "thumb": "assets/drive/lamont-jul2023-group-thumb.jpg",
+    "caption": "The working group during the July 14, 2023 Lamont activity. This documents participation and the field setting; the photograph does not establish learning outcomes.",
+    "source": "https://drive.google.com/file/d/1aStw7ipFcWV2gN0EYZFzpFlE7JwAPOP4/view?usp=drivesdk",
+    "source_file": "DJI_0511.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/10Wg5L8pImt6612TS06eW_jU3pdl1mEU9",
+    "source_sha256": "94b1ca0a8fd4c75452ac5648b854e3f60b95c29707092a1b3519edf7a203efc0",
+    "credit": "CIESIN · Columbia University · project archive",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "event": "July 2023 Lamont field activity",
+    "course_or_program": "NSF-labeled source folder",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2023:07:14 11:16:26; source folder concordant",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+    "date_basis": "EXIF DateTimeOriginal 2023:07:14 11:16:26; source folder concordant",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "drive-lamont-jul2023-group-wide",
+    "title": "Lamont field group and surrounding vegetation",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2023-07-14",
+    "image": "assets/drive/lamont-jul2023-group-wide.jpg",
+    "thumb": "assets/drive/lamont-jul2023-group-wide-thumb.jpg",
+    "caption": "The July 14 field group on the Lamont lawn, viewed with surrounding vegetation. EXIF capture date and source folder date agree.",
+    "source": "https://drive.google.com/file/d/1j2sylxq7jvxHN9Pm5dYHXax3OsfDl3dm/view?usp=drivesdk",
+    "source_file": "DJI_0509.JPG",
+    "source_folder": "https://drive.google.com/drive/folders/10Wg5L8pImt6612TS06eW_jU3pdl1mEU9",
+    "source_sha256": "6455a6b88007efa1672d1f9f7c2da75216b99a66a58a280b789c2748b466787d",
+    "credit": "CIESIN · Columbia University · project archive",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "event": "July 2023 Lamont field activity",
+    "course_or_program": "NSF-labeled source folder",
+    "capture_date_evidence": "EXIF DateTimeOriginal 2023:07:14 11:15:59; source folder concordant",
+    "uncertainty": "Participant identities and individual roles are not inferred. Camera time-zone settings were not independently verified.",
+    "date_basis": "EXIF DateTimeOriginal 2023:07:14 11:15:59; source folder concordant",
+    "source_platform": "Google Drive",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "ss-02-workshop-071423",
+    "title": "Lamont July 2023 workshop orthomosaic",
+    "place": "Lamont",
+    "kind": "Site Scan orthomosaic",
+    "date": "2023-07-14",
+    "image": "assets/sitescan/ss-02-workshop-071423.jpg",
+    "thumb": "assets/sitescan/ss-02-workshop-071423-thumb.jpg",
+    "caption": "Lamont July 2023 workshop orthomosaic. Rendered from the authenticated Site Scan 2D viewer; source mission is Workshop_071423. Project: Lamont Workshop 07-14-2023.",
+    "source": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/60f01d86-dc89-4f89-9d22-4d6a4d132d02",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record.",
+    "project": "Lamont Workshop 07-14-2023",
+    "mission": "Workshop_071423",
+    "displayed_mission_date": "7/14/2023, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "Lamont Workshop 07-14-2023",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/60f01d86-dc89-4f89-9d22-4d6a4d132d02",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-03-dji3optical",
+    "title": "Lamont October 2023 optical survey",
+    "place": "Lamont",
+    "kind": "Site Scan orthomosaic",
+    "date": "2023-10-11",
+    "image": "assets/sitescan/ss-03-dji3optical.jpg",
+    "thumb": "assets/sitescan/ss-03-dji3optical-thumb.jpg",
+    "caption": "Lamont October 2023 optical survey. Rendered from the authenticated Site Scan 2D viewer; source mission is DJI3OPTICAL. Project: Lamont-Workshop-10-11-2023.",
+    "source": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/1a92fbb0-ac9d-4efe-ae70-44c6e7804bbc",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record.",
+    "project": "Lamont-Workshop-10-11-2023",
+    "mission": "DJI3OPTICAL",
+    "displayed_mission_date": "10/11/2023, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "Lamont-Workshop-10-11-2023",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/1a92fbb0-ac9d-4efe-ae70-44c6e7804bbc",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-04-dji3thermal",
+    "title": "Lamont October 2023 thermal display",
+    "place": "Lamont",
+    "kind": "Thermal display",
+    "date": "2023-10-11",
+    "image": "assets/sitescan/ss-04-dji3thermal.jpg",
+    "thumb": "assets/sitescan/ss-04-dji3thermal-thumb.jpg",
+    "caption": "Lamont October 2023 thermal display. Rendered from the authenticated Site Scan 2D viewer; source mission is DJI3THERMAL. Project: Lamont-Workshop-10-11-2023.",
+    "source": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/1681ea95-d18c-48b7-b1f0-9dbb970c766a",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record. Thermal values and calibration were not verified; do not interpret apparent colors as calibrated temperatures.",
+    "project": "Lamont-Workshop-10-11-2023",
+    "mission": "DJI3THERMAL",
+    "displayed_mission_date": "10/11/2023, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "Lamont-Workshop-10-11-2023",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/1681ea95-d18c-48b7-b1f0-9dbb970c766a",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-05-mapir",
+    "title": "Lamont October 2023 MAPIR mission",
+    "place": "Lamont",
+    "kind": "Site Scan orthomosaic",
+    "date": "2023-10-11",
+    "image": "assets/sitescan/ss-05-mapir.jpg",
+    "thumb": "assets/sitescan/ss-05-mapir-thumb.jpg",
+    "caption": "Lamont October 2023 MAPIR mission. Rendered from the authenticated Site Scan 2D viewer; source mission is MAPIR. Project: Lamont-Workshop-10-11-2023.",
+    "source": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/30c26cb6-dcfe-4bca-82fe-a55f284115b6",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record. The mission name identifies MAPIR; band definitions and radiometric calibration were not verified.",
+    "project": "Lamont-Workshop-10-11-2023",
+    "mission": "MAPIR",
+    "displayed_mission_date": "10/11/2023, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "Lamont-Workshop-10-11-2023",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/30c26cb6-dcfe-4bca-82fe-a55f284115b6",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-06-skydio3d",
+    "title": "Lamont October 2023 reconstruction",
+    "place": "Lamont",
+    "kind": "3D viewer",
+    "date": "2023-10-11",
+    "image": "assets/sitescan/ss-06-skydio3d.jpg",
+    "thumb": "assets/sitescan/ss-06-skydio3d-thumb.jpg",
+    "caption": "Lamont October 2023 reconstruction. Rendered 3D scene view from the authenticated Site Scan 3D viewer; source mission is SKYDIO3d. Project: Lamont-Workshop-10-11-2023.",
+    "source": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/716679aa-52b4-4b71-8390-4d86af2ce54c/mesh",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record. The rendered scene can contain holes, surface artifacts, and reconstructed vegetation or people; it is not a dimension check.",
+    "project": "Lamont-Workshop-10-11-2023",
+    "mission": "SKYDIO3d",
+    "displayed_mission_date": "10/11/2023, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "Lamont-Workshop-10-11-2023",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions/716679aa-52b4-4b71-8390-4d86af2ce54c/mesh",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
   },
   {
     "id": "lamont-field-team",
@@ -343,7 +1184,10 @@
       3000
     ],
     "uncertainty": "Caption describes visible scene; individual roles are not inferred.",
-    "captureDateExif": "2024:02:19 09:47:29"
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
   },
   {
     "id": "lamont-landscape",
@@ -364,23 +1208,278 @@
       3000
     ],
     "uncertainty": "Caption describes visible scene; individual roles are not inferred.",
-    "captureDateExif": "2024:02:19 10:14:13"
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
   },
   {
-    "id": "lamont-pointcloud-plan",
-    "title": "Lamont point cloud: plan view",
+    "id": "lamont-winter-operations",
+    "title": "Lamont winter field operation",
     "place": "Lamont",
-    "kind": "Point cloud",
-    "date": "2025-03-05",
-    "image": "assets/field/lamont-pointcloud-plan.jpg",
-    "thumb": "assets/field/lamont-pointcloud-plan-thumb.jpg",
-    "caption": "A decimated visualization of the archived photogrammetric point cloud from 603 LAS tiles totaling 16,541,307 source points. Plan view, colored by source elevation.",
-    "source": "lamont_point_cloud/Products/3D/PointCloud/LAS/*.las",
-    "credit": "EFPL / Columbia University; derived visualization",
+    "kind": "Workshop photograph",
+    "date": "2024-02-19",
+    "image": "assets/students/lamont-winter-operations.jpg",
+    "thumb": "assets/students/lamont-winter-operations-thumb.jpg",
+    "caption": "Aerial view of a working group beside the marked operation area on snow-covered Lamont grounds.",
+    "source": "lamont_fieldwork_042325/dji2e/DJI_0037.JPG",
+    "credit": "CIESIN · Columbia University",
     "status": "Research preview · web derivative",
-    "width": 1920,
-    "height": 1280,
-    "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established."
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2024-02-19",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "ss-07-lamont021924-optical",
+    "title": "Lamont February 2024 optical survey",
+    "place": "Lamont",
+    "kind": "Site Scan orthomosaic",
+    "date": "2024-02-19",
+    "image": "assets/sitescan/ss-07-lamont021924-optical.jpg",
+    "thumb": "assets/sitescan/ss-07-lamont021924-optical-thumb.jpg",
+    "caption": "Lamont February 2024 optical survey. Rendered from the authenticated Site Scan 2D viewer; source mission is Lamont021924-Optical. Project: SDEV3450-Spring2024.",
+    "source": "https://sitescan.arcgis.com/projects/0472c68a-f1cd-4305-996c-b8fe74d668af/missions/4684b00a-d71c-4bb0-9516-8dfcdcc8492b",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record.",
+    "project": "SDEV3450-Spring2024",
+    "mission": "Lamont021924-Optical",
+    "displayed_mission_date": "2/19/2024, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "SDEV3450-Spring2024",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/0472c68a-f1cd-4305-996c-b8fe74d668af/missions/4684b00a-d71c-4bb0-9516-8dfcdcc8492b",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-08-lamont021924-thermal",
+    "title": "Lamont February 2024 thermal display",
+    "place": "Lamont",
+    "kind": "Thermal display",
+    "date": "2024-02-19",
+    "image": "assets/sitescan/ss-08-lamont021924-thermal.jpg",
+    "thumb": "assets/sitescan/ss-08-lamont021924-thermal-thumb.jpg",
+    "caption": "Lamont February 2024 thermal display. Rendered from the authenticated Site Scan 2D viewer; source mission is Lamont021924-Thermal. Project: SDEV3450-Spring2024.",
+    "source": "https://sitescan.arcgis.com/projects/0472c68a-f1cd-4305-996c-b8fe74d668af/missions/f6733139-21ad-4458-a763-fe4e681670f4",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record. Thermal values and calibration were not verified; do not interpret apparent colors as calibrated temperatures.",
+    "project": "SDEV3450-Spring2024",
+    "mission": "Lamont021924-Thermal",
+    "displayed_mission_date": "2/19/2024, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "SDEV3450-Spring2024",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/0472c68a-f1cd-4305-996c-b8fe74d668af/missions/f6733139-21ad-4458-a763-fe4e681670f4",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-09-lamont021924-3d",
+    "title": "Lamont February 2024 reconstruction",
+    "place": "Lamont",
+    "kind": "3D viewer",
+    "date": "2024-02-19",
+    "image": "assets/sitescan/ss-09-lamont021924-3d.jpg",
+    "thumb": "assets/sitescan/ss-09-lamont021924-3d-thumb.jpg",
+    "caption": "Lamont February 2024 reconstruction. Rendered 3D scene view from the authenticated Site Scan 3D viewer; source mission is Lamont021924-3d. Project: SDEV3450-Spring2024.",
+    "source": "https://sitescan.arcgis.com/projects/0472c68a-f1cd-4305-996c-b8fe74d668af/missions/e2d43a5d-4012-4817-be76-db567fd2538b/mesh",
+    "credit": "Columbia University · CIESIN · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record. The rendered scene can contain holes, surface artifacts, and reconstructed vegetation or people; it is not a dimension check.",
+    "project": "SDEV3450-Spring2024",
+    "mission": "Lamont021924-3d",
+    "displayed_mission_date": "2/19/2024, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "SDEV3450-Spring2024",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/0472c68a-f1cd-4305-996c-b8fe74d668af/missions/e2d43a5d-4012-4817-be76-db567fd2538b/mesh",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "lamont-autumn-campus",
+    "title": "Lamont campus context in autumn",
+    "place": "Lamont",
+    "kind": "Aerial photograph",
+    "date": "2024-10-16",
+    "image": "assets/students/lamont-autumn-campus.jpg",
+    "thumb": "assets/students/lamont-autumn-campus-thumb.jpg",
+    "caption": "Oblique aerial view of campus buildings and autumn vegetation in the same October 2024 archive as the workshop images.",
+    "source": "lamont_fieldwork_042325/dji2e/DJI_0193.JPG",
+    "credit": "CIESIN · Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2024-10-16",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "lamont-autumn-overhead",
+    "title": "Lamont autumn operation area",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2024-10-16",
+    "image": "assets/students/lamont-autumn-overhead.jpg",
+    "thumb": "assets/students/lamont-autumn-overhead-thumb.jpg",
+    "caption": "An overhead image records a group and equipment near a marked landing pad during the October 2024 Lamont session.",
+    "source": "lamont_fieldwork_042325/dji2e/DJI_0187.JPG",
+    "credit": "CIESIN · Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2024-10-16",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "lamont-march-group-wide",
+    "title": "Lamont group beside the landing pad",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2025-03-05",
+    "image": "assets/students/lamont-march-group-wide.jpg",
+    "thumb": "assets/students/lamont-march-group-wide-thumb.jpg",
+    "caption": "Visible-light camera record of the group and marked landing pad during the March 5, 2025 Lamont field session.",
+    "source": "lamont_fieldwork_042325/dji3t/DJI_202503051017_003/DJI_20250305102135_0008_V.JPG",
+    "credit": "Columbia University · Lamont field archive",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2025-03-05",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "lamont-march-thermal",
+    "title": "Lamont group: thermal display",
+    "place": "Lamont",
+    "kind": "Visible/thermal pair",
+    "date": "2025-03-05",
+    "image": "assets/students/lamont-march-thermal.jpg",
+    "thumb": "assets/students/lamont-march-thermal-thumb.jpg",
+    "caption": "Thermal-camera display from the same source timestamp as the paired visible-light image. Colors show the exported thermal display; no calibrated temperature scale is supplied here.",
+    "source": "lamont_fieldwork_042325/dji3t/DJI_202503051017_003/DJI_20250305102202_0021_T.JPG",
+    "credit": "Columbia University · Lamont field archive",
+    "status": "Research preview · web derivative",
+    "width": 640,
+    "height": 512,
+    "sourceDimensions": [
+      640,
+      512
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image. Thermal display colors are not a calibrated temperature measurement.",
+    "event_id": "lamont-2025-03-05",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "lamont-march-visible",
+    "title": "Lamont group: visible-light view",
+    "place": "Lamont",
+    "kind": "Visible/thermal pair",
+    "date": "2025-03-05",
+    "image": "assets/students/lamont-march-visible.jpg",
+    "thumb": "assets/students/lamont-march-visible-thumb.jpg",
+    "caption": "Visible-light member of a paired camera record, timestamped March 5, 2025 at 10:22:02 in source EXIF.",
+    "source": "lamont_fieldwork_042325/dji3t/DJI_202503051017_003/DJI_20250305102202_0021_V.JPG",
+    "credit": "Columbia University · Lamont field archive",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2025-03-05",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "lamont-ortho",
+    "title": "Lamont image-based mapping overview",
+    "place": "Lamont",
+    "kind": "Orthomosaic",
+    "date": "2025-03-05",
+    "image": "assets/field/lamont-ortho.jpg",
+    "thumb": "assets/field/lamont-ortho-thumb.jpg",
+    "caption": "Photogrammetric orthomosaic preview from the Lamont point-cloud processing report. The report states 46.3 hectares and a mean GSD of 0.032 m.",
+    "source": "lamont_point_cloud/Project/Data/Report/ortho.tif",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 512,
+    "height": 560,
+    "sourceDimensions": [
+      512,
+      560
+    ],
+    "uncertainty": "March 5 follows archived point-cloud product name, not an independently checked acquisition date. The report states no GCPs/checkpoints.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
   },
   {
     "id": "lamont-pointcloud-oblique",
@@ -396,37 +1495,386 @@
     "status": "Research preview · web derivative",
     "width": 1920,
     "height": 1280,
-    "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established."
+    "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
   },
   {
-    "id": "zm-village-map",
-    "title": "Village & school orthomosaic",
-    "place": "Mtukuzi",
-    "kind": "Orthomosaic",
-    "date": "2026-06-13",
-    "image": "assets/zambia/village-map.jpg",
-    "thumb": "assets/zambia/village-map-thumb.jpg",
-    "caption": "An overhead composite of selected village and school areas; selected-site coverage only.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\10_village_orthomosaic.png",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 1927,
-    "height": 1700
+    "id": "lamont-pointcloud-plan",
+    "title": "Lamont point cloud: plan view",
+    "place": "Lamont",
+    "kind": "Point cloud",
+    "date": "2025-03-05",
+    "image": "assets/field/lamont-pointcloud-plan.jpg",
+    "thumb": "assets/field/lamont-pointcloud-plan-thumb.jpg",
+    "caption": "A decimated visualization of the archived photogrammetric point cloud from 603 LAS tiles totaling 16,541,307 source points. Plan view, colored by source elevation.",
+    "source": "lamont_point_cloud/Products/3D/PointCloud/LAS/*.las",
+    "credit": "EFPL / Columbia University; derived visualization",
+    "status": "Research preview · web derivative",
+    "width": 1920,
+    "height": 1280,
+    "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
   },
   {
-    "id": "zm-village-mesh",
-    "title": "Village & school in 3D",
-    "place": "Mtukuzi",
-    "kind": "3D mesh",
-    "date": "2026-06-13",
-    "image": "assets/zambia/village-mesh.jpg",
-    "thumb": "assets/zambia/village-mesh-thumb.jpg",
-    "caption": "Rendered top and oblique views of the textured village mesh; not an independently surveyed building model.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\12_village_mesh.jpg",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "id": "lamont-april-campus",
+    "title": "Lamont field setting in April",
+    "place": "Lamont",
+    "kind": "Aerial photograph",
+    "date": "2025-04-23",
+    "image": "assets/students/lamont-april-campus.jpg",
+    "thumb": "assets/students/lamont-april-campus-thumb.jpg",
+    "caption": "Oblique aerial frame from the April 23, 2025 Skydio archive, showing the campus and surrounding vegetation.",
+    "source": "lamont_fieldwork_042325/skydio2/april_23_2025/S1010954.JPG",
+    "credit": "EFPL · Columbia University",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1027
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2025-04-23",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "lamont-april-river",
+    "title": "Lamont campus and Hudson River",
+    "place": "Lamont",
+    "kind": "Aerial photograph",
+    "date": "2025-04-23",
+    "image": "assets/students/lamont-april-river.jpg",
+    "thumb": "assets/students/lamont-april-river-thumb.jpg",
+    "caption": "April 23, 2025 aerial context view of Lamont grounds and the Hudson River.",
+    "source": "lamont_fieldwork_042325/skydio2/april_23_2025/S1010960.JPG",
+    "credit": "EFPL · Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2025-04-23",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "source_platform": "Local archive",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "ss-10-field-trip-lamont-03042026",
+    "title": "Lamont March 2026 field-trip survey",
+    "place": "Lamont",
+    "kind": "Site Scan orthomosaic",
+    "date": "2026-03-04",
+    "image": "assets/sitescan/ss-10-field-trip-lamont-03042026.jpg",
+    "thumb": "assets/sitescan/ss-10-field-trip-lamont-03042026-thumb.jpg",
+    "caption": "Lamont March 2026 field-trip survey. Rendered from the authenticated Site Scan 2D viewer; source mission is Field-trip-Lamont-03042026. Project: SDEV-3450.",
+    "source": "https://sitescan.arcgis.com/projects/702a9776-e18d-483b-a811-92242f651304/missions/470d2417-0645-4894-8915-56f534e61f98",
+    "credit": "Columbia University · EFPL · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record.",
+    "project": "SDEV-3450",
+    "mission": "Field-trip-Lamont-03042026",
+    "displayed_mission_date": "3/4/2026, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "SDEV-3450",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/702a9776-e18d-483b-a811-92242f651304/missions/470d2417-0645-4894-8915-56f534e61f98",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-11-dji-survey",
+    "title": "Lamont October 2026 workshop survey",
+    "place": "Lamont",
+    "kind": "Site Scan orthomosaic",
+    "date": "2026-10-05",
+    "image": "assets/sitescan/ss-11-dji-survey.jpg",
+    "thumb": "assets/sitescan/ss-11-dji-survey-thumb.jpg",
+    "caption": "Lamont October 2026 workshop survey. Rendered from the authenticated Site Scan 2D viewer; source mission is DJI-Survey. Project: Lamont-Workshop-10-5-2026.",
+    "source": "https://sitescan.arcgis.com/projects/d592eed3-757b-41c0-ae01-c915128732ca/missions/ff8d5934-35f3-429b-9f09-e0eaf3200177",
+    "credit": "Columbia University · EFPL · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "The displayed mission date is a Site Scan record, not independently verified capture EXIF. A viewer screenshot is a display derivative; scale, classification, calibration and independent positional accuracy require the source processing record.",
+    "project": "Lamont-Workshop-10-5-2026",
+    "mission": "DJI-Survey",
+    "displayed_mission_date": "10/5/2026, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "Lamont-Workshop-10-5-2026",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/d592eed3-757b-41c0-ae01-c915128732ca/missions/ff8d5934-35f3-429b-9f09-e0eaf3200177",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "ss-12-skydio-statue",
+    "title": "Lamont October 2026 statue reconstruction",
+    "place": "Lamont",
+    "kind": "3D viewer",
+    "date": "2026-10-05",
+    "image": "assets/sitescan/ss-12-skydio-statue.jpg",
+    "thumb": "assets/sitescan/ss-12-skydio-statue-thumb.jpg",
+    "caption": "Rendered 3D scene view of the Skydio-Statue mesh in Site Scan, from the October 2026 workshop project. Project: Lamont-Workshop-10-5-2026.",
+    "source": "https://sitescan.arcgis.com/projects/d592eed3-757b-41c0-ae01-c915128732ca/missions/6a5a9359-f16e-4862-b34b-d5e71779ebce/mesh",
+    "credit": "Columbia University · EFPL · teaching archive",
+    "status": "Research preview · web derivative",
+    "width": 1450,
+    "height": 1200,
+    "uncertainty": "Site Scan mission-record date; the mesh is a photogrammetric scene reconstruction. Geometry, scale and positional accuracy require source processing records. Render artifacts may affect interpretation. The rendered scene can contain holes, surface artifacts, and reconstructed vegetation or people; it is not a dimension check.",
+    "project": "Lamont-Workshop-10-5-2026",
+    "mission": "Skydio-Statue",
+    "displayed_mission_date": "10/5/2026, 12:00 AM",
+    "date_basis": "Displayed Site Scan mission-record date; capture EXIF not independently checked.",
+    "event": "Lamont-Workshop-10-5-2026",
+    "access": "Source viewer retains existing Site Scan permissions.",
+    "source_url": "https://sitescan.arcgis.com/projects/d592eed3-757b-41c0-ae01-c915128732ca/missions/6a5a9359-f16e-4862-b34b-d5e71779ebce/mesh",
+    "display_captured_on": "2026-10-27",
+    "source_platform": "ArcGIS Site Scan",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "four-sparrow-may-ortho",
+    "title": "May marsh survey overview",
+    "place": "Four Sparrow Marsh",
+    "kind": "Orthomosaic",
+    "date": "2025-05-02",
+    "image": "assets/field/four-sparrow-may-ortho.jpg",
+    "thumb": "assets/field/four-sparrow-may-ortho-thumb.jpg",
+    "caption": "Web-sized orthomosaic derived from the May 2, 2025 photogrammetric raster.",
+    "source": "four_sparrows_marsh/field_work_050225/field_work_drone2map_processing/Products/2D/True Ortho/field_work_drone2map_processing_True_Ortho.tif",
+    "credit": "EFPL / Columbia University; Natan Charytan",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1267,
+    "sourceDimensions": [
+      33000,
+      19000
+    ],
+    "uncertainty": "",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks"
+    ]
+  },
+  {
+    "id": "four-sparrow-relief",
+    "title": "Marsh terrain shaded relief",
+    "place": "Four Sparrow Marsh",
+    "kind": "Terrain model",
+    "date": "2025-05-02",
+    "image": "assets/field/four-sparrow-relief.jpg",
+    "thumb": "assets/field/four-sparrow-relief-thumb.jpg",
+    "caption": "Web-sized shaded-relief view derived from the May marsh terrain product. It shows processed terrain texture, not measured sediment change between visits.",
+    "source": "four_sparrows_marsh/field_work_050225/field_work_drone2map_processing/Products/2D/DEM/DTMShadedRelief/field_work_drone2map_processing_dtm_shaded_relief.tif",
+    "credit": "EFPL / Columbia University; Natan Charytan",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1274,
+    "sourceDimensions": [
+      6410,
+      3712
+    ],
+    "uncertainty": "Display derivative only; compare surveys only after alignment and uncertainty assessment.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks"
+    ]
+  },
+  {
+    "id": "four-sparrow-august-ortho",
+    "title": "August marsh survey overview",
+    "place": "Four Sparrow Marsh",
+    "kind": "Orthomosaic",
+    "date": "2025-08-07",
+    "image": "assets/field/four-sparrow-august-ortho.jpg",
+    "thumb": "assets/field/four-sparrow-august-ortho-thumb.jpg",
+    "caption": "Web-sized orthomosaic derived from the August 7, 2025 photogrammetric raster. The mission Capture_Report and containing folder both give August 7.",
+    "source": "four_sparrows_marsh/field_work_080725/field_work_drone2map_processing/Products/2D/True Ortho/field_work_drone2map_processing_True_Ortho.tif",
+    "credit": "EFPL / Columbia University; Natan Charytan",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1294,
+    "sourceDimensions": [
+      34000,
+      20000
+    ],
+    "uncertainty": "An earlier slide title says August 27; the mission folder and Capture_Report establish August 7 for this specific archived dataset.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks"
+    ]
+  },
+  {
+    "id": "four-sparrow-channel",
+    "title": "Channels and marsh vegetation",
+    "place": "Four Sparrow Marsh",
+    "kind": "Aerial photograph",
+    "date": "2025-12-05",
+    "image": "assets/field/four-sparrow-channel.jpg",
+    "thumb": "assets/field/four-sparrow-channel-thumb.jpg",
+    "caption": "An oblique aerial view of channels and vegetation in Four Sparrow Marsh.",
+    "source": "four_sparrows_marsh/field_work_120525/misc_photos/S1012978.JPG",
+    "credit": "EFPL / Columbia University; Four Sparrow research team",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks"
+    ]
+  },
+  {
+    "id": "four-sparrow-december",
+    "title": "Four Sparrow in winter",
+    "place": "Four Sparrow Marsh",
+    "kind": "Aerial photograph",
+    "date": "2025-12-05",
+    "image": "assets/field/four-sparrow-december.jpg",
+    "thumb": "assets/field/four-sparrow-december-thumb.jpg",
+    "caption": "Winter vegetation, channels, and adjacent urban landscape at Four Sparrow Marsh, photographed during the December 5 field archive.",
+    "source": "four_sparrows_marsh/field_work_120525/misc_photos/S1012984.JPG",
+    "credit": "EFPL / Columbia University; Four Sparrow research team",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks"
+    ]
+  },
+  {
+    "id": "morningside-3d",
+    "title": "Morningside in three dimensions",
+    "place": "Morningside Park",
+    "kind": "3D view",
+    "date": "2025-12-18",
+    "image": "assets/field/morningside-3d.jpg",
+    "thumb": "assets/field/morningside-3d-thumb.jpg",
+    "caption": "Rendered oblique view of the Morningside textured reconstruction.",
+    "source": "morningside/morningside/Layout-Morningside-3d.png",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 1314,
+    "height": 1700,
+    "sourceDimensions": [
+      2550,
+      3300
+    ],
+    "uncertainty": "Date follows companion layouts and field archive; source render has no visible date label.",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks"
+    ]
+  },
+  {
+    "id": "morningside-dsm",
+    "title": "Morningside surface model",
+    "place": "Morningside Park",
+    "kind": "Surface model",
+    "date": "2025-12-18",
+    "image": "assets/field/morningside-dsm.jpg",
+    "thumb": "assets/field/morningside-dsm-thumb.jpg",
+    "caption": "Digital surface model layout for Morningside Park, labeled December 18, 2025. Surface elevations include visible vegetation and structures.",
+    "source": "morningside/morningside/Layout-Morningside-DSM.png",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1700,
+    "sourceDimensions": [
+      3300,
+      2550
+    ],
+    "uncertainty": "",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks"
+    ]
+  },
+  {
+    "id": "morningside-dtm",
+    "title": "Morningside terrain model",
+    "place": "Morningside Park",
+    "kind": "Terrain model",
+    "date": "2025-12-18",
+    "image": "assets/field/morningside-dtm.jpg",
+    "thumb": "assets/field/morningside-dtm-thumb.jpg",
+    "caption": "Digital terrain model layout for Morningside Park, labeled December 18, 2025. Terrain classification is a processed interpretation; independent accuracy is not established here.",
+    "source": "morningside/morningside/Layout-Morningside-DTM.png",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1700,
+    "sourceDimensions": [
+      3300,
+      2550
+    ],
+    "uncertainty": "",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks"
+    ]
+  },
+  {
+    "id": "morningside-ortho",
+    "title": "Morningside orthomosaic",
+    "place": "Morningside Park",
+    "kind": "Orthomosaic",
+    "date": "2025-12-18",
+    "image": "assets/field/morningside-ortho.jpg",
+    "thumb": "assets/field/morningside-ortho-thumb.jpg",
+    "caption": "Mapped Morningside Park imagery with a detail panel, labeled December 18, 2025 in the original layout.",
+    "source": "morningside/morningside/Layout-Morningside.png",
+    "credit": "EFPL / Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1700,
+    "sourceDimensions": [
+      3300,
+      2550
+    ],
+    "uncertainty": "",
+    "source_platform": "Local archive",
+    "topics": [
+      "parks"
+    ]
   },
   {
     "id": "zm-crop-broad",
@@ -439,9 +1887,13 @@
     "caption": "Broad-area agricultural imagery. Crops capture links to the Crops-2 processed product naming in the corrected source crosswalk.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\20_crop_broad_orthomosaic.png",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 1927,
-    "height": 1700
+    "height": 1700,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-crop-detail",
@@ -454,129 +1906,13 @@
     "caption": "Lower-altitude agricultural mapping; capture and processed product names differ in the source archive.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\21_crop_detail_orthomosaic.png",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 1927,
-    "height": 1700
-  },
-  {
-    "id": "zm-crop-mesh",
-    "title": "Agricultural surface in 3D",
-    "place": "Mtukuzi",
-    "kind": "3D mesh",
-    "date": "2026-06-13",
-    "image": "assets/zambia/crop-mesh.jpg",
-    "thumb": "assets/zambia/crop-mesh-thumb.jpg",
-    "caption": "Textured-mesh views show visible crop and surface structure. Interpret water movement with field verification.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\24_crop_mesh.jpg",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 2200,
-    "height": 1027
-  },
-  {
-    "id": "zm-river-map",
-    "title": "A selected river reach",
-    "place": "Mtukuzi",
-    "kind": "Orthomosaic",
-    "date": "2026-06-13",
-    "image": "assets/zambia/river-map.jpg",
-    "thumb": "assets/zambia/river-map-thumb.jpg",
-    "caption": "Selected river corridor, banks, and surrounding vegetation at capture time.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\30_river_orthomosaic.png",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 1927,
-    "height": 1700
-  },
-  {
-    "id": "zm-river-mesh",
-    "title": "River corridor in 3D",
-    "place": "Mtukuzi",
-    "kind": "3D mesh",
-    "date": "2026-06-13",
-    "image": "assets/zambia/river-mesh.jpg",
-    "thumb": "assets/zambia/river-mesh-thumb.jpg",
-    "caption": "Rendered mesh views of the selected river corridor. This does not measure water depth or flow.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\32_river_mesh.jpg",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 2200,
-    "height": 1027
-  },
-  {
-    "id": "zm-well-map",
-    "title": "Water-well structure",
-    "place": "Mtukuzi",
-    "kind": "Orthomosaic",
-    "date": "2026-06-13",
-    "image": "assets/zambia/well-map.jpg",
-    "thumb": "assets/zambia/well-map-thumb.jpg",
-    "caption": "Close mapping of a visible water-well structure. Imagery does not establish water safety or yield.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\40_well_orthomosaic.png",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 1927,
-    "height": 1700
-  },
-  {
-    "id": "zm-well-mesh",
-    "title": "Water-well structure in 3D",
-    "place": "Mtukuzi",
-    "kind": "3D mesh",
-    "date": "2026-06-13",
-    "image": "assets/zambia/well-mesh.jpg",
-    "thumb": "assets/zambia/well-mesh-thumb.jpg",
-    "caption": "Top and oblique mesh views of the mapped structure.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\42_well_mesh.jpg",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 2200,
-    "height": 1027
-  },
-  {
-    "id": "zm-terrain",
-    "title": "Selected terrain products",
-    "place": "Mtukuzi",
-    "kind": "Terrain",
-    "date": "2026-06-13",
-    "image": "assets/zambia/terrain.jpg",
-    "thumb": "assets/zambia/terrain-thumb.jpg",
-    "caption": "Digital terrain model visualizations across selected survey areas. Pixel size is not a vertical-accuracy claim.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\50_terrain_models.png",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 2009,
-    "height": 1700
-  },
-  {
-    "id": "zm-pointcloud",
-    "title": "From images to points",
-    "place": "Mtukuzi",
-    "kind": "Point cloud",
-    "date": "2026-06-13",
-    "image": "assets/zambia/pointcloud.jpg",
-    "thumb": "assets/zambia/pointcloud-thumb.jpg",
-    "caption": "Sampled point-cloud visualizations from the photogrammetric archive.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\51_point_clouds.png",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 2200,
-    "height": 1467
-  },
-  {
-    "id": "zm-village-frames",
-    "title": "Source frames: village",
-    "place": "Mtukuzi",
-    "kind": "Source imagery",
-    "date": "2026-06-13",
-    "image": "assets/zambia/village-frames.jpg",
-    "thumb": "assets/zambia/village-frames-thumb.jpg",
-    "caption": "Selected source drone frames provide visual context for the village map.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\11_village_drone_examples.jpg",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 2200,
-    "height": 739
+    "height": 1700,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-crop-frames",
@@ -589,99 +1925,32 @@
     "caption": "Selected source drone frames document visible agricultural patterns.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\23_crop_detail_drone_examples.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 739
+    "height": 739,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
   },
   {
-    "id": "zm-river-frames",
-    "title": "Source frames: river",
+    "id": "zm-crop-mesh",
+    "title": "Agricultural surface in 3D",
     "place": "Mtukuzi",
-    "kind": "Source imagery",
+    "kind": "3D mesh",
     "date": "2026-06-13",
-    "image": "assets/zambia/river-frames.jpg",
-    "thumb": "assets/zambia/river-frames-thumb.jpg",
-    "caption": "Selected source frames show the river corridor at the time of capture.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\31_river_drone_examples.jpg",
+    "image": "assets/zambia/crop-mesh.jpg",
+    "thumb": "assets/zambia/crop-mesh-thumb.jpg",
+    "caption": "Textured-mesh views show visible crop and surface structure. Interpret water movement with field verification.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\24_crop_mesh.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 739
-  },
-  {
-    "id": "zm-well-frames",
-    "title": "Source frames: water structure",
-    "place": "Mtukuzi",
-    "kind": "Source imagery",
-    "date": "2026-06-13",
-    "image": "assets/zambia/well-frames.jpg",
-    "thumb": "assets/zambia/well-frames-thumb.jpg",
-    "caption": "Selected close source frames of the mapped well structure.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\41_well_drone_examples.jpg",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 2200,
-    "height": 739
-  },
-  {
-    "id": "zm-team",
-    "title": "The field team & partners",
-    "place": "Mtukuzi",
-    "kind": "Field photograph",
-    "date": "2026-06-13",
-    "image": "assets/zambia/team.jpg",
-    "thumb": "assets/zambia/team-thumb.jpg",
-    "caption": "Field team and local partners during the June 13, 2026 visit. Individual identification and publication credit remain to be finalized.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\02_field_team_and_partners.jpg",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 2000,
-    "height": 1506
-  },
-  {
-    "id": "zm-sugarcane",
-    "title": "Ground context: sugarcane",
-    "place": "Mtukuzi",
-    "kind": "Field photograph",
-    "date": "2026-06-13",
-    "image": "assets/zambia/sugarcane.jpg",
-    "thumb": "assets/zambia/sugarcane-thumb.jpg",
-    "caption": "A field inspection places aerial observations in the context of local cultivation.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\03_sugarcane_field_inspection.jpg",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 2000,
-    "height": 1506
-  },
-  {
-    "id": "zm-plot",
-    "title": "Ground context: cultivated land",
-    "place": "Mtukuzi",
-    "kind": "Field photograph",
-    "date": "2026-06-13",
-    "image": "assets/zambia/plot.jpg",
-    "thumb": "assets/zambia/plot-thumb.jpg",
-    "caption": "Visible cultivation at the time of the field visit; no crop-yield claim is made.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\04_cultivated_plot.jpg",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 2000,
-    "height": 1506
-  },
-  {
-    "id": "zm-irrigation",
-    "title": "Ground context: a water channel",
-    "place": "Mtukuzi",
-    "kind": "Field photograph",
-    "date": "2026-06-13",
-    "image": "assets/zambia/irrigation.jpg",
-    "thumb": "assets/zambia/irrigation-thumb.jpg",
-    "caption": "Field observation of a channel near cultivated areas; performance requires further investigation.",
-    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\05_irrigation_channel.jpg",
-    "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
-    "width": 1280,
-    "height": 1700
+    "height": 1027,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-equipment",
@@ -694,9 +1963,32 @@
     "caption": "Drone equipment used in the field campaign.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\06_drone_equipment.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2000,
-    "height": 1506
+    "height": 1506,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-irrigation",
+    "title": "Ground context: a water channel",
+    "place": "Mtukuzi",
+    "kind": "Field photograph",
+    "date": "2026-06-13",
+    "image": "assets/zambia/irrigation.jpg",
+    "thumb": "assets/zambia/irrigation-thumb.jpg",
+    "caption": "Field observation of a channel near cultivated areas; performance requires further investigation.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\05_irrigation_channel.jpg",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 1280,
+    "height": 1700,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-locator",
@@ -709,8 +2001,278 @@
     "caption": "Selected-site locator from the report; the mapping does not cover the full wider catchment.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\02_locator.png",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1100
+    "height": 1100,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-plot",
+    "title": "Ground context: cultivated land",
+    "place": "Mtukuzi",
+    "kind": "Field photograph",
+    "date": "2026-06-13",
+    "image": "assets/zambia/plot.jpg",
+    "thumb": "assets/zambia/plot-thumb.jpg",
+    "caption": "Visible cultivation at the time of the field visit; no crop-yield claim is made.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\04_cultivated_plot.jpg",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 2000,
+    "height": 1506,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-pointcloud",
+    "title": "From images to points",
+    "place": "Mtukuzi",
+    "kind": "Point cloud",
+    "date": "2026-06-13",
+    "image": "assets/zambia/pointcloud.jpg",
+    "thumb": "assets/zambia/pointcloud-thumb.jpg",
+    "caption": "Sampled point-cloud visualizations from the photogrammetric archive.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\51_point_clouds.png",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1467,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-river-frames",
+    "title": "Source frames: river",
+    "place": "Mtukuzi",
+    "kind": "Source imagery",
+    "date": "2026-06-13",
+    "image": "assets/zambia/river-frames.jpg",
+    "thumb": "assets/zambia/river-frames-thumb.jpg",
+    "caption": "Selected source frames show the river corridor at the time of capture.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\31_river_drone_examples.jpg",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 739,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-river-map",
+    "title": "A selected river reach",
+    "place": "Mtukuzi",
+    "kind": "Orthomosaic",
+    "date": "2026-06-13",
+    "image": "assets/zambia/river-map.jpg",
+    "thumb": "assets/zambia/river-map-thumb.jpg",
+    "caption": "Selected river corridor, banks, and surrounding vegetation at capture time.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\30_river_orthomosaic.png",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 1927,
+    "height": 1700,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-river-mesh",
+    "title": "River corridor in 3D",
+    "place": "Mtukuzi",
+    "kind": "3D mesh",
+    "date": "2026-06-13",
+    "image": "assets/zambia/river-mesh.jpg",
+    "thumb": "assets/zambia/river-mesh-thumb.jpg",
+    "caption": "Rendered mesh views of the selected river corridor. This does not measure water depth or flow.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\32_river_mesh.jpg",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1027,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-sugarcane",
+    "title": "Ground context: sugarcane",
+    "place": "Mtukuzi",
+    "kind": "Field photograph",
+    "date": "2026-06-13",
+    "image": "assets/zambia/sugarcane.jpg",
+    "thumb": "assets/zambia/sugarcane-thumb.jpg",
+    "caption": "A field inspection places aerial observations in the context of local cultivation.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\03_sugarcane_field_inspection.jpg",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 2000,
+    "height": 1506,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-team",
+    "title": "The field team & partners",
+    "place": "Mtukuzi",
+    "kind": "Field photograph",
+    "date": "2026-06-13",
+    "image": "assets/zambia/team.jpg",
+    "thumb": "assets/zambia/team-thumb.jpg",
+    "caption": "Field team and local partners during the June 13, 2026 visit. Individual identification and publication credit remain to be finalized.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\02_field_team_and_partners.jpg",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 2000,
+    "height": 1506,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-terrain",
+    "title": "Selected terrain products",
+    "place": "Mtukuzi",
+    "kind": "Terrain",
+    "date": "2026-06-13",
+    "image": "assets/zambia/terrain.jpg",
+    "thumb": "assets/zambia/terrain-thumb.jpg",
+    "caption": "Digital terrain model visualizations across selected survey areas. Pixel size is not a vertical-accuracy claim.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\50_terrain_models.png",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 2009,
+    "height": 1700,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-village-frames",
+    "title": "Source frames: village",
+    "place": "Mtukuzi",
+    "kind": "Source imagery",
+    "date": "2026-06-13",
+    "image": "assets/zambia/village-frames.jpg",
+    "thumb": "assets/zambia/village-frames-thumb.jpg",
+    "caption": "Selected source drone frames provide visual context for the village map.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\11_village_drone_examples.jpg",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 739,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-village-map",
+    "title": "Village & school orthomosaic",
+    "place": "Mtukuzi",
+    "kind": "Orthomosaic",
+    "date": "2026-06-13",
+    "image": "assets/zambia/village-map.jpg",
+    "thumb": "assets/zambia/village-map-thumb.jpg",
+    "caption": "An overhead composite of selected village and school areas; selected-site coverage only.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\10_village_orthomosaic.png",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 1927,
+    "height": 1700,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-village-mesh",
+    "title": "Village & school in 3D",
+    "place": "Mtukuzi",
+    "kind": "3D mesh",
+    "date": "2026-06-13",
+    "image": "assets/zambia/village-mesh.jpg",
+    "thumb": "assets/zambia/village-mesh-thumb.jpg",
+    "caption": "Rendered top and oblique views of the textured village mesh; not an independently surveyed building model.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\12_village_mesh.jpg",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1027,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-well-frames",
+    "title": "Source frames: water structure",
+    "place": "Mtukuzi",
+    "kind": "Source imagery",
+    "date": "2026-06-13",
+    "image": "assets/zambia/well-frames.jpg",
+    "thumb": "assets/zambia/well-frames-thumb.jpg",
+    "caption": "Selected close source frames of the mapped well structure.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\41_well_drone_examples.jpg",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 739,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-well-map",
+    "title": "Water-well structure",
+    "place": "Mtukuzi",
+    "kind": "Orthomosaic",
+    "date": "2026-06-13",
+    "image": "assets/zambia/well-map.jpg",
+    "thumb": "assets/zambia/well-map-thumb.jpg",
+    "caption": "Close mapping of a visible water-well structure. Imagery does not establish water safety or yield.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\40_well_orthomosaic.png",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 1927,
+    "height": 1700,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
+  },
+  {
+    "id": "zm-well-mesh",
+    "title": "Water-well structure in 3D",
+    "place": "Mtukuzi",
+    "kind": "3D mesh",
+    "date": "2026-06-13",
+    "image": "assets/zambia/well-mesh.jpg",
+    "thumb": "assets/zambia/well-mesh-thumb.jpg",
+    "caption": "Top and oblique mesh views of the mapped structure.",
+    "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\42_well_mesh.jpg",
+    "credit": "EFPL + CIESIN · UNZA colleagues",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1027,
+    "source_platform": "Local archive",
+    "topics": [
+      "zambia"
+    ]
   }
 ]

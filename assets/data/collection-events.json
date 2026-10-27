@@ -1,0 +1,215 @@
+[
+  {
+    "id": "lamont-2022-06-07",
+    "date": "2022-06-07",
+    "dateLabel": "2022-06-07",
+    "title": "Lamont aerial context",
+    "collections": [
+      "teaching"
+    ],
+    "description": "Aerial photographs document the Lamont setting in an early source collection. The images provide site context; a specific course assignment is not established by these photographs.",
+    "sourceNote": "Selected original photographs carry June 7, 2022 EXIF dates. This entry is site context, not a claim of workshop participation.",
+    "plates": [
+      "drive-lamont-jun2022-building",
+      "drive-lamont-jun2022-river"
+    ],
+    "relatedPlateCount": 2
+  },
+  {
+    "id": "lamont-2023-01-30",
+    "date": "2023-01-30",
+    "dateLabel": "2023-01-30",
+    "title": "SDEV3450 field workshop",
+    "collections": [
+      "teaching"
+    ],
+    "description": "Photographs document a field group, an operation area, and the surrounding Lamont landscape in the SDEV3450 collection.",
+    "sourceNote": "The course collection label and selected camera EXIF dates agree on January 30, 2023. Related Site Scan records retain their own mission metadata.",
+    "plates": [
+      "drive-lamont-jan2023-landscape",
+      "drive-lamont-jan2023-launch-area",
+      "drive-lamont-jan2023-overhead",
+      "drive-lamont-jan2023-side",
+      "ss-01-lamont-sdev3450"
+    ],
+    "relatedPlateCount": 6
+  },
+  {
+    "id": "lamont-2023-04-10",
+    "date": "2023-04-10",
+    "dateLabel": "2023-04-10",
+    "title": "SDEV3450 equipment session",
+    "collections": [
+      "teaching"
+    ],
+    "description": "Indoor photographs document equipment and a group session in the SDEV3450 collection. These are records of instruction and preparation rather than survey products.",
+    "sourceNote": "Selected source photographs have April 10, 2023 EXIF dates, concordant with the source collection.",
+    "plates": [
+      "drive-lamont-apr2023-briefing",
+      "drive-lamont-apr2023-equipment"
+    ],
+    "relatedPlateCount": 2
+  },
+  {
+    "id": "lamont-2023-07-14",
+    "date": "2023-07-14",
+    "dateLabel": "2023-07-14",
+    "title": "Lamont field group and mapping records",
+    "collections": [
+      "teaching"
+    ],
+    "description": "Photographs document an outdoor field group at Lamont. The source collection carries an NSF label; the mission record provides a related spatial-data context.",
+    "sourceNote": "July 14, 2023 follows the selected original camera metadata and source collection. The collection label is retained without implying a grant identifier or independently evaluated outcome.",
+    "plates": [
+      "drive-lamont-jul2023-field",
+      "drive-lamont-jul2023-group",
+      "drive-lamont-jul2023-group-wide",
+      "ss-02-workshop-071423"
+    ],
+    "relatedPlateCount": 4
+  },
+  {
+    "id": "lamont-2023-10-11",
+    "date": "2023-10-11",
+    "dateLabel": "2023-10-11",
+    "title": "Lamont workshop mission products",
+    "collections": [
+      "teaching"
+    ],
+    "description": "The Site Scan workshop archive contains optical, thermal, and reconstruction records. The displayed views document processed mission products and are distinct from working-group photographs.",
+    "sourceNote": "Event identity and date follow the reviewed Site Scan project and mission records. Displayed source-photo counts are not calibration counts.",
+    "plates": [
+      "ss-03-dji3optical",
+      "ss-04-dji3thermal",
+      "ss-05-mapir",
+      "ss-06-skydio3d"
+    ],
+    "relatedPlateCount": 4
+  },
+  {
+    "id": "staten-island-2023-12-02",
+    "date": "2023-12-02",
+    "dateLabel": "2023-12-02",
+    "title": "Staten Island rooftop fieldwork",
+    "collections": [
+      "staten-island",
+      "teaching"
+    ],
+    "description": "Photographs document a rooftop drone session and waterfront context in the early Staten Island course archive. The Site Scan record includes survey and reconstruction views associated with the Hannah Street project.",
+    "sourceNote": "The selected photographs and reviewed mission records indicate December 2, 2023. The project container name includes 112923; the catalog keeps that naming/date distinction.",
+    "plates": [
+      "staten-island-2023-rooftop",
+      "staten-island-2023-context",
+      "ss-13-60hannahstreetsurvey",
+      "ss-14-60hannahstreetthermal",
+      "ss-15-60hannahstreet"
+    ],
+    "relatedPlateCount": 5
+  },
+  {
+    "id": "lamont-2024-02-19",
+    "date": "2024-02-19",
+    "dateLabel": "2024-02-19",
+    "title": "Winter field session and sensor products",
+    "collections": [
+      "teaching"
+    ],
+    "description": "An aerial camera record documents a working group beside the marked operation area on snow-covered Lamont grounds. Optical, thermal, and reconstruction records provide related mission context.",
+    "sourceNote": "Photographic dates follow source camera metadata; mission dates follow the reviewed Site Scan record. Folder names alone were not used as acquisition evidence.",
+    "plates": [
+      "lamont-winter-operations",
+      "lamont-field-team",
+      "lamont-landscape",
+      "ss-07-lamont021924-optical",
+      "ss-08-lamont021924-thermal"
+    ],
+    "relatedPlateCount": 6
+  },
+  {
+    "id": "lamont-2024-10-16",
+    "date": "2024-10-16",
+    "dateLabel": "2024-10-16",
+    "title": "Lamont autumn field session",
+    "collections": [
+      "teaching"
+    ],
+    "description": "Visible-light photographs document a group, drone equipment, and a landing pad from overhead and ground-level viewpoints.",
+    "sourceNote": "October 16, 2024 follows original camera metadata. Some collection labels refer to October 21; the course identity is not inferred from the photographs.",
+    "plates": [
+      "lamont-autumn-overhead",
+      "lamont-autumn-workshop",
+      "lamont-autumn-campus"
+    ],
+    "relatedPlateCount": 3
+  },
+  {
+    "id": "lamont-2025-03-05",
+    "date": "2025-03-05",
+    "dateLabel": "2025-03-05",
+    "title": "Visible-light and thermal group records",
+    "collections": [
+      "teaching"
+    ],
+    "description": "Paired visible-light and thermal-camera records document the group and landing area. The selected pair shares a source timestamp of 10:22:02.",
+    "sourceNote": "Source camera metadata supplies the date and timestamp. Thermal colors are a display rendering without a calibrated temperature scale in this plate.",
+    "plates": [
+      "lamont-march-group-wide",
+      "lamont-march-thermal",
+      "lamont-march-visible",
+      "lamont-ortho",
+      "lamont-pointcloud-oblique"
+    ],
+    "relatedPlateCount": 6
+  },
+  {
+    "id": "north-shore-esplanade-2025-12-01",
+    "date": "2025-12-01",
+    "dateLabel": "2025-12-01",
+    "title": "North Shore community fieldwork",
+    "collections": [
+      "staten-island",
+      "teaching"
+    ],
+    "description": "Ground and drone photographs document participants, equipment preparation, controller use, and waterfront conditions during the North Shore field visit. Companion layouts show mapped imagery and elevation products.",
+    "sourceNote": "December 1, 2025 is supported by the field archive, selected camera records, and dated map layouts. Individual participant roles are not assigned from photographs alone.",
+    "plates": [
+      "northshore-controller-session",
+      "northshore-equipment-check",
+      "northshore-group-aerial",
+      "northshore-community",
+      "northshore"
+    ],
+    "relatedPlateCount": 18
+  },
+  {
+    "id": "lamont-2026-03-04",
+    "date": "2026-03-04",
+    "dateLabel": "2026-03-04",
+    "title": "Lamont field-trip mission record",
+    "collections": [
+      "teaching"
+    ],
+    "description": "A reviewed field-trip mission in Site Scan provides a later record of data collection at Lamont. The plate is a mission display, not a photograph of workshop participants.",
+    "sourceNote": "Date and activity label follow the reviewed Site Scan mission record.",
+    "plates": [
+      "ss-10-field-trip-lamont-03042026"
+    ],
+    "relatedPlateCount": 1
+  },
+  {
+    "id": "lamont-2026-10-05",
+    "date": "2026-10-05",
+    "dateLabel": "2026-10-05",
+    "title": "Lamont workshop survey and reconstruction",
+    "collections": [
+      "teaching"
+    ],
+    "description": "The October workshop project includes a DJI survey and a Skydio statue reconstruction. The views document different mission outputs within the same project context.",
+    "sourceNote": "October 5, 2026 follows the reviewed Site Scan mission records. Source-photo counts describe records in those missions; they are not unique totals across the workshop.",
+    "plates": [
+      "ss-11-dji-survey",
+      "ss-12-skydio-statue"
+    ],
+    "relatedPlateCount": 2
+  }
+]

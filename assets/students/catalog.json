@@ -1,0 +1,605 @@
+[
+  {
+    "id": "lamont-winter-operations",
+    "title": "Lamont winter field operation",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2024-02-19",
+    "image": "assets/students/lamont-winter-operations.jpg",
+    "thumb": "assets/students/lamont-winter-operations-thumb.jpg",
+    "caption": "Aerial view of a working group beside the marked operation area on snow-covered Lamont grounds.",
+    "source": "lamont_fieldwork_042325/dji2e/DJI_0037.JPG",
+    "credit": "CIESIN · Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2024-02-19",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "lamont-autumn-overhead",
+    "title": "Lamont autumn operation area",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2024-10-16",
+    "image": "assets/students/lamont-autumn-overhead.jpg",
+    "thumb": "assets/students/lamont-autumn-overhead-thumb.jpg",
+    "caption": "An overhead image records a group and equipment near a marked landing pad during the October 2024 Lamont session.",
+    "source": "lamont_fieldwork_042325/dji2e/DJI_0187.JPG",
+    "credit": "CIESIN · Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2024-10-16",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "lamont-autumn-workshop",
+    "title": "Lamont workshop group",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2024-10-16",
+    "image": "assets/students/lamont-autumn-workshop.jpg",
+    "thumb": "assets/students/lamont-autumn-workshop-thumb.jpg",
+    "caption": "A group stands beside the landing pad and equipment during the October 2024 Lamont drone session.",
+    "source": "lamont_fieldwork_042325/dji2e/DJI_0200.JPG",
+    "credit": "CIESIN · Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2024-10-16",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "lamont-autumn-campus",
+    "title": "Lamont campus context in autumn",
+    "place": "Lamont",
+    "kind": "Aerial photograph",
+    "date": "2024-10-16",
+    "image": "assets/students/lamont-autumn-campus.jpg",
+    "thumb": "assets/students/lamont-autumn-campus-thumb.jpg",
+    "caption": "Oblique aerial view of campus buildings and autumn vegetation in the same October 2024 archive as the workshop images.",
+    "source": "lamont_fieldwork_042325/dji2e/DJI_0193.JPG",
+    "credit": "CIESIN · Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2024-10-16",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "lamont",
+      "teaching"
+    ]
+  },
+  {
+    "id": "lamont-march-group-wide",
+    "title": "Lamont group beside the landing pad",
+    "place": "Lamont",
+    "kind": "Workshop photograph",
+    "date": "2025-03-05",
+    "image": "assets/students/lamont-march-group-wide.jpg",
+    "thumb": "assets/students/lamont-march-group-wide-thumb.jpg",
+    "caption": "Visible-light camera record of the group and marked landing pad during the March 5, 2025 Lamont field session.",
+    "source": "lamont_fieldwork_042325/dji3t/DJI_202503051017_003/DJI_20250305102135_0008_V.JPG",
+    "credit": "Columbia University · Lamont field archive",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2025-03-05",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "lamont-march-visible",
+    "title": "Lamont group: visible-light view",
+    "place": "Lamont",
+    "kind": "Visible/thermal pair",
+    "date": "2025-03-05",
+    "image": "assets/students/lamont-march-visible.jpg",
+    "thumb": "assets/students/lamont-march-visible-thumb.jpg",
+    "caption": "Visible-light member of a paired camera record, timestamped March 5, 2025 at 10:22:02 in source EXIF.",
+    "source": "lamont_fieldwork_042325/dji3t/DJI_202503051017_003/DJI_20250305102202_0021_V.JPG",
+    "credit": "Columbia University · Lamont field archive",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4000,
+      3000
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2025-03-05",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "lamont-march-thermal",
+    "title": "Lamont group: thermal display",
+    "place": "Lamont",
+    "kind": "Visible/thermal pair",
+    "date": "2025-03-05",
+    "image": "assets/students/lamont-march-thermal.jpg",
+    "thumb": "assets/students/lamont-march-thermal-thumb.jpg",
+    "caption": "Thermal-camera display from the same source timestamp as the paired visible-light image. Colors show the exported thermal display; no calibrated temperature scale is supplied here.",
+    "source": "lamont_fieldwork_042325/dji3t/DJI_202503051017_003/DJI_20250305102202_0021_T.JPG",
+    "credit": "Columbia University · Lamont field archive",
+    "status": "Research preview · web derivative",
+    "width": 640,
+    "height": 512,
+    "sourceDimensions": [
+      640,
+      512
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image. Thermal display colors are not a calibrated temperature measurement.",
+    "event_id": "lamont-2025-03-05",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "lamont-april-campus",
+    "title": "Lamont field setting in April",
+    "place": "Lamont",
+    "kind": "Aerial photograph",
+    "date": "2025-04-23",
+    "image": "assets/students/lamont-april-campus.jpg",
+    "thumb": "assets/students/lamont-april-campus-thumb.jpg",
+    "caption": "Oblique aerial frame from the April 23, 2025 Skydio archive, showing the campus and surrounding vegetation.",
+    "source": "lamont_fieldwork_042325/skydio2/april_23_2025/S1010954.JPG",
+    "credit": "EFPL · Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2025-04-23",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "lamont-april-river",
+    "title": "Lamont campus and Hudson River",
+    "place": "Lamont",
+    "kind": "Aerial photograph",
+    "date": "2025-04-23",
+    "image": "assets/students/lamont-april-river.jpg",
+    "thumb": "assets/students/lamont-april-river-thumb.jpg",
+    "caption": "April 23, 2025 aerial context view of Lamont grounds and the Hudson River.",
+    "source": "lamont_fieldwork_042325/skydio2/april_23_2025/S1010960.JPG",
+    "credit": "EFPL · Columbia University",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "lamont-2025-04-23",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "lamont"
+    ]
+  },
+  {
+    "id": "staten-island-2023-context",
+    "title": "Staten Island field context, 2023",
+    "place": "Staten Island",
+    "kind": "Field photograph",
+    "date": "2023-12-02",
+    "image": "assets/students/staten-island-2023-context.jpg",
+    "thumb": "assets/students/staten-island-2023-context-thumb.jpg",
+    "caption": "Field-context photograph from the early Staten Island course archive. The original EXIF date is December 2, 2023; later file modification dates are not acquisition dates.",
+    "source": "../eclip/staten_island_2023.png",
+    "credit": "CIESIN · SDEV4650 · Community partners",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1650,
+    "sourceDimensions": [
+      4032,
+      3024
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2023-12-02",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "staten-island-2023-rooftop",
+    "title": "Staten Island rooftop drone session",
+    "place": "Staten Island",
+    "kind": "Workshop photograph",
+    "date": "2023-12-02",
+    "image": "assets/students/staten-island-2023-rooftop.jpg",
+    "thumb": "assets/students/staten-island-2023-rooftop-thumb.jpg",
+    "caption": "Participants and a marked landing pad on a rooftop during the December 2, 2023 Staten Island field session. Individual roles are not assigned from the photograph.",
+    "source": "../eclip/staten_island_2023_drone.png",
+    "credit": "CIESIN · SDEV4650 · Community partners",
+    "status": "Research preview · web derivative",
+    "width": 1275,
+    "height": 1700,
+    "sourceDimensions": [
+      3024,
+      4032
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2023-12-02",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-equipment-group",
+    "title": "Equipment preparation at North Shore",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-equipment-group.jpg",
+    "thumb": "assets/students/northshore-equipment-group-thumb.jpg",
+    "caption": "Participants and drone equipment along the waterfront during the December 1, 2025 field visit.",
+    "source": "staten_island_field_work_120125/field_maps_photos/chl2154_columbia_Photo 1.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 1280,
+    "height": 960,
+    "sourceDimensions": [
+      1280,
+      960
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-drone-ground",
+    "title": "Drone on the waterfront path",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-drone-ground.jpg",
+    "thumb": "assets/students/northshore-drone-ground-thumb.jpg",
+    "caption": "Ground-level record of the drone and equipment on the waterfront path.",
+    "source": "staten_island_field_work_120125/field_maps_photos/chl2154_columbia_Photo 1_1.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 1280,
+    "height": 960,
+    "sourceDimensions": [
+      1280,
+      960
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-launch-context",
+    "title": "Waterfront operation-area context",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-launch-context.jpg",
+    "thumb": "assets/students/northshore-launch-context-thumb.jpg",
+    "caption": "A ground view records the drone operation area and adjacent waterfront path.",
+    "source": "staten_island_field_work_120125/field_maps_photos/chl2154_columbia_Photo 1_2.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 1280,
+    "height": 960,
+    "sourceDimensions": [
+      1280,
+      960
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-handheld-instrument",
+    "title": "Handheld field instrument",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-handheld-instrument.jpg",
+    "thumb": "assets/students/northshore-handheld-instrument-thumb.jpg",
+    "caption": "A handheld instrument documented with the December 1 fieldwork archive. Instrument model, variable, and reading are not established by this plate.",
+    "source": "staten_island_field_work_120125/field_maps_photos/chl2154_columbia_Photo 2.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 960,
+    "height": 1280,
+    "sourceDimensions": [
+      960,
+      1280
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-equipment-check",
+    "title": "Equipment check during fieldwork",
+    "place": "North Shore Esplanade",
+    "kind": "Workshop photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-equipment-check.jpg",
+    "thumb": "assets/students/northshore-equipment-check-thumb.jpg",
+    "caption": "Participants gathered around the drone and equipment during the December 1 visit.",
+    "source": "staten_island_field_work_120125/field_maps_photos/jmv2196_columbia_Photo 1_4.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 960,
+    "height": 1280,
+    "sourceDimensions": [
+      960,
+      1280
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-controller-session",
+    "title": "Controller use during fieldwork",
+    "place": "North Shore Esplanade",
+    "kind": "Workshop photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-controller-session.jpg",
+    "thumb": "assets/students/northshore-controller-session-thumb.jpg",
+    "caption": "A participant holds a controller while others observe along the waterfront path.",
+    "source": "staten_island_field_work_120125/field_maps_photos/jmv2196_columbia_Photo 2.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 960,
+    "height": 1280,
+    "sourceDimensions": [
+      960,
+      1280
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-waterfront-deck",
+    "title": "Waterfront deck and shoreline context",
+    "place": "North Shore Esplanade",
+    "kind": "Field photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-waterfront-deck.jpg",
+    "thumb": "assets/students/northshore-waterfront-deck-thumb.jpg",
+    "caption": "Ground-level waterfront view from the field-photo collection.",
+    "source": "staten_island_field_work_120125/field_maps_photos/ona2107_columbia_Photo 1.jpg",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 960,
+    "height": 1280,
+    "sourceDimensions": [
+      960,
+      1280
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-group-aerial",
+    "title": "North Shore working group from above",
+    "place": "North Shore Esplanade",
+    "kind": "Workshop photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-group-aerial.jpg",
+    "thumb": "assets/students/northshore-group-aerial-thumb.jpg",
+    "caption": "Drone photograph of the field group beside the waterfront path and equipment.",
+    "source": "staten_island_field_work_120125/misc/S1012534.JPG",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-aerial-context",
+    "title": "North Shore waterfront aerial context",
+    "place": "North Shore Esplanade",
+    "kind": "Aerial photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-aerial-context.jpg",
+    "thumb": "assets/students/northshore-aerial-context-thumb.jpg",
+    "caption": "Oblique drone view of waterfront structures, shoreline vegetation, and surrounding development.",
+    "source": "staten_island_field_work_120125/misc/S1012536.JPG",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-shoreline-frame",
+    "title": "North Shore shoreline source frame",
+    "place": "North Shore Esplanade",
+    "kind": "Aerial photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-shoreline-frame.jpg",
+    "thumb": "assets/students/northshore-shoreline-frame-thumb.jpg",
+    "caption": "Aerial source frame showing water, shoreline vegetation, and the adjacent built waterfront.",
+    "source": "staten_island_field_work_120125/misc/S1012538.JPG",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-waterfront-structures",
+    "title": "Waterfront structures in context",
+    "place": "North Shore Esplanade",
+    "kind": "Aerial photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-waterfront-structures.jpg",
+    "thumb": "assets/students/northshore-waterfront-structures-thumb.jpg",
+    "caption": "Oblique drone view of waterfront structures and adjacent shoreline, retained as visual context rather than a measured change product.",
+    "source": "staten_island_field_work_120125/misc/S1012542.JPG",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  },
+  {
+    "id": "northshore-late-day-context",
+    "title": "North Shore late-day field context",
+    "place": "North Shore Esplanade",
+    "kind": "Aerial photograph",
+    "date": "2025-12-01",
+    "image": "assets/students/northshore-late-day-context.jpg",
+    "thumb": "assets/students/northshore-late-day-context-thumb.jpg",
+    "caption": "Late-day aerial context from the December 1, 2025 mission archive. Shadow and illumination differ from earlier frames.",
+    "source": "staten_island_field_work_120125/misc/S1012549.JPG",
+    "credit": "EFPL · SDEV4650 · Staten Island community partners",
+    "status": "Research preview · web derivative",
+    "width": 2200,
+    "height": 1649,
+    "sourceDimensions": [
+      4056,
+      3040
+    ],
+    "uncertainty": "Date follows original camera EXIF. Camera time zone is not established. Individual names and participant roles are not inferred from this image.",
+    "event_id": "staten-island-2025-12-01",
+    "date_basis": "Original EXIF DateTimeOriginal where present; otherwise source DateTime plus dated archive context.",
+    "topics": [
+      "parks",
+      "staten-island",
+      "teaching"
+    ]
+  }
+]

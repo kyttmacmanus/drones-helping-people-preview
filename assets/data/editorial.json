@@ -12,5 +12,7 @@
     "Describe unresolved causes and outcomes without implying validation.",
     "Retain source-specific limitations at the relevant product or methods entry rather than repeating general disclaimers."
   ],
-  "hosting": "Public GitHub Pages preview from a site-only repository; development records remain private."
+  "hosting": "Public GitHub Pages preview from a site-only repository; development records remain private.",
+  "preview_revision": 2,
+  "source_review": "Local archives, supplied Google Drive folder, and authenticated Site Scan mission records reviewed for a more balanced New York teaching and community-fieldwork edition."
 }

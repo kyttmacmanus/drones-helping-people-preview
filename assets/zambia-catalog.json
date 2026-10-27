@@ -10,9 +10,12 @@
     "caption": "An overhead composite of selected village and school areas; selected-site coverage only.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\10_village_orthomosaic.png",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 1927,
-    "height": 1700
+    "height": 1700,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-village-mesh",
@@ -25,9 +28,12 @@
     "caption": "Rendered top and oblique views of the textured village mesh; not an independently surveyed building model.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\12_village_mesh.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1027
+    "height": 1027,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-crop-broad",
@@ -40,9 +46,12 @@
     "caption": "Broad-area agricultural imagery. Crops capture links to the Crops-2 processed product naming in the corrected source crosswalk.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\20_crop_broad_orthomosaic.png",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 1927,
-    "height": 1700
+    "height": 1700,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-crop-detail",
@@ -55,9 +64,12 @@
     "caption": "Lower-altitude agricultural mapping; capture and processed product names differ in the source archive.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\21_crop_detail_orthomosaic.png",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 1927,
-    "height": 1700
+    "height": 1700,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-crop-mesh",
@@ -70,9 +82,12 @@
     "caption": "Textured-mesh views show visible crop and surface structure. Interpret water movement with field verification.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\24_crop_mesh.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1027
+    "height": 1027,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-river-map",
@@ -85,9 +100,12 @@
     "caption": "Selected river corridor, banks, and surrounding vegetation at capture time.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\30_river_orthomosaic.png",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 1927,
-    "height": 1700
+    "height": 1700,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-river-mesh",
@@ -100,9 +118,12 @@
     "caption": "Rendered mesh views of the selected river corridor. This does not measure water depth or flow.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\32_river_mesh.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1027
+    "height": 1027,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-well-map",
@@ -115,9 +136,12 @@
     "caption": "Close mapping of a visible water-well structure. Imagery does not establish water safety or yield.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\40_well_orthomosaic.png",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 1927,
-    "height": 1700
+    "height": 1700,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-well-mesh",
@@ -130,9 +154,12 @@
     "caption": "Top and oblique mesh views of the mapped structure.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\42_well_mesh.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1027
+    "height": 1027,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-terrain",
@@ -145,9 +172,12 @@
     "caption": "Digital terrain model visualizations across selected survey areas. Pixel size is not a vertical-accuracy claim.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\50_terrain_models.png",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2009,
-    "height": 1700
+    "height": 1700,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-pointcloud",
@@ -160,9 +190,12 @@
     "caption": "Sampled point-cloud visualizations from the photogrammetric archive.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\51_point_clouds.png",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1467
+    "height": 1467,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-village-frames",
@@ -175,9 +208,12 @@
     "caption": "Selected source drone frames provide visual context for the village map.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\11_village_drone_examples.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 739
+    "height": 739,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-crop-frames",
@@ -190,9 +226,12 @@
     "caption": "Selected source drone frames document visible agricultural patterns.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\23_crop_detail_drone_examples.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 739
+    "height": 739,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-river-frames",
@@ -205,9 +244,12 @@
     "caption": "Selected source frames show the river corridor at the time of capture.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\31_river_drone_examples.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 739
+    "height": 739,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-well-frames",
@@ -220,9 +262,12 @@
     "caption": "Selected close source frames of the mapped well structure.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\41_well_drone_examples.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 739
+    "height": 739,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-team",
@@ -235,9 +280,12 @@
     "caption": "Field team and local partners during the June 13, 2026 visit. Individual identification and publication credit remain to be finalized.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\02_field_team_and_partners.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2000,
-    "height": 1506
+    "height": 1506,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-sugarcane",
@@ -250,9 +298,12 @@
     "caption": "A field inspection places aerial observations in the context of local cultivation.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\03_sugarcane_field_inspection.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2000,
-    "height": 1506
+    "height": 1506,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-plot",
@@ -265,9 +316,12 @@
     "caption": "Visible cultivation at the time of the field visit; no crop-yield claim is made.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\04_cultivated_plot.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2000,
-    "height": 1506
+    "height": 1506,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-irrigation",
@@ -280,9 +334,12 @@
     "caption": "Field observation of a channel near cultivated areas; performance requires further investigation.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\05_irrigation_channel.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 1280,
-    "height": 1700
+    "height": 1700,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-equipment",
@@ -295,9 +352,12 @@
     "caption": "Drone equipment used in the field campaign.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\field_photos\\06_drone_equipment.jpg",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2000,
-    "height": 1506
+    "height": 1506,
+    "topics": [
+      "zambia"
+    ]
   },
   {
     "id": "zm-locator",
@@ -310,8 +370,11 @@
     "caption": "Selected-site locator from the report; the mapping does not cover the full wider catchment.",
     "source": "permits\\Petauke_Zambia\\unza\\mtukuzi\\figures\\report_v4\\02_locator.png",
     "credit": "EFPL + CIESIN · UNZA colleagues",
-    "status": "Completed fieldwork / selected-site product",
+    "status": "Research preview · web derivative",
     "width": 2200,
-    "height": 1100
+    "height": 1100,
+    "topics": [
+      "zambia"
+    ]
   }
 ]
