@@ -1,34 +1,42 @@
 {
-  "catalog_plate_count": 120,
+  "catalog_plate_count": 135,
   "topic_counts": {
+    "agricultural-fieldwork": 2,
+    "balloon-mapping": 6,
     "coastal": 7,
     "collaboration": 1,
     "community": 23,
+    "field-gis": 12,
     "field-methods": 11,
     "four-sparrow": 1,
+    "hemlock-hill": 1,
     "hubbard-creek": 1,
+    "instrumentation": 2,
     "international": 2,
     "lamont": 47,
     "lidar": 1,
-    "mapping": 6,
+    "mapping": 7,
     "morningside": 1,
     "nyc-parks": 2,
     "parks": 36,
     "research": 16,
     "staten-island": 23,
-    "teaching": 60,
+    "teaching": 88,
     "terrain": 2,
     "terrain-wind": 1,
     "thermal": 2,
+    "tree-mapping": 6,
     "unza": 1,
     "water": 1,
     "zambia": 24
   },
   "source_platform_counts": {
+    "ArcGIS Online": 4,
     "ArcGIS Site Scan": 6,
-    "ArcGIS SiteScan": 15,
-    "Google Drive": 12,
-    "Project archive": 87
+    "ArcGIS SiteScan": 16,
+    "Columbia Climate School": 6,
+    "Google Drive": 14,
+    "Project archive": 89
   },
   "note": "Topics overlap. Web plates are curated display derivatives; scientific originals remain in their source archives."
 }

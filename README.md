@@ -8,4 +8,6 @@ Descriptions distinguish observations, derived products, interpretations, intend
 
 The default personal perspective uses Kytt's byline; append `?edition=efpl` for the Environmental Flow Physics Laboratory perspective. Project-specific institutional and collaborator credits persist across both.
 
+The current interface uses a compact field-research visual system, structured image/product metadata and basemap-free product displays. Teaching includes Black Rock Forest balloon mapping as a historical precursor, William Paterson campus tree mapping and Hemlock Hill field methods. Balloon imagery, photogrammetry, LiDAR and qualitative thermal displays remain distinct.
+
 GitHub Pages serves this curated website-only snapshot from the main branch root. Development records and source archives are maintained separately.

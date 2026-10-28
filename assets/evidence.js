@@ -18,7 +18,7 @@
 
   async function loadMissions() {
     try {
-      const response = await fetch('assets/data/missions.json?v=4');
+      const response = await fetch('assets/data/missions.json?v=5');
       if (!response.ok) throw Error('Capture metadata can be downloaded below.');
       const rows = await response.json();
       const body = document.querySelector('#mission-table tbody');
@@ -43,7 +43,7 @@
   }
   async function loadProjectProducts() {
     try {
-      const response = await fetch('assets/data/project-products.json?v=4');
+      const response = await fetch('assets/data/project-products.json?v=5');
       if (!response.ok) return;
       const data = await response.json();
       if (!data.projects?.length) return;

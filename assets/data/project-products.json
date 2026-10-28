@@ -288,6 +288,75 @@
         }
       ],
       "limitations": "Marsh and channel products describe the mapped surface. Independent positional accuracy and ecological change are not established by these displays."
+    },
+    {
+      "case_study_id": "black-rock-forest",
+      "title": "Black Rock Forest balloon mapping",
+      "place": "Black Rock Forest, Cornwall, New York",
+      "products": [],
+      "source_platforms": [
+        "Columbia Climate School"
+      ],
+      "source_links": [
+        {
+          "title": "Columbia account of the October 2017 fieldwork and photo credits",
+          "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+        }
+      ],
+      "limitations": "Balloon-based source imagery is distinct from later drone work. Infrared colors are not calibrated NDVI; the display does not establish measurement accuracy."
+    },
+    {
+      "case_study_id": "william-paterson",
+      "title": "William Paterson tree mapping",
+      "place": "William Paterson University, New Jersey",
+      "products": [
+        "Field GIS / orthomosaic",
+        "Orthomosaic",
+        "Surface model",
+        "Thermal orthomosaic display"
+      ],
+      "source_platforms": [
+        "ArcGIS Online",
+        "Project archive"
+      ],
+      "source_links": [
+        {
+          "title": "William Paterson University Drone Workshop public web map",
+          "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+        },
+        {
+          "title": "Workshop materials and source-data collection",
+          "url": "https://drive.google.com/drive/folders/10gRauC9IyuLNHaux9eq8XCN7QTNiN84B"
+        }
+      ],
+      "limitations": "Tree observations and reconstructed elevation products are complementary views. Tree-identification performance, inventory completeness and calibrated thermal temperature are not established."
+    },
+    {
+      "case_study_id": "hemlock-hill",
+      "title": "Hemlock Hill field instrumentation",
+      "place": "Hemlock Hill Farm, Westchester County",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Multispectral camera display",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Terrain model"
+      ],
+      "source_platforms": [
+        "ArcGIS SiteScan",
+        "Google Drive"
+      ],
+      "source_links": [
+        {
+          "title": "Hemlock-Hill-Farm · SiteScan (existing access required)",
+          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/55526b6c-b821-444a-a303-fd430e9a944f/missions"
+        }
+      ],
+      "limitations": "The photogrammetric DTM is separate from the logged IF1200A LiDAR acquisition. Ground-control activity does not by itself establish independent checkpoint accuracy, bare-earth validation, calibrated NDVI or agricultural outcomes."
     }
   ]
 }

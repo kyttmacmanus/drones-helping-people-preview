@@ -1,5 +1,23 @@
 [
   {
+    "id": "black-rock-forest-2017-10-28",
+    "date": "2017-10-28",
+    "dateLabel": "October 28, 2017",
+    "title": "Black Rock Forest balloon mapping and field GIS",
+    "collections": [
+      "teaching"
+    ],
+    "description": "Three Columbia GIS courses connected low-cost aerial imagery with ground field observations.",
+    "sourceNote": "Published image captions and retained source EXIF identify the October 28 trip. Balloon imagery is distinct from later UAS work; infrared colors are not calibrated NDVI.",
+    "plates": [
+      "v5-brf-field-group",
+      "v5-brf-balloon-preparation",
+      "v5-brf-reservoir-aerial",
+      "v5-brf-infrared-aerial"
+    ],
+    "relatedPlateCount": 4
+  },
+  {
     "id": "callicoon-2022-04-04",
     "date": "2022-04-04",
     "dateLabel": "April 4–5, 2022",
@@ -179,6 +197,24 @@
     "relatedPlateCount": 5
   },
   {
+    "id": "william-paterson-2025-03-11",
+    "date": "2025-03-11",
+    "dateLabel": "March 11, 2025",
+    "title": "William Paterson campus tree-mapping workshop",
+    "collections": [
+      "teaching"
+    ],
+    "description": "Nicole Davi hosted a workshop connecting Field Maps tree observations with drone imagery and elevation products.",
+    "sourceNote": "The visible and thermal originals share March 11, 2025 at 15:10:48 in camera metadata. Public product layers retain their separate processing context.",
+    "plates": [
+      "v5-wpu-group-visible",
+      "v5-wpu-group-thermal",
+      "v5-wpu-field-trees",
+      "v5-wpu-dsm-relief"
+    ],
+    "relatedPlateCount": 4
+  },
+  {
     "id": "lamont-2025-08-05",
     "date": "2025-08-05",
     "dateLabel": "2025-08-05",
@@ -245,6 +281,23 @@
       "ss-10-field-trip-lamont-03042026"
     ],
     "relatedPlateCount": 1
+  },
+  {
+    "id": "hemlock-hill-2026-04-15",
+    "date": "2026-04-15",
+    "dateLabel": "April 15, 2026",
+    "title": "Hemlock Hill instrumentation and aerial observations",
+    "collections": [
+      "teaching"
+    ],
+    "description": "SDEV3450 students and WAC partners connected ground measurements with complementary aerial sensors.",
+    "sourceNote": "Original camera metadata identifies April 15. The terrain display is a photogrammetric processing product, separate from the logged LiDAR acquisition. Paired-camera colors are not calibrated NDVI; the views do not establish agricultural outcomes.",
+    "plates": [
+      "v5-hemlock-field-team",
+      "v5-hemlock-paired-camera",
+      "v5-hemlock-dtm"
+    ],
+    "relatedPlateCount": 3
   },
   {
     "id": "lamont-2026-10-05",

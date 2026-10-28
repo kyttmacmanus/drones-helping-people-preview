@@ -1,7 +1,27 @@
 {
   "schemaVersion": 1,
-  "scope": "Course instruction, educator workshops and collaborative field sessions connect drone operations with spatial analysis. Activities include classroom, indoor and outdoor work; participation does not by itself establish learning gains.",
+  "scope": "Completed course instruction, educator workshops and collaborative field sessions connect aerial mapping and field GIS with spatial analysis. Black Rock Forest balloon mapping precedes later drone work. Activities include classroom, indoor and outdoor work; participation does not by itself establish learning gains.",
   "events": [
+    {
+      "id": "black-rock-forest-2017-10-28",
+      "date": "2017-10-28",
+      "title": "Black Rock Forest balloon aerial mapping and field GIS",
+      "place": "Black Rock Forest, Cornwall, New York",
+      "program": "Three Columbia GIS courses · Fall 2017",
+      "contributors": "Kytt MacManus, Dara Mendeloff and Greg Yetman; teaching assistants Sara Lytle and Christina Paton; organizer Gina Dinnegan; participating GIS students",
+      "institution": "CIESIN · Columbia University",
+      "relatedCollection": "black-rock-forest-2017-10-28",
+      "status": "completed",
+      "contribution": "Three GIS courses worked with Public Lab balloon kits, visible-light and modified infrared camera observations, GPS and Collector for ArcGIS field mapping.",
+      "context": "Balloon aerial mapping was an earlier field-instruction precursor. High winds limited the operation; the retained camera views are source photographs rather than validated maps or quantitative NDVI.",
+      "dateLabel": "October 28, 2017",
+      "sources": [
+        {
+          "title": "Columbia Climate School account",
+          "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+        }
+      ]
+    },
     {
       "id": "sdev3450-sfm-2021-03-29",
       "date": "2021-03-29",
@@ -226,7 +246,7 @@
       "program": "William Paterson University · class workshop",
       "contributors": "Kytt MacManus, with host Nicole Davi",
       "institution": "Columbia University · EFPL / teaching collaboration",
-      "relatedCollection": null,
+      "relatedCollection": "william-paterson-2025-03-11",
       "status": "completed",
       "contribution": "A workshop with host Nicole Davi combined tree mapping, drone observations and GIS, with map products and visible-light and thermal photographs shared afterward.",
       "context": "Field observations and processed maps offered complementary views of the workshop site. Thermal displays remain qualitative.",
@@ -271,10 +291,10 @@
       "program": "SDEV3450 · Watershed Agricultural Council collaboration",
       "contributors": "Kytt MacManus with Watershed Agricultural Council hosts",
       "institution": "Columbia University · EFPL / teaching collaboration",
-      "relatedCollection": null,
+      "relatedCollection": "hemlock-hill-2026-04-15",
       "status": "completed",
       "contribution": "SDEV3450 students visited Hemlock Hill Farm for field-data collection with Watershed Agricultural Council hosts.",
-      "context": "The visit connected spatial-analysis coursework with an agricultural field setting.",
+      "context": "Ground control, positioning and total-station work were combined with photogrammetry, separately logged LiDAR acquisition and a multispectral camera configuration. Selected display derivatives document the field methods; agricultural outcomes and independent accuracy are not established.",
       "dateLabel": "April 15, 2026",
       "sources": []
     },

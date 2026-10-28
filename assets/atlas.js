@@ -9,10 +9,10 @@ const params=new URLSearchParams(location.search);
 let theme=params.get('theme')||'all';
 function render(){
  const place=$('#place-filter').value,kind=$('#kind-filter').value,q=$('#catalog-search').value.trim().toLowerCase();
- visible=catalog.filter(p=>(theme==='all'||(p.topics||[]).includes(theme))&&(place==='all'||p.place===place)&&(kind==='all'||p.kind===kind)&&(!q||[p.title,p.caption,p.place,p.kind,p.credit,p.event||'',p.source_platform||''].join(' ').toLowerCase().includes(q)));
+ visible=catalog.filter(p=>(theme==='all'||(p.topics||[]).includes(theme))&&(place==='all'||p.place===place)&&(kind==='all'||p.kind===kind)&&(!q||[p.title,p.caption,p.place,p.kind,p.credit,p.event,p.project,p.program_or_course,p.photographer,p.creator,p.camera_make,p.camera_model,p.sensor,p.product_type,(p.people_depicted||[]).join(' '),p.source_platform].filter(Boolean).join(' ').toLowerCase().includes(q)));
  $('#catalog-status').textContent=`${visible.length} of ${catalog.length} curated plates shown`;
  $('#catalog-empty').hidden=visible.length>0;
- $('#catalog-grid').innerHTML=visible.map(p=>`<article class="plate-card"><button data-plate="${p.id}" aria-label="Examine ${esc(p.title)}"><img src="${p.thumb||p.image}" alt="${esc(p.title)}" loading="lazy"><span class="plate-action">Examine plate ↗</span></button><p class="eyebrow">${esc(p.place)} / ${esc(p.kind)}</p><h3>${esc(p.title)}</h3><p>${esc(p.caption)}</p><p class="small">${esc(p.date||'Date in source notes')} · ${esc(p.credit)}</p></article>`).join('');
+ $('#catalog-grid').innerHTML=visible.map(p=>`<article class="plate-card"><button data-plate="${p.id}" aria-label="Examine ${esc(p.title)}"><img src="${DRONE_ASSET_URL(p.thumb||p.image)}" alt="${esc(p.title)}" loading="lazy"><span class="plate-action">Examine plate ↗</span></button><p class="eyebrow">${esc(p.place)} / ${esc(p.kind)}</p><h3>${esc(p.title)}</h3><p>${esc(p.caption)}</p><p class="small">${esc(p.date||'Date in source notes')} · ${esc(p.credit)}</p></article>`).join('');
  document.querySelectorAll('[data-plate]').forEach(b=>b.onclick=()=>openPlate(b.dataset.plate));
 }
 function openPlate(id){
@@ -20,21 +20,22 @@ function openPlate(id){
  showPlate();$('#plate-dialog').showModal();
 }
 function showPlate(){
- const p=visible[active];$('#plate-image').src=p.image;$('#plate-image').alt=p.title;
+ const p=visible[active];$('#plate-image').src=DRONE_ASSET_URL(p.image);$('#plate-image').alt=p.title;
  $('#plate-title').textContent=p.title;$('#plate-kind').textContent=p.kind+' / '+p.place;
  $('#plate-caption').textContent=p.caption;$('#plate-position').textContent=`${active+1} / ${visible.length}`;
- $('#plate-meta').innerHTML=[['IMAGE / MISSION DATE',p.date||'See source'],...(p.date_basis?[['DATE BASIS',p.date_basis]]:[]),...(p.display_captured_on?[['VIEW CAPTURED',p.display_captured_on]]:[]),['CREDIT',p.credit],['SOURCE PLATFORM',p.source_platform||'Local archive'],['STATUS',p.status||'Curated research derivative'],['SOURCE RECORD',p.source_file||p.source],['DISPLAY PRODUCT',`${p.width} × ${p.height} pixels · web derivative`],...(p.uncertainty?[['INTERPRETATION / LIMITS',p.uncertainty]]:[])].map(([a,b])=>`<dt>${a}</dt><dd>${esc(b)}</dd>`).join('');
+ $('#plate-meta').innerHTML=DRONE_META.metadataHTML(p);
+ $('#plate-provenance').innerHTML=DRONE_META.provenanceHTML(p);
  const original=p.source_url||p.mission_url||(/^https:\/\//.test(p.source)?p.source:null);const sourceLink=$('#plate-source-link');sourceLink.hidden=!original;if(original)sourceLink.href=original;
- $('#plate-download').href=p.image;$('#plate-prev').disabled=active===0;$('#plate-next').disabled=active===visible.length-1;
+ $('#plate-download').href=DRONE_ASSET_URL(p.image);$('#plate-prev').disabled=active===0;$('#plate-next').disabled=active===visible.length-1;
 }
 $('#plate-close').onclick=()=>$('#plate-dialog').close();
 $('#plate-prev').onclick=()=>{if(active>0){active--;showPlate();}};$('#plate-next').onclick=()=>{if(active<visible.length-1){active++;showPlate();}};
 $('#plate-dialog').addEventListener('click',e=>{if(e.target===$('#plate-dialog'))e.target.close();});
 document.addEventListener('keydown',e=>{if(!$('#plate-dialog').open)return;if(e.key==='ArrowRight')$('#plate-next').click();if(e.key==='ArrowLeft')$('#plate-prev').click();});
-function compare(side){const p=catalog.find(p=>p.id===$('#compare-'+side).value);if(!p)return;$('#compare-'+side+'-figure').innerHTML=`<img src="${p.image}" alt="${esc(p.title)}"><figcaption><b>${esc(p.title)}</b> · ${esc(p.place)}<br>${esc(p.caption)}<br>${esc(p.credit)}</figcaption>`;}
+function compare(side){const p=catalog.find(p=>p.id===$('#compare-'+side).value);if(!p)return;$('#compare-'+side+'-figure').innerHTML=`<img src="${DRONE_ASSET_URL(p.image)}" alt="${esc(p.title)}"><figcaption><b>${esc(p.title)}</b> · ${esc(p.place)}<br>${esc(p.caption)}<br>${esc(p.credit)}</figcaption>`;}
 async function init(){
  try{
-  const response=await fetch('assets/data/visual-catalog.json?v=4');if(!response.ok)throw Error('Could not load the visual source catalog');
+  const response=await fetch('assets/data/visual-catalog.json?v=5');if(!response.ok)throw Error('Could not load the visual source catalog');
   catalog=await response.json();
   ['place','kind'].forEach(key=>{const sel=$('#'+key+'-filter');[...new Set(catalog.map(p=>p[key]))].sort().forEach(v=>sel.add(new Option(v,v)));sel.onchange=render;});
   $('#catalog-search').oninput=render;$('#reset-filters').onclick=()=>{theme='all';document.querySelectorAll('[data-theme]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.theme==='all'?'true':'false'));$('#place-filter').value='all';$('#kind-filter').value='all';$('#catalog-search').value='';render();};
