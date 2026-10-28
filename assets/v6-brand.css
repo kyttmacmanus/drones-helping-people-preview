@@ -1,0 +1,62 @@
+/* Drones Helping People V6. Project identity is distinct from institutional credit.
+   The brand layer after v5.css; layout/timeline components live in v6-layout.css. */
+:root {
+  --dhp-slate:#182c38; --dhp-cyan:#007f91; --dhp-cyan-strong:#006575;
+  --dhp-cyan-tint:#e7f4f6; --columbia-blue:#b9d9eb; --affiliation-ink:#355d73;
+  --paper:#ffffff; --ink:var(--dhp-slate); --muted:#516473;
+  --line:#d5e0e5; --surface:#f2f6f8; --image-surface:#e7edf1;
+  --accent:var(--dhp-cyan-strong); --blue:var(--dhp-cyan-strong);
+  --area-teaching:#087fab; --area-teaching-text:#08658a; --area-teaching-tint:#e9f4f9;
+  --area-communities:#ac4e34; --area-communities-text:#913f2a; --area-communities-tint:#fbeee9;
+  --area-parks:#28734b; --area-parks-text:#215f3f; --area-parks-tint:#edf5ef;
+  --area-research:#6853a2; --area-research-text:#58438e; --area-research-tint:#f2eef8;
+}
+body {color:var(--ink)}
+.draft {border-top-color:var(--dhp-cyan)}
+/* The mark and text are separate to keep real, selectable HTML in the masthead. */
+a.brand.logo-brand {
+  display:grid; grid-template-columns:32px minmax(0,1fr); grid-template-rows:auto auto;
+  column-gap:10px; row-gap:3px; align-items:center; min-width:0; line-height:1.2;
+  text-decoration:none; flex-shrink:0; padding-block:2px;
+}
+a.brand.logo-brand .dhp-mark {
+  grid-column:1; grid-row:1 / 3; width:32px; height:32px; display:block; flex-shrink:0;
+}
+a.brand.logo-brand .dhp-wordmark {
+  grid-column:2; grid-row:1; display:block; margin:0; font:650 20px/1.16 var(--sans);
+  letter-spacing:-.035em; color:var(--ink); white-space:nowrap; max-width:none;
+}
+a.brand.logo-brand .affiliation {
+  grid-column:2; grid-row:2; display:block; margin:0; max-width:54ch;
+  font:400 11px/1.4 var(--sans); letter-spacing:0; color:var(--affiliation-ink);
+}
+a.brand.logo-brand:hover .dhp-wordmark {color:var(--accent)}
+nav a[aria-current=page] {background:var(--dhp-cyan-tint);color:var(--accent)}
+nav a:hover {background:var(--surface)}
+.filters button[aria-pressed=true] {background:var(--accent);border-color:var(--accent);color:#fff}
+/* Never assign area by location. Apply these only from semantic program membership. */
+[data-area=teaching] {--area-color:var(--area-teaching);--area-text:var(--area-teaching-text);--area-tint:var(--area-teaching-tint)}
+[data-area=communities] {--area-color:var(--area-communities);--area-text:var(--area-communities-text);--area-tint:var(--area-communities-tint)}
+[data-area=parks] {--area-color:var(--area-parks);--area-text:var(--area-parks-text);--area-tint:var(--area-parks-tint)}
+[data-area=research] {--area-color:var(--area-research);--area-text:var(--area-research-text);--area-tint:var(--area-research-tint)}
+.area-tag {display:inline-flex;align-items:center;gap:6px;border-radius:4px;background:var(--area-tint,var(--surface));color:var(--area-text,var(--ink));padding:3px 8px;font:600 11px/1.5 var(--sans);text-decoration:none}
+.area-tag::before {content:"";width:6px;height:6px;border-radius:50%;background:var(--area-color,var(--accent));flex-shrink:0}
+.area-tag:hover {color:var(--area-text,var(--ink));text-decoration:underline}
+@media(max-width:1100px) {
+  a.brand.logo-brand .dhp-wordmark {font-size:19px}
+}
+@media(max-width:720px) {
+  a.brand.logo-brand {max-width:100%;column-gap:8px;flex-shrink:1}
+  a.brand.logo-brand .dhp-wordmark {font-size:18px}
+  a.brand.logo-brand .affiliation {font-size:10px;max-width:34ch}
+  a.brand.logo-brand .dhp-mark {width:32px;height:32px}
+}
+@media(max-width:359px) {
+  a.brand.logo-brand .dhp-wordmark {font-size:16px}
+  a.brand.logo-brand .affiliation {font-size:9px}
+}
+@media(forced-colors:active) {
+  .area-tag {border:1px solid CanvasText}
+  .area-tag::before {background:CanvasText}
+  nav a[aria-current=page] {outline:1px solid Highlight}
+}

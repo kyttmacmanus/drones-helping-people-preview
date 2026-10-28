@@ -1,69 +1,5 @@
 {
-  "schema_version": 1,
-  "chapters": [
-    {
-      "id": "teaching",
-      "number": 1,
-      "title": "Teaching capability and field instruction",
-      "period": "2017–present",
-      "summary": "Balloon aerial mapping and field GIS at Black Rock Forest in 2017 preceded the 2021 Provost-supported drone-teaching capability. Callicoon, Lamont, William Paterson, Hemlock Hill and educator workshops connect field observations, instrumentation and spatial analysis.",
-      "case_studies": [
-        "black-rock-forest",
-        "callicoon",
-        "lamont-instruction",
-        "william-paterson",
-        "hemlock-hill"
-      ]
-    },
-    {
-      "id": "community",
-      "number": 2,
-      "title": "Community-engaged mapping",
-      "period": "2023–present",
-      "summary": "SDEV4650 connects students, the Staten Island Urban Center and community partners around waterfront questions. The work extends from the 60 Hannah Street field session to later North Shore mapping and partner access to spatial information.",
-      "case_studies": [
-        "hannah-street",
-        "north-shore"
-      ]
-    },
-    {
-      "id": "parks",
-      "number": 3,
-      "title": "NYC Parks UAS research",
-      "period": "2025–present",
-      "summary": "EFPL’s developing NYC Parks portfolio includes repeated Four Sparrow Marsh surveys, North Shore Esplanade and Morningside Park mapping, and forthcoming work at Highbridge Park. North Shore also continues the Staten Island community partnership.",
-      "case_studies": [
-        "four-sparrow",
-        "north-shore",
-        "morningside",
-        "highbridge"
-      ]
-    },
-    {
-      "id": "international",
-      "number": 4,
-      "title": "HOT, UNZA and mapping in Zambia",
-      "period": "2025–present",
-      "summary": "Work with the Humanitarian OpenStreetMap Team and University of Zambia colleagues connects international exchange, field methods and selected-site mapping around Mtukuzi. Fieldwork also contributed to a learning module developed for TOPSTSCHOOL.",
-      "case_studies": [
-        "hot-unza",
-        "mtukuzi"
-      ]
-    },
-    {
-      "id": "current",
-      "number": 5,
-      "title": "Current research and forthcoming work",
-      "period": "Ongoing and forthcoming",
-      "summary": "At Lamont, terrain and surface information support investigation of wind dynamics alongside field measurements. Ongoing Morningside research, methods development and forthcoming Highbridge work extend the program with partners.",
-      "case_studies": [
-        "lamont-research",
-        "morningside",
-        "highbridge",
-        "hubbard-creek"
-      ]
-    }
-  ],
+  "schema_version": 2,
   "case_studies": [
     {
       "id": "callicoon",
@@ -74,9 +10,6 @@
       "topics": [
         "teaching",
         "mapping"
-      ],
-      "chapters": [
-        "teaching"
       ],
       "summary": "SDEV3450 students collected drone observations and developed spatial analyses during a two-day field exercise led by Kytt MacManus and teaching assistant Juan Nathaniel.",
       "question": "How can students connect field observations with spatial analysis?",
@@ -95,6 +28,9 @@
         }
       ],
       "related_page": "teaching.html",
+      "program_areas": [
+        "teaching"
+      ],
       "cover": {
         "id": "archive-callicoon-group",
         "title": "SDEV3450 field group in Callicoon",
@@ -110,13 +46,35 @@
         "source_url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/",
         "capture_date": "2022-04",
         "date_precision": "month",
+        "date_role": "fieldwork-period",
         "event": "Callicoon student fieldwork",
         "program_or_course": "SDEV3450",
         "project": "Callicoon student fieldwork",
         "product_type": "Workshop photograph",
         "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
         "source_filename": "sdev3450_field_trip_04_22-scaled.jpg",
-        "source_collection": "."
+        "source_collection": ".",
+        "metadata_sources": [
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata",
+            "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection",
+            "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+          },
+          {
+            "type": "project_document",
+            "label": "Project product record",
+            "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+          }
+        ],
+        "metadata_confidence": {
+          "capture_date": "medium",
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -134,12 +92,34 @@
           "source_url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/",
           "capture_date": "2022-04",
           "date_precision": "month",
+          "date_role": "fieldwork-period",
           "program_or_course": "SDEV3450",
           "project": "Callicoon student fieldwork",
           "product_type": "Aerial image",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "drone-image-scaled.jpg",
-          "source_collection": "."
+          "source_collection": ".",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "medium",
+            "product_type": "medium"
+          }
         },
         {
           "id": "archive-callicoon-contours",
@@ -156,12 +136,34 @@
           "source_url": "https://drive.google.com/file/d/1EmgQnKs8ooPHklI-M4_4yh2Eo2Leg9kq/view",
           "capture_date": "2022-04",
           "date_precision": "month",
+          "date_role": "fieldwork-period",
           "program_or_course": "SDEV3450",
           "project": "Callicoon student fieldwork",
           "product_type": "Map / analysis",
           "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
           "source_filename": "Callicoon-ContourLayout.png",
-          "source_collection": "SDEV3450 Group Drone Project "
+          "source_collection": "SDEV3450 Group Drone Project ",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://drive.google.com/file/d/1EmgQnKs8ooPHklI-M4_4yh2Eo2Leg9kq/view"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://drive.google.com/file/d/1EmgQnKs8ooPHklI-M4_4yh2Eo2Leg9kq/view"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://drive.google.com/file/d/1EmgQnKs8ooPHklI-M4_4yh2Eo2Leg9kq/view"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "medium",
+            "product_type": "medium"
+          }
         }
       ]
     },
@@ -176,9 +178,6 @@
         "lamont",
         "mapping"
       ],
-      "chapters": [
-        "teaching"
-      ],
       "summary": "Course sessions, NSF REU/RET workshops and an NYESTA educator visit bring students and teachers into field-data collection, equipment practice and spatial interpretation.",
       "question": "What does it take to turn camera observations into interpretable spatial information?",
       "contribution": "Field instruction, visible-light and thermal demonstrations, GIS exercises and related mapping products.",
@@ -192,6 +191,9 @@
       "details": "SDEV3450 and SDEV4650 remain distinct courses. Kytt MacManus and Greg Yetman led the July 2023 NSF REU/RET workshop, with Joshua Fisher coordinating. Kytt and Juan F. Martinez contributed to the August 2025 NYESTA visit.",
       "public_sources": [],
       "related_page": "teaching.html",
+      "program_areas": [
+        "teaching"
+      ],
       "cover": {
         "id": "drive-lamont-jan2023-overhead",
         "title": "SDEV3450 group from an aerial viewpoint",
@@ -208,6 +210,7 @@
         "capture_date": "2023-01-30",
         "capture_time": "11:51:36",
         "date_precision": "day",
+        "date_role": "capture",
         "timezone_confidence": "unknown; camera clock has no verified UTC offset",
         "event": "SDEV3450 drone demonstration at Lamont",
         "program_or_course": "SDEV3450 · Spatial Analysis for Sustainable Development",
@@ -219,7 +222,25 @@
         "product_type": "Workshop photograph",
         "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
         "source_filename": "jan2023_DJI_0036.JPG",
-        "source_collection": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj"
+        "source_collection": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj",
+        "metadata_sources": [
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata",
+            "url": "https://drive.google.com/file/d/1oyYS--AaTdeyeZfOpacXznJvO3Cgx14u/view?usp=drivesdk"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection",
+            "url": "https://drive.google.com/file/d/1oyYS--AaTdeyeZfOpacXznJvO3Cgx14u/view?usp=drivesdk"
+          }
+        ],
+        "metadata_confidence": {
+          "capture_date": "high",
+          "capture_time": "high",
+          "camera_model": "high",
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -238,6 +259,7 @@
           "capture_date": "2023-01-30",
           "capture_time": "11:25:20",
           "date_precision": "day",
+          "date_role": "capture",
           "timezone_confidence": "unknown; camera clock has no verified UTC offset",
           "event": "SDEV3450 drone demonstration at Lamont",
           "program_or_course": "SDEV3450 · Spatial Analysis for Sustainable Development",
@@ -249,7 +271,25 @@
           "product_type": "Workshop photograph",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "jan2023_DJI_0864.JPG",
-          "source_collection": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj"
+          "source_collection": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://drive.google.com/file/d/1xDYn9DU3RP9LGCpQULnBOI9rjUTiSCaV/view?usp=drivesdk"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://drive.google.com/file/d/1xDYn9DU3RP9LGCpQULnBOI9rjUTiSCaV/view?usp=drivesdk"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "capture_time": "high",
+            "camera_model": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "ss-01-lamont-sdev3450",
@@ -265,6 +305,7 @@
           "source_platform": "ArcGIS SiteScan",
           "source_url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde",
           "date_precision": "mission-record-day",
+          "date_role": "mission-record",
           "event": "SDEV3450 drone demonstration at Lamont",
           "program_or_course": "SDEV3450 · Spatial Analysis for Sustainable Development",
           "project": "Lamont Workshop 07-14-2023",
@@ -276,7 +317,28 @@
           "source_collection": "Lamont Workshop 07-14-2023",
           "mission_id": "fae641f2-6a98-410c-9107-ddc4f4626cde",
           "basemap_state": "off",
-          "display_background": "dark neutral"
+          "display_background": "dark neutral",
+          "metadata_sources": [
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde"
+            },
+            {
+              "type": "sitescan_mission",
+              "label": "Mission record",
+              "url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde"
+            }
+          ],
+          "metadata_confidence": {
+            "camera_model": "medium",
+            "product_type": "medium"
+          }
         },
         {
           "id": "nyesta-2025-visible",
@@ -293,6 +355,7 @@
           "capture_date": "2025-08-05",
           "capture_time": "16:32:18",
           "date_precision": "day",
+          "date_role": "capture",
           "timezone_confidence": "unknown; camera clock has no verified UTC offset",
           "event": "Field-data collection with NYESTA educators",
           "program_or_course": "New York State Earth Science Teachers Association (NYESTA)",
@@ -304,7 +367,23 @@
           "product_type": "Workshop photograph",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "DJI_20250805163218_0006_V.JPG",
-          "source_collection": "."
+          "source_collection": ".",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "capture_time": "high",
+            "camera_model": "high",
+            "product_type": "medium"
+          }
         }
       ]
     },
@@ -315,13 +394,10 @@
       "period": "December 2023",
       "status": "completed",
       "topics": [
-        "community",
         "staten-island",
         "teaching",
-        "mapping"
-      ],
-      "chapters": [
-        "community"
+        "mapping",
+        "communities"
       ],
       "summary": "SDEV4650 students and community partners worked around the historic firehouse at 60 Hannah Street. Drone observations and a 3D reconstruction formed part of the Building Climate Justice course contribution.",
       "question": "How can course-based mapping contribute to community-defined waterfront questions?",
@@ -335,7 +411,10 @@
       ],
       "details": "Collaboratory support for SDEV4650 included a drone purchase. Follow-up work addressed sharing student StoryMap content and map layers with SIUC. These records establish the field contribution and access work; subsequent planning outcomes require partner evidence.",
       "public_sources": [],
-      "related_page": "staten-island.html",
+      "related_page": "communities.html#staten-island",
+      "program_areas": [
+        "communities"
+      ],
       "cover": {
         "id": "staten-island-2023-rooftop",
         "title": "Staten Island rooftop drone session",
@@ -351,6 +430,7 @@
         "capture_date": "2023-12-02",
         "capture_time": "13:55:42",
         "date_precision": "day",
+        "date_role": "capture",
         "timezone": "-05:00",
         "timezone_confidence": "explicit EXIF UTC offset",
         "event": "Staten Island course and community drone fieldwork",
@@ -363,7 +443,27 @@
         "product_type": "Workshop photograph",
         "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
         "source_filename": "staten_island_2023_drone.png",
-        "source_collection": "60 Hannah Street community mapping"
+        "source_collection": "60 Hannah Street community mapping",
+        "metadata_sources": [
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection"
+          },
+          {
+            "type": "project_document",
+            "label": "Project product record"
+          }
+        ],
+        "metadata_confidence": {
+          "capture_date": "high",
+          "capture_time": "high",
+          "camera_model": "high",
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -381,6 +481,7 @@
           "capture_date": "2023-12-02",
           "capture_time": "13:02:47",
           "date_precision": "day",
+          "date_role": "capture",
           "timezone": "-05:00",
           "timezone_confidence": "explicit EXIF UTC offset",
           "event": "Staten Island course and community drone fieldwork",
@@ -393,7 +494,27 @@
           "product_type": "Field photograph",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "staten_island_2023.png",
-          "source_collection": "60 Hannah Street community mapping"
+          "source_collection": "60 Hannah Street community mapping",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "capture_time": "high",
+            "camera_model": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "ss-13-60hannahstreetsurvey",
@@ -409,6 +530,7 @@
           "source_platform": "ArcGIS SiteScan",
           "source_url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/7996067d-abe5-49e9-be6e-78c866f769e6",
           "date_precision": "mission-record-day",
+          "date_role": "mission-record",
           "event": "Staten Island course and community drone fieldwork",
           "program_or_course": "SDEV4650 · Building Climate Justice / SIUC partnership",
           "project": "StatenIslandFieldWork112923",
@@ -420,7 +542,28 @@
           "source_collection": "StatenIslandFieldWork112923",
           "mission_id": "7996067d-abe5-49e9-be6e-78c866f769e6",
           "basemap_state": "off",
-          "display_background": "dark neutral"
+          "display_background": "dark neutral",
+          "metadata_sources": [
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/7996067d-abe5-49e9-be6e-78c866f769e6"
+            },
+            {
+              "type": "sitescan_mission",
+              "label": "Mission record",
+              "url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/7996067d-abe5-49e9-be6e-78c866f769e6"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/7996067d-abe5-49e9-be6e-78c866f769e6"
+            }
+          ],
+          "metadata_confidence": {
+            "camera_model": "medium",
+            "product_type": "medium"
+          }
         },
         {
           "id": "ss-15-60hannahstreet",
@@ -436,6 +579,7 @@
           "source_platform": "ArcGIS SiteScan",
           "source_url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/64db7607-6292-480c-b82c-e82bfd47a01a/mesh",
           "date_precision": "mission-record-day",
+          "date_role": "mission-record",
           "event": "Staten Island course and community drone fieldwork",
           "program_or_course": "SDEV4650 · Building Climate Justice / SIUC partnership",
           "project": "StatenIslandFieldWork112923",
@@ -447,7 +591,28 @@
           "source_collection": "StatenIslandFieldWork112923",
           "mission_id": "64db7607-6292-480c-b82c-e82bfd47a01a",
           "basemap_state": "off",
-          "display_background": "dark neutral"
+          "display_background": "dark neutral",
+          "metadata_sources": [
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/64db7607-6292-480c-b82c-e82bfd47a01a/mesh"
+            },
+            {
+              "type": "sitescan_mission",
+              "label": "Mission record",
+              "url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/64db7607-6292-480c-b82c-e82bfd47a01a"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://sitescan.arcgis.com/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions/64db7607-6292-480c-b82c-e82bfd47a01a/mesh"
+            }
+          ],
+          "metadata_confidence": {
+            "camera_model": "medium",
+            "product_type": "medium"
+          }
         }
       ]
     },
@@ -462,9 +627,6 @@
         "research",
         "mapping"
       ],
-      "chapters": [
-        "parks"
-      ],
       "summary": "EFPL and Natan Charytan use repeated drone surveys to document marsh conditions in an ecological and restoration research setting.",
       "question": "How can repeated spatial observations support study of a restored marsh?",
       "contribution": "Permitted UAS observations, orthomosaics, elevation products and reconstructed surface views for continued research.",
@@ -478,6 +640,9 @@
       "details": "The April 18, 2025 operation was the first UAS flight approved by NYC Parks, according to Kytt MacManus’s first-hand project account. Wind curtailed that operation; the team returned on May 2. Repeated surveys provide observations for research, while registered comparisons and independent accuracy evaluation are separate tasks.",
       "public_sources": [],
       "related_page": "explore.html?place=Four%20Sparrow%20Marsh#catalog",
+      "program_areas": [
+        "parks"
+      ],
       "cover": {
         "id": "archive-four-sparrow-may-team",
         "title": "Four Sparrow Marsh return-survey team",
@@ -494,6 +659,7 @@
         "capture_date": "2025-05-02",
         "capture_time": "14:25:22",
         "date_precision": "day",
+        "date_role": "capture",
         "timezone_confidence": "unknown; camera clock has no verified UTC offset",
         "event": "Four Sparrow Marsh research",
         "project": "Four Sparrow Marsh research",
@@ -504,7 +670,35 @@
         "product_type": "Field photograph",
         "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
         "source_filename": "S1011388.JPG",
-        "source_collection": "Four Sparrow Marsh research"
+        "source_collection": "Four Sparrow Marsh research",
+        "metadata_sources": [
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata",
+            "url": "https://drive.google.com/file/d/1AcNuO2t-yyPsgWs8ALT0GnV45B7kcmL-/view?usp=drivesdk"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection",
+            "url": "https://drive.google.com/file/d/1AcNuO2t-yyPsgWs8ALT0GnV45B7kcmL-/view?usp=drivesdk"
+          },
+          {
+            "type": "project_document",
+            "label": "Project product record",
+            "url": "https://drive.google.com/file/d/1AcNuO2t-yyPsgWs8ALT0GnV45B7kcmL-/view?usp=drivesdk"
+          },
+          {
+            "type": "drive_metadata",
+            "label": "Source collection",
+            "url": "https://drive.google.com/file/d/1AcNuO2t-yyPsgWs8ALT0GnV45B7kcmL-/view?usp=drivesdk"
+          }
+        ],
+        "metadata_confidence": {
+          "capture_date": "medium",
+          "capture_time": "medium",
+          "camera_model": "high",
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -520,11 +714,25 @@
           "uncertainty": "Display derivative; source timing, authorship and independent accuracy are limited to the evidence documented in this record.",
           "source_platform": "Project archive",
           "date_precision": "collection-day",
+          "date_role": "collection-context",
           "project": "Four Sparrow Marsh research",
           "product_type": "Orthomosaic",
           "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
           "source_filename": "field_work_drone2map_processing_True_Ortho.tif",
-          "source_collection": "Four Sparrow Marsh research"
+          "source_collection": "Four Sparrow Marsh research",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            }
+          ],
+          "metadata_confidence": {
+            "product_type": "medium"
+          }
         },
         {
           "id": "four-sparrow-relief",
@@ -539,11 +747,25 @@
           "uncertainty": "Display derivative only; compare surveys only after alignment and uncertainty assessment.",
           "source_platform": "Project archive",
           "date_precision": "collection-day",
+          "date_role": "collection-context",
           "project": "Four Sparrow Marsh research",
           "product_type": "Terrain model",
           "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
           "source_filename": "field_work_drone2map_processing_dtm_shaded_relief.tif",
-          "source_collection": "Four Sparrow Marsh research"
+          "source_collection": "Four Sparrow Marsh research",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            }
+          ],
+          "metadata_confidence": {
+            "product_type": "medium"
+          }
         },
         {
           "id": "archive-four-sparrow-june2026-frame",
@@ -560,6 +782,7 @@
           "capture_date": "2026-06-25",
           "capture_time": "16:06:38",
           "date_precision": "day",
+          "date_role": "capture",
           "timezone_confidence": "unknown; camera clock has no verified UTC offset",
           "project": "Four Sparrow Marsh research",
           "camera_make": "Skydio",
@@ -569,7 +792,31 @@
           "product_type": "Aerial image",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "S1019588.JPG",
-          "source_collection": "Four Sparrow Marsh research"
+          "source_collection": "Four Sparrow Marsh research",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            },
+            {
+              "type": "capture_report",
+              "label": "Capture report"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "medium",
+            "capture_time": "medium",
+            "camera_model": "high",
+            "product_type": "medium"
+          }
         }
       ]
     },
@@ -581,14 +828,10 @@
       "status": "ongoing",
       "topics": [
         "parks",
-        "community",
         "staten-island",
         "research",
-        "mapping"
-      ],
-      "chapters": [
-        "community",
-        "parks"
+        "mapping",
+        "communities"
       ],
       "summary": "EFPL’s North Shore Esplanade work connects a NYC Parks survey with the continuing Staten Island community partnership.",
       "question": "What landscape information can help partners investigate waterfront conditions?",
@@ -602,7 +845,11 @@
       ],
       "details": "The December 1, 2025 fieldwork produced imagery and elevation products. The community relationship and NYC Parks setting are simultaneous contexts. Intended resilience applications remain questions for interpretation and follow-up with partners.",
       "public_sources": [],
-      "related_page": "staten-island.html",
+      "related_page": "communities.html#staten-island",
+      "program_areas": [
+        "communities",
+        "parks"
+      ],
       "cover": {
         "id": "northshore-controller-session",
         "title": "Controller use during fieldwork",
@@ -618,6 +865,7 @@
         "capture_date": "2025-12-01",
         "capture_time": "14:48:07",
         "date_precision": "day",
+        "date_role": "capture",
         "timezone": "-05:00",
         "timezone_confidence": "explicit EXIF UTC offset",
         "event": "North Shore Esplanade community mapping",
@@ -629,7 +877,27 @@
         "product_type": "Workshop photograph",
         "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
         "source_filename": "jmv2196_columbia_Photo 2.jpg",
-        "source_collection": "North Shore Esplanade community mapping"
+        "source_collection": "North Shore Esplanade community mapping",
+        "metadata_sources": [
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection"
+          },
+          {
+            "type": "project_document",
+            "label": "Project product record"
+          }
+        ],
+        "metadata_confidence": {
+          "capture_date": "high",
+          "capture_time": "high",
+          "camera_model": "high",
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -648,6 +916,7 @@
           "capture_date": "2025-12-01",
           "capture_time": "20:55:00",
           "date_precision": "day",
+          "date_role": "capture",
           "timezone_confidence": "unknown; camera clock has no verified UTC offset",
           "event": "North Shore Esplanade community mapping",
           "project": "North Shore Esplanade community mapping",
@@ -658,7 +927,35 @@
           "product_type": "Aerial photograph",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "S1012536.JPG",
-          "source_collection": "North Shore Esplanade community mapping"
+          "source_collection": "North Shore Esplanade community mapping",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://drive.google.com/file/d/1MoFTXnM4D6Awbcc7ZS6v6-EltfCjOMlB/view?usp=drivesdk"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://drive.google.com/file/d/1MoFTXnM4D6Awbcc7ZS6v6-EltfCjOMlB/view?usp=drivesdk"
+            },
+            {
+              "type": "drive_metadata",
+              "label": "Source collection",
+              "url": "https://drive.google.com/file/d/1MoFTXnM4D6Awbcc7ZS6v6-EltfCjOMlB/view?usp=drivesdk"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://drive.google.com/file/d/1MoFTXnM4D6Awbcc7ZS6v6-EltfCjOMlB/view?usp=drivesdk"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "medium",
+            "capture_time": "medium",
+            "camera_model": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "northshore",
@@ -673,11 +970,25 @@
           "uncertainty": "Display derivative; source timing, authorship and independent accuracy are limited to the evidence documented in this record.",
           "source_platform": "Project archive",
           "date_precision": "collection-day",
+          "date_role": "collection-context",
           "project": "Morningside Park mapping",
           "product_type": "Orthomosaic",
           "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
           "source_filename": "Layout-North_Shore_Esplanade.png",
-          "source_collection": "Morningside Park mapping"
+          "source_collection": "Morningside Park mapping",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            }
+          ],
+          "metadata_confidence": {
+            "product_type": "medium"
+          }
         },
         {
           "id": "northshore-dtm",
@@ -692,11 +1003,25 @@
           "uncertainty": "Display derivative; source timing, authorship and independent accuracy are limited to the evidence documented in this record.",
           "source_platform": "Project archive",
           "date_precision": "collection-day",
+          "date_role": "collection-context",
           "project": "Morningside Park mapping",
           "product_type": "Terrain model",
           "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
           "source_filename": "Layout-North_Shore_Esplanade-DTM.png",
-          "source_collection": "Morningside Park mapping"
+          "source_collection": "Morningside Park mapping",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            }
+          ],
+          "metadata_confidence": {
+            "product_type": "medium"
+          }
         }
       ]
     },
@@ -711,10 +1036,6 @@
         "research",
         "mapping"
       ],
-      "chapters": [
-        "parks",
-        "current"
-      ],
       "summary": "Completed Morningside Park mapping supports continuing investigation of terrain, runoff and drainage questions with collaborators.",
       "question": "How do surface structure and terrain relate to runoff and drainage questions?",
       "contribution": "An orthomosaic, surface and terrain models, and 3D views, with further research and field interpretation ongoing.",
@@ -728,6 +1049,10 @@
       "details": "The existing products follow the December 18, 2025 fieldwork. Continued research is distinct from those completed observations. Elevation products describe the mapped surface; drainage behavior and intervention performance require additional evaluation.",
       "public_sources": [],
       "related_page": "explore.html?place=Morningside%20Park#catalog",
+      "program_areas": [
+        "parks",
+        "research"
+      ],
       "cover": {
         "id": "archive-morningside-team",
         "title": "Morningside field operation",
@@ -742,12 +1067,38 @@
         "source_platform": "Project archive",
         "source_url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view",
         "date_precision": "collection-day",
+        "date_role": "collection-context",
         "event": "Morningside Park mapping",
         "project": "Morningside Park mapping",
         "product_type": "Field photograph",
         "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
         "source_filename": "IMG_0737.jpg",
-        "source_collection": "Morningside Park drone flight 12/18/25 "
+        "source_collection": "Morningside Park drone flight 12/18/25 ",
+        "metadata_sources": [
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata",
+            "url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection",
+            "url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view"
+          },
+          {
+            "type": "drive_metadata",
+            "label": "Source collection",
+            "url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view?usp=drivesdk"
+          },
+          {
+            "type": "project_document",
+            "label": "Project product record",
+            "url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view"
+          }
+        ],
+        "metadata_confidence": {
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -766,6 +1117,7 @@
           "capture_date": "2025-12-18",
           "capture_time": "11:36:27",
           "date_precision": "day",
+          "date_role": "capture",
           "timezone": "-05:00",
           "timezone_confidence": "explicit EXIF UTC offset",
           "event": "Morningside Park mapping",
@@ -777,7 +1129,35 @@
           "product_type": "Field photograph",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "IMG_0761.jpg",
-          "source_collection": "Morningside Park drone flight 12/18/25 "
+          "source_collection": "Morningside Park drone flight 12/18/25 ",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://drive.google.com/file/d/1p_6HXDjBqYto_u17OH7SQuMhpYSdwU--/view"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://drive.google.com/file/d/1p_6HXDjBqYto_u17OH7SQuMhpYSdwU--/view"
+            },
+            {
+              "type": "drive_metadata",
+              "label": "Source collection",
+              "url": "https://drive.google.com/file/d/1p_6HXDjBqYto_u17OH7SQuMhpYSdwU--/view?usp=drivesdk"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://drive.google.com/file/d/1p_6HXDjBqYto_u17OH7SQuMhpYSdwU--/view"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "capture_time": "high",
+            "camera_model": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "morningside-ortho",
@@ -792,11 +1172,25 @@
           "uncertainty": "Display derivative; source timing, authorship and independent accuracy are limited to the evidence documented in this record.",
           "source_platform": "Project archive",
           "date_precision": "collection-day",
+          "date_role": "collection-context",
           "project": "Morningside Park mapping",
           "product_type": "Orthomosaic",
           "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
           "source_filename": "Layout-Morningside.png",
-          "source_collection": "Morningside Park mapping"
+          "source_collection": "Morningside Park mapping",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            }
+          ],
+          "metadata_confidence": {
+            "product_type": "medium"
+          }
         },
         {
           "id": "morningside-dtm",
@@ -811,11 +1205,25 @@
           "uncertainty": "Display derivative; source timing, authorship and independent accuracy are limited to the evidence documented in this record.",
           "source_platform": "Project archive",
           "date_precision": "collection-day",
+          "date_role": "collection-context",
           "project": "Morningside Park mapping",
           "product_type": "Terrain model",
           "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
           "source_filename": "Layout-Morningside-DTM.png",
-          "source_collection": "Morningside Park mapping"
+          "source_collection": "Morningside Park mapping",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            }
+          ],
+          "metadata_confidence": {
+            "product_type": "medium"
+          }
         }
       ]
     },
@@ -829,10 +1237,6 @@
         "parks",
         "research"
       ],
-      "chapters": [
-        "parks",
-        "current"
-      ],
       "summary": "Highbridge Park is a forthcoming extension of EFPL’s NYC Parks research portfolio.",
       "question": "Which site and landscape questions will guide the next field collaboration?",
       "contribution": "Research planning and partner coordination for future work.",
@@ -842,6 +1246,10 @@
       "details": "This case describes forthcoming work. Acquired imagery and processed products are not presented for Highbridge.",
       "public_sources": [],
       "related_page": null,
+      "program_areas": [
+        "parks",
+        "research"
+      ],
       "cover": null,
       "visuals": []
     },
@@ -857,9 +1265,6 @@
         "lamont",
         "mapping"
       ],
-      "chapters": [
-        "current"
-      ],
       "summary": "EFPL investigates how terrain and surface geometry can inform interpretation of wind observations and airflow modeling at Lamont.",
       "question": "How do terrain and surface features help us interpret local wind dynamics?",
       "contribution": "Spatial surface information and field instrumentation for research alongside meteorological and Doppler LiDAR observations.",
@@ -872,6 +1277,9 @@
       "details": "DURIP supported the IF1200A purchase for an ARO project. The interactive Lamont point sample is photogrammetric surface reconstruction. A separate March 24, 2026 LiDAR plate uses relative coordinates because its LAS CRS label conflicts with coordinate magnitudes. Neither display establishes independent accuracy or validates a wind model.",
       "public_sources": [],
       "related_page": "explore.html#point-view",
+      "program_areas": [
+        "research"
+      ],
       "cover": {
         "id": "lamont-pointcloud-oblique",
         "title": "Lamont point cloud: oblique view",
@@ -885,13 +1293,23 @@
         "uncertainty": "Photogrammetric surface points, not bare-earth terrain or a wind field. Processing report identifies UTM18N and EGM96; independent accuracy not established.",
         "source_platform": "Project archive",
         "date_precision": "collection-day",
+        "date_role": "collection-context",
         "event": "SDEV3450 visible-light and thermal demonstration",
         "program_or_course": "SDEV3450 · Spatial Analysis for Sustainable Development",
         "project": "Lamont field instruction and research",
         "product_type": "Point cloud",
         "processing_context": "Display subsample/render of the retained photogrammetric point-cloud archive; not a LiDAR or independent accuracy result.",
         "source_filename": "*.las",
-        "source_collection": "Lamont field instruction and research"
+        "source_collection": "Lamont field instruction and research",
+        "metadata_sources": [
+          {
+            "type": "filename_directory",
+            "label": "Source collection"
+          }
+        ],
+        "metadata_confidence": {
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -907,11 +1325,29 @@
           "uncertainty": "Relative-coordinate display only: LAS header CRS EPSG:4326 conflicts with the UTM18n filename and projected-coordinate magnitudes. 140,012 display points are sampled from 71,265,603 stored points. No absolute accuracy, bare-earth classification, or validated wind model is claimed.",
           "source_platform": "Project archive",
           "date_precision": "collection-day",
+          "date_role": "collection-context",
           "project": "Lamont field instruction and research",
           "product_type": "Point cloud",
           "processing_context": "Relative-coordinate subsample of existing IF1200A LiDAR LAS; source CRS discrepancy retained.",
           "source_filename": "lamont-lidar-relative.png",
-          "source_collection": "Lamont field instruction and research"
+          "source_collection": "Lamont field instruction and research",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record"
+            }
+          ],
+          "metadata_confidence": {
+            "product_type": "medium"
+          }
         },
         {
           "id": "lamont-ortho",
@@ -926,43 +1362,58 @@
           "uncertainty": "March 5 follows archived point-cloud product name, not an independently checked acquisition date. The report states no GCPs/checkpoints.",
           "source_platform": "Project archive",
           "date_precision": "collection-day",
+          "date_role": "collection-context",
           "event": "SDEV3450 visible-light and thermal demonstration",
           "program_or_course": "SDEV3450 · Spatial Analysis for Sustainable Development",
           "project": "Lamont field instruction and research",
           "product_type": "Orthomosaic",
           "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
           "source_filename": "ortho.tif",
-          "source_collection": "Lamont field instruction and research"
+          "source_collection": "Lamont field instruction and research",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            }
+          ],
+          "metadata_confidence": {
+            "product_type": "medium"
+          }
         }
       ]
     },
     {
       "id": "hot-unza",
-      "title": "HOT, UNZA and international collaboration",
+      "title": "UNZA / HOT teaching and exchange",
       "place": "Lusaka and international exchange",
       "period": "2025–present",
       "status": "ongoing",
       "topics": [
-        "international",
-        "zambia",
-        "research",
-        "teaching"
+        "teaching",
+        "workshops",
+        "photogrammetry",
+        "zambia"
       ],
-      "chapters": [
-        "international"
-      ],
-      "summary": "Collaboration with HOT and University of Zambia colleagues connects citizen-engaged mapping, drone-data management teaching and field methods.",
-      "question": "What can communities and institutions learn from one another’s mapping practice?",
-      "contribution": "Institutional relationships, teaching contributions and exchange around community mapping needs.",
+      "summary": "Working sessions and field collaboration with UNZA and HOT colleagues shared acquisition methods, photogrammetric processing and spatial-product interpretation.",
+      "question": "How can colleagues connect field acquisition, reconstruction and interpretation in a shared mapping workflow?",
+      "contribution": "Field observations, processing discussion and campus mapping products provided material for teaching and exchange.",
       "credit": "EFPL + CIESIN · Columbia University · HOT · University of Zambia / NACUAS · local partners",
       "cover_plate_id": "archive-unza-field-team",
       "visual_plate_ids": [
+        "v6-unza-mesh",
         "archive-unza-working-session",
         "v4-unza-ortho"
       ],
       "details": "A February 2026 exchange connected stakeholders in Freetown, Lusaka and New York. Work with UNZA/NACUAS included teaching and discussion of data-processing needs. A shared operational computing service is not claimed as an accomplished outcome.",
       "public_sources": [],
-      "related_page": null,
+      "related_page": "teaching.html#unza",
+      "program_areas": [
+        "teaching"
+      ],
       "cover": {
         "id": "archive-unza-field-team",
         "title": "Field collaborators during the Zambia exchange",
@@ -978,6 +1429,7 @@
         "capture_date": "2026-06-10",
         "capture_time": "16:51:12",
         "date_precision": "day",
+        "date_role": "capture",
         "timezone": "+02:00",
         "timezone_confidence": "explicit EXIF UTC offset",
         "event": "University of Zambia collaboration",
@@ -989,9 +1441,72 @@
         "product_type": "Field photograph",
         "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
         "source_filename": "PXL_20260610_145112594.jpg",
-        "source_collection": "Zambia exchange field archive "
+        "source_collection": "Zambia exchange field archive ",
+        "metadata_sources": [
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection"
+          },
+          {
+            "type": "project_document",
+            "label": "Project product record"
+          }
+        ],
+        "metadata_confidence": {
+          "capture_date": "high",
+          "capture_time": "high",
+          "camera_model": "high",
+          "product_type": "medium"
+        }
       },
       "visuals": [
+        {
+          "id": "v6-unza-mesh",
+          "title": "UNZA textured campus-site mesh",
+          "place": "University of Zambia, Lusaka",
+          "kind": "Textured mesh",
+          "date": "2026-06-10",
+          "caption": "A selected UNZA campus site reconstructed as a textured photogrammetric mesh. Building surfaces, courtyard and vegetation retain the source texture; the geographic basemap is disabled.",
+          "credit": "Columbia University / EFPL / CIESIN · University of Zambia collaboration",
+          "image": "assets/v6-unza/unza-mesh.jpg",
+          "thumb": "assets/v6-unza/unza-mesh-thumb.jpg",
+          "uncertainty": "This is a selected campus-site textured photogrammetric mesh, not campus-wide coverage or LiDAR. The source reconstruction retains holes, edge artifacts and texture/geometry distortions; no repair or recoloring was applied. Independent positional/vertical accuracy, bare-earth classification and physical wind-flow validation were not assessed. The rendered display is not an analysis-ready mesh delivery or a measurement of educational/community outcomes. Mission-record dates remain distinct from original camera capture dates and camera timezones.",
+          "source_platform": "ArcGIS SiteScan",
+          "source_url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/11b4d0ac-3bce-4a8b-b270-856199319912",
+          "date_precision": "mission-record-day",
+          "date_role": "mission-record",
+          "program_or_course": "UNZA / HOT teaching and exchange",
+          "project": "UNZA",
+          "camera_make": "Skydio",
+          "camera_model": "Skydio 2",
+          "sensor": "rgb",
+          "product_type": "Textured photogrammetric mesh (SiteScan I3S)",
+          "processing_context": "Existing SiteScan I3S photogrammetric mesh from Skydio 2 RGB source media; selected 3D viewer display, not a new processing job or an analytical mesh download.",
+          "source_collection": "UNZA / UNZA-3D-2",
+          "mission_id": "11b4d0ac-3bce-4a8b-b270-856199319912",
+          "basemap_state": "off",
+          "display_background": "native neutral black",
+          "metadata_sources": [
+            {
+              "type": "sitescan_mission",
+              "label": "Mission record",
+              "url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/11b4d0ac-3bce-4a8b-b270-856199319912"
+            },
+            {
+              "type": "sitescan_mission",
+              "label": "Mission record",
+              "url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/11b4d0ac-3bce-4a8b-b270-856199319912/mesh"
+            }
+          ],
+          "metadata_confidence": {
+            "camera_model": "high",
+            "product_type": "high"
+          }
+        },
         {
           "id": "archive-unza-working-session",
           "title": "A working session in the UNZA exchange archive",
@@ -1007,12 +1522,39 @@
           "source_url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view",
           "capture_date": "2026-06",
           "date_precision": "month",
+          "date_role": "collection-context",
           "event": "University of Zambia collaboration",
           "project": "University of Zambia collaboration",
           "product_type": "Workshop photograph",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "WhatsApp Image 2026-06-10 at 5.40.20 AM.jpeg",
-          "source_collection": "UNZA exchange photograph collection "
+          "source_collection": "UNZA exchange photograph collection ",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view"
+            },
+            {
+              "type": "drive_metadata",
+              "label": "Source collection",
+              "url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view?usp=drivesdk"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "medium",
+            "product_type": "medium"
+          }
         },
         {
           "id": "v4-unza-ortho",
@@ -1028,6 +1570,7 @@
           "source_platform": "ArcGIS Site Scan",
           "source_url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/6ac2444b-1fc8-47f7-8ee6-907135cbc213",
           "date_precision": "mission-record-day",
+          "date_role": "mission-record",
           "project": "UNZA",
           "camera_make": "Skydio",
           "camera_model": "Skydio 2",
@@ -1037,38 +1580,59 @@
           "source_collection": "UNZA",
           "mission_id": "6ac2444b-1fc8-47f7-8ee6-907135cbc213",
           "basemap_state": "off",
-          "display_background": "dark neutral"
+          "display_background": "dark neutral",
+          "metadata_sources": [
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/6ac2444b-1fc8-47f7-8ee6-907135cbc213"
+            },
+            {
+              "type": "sitescan_mission",
+              "label": "Mission record",
+              "url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/6ac2444b-1fc8-47f7-8ee6-907135cbc213"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/6ac2444b-1fc8-47f7-8ee6-907135cbc213"
+            }
+          ],
+          "metadata_confidence": {
+            "camera_model": "medium",
+            "product_type": "medium"
+          }
         }
       ]
     },
     {
       "id": "mtukuzi",
-      "title": "Mtukuzi selected-site mapping",
+      "title": "Mtukuzi community mapping",
       "place": "Mtukuzi, Eastern Zambia",
       "period": "June 2026",
       "status": "completed",
       "topics": [
-        "international",
         "zambia",
         "mapping",
-        "teaching"
+        "teaching",
+        "communities"
       ],
-      "chapters": [
-        "international"
-      ],
-      "summary": "Fieldwork with UNZA colleagues documented selected village and school, agricultural, river and water-well areas around Mtukuzi.",
-      "question": "What can landscape observations contribute to inquiry about water, agriculture and everyday needs?",
+      "summary": "Local collaborators and UNZA field colleagues documented selected village, school, agricultural, river and water-well sites around Mtukuzi.",
+      "question": "How can selected-site observations help collaborators discuss local places and mapping questions?",
       "contribution": "Selected-site imagery, elevation and 3D products, field observations, and a subsequent learning-module contribution.",
       "credit": "EFPL + CIESIN · Columbia University · University of Zambia colleagues and local partners",
       "cover_plate_id": "zm-village-map",
       "visual_plate_ids": [
         "zm-village-frames",
-        "zm-village-mesh",
+        "zm-river-map",
         "zm-well-map"
       ],
       "details": "The mapping covers selected sites rather than the full wider catchment. Raphael Sutiono and Kytt MacManus developed a learning module on drone-data organization, interpretation and local follow-up for TOPSTSCHOOL.",
       "public_sources": [],
-      "related_page": "learning.html",
+      "related_page": "communities.html#mtukuzi",
+      "program_areas": [
+        "communities"
+      ],
       "cover": {
         "id": "zm-village-map",
         "title": "Village & school orthomosaic",
@@ -1083,11 +1647,30 @@
         "source_platform": "Project archive",
         "capture_date": "2026-06-13",
         "date_precision": "day",
+        "date_role": "underlying-fieldwork",
         "project": "Mtukuzi selected-site mapping",
         "product_type": "Orthomosaic",
         "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
         "source_filename": "10_village_orthomosaic.png",
-        "source_collection": "Mtukuzi selected-site mapping"
+        "source_collection": "Mtukuzi selected-site mapping",
+        "metadata_sources": [
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection"
+          },
+          {
+            "type": "capture_report",
+            "label": "Capture report"
+          }
+        ],
+        "metadata_confidence": {
+          "capture_date": "medium",
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -1104,31 +1687,69 @@
           "source_platform": "Project archive",
           "capture_date": "2026-06-13",
           "date_precision": "day",
+          "date_role": "underlying-fieldwork",
           "project": "Mtukuzi selected-site mapping",
           "product_type": "Source imagery",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "11_village_drone_examples.jpg",
-          "source_collection": "Mtukuzi selected-site mapping"
+          "source_collection": "Mtukuzi selected-site mapping",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            },
+            {
+              "type": "capture_report",
+              "label": "Capture report"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "medium",
+            "product_type": "medium"
+          }
         },
         {
-          "id": "zm-village-mesh",
-          "title": "Village & school in 3D",
+          "id": "zm-river-map",
+          "title": "A selected river reach",
           "place": "Mtukuzi",
-          "kind": "3D mesh",
+          "kind": "Orthomosaic",
           "date": "2026-06-13",
-          "caption": "Rendered top and oblique views of the textured village mesh; not an independently surveyed building model.",
+          "caption": "Selected river corridor, banks, and surrounding vegetation at capture time.",
           "credit": "EFPL + CIESIN · UNZA colleagues",
-          "image": "assets/zambia/village-mesh.jpg",
-          "thumb": "assets/zambia/village-mesh-thumb.jpg",
+          "image": "assets/zambia/river-map.jpg",
+          "thumb": "assets/zambia/river-map-thumb.jpg",
           "uncertainty": "Display derivative; source timing, authorship and independent accuracy are limited to the evidence documented in this record.",
           "source_platform": "Project archive",
           "capture_date": "2026-06-13",
           "date_precision": "day",
+          "date_role": "underlying-fieldwork",
           "project": "Mtukuzi selected-site mapping",
-          "product_type": "3D mesh",
+          "product_type": "Orthomosaic",
           "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
-          "source_filename": "12_village_mesh.jpg",
-          "source_collection": "Mtukuzi selected-site mapping"
+          "source_filename": "30_river_orthomosaic.png",
+          "source_collection": "Mtukuzi selected-site mapping",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            },
+            {
+              "type": "capture_report",
+              "label": "Capture report"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "medium",
+            "product_type": "medium"
+          }
         },
         {
           "id": "zm-well-map",
@@ -1144,11 +1765,30 @@
           "source_platform": "Project archive",
           "capture_date": "2026-06-13",
           "date_precision": "day",
+          "date_role": "underlying-fieldwork",
           "project": "Mtukuzi selected-site mapping",
           "product_type": "Orthomosaic",
           "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
           "source_filename": "40_well_orthomosaic.png",
-          "source_collection": "Mtukuzi selected-site mapping"
+          "source_collection": "Mtukuzi selected-site mapping",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            },
+            {
+              "type": "capture_report",
+              "label": "Capture report"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "medium",
+            "product_type": "medium"
+          }
         }
       ]
     },
@@ -1162,9 +1802,6 @@
         "research",
         "mapping"
       ],
-      "chapters": [
-        "current"
-      ],
       "summary": "Fieldwork with Natan combined observations of tidal channels and marsh surfaces with drone imagery and reconstructed mapping products.",
       "question": "How can aerial imagery describe tidal channels and surrounding marsh surfaces?",
       "contribution": "A shared field session produced source imagery and processed spatial products for examining the creek and marsh setting.",
@@ -1177,6 +1814,9 @@
       "details": "The June 24 source collection is labeled Hubbard County Park. Imagery and surface reconstruction describe the site; independent positional accuracy and ecological change are not established by these displays.",
       "public_sources": [],
       "related_page": "explore.html?place=Hubbard%20County%20Park#catalog",
+      "program_areas": [
+        "research"
+      ],
       "cover": {
         "id": "archive-hubbard-field-team",
         "title": "Hubbard Creek field team",
@@ -1192,6 +1832,7 @@
         "capture_date": "2026-06-24",
         "capture_time": "20:09:03",
         "date_precision": "day",
+        "date_role": "capture",
         "timezone_confidence": "unknown; camera clock has no verified UTC offset",
         "event": "Hubbard Creek fieldwork",
         "project": "Hubbard Creek fieldwork",
@@ -1202,7 +1843,27 @@
         "product_type": "Field photograph",
         "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
         "source_filename": "S1019305.JPG",
-        "source_collection": "Hubbard Creek fieldwork"
+        "source_collection": "Hubbard Creek fieldwork",
+        "metadata_sources": [
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection"
+          },
+          {
+            "type": "project_document",
+            "label": "Project product record"
+          }
+        ],
+        "metadata_confidence": {
+          "capture_date": "medium",
+          "capture_time": "medium",
+          "camera_model": "high",
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -1220,6 +1881,7 @@
           "capture_date": "2026-06-24",
           "capture_time": "20:10:01",
           "date_precision": "day",
+          "date_role": "capture",
           "timezone_confidence": "unknown; camera clock has no verified UTC offset",
           "project": "Hubbard Creek fieldwork",
           "camera_make": "Skydio",
@@ -1229,7 +1891,27 @@
           "product_type": "Aerial image",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "S1019311.JPG",
-          "source_collection": "Hubbard Creek fieldwork"
+          "source_collection": "Hubbard Creek fieldwork",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "medium",
+            "capture_time": "medium",
+            "camera_model": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "v4-hubbard-ortho",
@@ -1245,6 +1927,7 @@
           "source_platform": "ArcGIS Site Scan",
           "source_url": "https://sitescan.arcgis.com/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions/854d49a1-584f-4036-ae5a-6d8b18604d17",
           "date_precision": "mission-record-day",
+          "date_role": "mission-record",
           "project": "Hubbard-County-Park",
           "camera_make": "Skydio",
           "camera_model": "Skydio 2",
@@ -1254,7 +1937,28 @@
           "source_collection": "Hubbard-County-Park",
           "mission_id": "854d49a1-584f-4036-ae5a-6d8b18604d17",
           "basemap_state": "off",
-          "display_background": "dark neutral"
+          "display_background": "dark neutral",
+          "metadata_sources": [
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://sitescan.arcgis.com/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions/854d49a1-584f-4036-ae5a-6d8b18604d17"
+            },
+            {
+              "type": "sitescan_mission",
+              "label": "Mission record",
+              "url": "https://sitescan.arcgis.com/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions/854d49a1-584f-4036-ae5a-6d8b18604d17"
+            },
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://sitescan.arcgis.com/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions/854d49a1-584f-4036-ae5a-6d8b18604d17"
+            }
+          ],
+          "metadata_confidence": {
+            "camera_model": "medium",
+            "product_type": "medium"
+          }
         }
       ]
     },
@@ -1269,9 +1973,6 @@
         "teaching",
         "balloon-mapping",
         "field-gis"
-      ],
-      "chapters": [
-        "teaching"
       ],
       "homepage_treatment": "compact",
       "summary": "Three Columbia GIS courses combined low-cost balloon aerial mapping with GPS and mobile field observations at Black Rock Forest.",
@@ -1293,6 +1994,9 @@
         }
       ],
       "related_page": "teaching.html#teaching-black-rock-forest",
+      "program_areas": [
+        "teaching"
+      ],
       "cover": {
         "id": "v5-brf-field-group",
         "title": "Black Rock Forest GIS field group",
@@ -1309,6 +2013,7 @@
         "capture_date": "2017-10-28",
         "capture_time": "12:16:38",
         "date_precision": "day",
+        "date_role": "capture",
         "timezone_confidence": "unknown; camera clock has no verified UTC offset",
         "photographer": "Gina Dinnegan",
         "event": "Black Rock Forest balloon aerial mapping and field GIS",
@@ -1321,7 +2026,35 @@
         "product_type": "Workshop photograph",
         "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
         "source_filename": "cu_gis_brf_10_28_17.jpg",
-        "source_collection": "Black Rock Forest field trip, October 28, 2017"
+        "source_collection": "Black Rock Forest field trip, October 28, 2017",
+        "metadata_sources": [
+          {
+            "type": "published_article",
+            "label": "Published project account",
+            "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+          },
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata"
+          },
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata",
+            "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection",
+            "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+          }
+        ],
+        "metadata_confidence": {
+          "capture_date": "high",
+          "capture_time": "high",
+          "camera_model": "high",
+          "photographer": "high",
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -1346,7 +2079,30 @@
           "product_type": "Field photograph",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "cu_gis_brf_10_28_17_filling_balloons.jpg",
-          "source_collection": "Black Rock Forest field trip, October 28, 2017"
+          "source_collection": "Black Rock Forest field trip, October 28, 2017",
+          "metadata_sources": [
+            {
+              "type": "published_article",
+              "label": "Published project account",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "photographer": "high",
+            "people_depicted": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "v5-brf-reservoir-aerial",
@@ -1364,6 +2120,7 @@
           "capture_date": "2017-10-28",
           "capture_time": "13:50:57",
           "date_precision": "day",
+          "date_role": "capture",
           "timezone_confidence": "unknown; camera clock has no verified UTC offset",
           "creator": "Fall 2017 Columbia GIS students",
           "event": "Black Rock Forest balloon aerial mapping and field GIS",
@@ -1376,7 +2133,35 @@
           "product_type": "Balloon aerial photograph",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "cu_gis_brf_10_28_17_6mm.jpg",
-          "source_collection": "Black Rock Forest field trip, October 28, 2017"
+          "source_collection": "Black Rock Forest field trip, October 28, 2017",
+          "metadata_sources": [
+            {
+              "type": "published_article",
+              "label": "Published project account",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "capture_time": "high",
+            "camera_model": "high",
+            "creator": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "v5-brf-infrared-aerial",
@@ -1404,7 +2189,30 @@
           "product_type": "Balloon infrared photograph",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "cu_gis_brf_10_28_17_infrared-e1513635416649.jpg",
-          "source_collection": "Black Rock Forest field trip, October 28, 2017"
+          "source_collection": "Black Rock Forest field trip, October 28, 2017",
+          "metadata_sources": [
+            {
+              "type": "published_article",
+              "label": "Published project account",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "camera_model": "high",
+            "creator": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "v5-brf-ground-instruction",
@@ -1422,6 +2230,7 @@
           "capture_date": "2017-10-28",
           "capture_time": "11:23:05",
           "date_precision": "day",
+          "date_role": "capture",
           "timezone_confidence": "unknown; camera clock has no verified UTC offset",
           "photographer": "Gina Dinnegan",
           "event": "Black Rock Forest balloon aerial mapping and field GIS",
@@ -1434,7 +2243,36 @@
           "product_type": "Workshop photograph",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "cu_gis_brf_10_28_17_hiking.jpg",
-          "source_collection": "Black Rock Forest field trip, October 28, 2017"
+          "source_collection": "Black Rock Forest field trip, October 28, 2017",
+          "metadata_sources": [
+            {
+              "type": "published_article",
+              "label": "Published project account",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "capture_time": "high",
+            "camera_model": "high",
+            "photographer": "high",
+            "people_depicted": "high",
+            "product_type": "medium"
+          }
         }
       ]
     },
@@ -1449,9 +2287,6 @@
         "field-gis",
         "tree-mapping",
         "mapping"
-      ],
-      "chapters": [
-        "teaching"
       ],
       "homepage_treatment": "compact",
       "summary": "A workshop hosted by Nicole Davi connected campus tree observations in ArcGIS Field Maps with drone-derived imagery and elevation products.",
@@ -1477,6 +2312,9 @@
         }
       ],
       "related_page": "teaching.html#teaching-william-paterson",
+      "program_areas": [
+        "teaching"
+      ],
       "cover": {
         "id": "v5-wpu-group-visible",
         "title": "William Paterson workshop group · visible",
@@ -1493,6 +2331,7 @@
         "capture_date": "2025-03-11",
         "capture_time": "15:10:48",
         "date_precision": "day",
+        "date_role": "capture",
         "timezone_confidence": "unknown; camera clock has no verified UTC offset",
         "event": "William Paterson University tree-mapping, drone and GIS workshop",
         "program_or_course": "William Paterson University · class workshop",
@@ -1504,7 +2343,29 @@
         "product_type": "Workshop photograph",
         "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
         "source_filename": "DJI_20250311151048_0010_V.JPG",
-        "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025"
+        "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025",
+        "metadata_sources": [
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata"
+          },
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata",
+            "url": "https://drive.google.com/drive/folders/10gRauC9IyuLNHaux9eq8XCN7QTNiN84B"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection",
+            "url": "https://drive.google.com/drive/folders/10gRauC9IyuLNHaux9eq8XCN7QTNiN84B"
+          }
+        ],
+        "metadata_confidence": {
+          "capture_date": "high",
+          "capture_time": "high",
+          "camera_model": "high",
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -1532,7 +2393,30 @@
           "product_type": "Field GIS / orthomosaic",
           "processing_context": "ArcGIS Drone2Map product, published March 2025; web display assembled from existing public product tiles only on neutral RGB(238,241,243). No basemap or numerical raster values are added.",
           "source_filename": "wpu-field-trees-product.png",
-          "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025"
+          "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025",
+          "metadata_sources": [
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "camera_model": "high",
+            "creator": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "v5-wpu-dsm-relief",
@@ -1559,7 +2443,30 @@
           "product_type": "Surface model",
           "processing_context": "ArcGIS Drone2Map product, published March 2025; web display assembled from existing public product tiles only on neutral RGB(238,241,243). No basemap or numerical raster values are added.",
           "source_filename": "wpu-dsm-relief-product.png",
-          "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025"
+          "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025",
+          "metadata_sources": [
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "camera_model": "high",
+            "creator": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "v5-wpu-group-thermal",
@@ -1577,6 +2484,7 @@
           "capture_date": "2025-03-11",
           "capture_time": "15:10:48",
           "date_precision": "day",
+          "date_role": "capture",
           "timezone_confidence": "unknown; camera clock has no verified UTC offset",
           "event": "William Paterson University tree-mapping, drone and GIS workshop",
           "program_or_course": "William Paterson University · class workshop",
@@ -1588,7 +2496,29 @@
           "product_type": "Thermal photograph",
           "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
           "source_filename": "DJI_20250311151048_0010_T.JPG",
-          "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025"
+          "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025",
+          "metadata_sources": [
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://drive.google.com/drive/folders/10gRauC9IyuLNHaux9eq8XCN7QTNiN84B"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://drive.google.com/drive/folders/10gRauC9IyuLNHaux9eq8XCN7QTNiN84B"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "capture_time": "high",
+            "camera_model": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "v5-wpu-thermal-ortho",
@@ -1615,7 +2545,30 @@
           "product_type": "Thermal orthomosaic display",
           "processing_context": "ArcGIS Drone2Map product, published March 2025; web display assembled from existing public product tiles only on neutral RGB(238,241,243). No basemap or numerical raster values are added.",
           "source_filename": "wpu-thermal-ortho-product.png",
-          "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025"
+          "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025",
+          "metadata_sources": [
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "camera_model": "high",
+            "creator": "high",
+            "product_type": "medium"
+          }
         }
       ]
     },
@@ -1631,9 +2584,6 @@
         "mapping",
         "research"
       ],
-      "chapters": [
-        "teaching"
-      ],
       "homepage_treatment": "compact",
       "summary": "SDEV3450 students worked with Watershed Agricultural Council partners on ground observations, positioning, photogrammetry and LiDAR field methods at an agricultural site.",
       "question": "How do ground measurements, control observations and complementary aerial sensors fit together in a field-data workflow?",
@@ -1647,6 +2597,9 @@
       "details": "The documented April 15 field session combined student and partner activity with complementary instruments. Existing processed photogrammetric outputs include orthomosaic, DSM, DTM, point cloud and mesh; these are distinct from the separately logged IF1200A LiDAR acquisition. Selected camera views retain the original sensor colors without treating them as calibrated NDVI. No agricultural outcome, independent checkpoint accuracy or complete farm inventory is claimed.",
       "public_sources": [],
       "related_page": "teaching.html#teaching-hemlock-hill",
+      "program_areas": [
+        "teaching"
+      ],
       "cover": {
         "id": "v5-hemlock-field-team",
         "title": "Hemlock field team in a paired camera frame",
@@ -1663,6 +2616,7 @@
         "capture_date": "2026-04-15",
         "capture_time": "15:13:13",
         "date_precision": "day",
+        "date_role": "capture",
         "timezone": "-04:00",
         "timezone_confidence": "explicit EXIF UTC offset",
         "event": "SDEV3450 field data collection at Hemlock Hill Farm",
@@ -1675,7 +2629,34 @@
         "product_type": "Field photograph",
         "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
         "source_filename": "DSC01715.JPG",
-        "source_collection": "SDEV3450 Hemlock Hill fieldwork, April 15, 2026"
+        "source_collection": "SDEV3450 Hemlock Hill fieldwork, April 15, 2026",
+        "metadata_sources": [
+          {
+            "type": "project_document",
+            "label": "Project product record",
+            "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+          },
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata"
+          },
+          {
+            "type": "original_metadata",
+            "label": "Original image metadata",
+            "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+          },
+          {
+            "type": "filename_directory",
+            "label": "Source collection",
+            "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+          }
+        ],
+        "metadata_confidence": {
+          "capture_date": "high",
+          "capture_time": "high",
+          "camera_model": "high",
+          "product_type": "medium"
+        }
       },
       "visuals": [
         {
@@ -1706,7 +2687,34 @@
           "product_type": "Multispectral camera display",
           "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
           "source_filename": "DSC02140.JPG",
-          "source_collection": "SDEV3450 Hemlock Hill fieldwork, April 15, 2026"
+          "source_collection": "SDEV3450 Hemlock Hill fieldwork, April 15, 2026",
+          "metadata_sources": [
+            {
+              "type": "project_document",
+              "label": "Project product record",
+              "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata"
+            },
+            {
+              "type": "original_metadata",
+              "label": "Original image metadata",
+              "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+            }
+          ],
+          "metadata_confidence": {
+            "capture_date": "high",
+            "capture_time": "high",
+            "camera_model": "high",
+            "product_type": "medium"
+          }
         },
         {
           "id": "v5-hemlock-dtm",
@@ -1722,6 +2730,7 @@
           "source_platform": "ArcGIS SiteScan",
           "source_url": "https://sitescan.arcgis.com/projects/55526b6c-b821-444a-a303-fd430e9a944f/missions/4331b54b-f283-49d6-b567-2dc123770619",
           "date_precision": "mission-record-day",
+          "date_role": "mission-record",
           "event": "SDEV3450 field data collection at Hemlock Hill Farm",
           "program_or_course": "SDEV3450 · Watershed Agricultural Council collaboration",
           "project": "Hemlock-Hill-Farm",
@@ -1734,7 +2743,27 @@
           "source_collection": "Hemlock-Hill-Farm-SDEV3450",
           "mission_id": "4331b54b-f283-49d6-b567-2dc123770619",
           "basemap_state": "off",
-          "display_background": "dark neutral"
+          "display_background": "dark neutral",
+          "metadata_sources": [
+            {
+              "type": "sitescan_mission",
+              "label": "Mission record",
+              "url": "https://sitescan.arcgis.com/projects/55526b6c-b821-444a-a303-fd430e9a944f/missions/4331b54b-f283-49d6-b567-2dc123770619"
+            },
+            {
+              "type": "author_instruction",
+              "label": "Source record"
+            },
+            {
+              "type": "filename_directory",
+              "label": "Source collection",
+              "url": "https://sitescan.arcgis.com/projects/55526b6c-b821-444a-a303-fd430e9a944f/missions/4331b54b-f283-49d6-b567-2dc123770619"
+            }
+          ],
+          "metadata_confidence": {
+            "camera_model": "high",
+            "product_type": "medium"
+          }
         }
       ]
     }
@@ -1784,13 +2813,35 @@
             "source_url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/",
             "capture_date": "2022-04",
             "date_precision": "month",
+            "date_role": "fieldwork-period",
             "event": "Callicoon student fieldwork",
             "program_or_course": "SDEV3450",
             "project": "Callicoon student fieldwork",
             "product_type": "Workshop photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "sdev3450_field_trip_04_22-scaled.jpg",
-            "source_collection": "."
+            "source_collection": ".",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "medium",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -1811,12 +2862,34 @@
             "source_url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/",
             "capture_date": "2022-04",
             "date_precision": "month",
+            "date_role": "fieldwork-period",
             "program_or_course": "SDEV3450",
             "project": "Callicoon student fieldwork",
             "product_type": "Aerial image",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "drone-image-scaled.jpg",
-            "source_collection": "."
+            "source_collection": ".",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "medium",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -1837,12 +2910,34 @@
             "source_url": "https://drive.google.com/file/d/1EmgQnKs8ooPHklI-M4_4yh2Eo2Leg9kq/view",
             "capture_date": "2022-04",
             "date_precision": "month",
+            "date_role": "fieldwork-period",
             "program_or_course": "SDEV3450",
             "project": "Callicoon student fieldwork",
             "product_type": "Map / analysis",
             "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
             "source_filename": "Callicoon-ContourLayout.png",
-            "source_collection": "SDEV3450 Group Drone Project "
+            "source_collection": "SDEV3450 Group Drone Project ",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://drive.google.com/file/d/1EmgQnKs8ooPHklI-M4_4yh2Eo2Leg9kq/view"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://drive.google.com/file/d/1EmgQnKs8ooPHklI-M4_4yh2Eo2Leg9kq/view"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://drive.google.com/file/d/1EmgQnKs8ooPHklI-M4_4yh2Eo2Leg9kq/view"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "medium",
+              "product_type": "medium"
+            }
           }
         }
       ]
@@ -1872,6 +2967,7 @@
             "capture_date": "2023-01-30",
             "capture_time": "11:51:36",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone_confidence": "unknown; camera clock has no verified UTC offset",
             "event": "SDEV3450 drone demonstration at Lamont",
             "program_or_course": "SDEV3450 · Spatial Analysis for Sustainable Development",
@@ -1883,7 +2979,25 @@
             "product_type": "Workshop photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "jan2023_DJI_0036.JPG",
-            "source_collection": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj"
+            "source_collection": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://drive.google.com/file/d/1oyYS--AaTdeyeZfOpacXznJvO3Cgx14u/view?usp=drivesdk"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://drive.google.com/file/d/1oyYS--AaTdeyeZfOpacXznJvO3Cgx14u/view?usp=drivesdk"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "capture_time": "high",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -1905,6 +3019,7 @@
             "capture_date": "2023-01-30",
             "capture_time": "11:25:20",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone_confidence": "unknown; camera clock has no verified UTC offset",
             "event": "SDEV3450 drone demonstration at Lamont",
             "program_or_course": "SDEV3450 · Spatial Analysis for Sustainable Development",
@@ -1916,7 +3031,25 @@
             "product_type": "Workshop photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "jan2023_DJI_0864.JPG",
-            "source_collection": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj"
+            "source_collection": "https://drive.google.com/drive/folders/1llSaNfS5dPHekLe5GJusKe6ZIbgxAyyj",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://drive.google.com/file/d/1xDYn9DU3RP9LGCpQULnBOI9rjUTiSCaV/view?usp=drivesdk"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://drive.google.com/file/d/1xDYn9DU3RP9LGCpQULnBOI9rjUTiSCaV/view?usp=drivesdk"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "capture_time": "high",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -1936,6 +3069,7 @@
             "source_platform": "ArcGIS SiteScan",
             "source_url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde",
             "date_precision": "mission-record-day",
+            "date_role": "mission-record",
             "event": "SDEV3450 drone demonstration at Lamont",
             "program_or_course": "SDEV3450 · Spatial Analysis for Sustainable Development",
             "project": "Lamont Workshop 07-14-2023",
@@ -1947,7 +3081,28 @@
             "source_collection": "Lamont Workshop 07-14-2023",
             "mission_id": "fae641f2-6a98-410c-9107-ddc4f4626cde",
             "basemap_state": "off",
-            "display_background": "dark neutral"
+            "display_background": "dark neutral",
+            "metadata_sources": [
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde"
+              },
+              {
+                "type": "sitescan_mission",
+                "label": "Mission record",
+                "url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://sitescan.arcgis.com/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions/fae641f2-6a98-410c-9107-ddc4f4626cde"
+              }
+            ],
+            "metadata_confidence": {
+              "camera_model": "medium",
+              "product_type": "medium"
+            }
           }
         }
       ]
@@ -1976,6 +3131,7 @@
             "capture_date": "2025-12-01",
             "capture_time": "14:48:07",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone": "-05:00",
             "timezone_confidence": "explicit EXIF UTC offset",
             "event": "North Shore Esplanade community mapping",
@@ -1987,7 +3143,27 @@
             "product_type": "Workshop photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "jmv2196_columbia_Photo 2.jpg",
-            "source_collection": "North Shore Esplanade community mapping"
+            "source_collection": "North Shore Esplanade community mapping",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "capture_time": "high",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2009,6 +3185,7 @@
             "capture_date": "2025-12-01",
             "capture_time": "20:55:00",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone_confidence": "unknown; camera clock has no verified UTC offset",
             "event": "North Shore Esplanade community mapping",
             "project": "North Shore Esplanade community mapping",
@@ -2019,7 +3196,35 @@
             "product_type": "Aerial photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "S1012536.JPG",
-            "source_collection": "North Shore Esplanade community mapping"
+            "source_collection": "North Shore Esplanade community mapping",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://drive.google.com/file/d/1MoFTXnM4D6Awbcc7ZS6v6-EltfCjOMlB/view?usp=drivesdk"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://drive.google.com/file/d/1MoFTXnM4D6Awbcc7ZS6v6-EltfCjOMlB/view?usp=drivesdk"
+              },
+              {
+                "type": "drive_metadata",
+                "label": "Source collection",
+                "url": "https://drive.google.com/file/d/1MoFTXnM4D6Awbcc7ZS6v6-EltfCjOMlB/view?usp=drivesdk"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://drive.google.com/file/d/1MoFTXnM4D6Awbcc7ZS6v6-EltfCjOMlB/view?usp=drivesdk"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "medium",
+              "capture_time": "medium",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2038,11 +3243,25 @@
             "uncertainty": "Display derivative; source timing, authorship and independent accuracy are limited to the evidence documented in this record.",
             "source_platform": "Project archive",
             "date_precision": "collection-day",
+            "date_role": "collection-context",
             "project": "Morningside Park mapping",
             "product_type": "Orthomosaic",
             "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
             "source_filename": "Layout-North_Shore_Esplanade.png",
-            "source_collection": "Morningside Park mapping"
+            "source_collection": "Morningside Park mapping",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              }
+            ],
+            "metadata_confidence": {
+              "product_type": "medium"
+            }
           }
         }
       ]
@@ -2050,7 +3269,7 @@
     {
       "id": "mtukuzi-field-sequence",
       "case_study": "mtukuzi",
-      "title": "Mtukuzi: field collaboration and selected-site mapping",
+      "title": "Mtukuzi: collaboration, observations and mapped sites",
       "summary": "Field documentation, source imagery and a processed village/school-area map describe different parts of the selected-site work.",
       "steps": [
         {
@@ -2071,6 +3290,7 @@
             "capture_date": "2026-06-13",
             "capture_time": "10:11:25",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone": "+02:00",
             "timezone_confidence": "explicit EXIF UTC offset",
             "event": "Mtukuzi selected-site mapping",
@@ -2082,7 +3302,27 @@
             "product_type": "Field photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "PXL_20260613_081125548.jpg",
-            "source_collection": "Mtukuzi selected-site mapping"
+            "source_collection": "Mtukuzi selected-site mapping",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              },
+              {
+                "type": "capture_report",
+                "label": "Capture report"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "capture_time": "high",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2102,11 +3342,30 @@
             "source_platform": "Project archive",
             "capture_date": "2026-06-13",
             "date_precision": "day",
+            "date_role": "underlying-fieldwork",
             "project": "Mtukuzi selected-site mapping",
             "product_type": "Source imagery",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "11_village_drone_examples.jpg",
-            "source_collection": "Mtukuzi selected-site mapping"
+            "source_collection": "Mtukuzi selected-site mapping",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              },
+              {
+                "type": "capture_report",
+                "label": "Capture report"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "medium",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2126,11 +3385,30 @@
             "source_platform": "Project archive",
             "capture_date": "2026-06-13",
             "date_precision": "day",
+            "date_role": "underlying-fieldwork",
             "project": "Mtukuzi selected-site mapping",
             "product_type": "Orthomosaic",
             "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
             "source_filename": "10_village_orthomosaic.png",
-            "source_collection": "Mtukuzi selected-site mapping"
+            "source_collection": "Mtukuzi selected-site mapping",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              },
+              {
+                "type": "capture_report",
+                "label": "Capture report"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "medium",
+              "product_type": "medium"
+            }
           }
         }
       ]
@@ -2158,12 +3436,38 @@
             "source_platform": "Project archive",
             "source_url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view",
             "date_precision": "collection-day",
+            "date_role": "collection-context",
             "event": "Morningside Park mapping",
             "project": "Morningside Park mapping",
             "product_type": "Field photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "IMG_0737.jpg",
-            "source_collection": "Morningside Park drone flight 12/18/25 "
+            "source_collection": "Morningside Park drone flight 12/18/25 ",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view"
+              },
+              {
+                "type": "drive_metadata",
+                "label": "Source collection",
+                "url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view?usp=drivesdk"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://drive.google.com/file/d/1VWiu-4QVe4IDexLIe_N_jxNUjmSr1Euu/view"
+              }
+            ],
+            "metadata_confidence": {
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2182,11 +3486,25 @@
             "uncertainty": "Display derivative; source timing, authorship and independent accuracy are limited to the evidence documented in this record.",
             "source_platform": "Project archive",
             "date_precision": "collection-day",
+            "date_role": "collection-context",
             "project": "Morningside Park mapping",
             "product_type": "Orthomosaic",
             "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
             "source_filename": "Layout-Morningside.png",
-            "source_collection": "Morningside Park mapping"
+            "source_collection": "Morningside Park mapping",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              }
+            ],
+            "metadata_confidence": {
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2205,11 +3523,25 @@
             "uncertainty": "Display derivative; source timing, authorship and independent accuracy are limited to the evidence documented in this record.",
             "source_platform": "Project archive",
             "date_precision": "collection-day",
+            "date_role": "collection-context",
             "project": "Morningside Park mapping",
             "product_type": "Terrain model",
             "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
             "source_filename": "Layout-Morningside-DTM.png",
-            "source_collection": "Morningside Park mapping"
+            "source_collection": "Morningside Park mapping",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              }
+            ],
+            "metadata_confidence": {
+              "product_type": "medium"
+            }
           }
         }
       ]
@@ -2238,6 +3570,7 @@
             "capture_date": "2026-06-24",
             "capture_time": "20:09:03",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone_confidence": "unknown; camera clock has no verified UTC offset",
             "event": "Hubbard Creek fieldwork",
             "project": "Hubbard Creek fieldwork",
@@ -2248,7 +3581,27 @@
             "product_type": "Field photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "S1019305.JPG",
-            "source_collection": "Hubbard Creek fieldwork"
+            "source_collection": "Hubbard Creek fieldwork",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "medium",
+              "capture_time": "medium",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2269,6 +3622,7 @@
             "capture_date": "2026-06-24",
             "capture_time": "20:10:01",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone_confidence": "unknown; camera clock has no verified UTC offset",
             "project": "Hubbard Creek fieldwork",
             "camera_make": "Skydio",
@@ -2278,7 +3632,27 @@
             "product_type": "Aerial image",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "S1019311.JPG",
-            "source_collection": "Hubbard Creek fieldwork"
+            "source_collection": "Hubbard Creek fieldwork",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "medium",
+              "capture_time": "medium",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2298,6 +3672,7 @@
             "source_platform": "ArcGIS Site Scan",
             "source_url": "https://sitescan.arcgis.com/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions/854d49a1-584f-4036-ae5a-6d8b18604d17",
             "date_precision": "mission-record-day",
+            "date_role": "mission-record",
             "project": "Hubbard-County-Park",
             "camera_make": "Skydio",
             "camera_model": "Skydio 2",
@@ -2307,7 +3682,28 @@
             "source_collection": "Hubbard-County-Park",
             "mission_id": "854d49a1-584f-4036-ae5a-6d8b18604d17",
             "basemap_state": "off",
-            "display_background": "dark neutral"
+            "display_background": "dark neutral",
+            "metadata_sources": [
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://sitescan.arcgis.com/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions/854d49a1-584f-4036-ae5a-6d8b18604d17"
+              },
+              {
+                "type": "sitescan_mission",
+                "label": "Mission record",
+                "url": "https://sitescan.arcgis.com/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions/854d49a1-584f-4036-ae5a-6d8b18604d17"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://sitescan.arcgis.com/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions/854d49a1-584f-4036-ae5a-6d8b18604d17"
+              }
+            ],
+            "metadata_confidence": {
+              "camera_model": "medium",
+              "product_type": "medium"
+            }
           }
         }
       ]
@@ -2337,6 +3733,7 @@
             "capture_date": "2025-05-02",
             "capture_time": "14:25:22",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone_confidence": "unknown; camera clock has no verified UTC offset",
             "event": "Four Sparrow Marsh research",
             "project": "Four Sparrow Marsh research",
@@ -2347,7 +3744,35 @@
             "product_type": "Field photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "S1011388.JPG",
-            "source_collection": "Four Sparrow Marsh research"
+            "source_collection": "Four Sparrow Marsh research",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://drive.google.com/file/d/1AcNuO2t-yyPsgWs8ALT0GnV45B7kcmL-/view?usp=drivesdk"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://drive.google.com/file/d/1AcNuO2t-yyPsgWs8ALT0GnV45B7kcmL-/view?usp=drivesdk"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://drive.google.com/file/d/1AcNuO2t-yyPsgWs8ALT0GnV45B7kcmL-/view?usp=drivesdk"
+              },
+              {
+                "type": "drive_metadata",
+                "label": "Source collection",
+                "url": "https://drive.google.com/file/d/1AcNuO2t-yyPsgWs8ALT0GnV45B7kcmL-/view?usp=drivesdk"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "medium",
+              "capture_time": "medium",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2366,11 +3791,25 @@
             "uncertainty": "Display derivative; source timing, authorship and independent accuracy are limited to the evidence documented in this record.",
             "source_platform": "Project archive",
             "date_precision": "collection-day",
+            "date_role": "collection-context",
             "project": "Four Sparrow Marsh research",
             "product_type": "Orthomosaic",
             "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
             "source_filename": "field_work_drone2map_processing_True_Ortho.tif",
-            "source_collection": "Four Sparrow Marsh research"
+            "source_collection": "Four Sparrow Marsh research",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              }
+            ],
+            "metadata_confidence": {
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2389,11 +3828,25 @@
             "uncertainty": "Display derivative only; compare surveys only after alignment and uncertainty assessment.",
             "source_platform": "Project archive",
             "date_precision": "collection-day",
+            "date_role": "collection-context",
             "project": "Four Sparrow Marsh research",
             "product_type": "Terrain model",
             "processing_context": "Display derivative of the retained spatial product/layout; native data and processing context remain in the source archive.",
             "source_filename": "field_work_drone2map_processing_dtm_shaded_relief.tif",
-            "source_collection": "Four Sparrow Marsh research"
+            "source_collection": "Four Sparrow Marsh research",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              }
+            ],
+            "metadata_confidence": {
+              "product_type": "medium"
+            }
           }
         }
       ]
@@ -2422,12 +3875,39 @@
             "source_url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view",
             "capture_date": "2026-06",
             "date_precision": "month",
+            "date_role": "collection-context",
             "event": "University of Zambia collaboration",
             "project": "University of Zambia collaboration",
             "product_type": "Workshop photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "WhatsApp Image 2026-06-10 at 5.40.20 AM.jpeg",
-            "source_collection": "UNZA exchange photograph collection "
+            "source_collection": "UNZA exchange photograph collection ",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view"
+              },
+              {
+                "type": "drive_metadata",
+                "label": "Source collection",
+                "url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view?usp=drivesdk"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://drive.google.com/file/d/1KtNkT-eiXn7nDKh-2LovhwMCtW5tiWti/view"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "medium",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2448,6 +3928,7 @@
             "capture_date": "2026-06-10",
             "capture_time": "16:51:12",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone": "+02:00",
             "timezone_confidence": "explicit EXIF UTC offset",
             "event": "University of Zambia collaboration",
@@ -2459,7 +3940,27 @@
             "product_type": "Field photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "PXL_20260610_145112594.jpg",
-            "source_collection": "Zambia exchange field archive "
+            "source_collection": "Zambia exchange field archive ",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "capture_time": "high",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2479,6 +3980,7 @@
             "source_platform": "ArcGIS Site Scan",
             "source_url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/6ac2444b-1fc8-47f7-8ee6-907135cbc213",
             "date_precision": "mission-record-day",
+            "date_role": "mission-record",
             "project": "UNZA",
             "camera_make": "Skydio",
             "camera_model": "Skydio 2",
@@ -2488,10 +3990,32 @@
             "source_collection": "UNZA",
             "mission_id": "6ac2444b-1fc8-47f7-8ee6-907135cbc213",
             "basemap_state": "off",
-            "display_background": "dark neutral"
+            "display_background": "dark neutral",
+            "metadata_sources": [
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/6ac2444b-1fc8-47f7-8ee6-907135cbc213"
+              },
+              {
+                "type": "sitescan_mission",
+                "label": "Mission record",
+                "url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/6ac2444b-1fc8-47f7-8ee6-907135cbc213"
+              },
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/6ac2444b-1fc8-47f7-8ee6-907135cbc213"
+              }
+            ],
+            "metadata_confidence": {
+              "camera_model": "medium",
+              "product_type": "medium"
+            }
           }
         }
-      ]
+      ],
+      "homepage": false
     },
     {
       "id": "black-rock-forest-sequence",
@@ -2519,6 +4043,7 @@
             "capture_date": "2017-10-28",
             "capture_time": "12:16:38",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone_confidence": "unknown; camera clock has no verified UTC offset",
             "photographer": "Gina Dinnegan",
             "event": "Black Rock Forest balloon aerial mapping and field GIS",
@@ -2531,7 +4056,35 @@
             "product_type": "Workshop photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "cu_gis_brf_10_28_17.jpg",
-            "source_collection": "Black Rock Forest field trip, October 28, 2017"
+            "source_collection": "Black Rock Forest field trip, October 28, 2017",
+            "metadata_sources": [
+              {
+                "type": "published_article",
+                "label": "Published project account",
+                "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "capture_time": "high",
+              "camera_model": "high",
+              "photographer": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2559,7 +4112,30 @@
             "product_type": "Field photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "cu_gis_brf_10_28_17_filling_balloons.jpg",
-            "source_collection": "Black Rock Forest field trip, October 28, 2017"
+            "source_collection": "Black Rock Forest field trip, October 28, 2017",
+            "metadata_sources": [
+              {
+                "type": "published_article",
+                "label": "Published project account",
+                "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "photographer": "high",
+              "people_depicted": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2581,6 +4157,7 @@
             "capture_date": "2017-10-28",
             "capture_time": "13:50:57",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone_confidence": "unknown; camera clock has no verified UTC offset",
             "creator": "Fall 2017 Columbia GIS students",
             "event": "Black Rock Forest balloon aerial mapping and field GIS",
@@ -2593,7 +4170,35 @@
             "product_type": "Balloon aerial photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "cu_gis_brf_10_28_17_6mm.jpg",
-            "source_collection": "Black Rock Forest field trip, October 28, 2017"
+            "source_collection": "Black Rock Forest field trip, October 28, 2017",
+            "metadata_sources": [
+              {
+                "type": "published_article",
+                "label": "Published project account",
+                "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "capture_time": "high",
+              "camera_model": "high",
+              "creator": "high",
+              "product_type": "medium"
+            }
           }
         }
       ]
@@ -2624,6 +4229,7 @@
             "capture_date": "2025-03-11",
             "capture_time": "15:10:48",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone_confidence": "unknown; camera clock has no verified UTC offset",
             "event": "William Paterson University tree-mapping, drone and GIS workshop",
             "program_or_course": "William Paterson University · class workshop",
@@ -2635,7 +4241,29 @@
             "product_type": "Workshop photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "DJI_20250311151048_0010_V.JPG",
-            "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025"
+            "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025",
+            "metadata_sources": [
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://drive.google.com/drive/folders/10gRauC9IyuLNHaux9eq8XCN7QTNiN84B"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://drive.google.com/drive/folders/10gRauC9IyuLNHaux9eq8XCN7QTNiN84B"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "capture_time": "high",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2666,7 +4294,30 @@
             "product_type": "Field GIS / orthomosaic",
             "processing_context": "ArcGIS Drone2Map product, published March 2025; web display assembled from existing public product tiles only on neutral RGB(238,241,243). No basemap or numerical raster values are added.",
             "source_filename": "wpu-field-trees-product.png",
-            "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025"
+            "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025",
+            "metadata_sources": [
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "camera_model": "high",
+              "creator": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2697,7 +4348,30 @@
             "product_type": "Surface model",
             "processing_context": "ArcGIS Drone2Map product, published March 2025; web display assembled from existing public product tiles only on neutral RGB(238,241,243). No basemap or numerical raster values are added.",
             "source_filename": "wpu-dsm-relief-product.png",
-            "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025"
+            "source_collection": "William Paterson University tree-mapping workshop, March 11, 2025",
+            "metadata_sources": [
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "camera_model": "high",
+              "creator": "high",
+              "product_type": "medium"
+            }
           }
         }
       ]
@@ -2728,6 +4402,7 @@
             "capture_date": "2026-04-15",
             "capture_time": "15:13:13",
             "date_precision": "day",
+            "date_role": "capture",
             "timezone": "-04:00",
             "timezone_confidence": "explicit EXIF UTC offset",
             "event": "SDEV3450 field data collection at Hemlock Hill Farm",
@@ -2740,7 +4415,34 @@
             "product_type": "Field photograph",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "DSC01715.JPG",
-            "source_collection": "SDEV3450 Hemlock Hill fieldwork, April 15, 2026"
+            "source_collection": "SDEV3450 Hemlock Hill fieldwork, April 15, 2026",
+            "metadata_sources": [
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "capture_time": "high",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2774,7 +4476,34 @@
             "product_type": "Multispectral camera display",
             "processing_context": "Optimized display copy of a source photograph; no measurement product inferred.",
             "source_filename": "DSC02140.JPG",
-            "source_collection": "SDEV3450 Hemlock Hill fieldwork, April 15, 2026"
+            "source_collection": "SDEV3450 Hemlock Hill fieldwork, April 15, 2026",
+            "metadata_sources": [
+              {
+                "type": "project_document",
+                "label": "Project product record",
+                "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata"
+              },
+              {
+                "type": "original_metadata",
+                "label": "Original image metadata",
+                "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://drive.google.com/drive/folders/1MkyZZ2zGLqare0nxLekz0n24RwEQxeNl"
+              }
+            ],
+            "metadata_confidence": {
+              "capture_date": "high",
+              "capture_time": "high",
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         },
         {
@@ -2794,6 +4523,7 @@
             "source_platform": "ArcGIS SiteScan",
             "source_url": "https://sitescan.arcgis.com/projects/55526b6c-b821-444a-a303-fd430e9a944f/missions/4331b54b-f283-49d6-b567-2dc123770619",
             "date_precision": "mission-record-day",
+            "date_role": "mission-record",
             "event": "SDEV3450 field data collection at Hemlock Hill Farm",
             "program_or_course": "SDEV3450 · Watershed Agricultural Council collaboration",
             "project": "Hemlock-Hill-Farm",
@@ -2806,10 +4536,125 @@
             "source_collection": "Hemlock-Hill-Farm-SDEV3450",
             "mission_id": "4331b54b-f283-49d6-b567-2dc123770619",
             "basemap_state": "off",
-            "display_background": "dark neutral"
+            "display_background": "dark neutral",
+            "metadata_sources": [
+              {
+                "type": "sitescan_mission",
+                "label": "Mission record",
+                "url": "https://sitescan.arcgis.com/projects/55526b6c-b821-444a-a303-fd430e9a944f/missions/4331b54b-f283-49d6-b567-2dc123770619"
+              },
+              {
+                "type": "author_instruction",
+                "label": "Source record"
+              },
+              {
+                "type": "filename_directory",
+                "label": "Source collection",
+                "url": "https://sitescan.arcgis.com/projects/55526b6c-b821-444a-a303-fd430e9a944f/missions/4331b54b-f283-49d6-b567-2dc123770619"
+              }
+            ],
+            "metadata_confidence": {
+              "camera_model": "high",
+              "product_type": "medium"
+            }
           }
         }
       ]
     }
-  ]
+  ],
+  "program_areas": [
+    {
+      "id": "teaching",
+      "title": "Teaching & Workshops",
+      "summary": "Field instruction, shared acquisition methods and spatial-product interpretation with students, educators and colleagues.",
+      "case_studies": [
+        "black-rock-forest",
+        "callicoon",
+        "lamont-instruction",
+        "william-paterson",
+        "hemlock-hill",
+        "hot-unza"
+      ],
+      "page": "teaching.html"
+    },
+    {
+      "id": "communities",
+      "title": "Communities",
+      "summary": "Staten Island and Mtukuzi connect spatial observations with community relationships and local questions.",
+      "case_studies": [
+        "hannah-street",
+        "north-shore",
+        "mtukuzi"
+      ],
+      "page": "communities.html"
+    },
+    {
+      "id": "parks",
+      "title": "NYC Parks",
+      "summary": "Permitted mapping at Four Sparrow, North Shore and Morningside, with Highbridge research forthcoming.",
+      "case_studies": [
+        "four-sparrow",
+        "north-shore",
+        "morningside",
+        "highbridge"
+      ],
+      "page": "index.html?area=parks#places"
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "summary": "Terrain, surface geometry and field methods inform ongoing investigation at Lamont, Hubbard Creek and Morningside.",
+      "case_studies": [
+        "lamont-research",
+        "hubbard-creek",
+        "morningside",
+        "highbridge"
+      ],
+      "page": "index.html?area=research#places"
+    }
+  ],
+  "featured_3d_plate_id": "v6-unza-mesh",
+  "featured_3d": {
+    "id": "v6-unza-mesh",
+    "title": "UNZA textured campus-site mesh",
+    "place": "University of Zambia, Lusaka",
+    "kind": "Textured mesh",
+    "date": "2026-06-10",
+    "caption": "A selected UNZA campus site reconstructed as a textured photogrammetric mesh. Building surfaces, courtyard and vegetation retain the source texture; the geographic basemap is disabled.",
+    "credit": "Columbia University / EFPL / CIESIN · University of Zambia collaboration",
+    "image": "assets/v6-unza/unza-mesh.jpg",
+    "thumb": "assets/v6-unza/unza-mesh-thumb.jpg",
+    "uncertainty": "This is a selected campus-site textured photogrammetric mesh, not campus-wide coverage or LiDAR. The source reconstruction retains holes, edge artifacts and texture/geometry distortions; no repair or recoloring was applied. Independent positional/vertical accuracy, bare-earth classification and physical wind-flow validation were not assessed. The rendered display is not an analysis-ready mesh delivery or a measurement of educational/community outcomes. Mission-record dates remain distinct from original camera capture dates and camera timezones.",
+    "source_platform": "ArcGIS SiteScan",
+    "source_url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/11b4d0ac-3bce-4a8b-b270-856199319912",
+    "date_precision": "mission-record-day",
+    "date_role": "mission-record",
+    "program_or_course": "UNZA / HOT teaching and exchange",
+    "project": "UNZA",
+    "camera_make": "Skydio",
+    "camera_model": "Skydio 2",
+    "sensor": "rgb",
+    "product_type": "Textured photogrammetric mesh (SiteScan I3S)",
+    "processing_context": "Existing SiteScan I3S photogrammetric mesh from Skydio 2 RGB source media; selected 3D viewer display, not a new processing job or an analytical mesh download.",
+    "source_collection": "UNZA / UNZA-3D-2",
+    "mission_id": "11b4d0ac-3bce-4a8b-b270-856199319912",
+    "basemap_state": "off",
+    "display_background": "native neutral black",
+    "metadata_sources": [
+      {
+        "type": "sitescan_mission",
+        "label": "Mission record",
+        "url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/11b4d0ac-3bce-4a8b-b270-856199319912"
+      },
+      {
+        "type": "sitescan_mission",
+        "label": "Mission record",
+        "url": "https://sitescan.arcgis.com/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions/11b4d0ac-3bce-4a8b-b270-856199319912/mesh"
+      }
+    ],
+    "metadata_confidence": {
+      "camera_model": "high",
+      "product_type": "high"
+    }
+  }
 }

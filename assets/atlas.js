@@ -6,10 +6,13 @@ document.querySelectorAll('a[href]').forEach(a=>{const h=a.getAttribute('href');
 $('#edition-link').href='explore.html?edition='+(mode==='efpl'?'personal':'efpl');$('#edition-link').textContent=mode==='efpl'?'View Kytt MacManus perspective':'View EFPL perspective';
 let catalog=[],visible=[],active=0;
 const params=new URLSearchParams(location.search);
-let theme=params.get('theme')||'all';
+const areaIDs=new Set(['teaching','communities','parks','research']);
+let theme=areaIDs.has(params.get('area')||params.get('theme'))?(params.get('area')||params.get('theme')):'all';
+const legacyPlace={zambia:'Zambia',international:'Zambia','staten-island':'Staten Island',lamont:'Lamont'};
+const requestedPlace=params.get('place')||legacyPlace[params.get('theme')];
 function render(){
  const place=$('#place-filter').value,kind=$('#kind-filter').value,q=$('#catalog-search').value.trim().toLowerCase();
- visible=catalog.filter(p=>(theme==='all'||(p.topics||[]).includes(theme))&&(place==='all'||p.place===place)&&(kind==='all'||p.kind===kind)&&(!q||[p.title,p.caption,p.place,p.kind,p.credit,p.event,p.project,p.program_or_course,p.photographer,p.creator,p.camera_make,p.camera_model,p.sensor,p.product_type,(p.people_depicted||[]).join(' '),p.source_platform].filter(Boolean).join(' ').toLowerCase().includes(q)));
+ visible=catalog.filter(p=>(theme==='all'||(p.program_areas||[]).includes(theme))&&(place==='all'||(p.place_groups||[p.place]).includes(place))&&(kind==='all'||p.kind===kind)&&(!q||[p.title,p.caption,p.place,p.kind,p.credit,p.event,p.project,p.program_or_course,p.photographer,p.creator,p.camera_make,p.camera_model,p.sensor,p.product_type,(p.people_depicted||[]).join(' '),p.source_platform].filter(Boolean).join(' ').toLowerCase().includes(q)));
  $('#catalog-status').textContent=`${visible.length} of ${catalog.length} curated plates shown`;
  $('#catalog-empty').hidden=visible.length>0;
  $('#catalog-grid').innerHTML=visible.map(p=>`<article class="plate-card"><button data-plate="${p.id}" aria-label="Examine ${esc(p.title)}"><img src="${DRONE_ASSET_URL(p.thumb||p.image)}" alt="${esc(p.title)}" loading="lazy"><span class="plate-action">Examine plate ↗</span></button><p class="eyebrow">${esc(p.place)} / ${esc(p.kind)}</p><h3>${esc(p.title)}</h3><p>${esc(p.caption)}</p><p class="small">${esc(p.date||'Date in source notes')} · ${esc(p.credit)}</p></article>`).join('');
@@ -35,12 +38,12 @@ document.addEventListener('keydown',e=>{if(!$('#plate-dialog').open)return;if(e.
 function compare(side){const p=catalog.find(p=>p.id===$('#compare-'+side).value);if(!p)return;$('#compare-'+side+'-figure').innerHTML=`<img src="${DRONE_ASSET_URL(p.image)}" alt="${esc(p.title)}"><figcaption><b>${esc(p.title)}</b> · ${esc(p.place)}<br>${esc(p.caption)}<br>${esc(p.credit)}</figcaption>`;}
 async function init(){
  try{
-  const response=await fetch('assets/data/visual-catalog.json?v=5');if(!response.ok)throw Error('Could not load the visual source catalog');
+  const response=await fetch('assets/data/visual-catalog.json?v=6');if(!response.ok)throw Error('Could not load the visual source catalog');
   catalog=await response.json();
-  ['place','kind'].forEach(key=>{const sel=$('#'+key+'-filter');[...new Set(catalog.map(p=>p[key]))].sort().forEach(v=>sel.add(new Option(v,v)));sel.onchange=render;});
+  ['place','kind'].forEach(key=>{const sel=$('#'+key+'-filter');[...new Set(key==='place'?catalog.flatMap(p=>p.place_groups||[p.place]):catalog.map(p=>p[key]))].sort().forEach(v=>sel.add(new Option(v,v)));sel.onchange=render;});
   $('#catalog-search').oninput=render;$('#reset-filters').onclick=()=>{theme='all';document.querySelectorAll('[data-theme]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.theme==='all'?'true':'false'));$('#place-filter').value='all';$('#kind-filter').value='all';$('#catalog-search').value='';render();};
   document.querySelectorAll('[data-theme]').forEach(b=>{b.setAttribute('aria-pressed',b.dataset.theme===theme?'true':'false');b.onclick=()=>{theme=b.dataset.theme;document.querySelectorAll('[data-theme]').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));$('#place-filter').value='all';$('#kind-filter').value='all';render();};});
-  if(params.has('place')&&[...$('#place-filter').options].some(o=>o.value===params.get('place')))$('#place-filter').value=params.get('place');
+  if(requestedPlace&&[...$('#place-filter').options].some(o=>o.value===requestedPlace))$('#place-filter').value=requestedPlace;
   render();
   if(params.has('plate')){
    theme='all';$('#place-filter').value='all';$('#kind-filter').value='all';render();openPlate(params.get('plate'));

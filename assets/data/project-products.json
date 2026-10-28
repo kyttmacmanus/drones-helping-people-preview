@@ -206,7 +206,7 @@
     },
     {
       "case_study_id": "hot-unza",
-      "title": "HOT, UNZA and international collaboration",
+      "title": "UNZA / HOT teaching and exchange",
       "place": "Lusaka and international exchange",
       "products": [
         "3D mesh (I3S)",
@@ -217,7 +217,8 @@
         "Photogrammetric point cloud (LAS)",
         "Photogrammetric point cloud (LAZ)",
         "Point-cloud viewer",
-        "Textured 3D mesh (OBJ)"
+        "Textured 3D mesh (OBJ)",
+        "Textured mesh"
       ],
       "source_platforms": [
         "ArcGIS Site Scan",
@@ -234,7 +235,7 @@
     },
     {
       "case_study_id": "mtukuzi",
-      "title": "Mtukuzi selected-site mapping",
+      "title": "Mtukuzi community mapping",
       "place": "Mtukuzi, Eastern Zambia",
       "products": [
         "3D mesh",
