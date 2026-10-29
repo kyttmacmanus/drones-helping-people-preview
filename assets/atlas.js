@@ -38,7 +38,7 @@ document.addEventListener('keydown',e=>{if(!$('#plate-dialog').open)return;if(e.
 function compare(side){const p=catalog.find(p=>p.id===$('#compare-'+side).value);if(!p)return;$('#compare-'+side+'-figure').innerHTML=`<img src="${DRONE_ASSET_URL(p.image)}" alt="${esc(p.alt_text||p.alt||p.title)}" ${DRONE_IMAGE_ATTRS(p.image,'(max-width: 720px) calc(100vw - 32px), 46vw')} loading="lazy"><figcaption><b>${esc(p.title)}</b> · ${esc(p.place)}<br>${esc(p.caption)}<br>${esc(p.credit)}</figcaption>`;}
 async function init(){
  try{
-  const response=await fetch('assets/data/visual-catalog.json?v=6');if(!response.ok)throw Error('Could not load the visual source catalog');
+  const response=await fetch('assets/data/visual-catalog.json?v=6h-20261029');if(!response.ok)throw Error('Could not load the visual source catalog');
   catalog=await response.json();
   ['place','kind'].forEach(key=>{const sel=$('#'+key+'-filter');[...new Set(key==='place'?catalog.flatMap(p=>p.place_groups||[p.place]):catalog.map(p=>p[key]))].sort().forEach(v=>sel.add(new Option(v,v)));sel.onchange=render;});
   $('#catalog-search').oninput=render;$('#reset-filters').onclick=()=>{theme='all';document.querySelectorAll('[data-theme]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.theme==='all'?'true':'false'));$('#place-filter').value='all';$('#kind-filter').value='all';$('#catalog-search').value='';render();};
@@ -56,7 +56,7 @@ init();
 // Draw a deterministic source-data sample with a simple orthographic camera.
 async function pointViewer(){
  try{
-  const response=await fetch('assets/data/lamont-sample.json');if(!response.ok)throw Error('Point sample unavailable');const data=await response.json();
+  const response=await fetch('assets/data/lamont-sample.json?v=6h-20261029');if(!response.ok)throw Error('Point sample unavailable');const data=await response.json();
   const canvas=$('#point-canvas'),ctx=canvas.getContext('2d');let yaw=-0.5,pitch=0.65,zoom=1,drag=null;
   const ext=data.extent_xyz,maxSpan=Math.max(ext[0],ext[1],ext[2]),points=data.points,colorMax=data.color_max||65535;
   $('#point-metadata').innerHTML=[['SOURCE','Lamont photogrammetric project archive'],['DISPLAYED',data.sample_point_count.toLocaleString()+' sampled points'],['SOURCE ARCHIVE',data.source_point_count.toLocaleString()+' points'],['EXTENT',ext.map(x=>x.toFixed(1)).join(' × ')+' m'],['SAMPLING',data.sampling],['DISPLAY FRAME',data.coordinate_frame],['SOURCE CRS',data.horizontal_crs]].map(([a,b])=>`<dt>${a}</dt><dd>${esc(b)}</dd>`).join('');

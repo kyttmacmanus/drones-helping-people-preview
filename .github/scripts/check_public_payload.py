@@ -17,6 +17,7 @@ parser.add_argument('--check-only',action='store_true')
 args=parser.parse_args()
 read = lambda path: json.loads(path.read_text(encoding='utf-8-sig'))
 policy = read(ROOT / '.github/deployment.json')
+assert 'v='+policy['asset_cache_version'] in (ROOT/'assets/branding.js').read_text(encoding='utf-8')
 allowed = set(policy['root_files'] + policy['asset_files'] + policy['data_files'])
 catalog = read(ROOT / 'assets/data/visual-catalog.json')
 assert catalog and len({row['id'] for row in catalog})==len(catalog)
@@ -63,6 +64,8 @@ for name in sorted(allowed):
     assert path.is_relative_to(ROOT.resolve()) and path.is_file() and not path.is_symlink(), name
     if path.suffix.lower() in {'.html', '.js', '.json', '.csv', '.css', '.svg', '.txt', '.xml'}:
         text = path.read_text(encoding='utf-8-sig')
+        if path.suffix in {'.html','.js'}:
+            assert not re.search(r'\bv=6(?:h)?(?=[^A-Za-z0-9_-]|$)',text), name+': superseded asset cache key'
         decoded = text
         for _ in range(3):
             decoded = html.unescape(unquote(decoded)).replace('\\/', '/')

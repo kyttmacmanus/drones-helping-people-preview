@@ -23,7 +23,7 @@
     const label=role==='mission-record'?'Mission record':role==='underlying-fieldwork'?'Fieldwork record':role==='fieldwork-period'?'Fieldwork period':plate.capture_date?'Camera capture':'Collection date';
     return `${label}: ${plate.capture_date||plate.date||'see atlas date basis'}`;
   };
-  fetch('assets/data/visual-catalog.json?v=6').then(response=>{
+  fetch('assets/data/visual-catalog.json?v=6h-20261029').then(response=>{
     if(!response.ok)throw Error('Catalog unavailable');return response.json();
   }).then(catalog=>{
     const plates=new Map(catalog.map(plate=>[plate.id,plate]));

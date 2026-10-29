@@ -12,7 +12,7 @@
     if(edition==='efpl')url.searchParams.set('edition','efpl');url.hash=hash;return url.href;
   };
   target.innerHTML=cases.map(c=>`<article class="teaching-project" id="teaching-${esc(c.id)}">${c.cover?`<a href="${link('explore.html',{plate:c.cover.id},'catalog')}"><img src="${esc(DRONE_ASSET_URL(c.cover.thumb||c.cover.image))}" alt="${esc(c.cover.alt_text||c.cover.alt||c.cover.title)}" ${DRONE_IMAGE_ATTRS(c.cover.image)} loading="lazy"></a>`:''}<div><p class="eyebrow">${esc(c.period)}</p><h3>${esc(c.title)}</h3><p>${esc(c.summary)}</p><p class="small">${esc(c.credit)}</p><a href="${link('index.html',{},c.id)}">Project question and contribution →</a>${c.cover?`<p><a href="${link('explore.html',{plate:c.cover.id},'catalog')}">Imagery and source metadata →</a></p>`:''}</div></article>`).join('');
-  fetch('assets/data/visual-catalog.json?v=6').then(response=>{
+  fetch('assets/data/visual-catalog.json?v=6h-20261029').then(response=>{
     if(!response.ok)throw Error('Catalog unavailable');return response.json();
   }).then(catalog=>{
     const plates=new Map(catalog.map(plate=>[plate.id,plate]));

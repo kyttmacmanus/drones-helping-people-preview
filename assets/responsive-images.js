@@ -3,5 +3,5 @@ window.DRONE_RESPONSIVE_IMAGES = {"assets/discovery-archive/archive-callicoon-re
 window.DRONE_IMAGE_ATTRS = (path, sizes='(max-width: 720px) calc(100vw - 32px), (max-width: 1100px) 46vw, 31vw') => {
  const key=String(path||'').split('?')[0], entry=DRONE_RESPONSIVE_IMAGES[key];
  if(!entry)return 'decoding="async"';
- return `width="${entry.width}" height="${entry.height}" decoding="async" srcset="${entry.sources.map(s=>s.src+' '+s.width+'w').join(', ')}" sizes="${sizes}"`;
+ return `width="${entry.width}" height="${entry.height}" decoding="async" srcset="${entry.sources.map(s=>DRONE_ASSET_URL(s.src)+' '+s.width+'w').join(', ')}" sizes="${sizes}"`;
 };

@@ -7,7 +7,7 @@
  function atlasLink(p){const u=new URL('explore.html',location.href);u.searchParams.set('plate',p.id);if(mode==='efpl')u.searchParams.set('edition','efpl');u.hash='catalog';return u.href;}
  function figure(p,feature=false){return `<figure><a href="${atlasLink(p)}"><img src="${esc(DRONE_ASSET_URL(p.image))}" alt="${esc(p.alt_text||p.alt||p.title)}" ${DRONE_IMAGE_ATTRS(p.image,'(max-width: 720px) calc(100vw - 32px), 46vw')} ${feature?'':'loading="lazy"'}></a><figcaption><strong>${esc(p.title)}</strong>${esc(p.caption)}<br>${esc(p.credit)} · ${esc(p.date||'Field imagery')}</figcaption></figure>`;}
  async function init(){try{
-  const [catalogResponse,eventResponse]=await Promise.all([fetch('assets/data/visual-catalog.json?v=6'),fetch('assets/data/collection-events.json?v=6')]);
+  const [catalogResponse,eventResponse]=await Promise.all([fetch('assets/data/visual-catalog.json?v=6h-20261029'),fetch('assets/data/collection-events.json?v=6h-20261029')]);
   if(!catalogResponse.ok||!eventResponse.ok)throw Error('Collection data unavailable');const catalog=await catalogResponse.json(),events=await eventResponse.json();
   const related=catalog.filter(p=>(p.program_areas||[]).includes(kind));
   const preferred=kind==='teaching'?['drive-lamont-jan2023-overhead','nyesta-2025-visible']:['staten-island-2023-rooftop','northshore-controller-session'];

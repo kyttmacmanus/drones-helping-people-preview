@@ -25,7 +25,7 @@
 
   async function init() {
     try {
-      const response = await fetch('assets/data/teaching-event-register.json?v=6');
+      const response = await fetch('assets/data/teaching-event-register.json?v=6h-20261029');
       if (!response.ok) throw Error('The activity chronology is unavailable. The CSV download remains available below.');
       const data = await response.json();
       records = data.events;
