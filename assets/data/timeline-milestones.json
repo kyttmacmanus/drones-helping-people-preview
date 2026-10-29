@@ -16,8 +16,10 @@
       ],
       "title": "Balloon mapping and field GIS",
       "summary": "Three Columbia GIS courses combined balloon aerial imagery with ground observations at Black Rock Forest.",
-      "plate_id": "v5-brf-field-group",
-      "details": "Public Lab balloon systems and visible/modified-infrared cameras preceded the later drone-teaching program. High winds limited the balloon operation."
+      "plate_id": null,
+      "details": "Public Lab balloon systems and visible/modified-infrared cameras preceded the later drone-teaching program. High winds limited the balloon operation.",
+      "destination": "#black-rock-forest",
+      "visual_label": "Balloon mapping and field GIS"
     },
     {
       "id": "provost-2021",
@@ -35,7 +37,8 @@
       "summary": "The Emerging Technology Grant supported drone and visualization equipment for GIS teaching.",
       "plate_id": null,
       "visual_label": "Teaching capability",
-      "details": "The grant supported Drones and AR/VR for 3D Modeling in GIS. Later course fieldwork connected that capability with practical observation and analysis."
+      "details": "The grant supported Drones and AR/VR for 3D Modeling in GIS. Later course fieldwork connected that capability with practical observation and analysis.",
+      "destination": "#callicoon"
     },
     {
       "id": "callicoon-2022",
@@ -51,8 +54,10 @@
       ],
       "title": "Callicoon field exercise",
       "summary": "SDEV3450 students collected aerial observations and developed student spatial analyses during a two-day field exercise.",
-      "plate_id": "archive-callicoon-acquisition",
-      "details": "Fieldwork connected vegetation, terrain and other geospatial questions with jointly produced student mapping. Layout detail is not independent accuracy."
+      "plate_id": null,
+      "details": "Fieldwork connected vegetation, terrain and other geospatial questions with jointly produced student mapping. Layout detail is not independent accuracy.",
+      "destination": "#callicoon",
+      "visual_label": "Callicoon field exercise"
     },
     {
       "id": "staten-island-2023",
@@ -69,7 +74,8 @@
       "title": "Staten Island community mapping",
       "summary": "SDEV4650 students and community partners worked around 60 Hannah Street with drone observations and structural reconstruction.",
       "plate_id": "staten-island-2023-rooftop",
-      "details": "Collaboratory funding included a teaching drone purchase. Follow-up work supported partner access to the student StoryMap and map layers through SIUC."
+      "details": "Collaboratory funding included a teaching drone purchase. Follow-up work supported partner access to the student StoryMap and map layers through SIUC.",
+      "destination": "explore.html?plate=staten-island-2023-rooftop#catalog"
     },
     {
       "id": "william-paterson-2025",
@@ -86,7 +92,8 @@
       "title": "Campus tree-mapping workshop",
       "summary": "Nicole Davi hosted a William Paterson workshop connecting Field Maps tree observations with drone-derived products.",
       "plate_id": "v5-wpu-group-visible",
-      "details": "Visible/thermal camera observations and later elevation products supplied complementary views. Tree-identification performance was not evaluated by these displays."
+      "details": "Visible/thermal camera observations and later elevation products supplied complementary views. Tree-identification performance was not evaluated by these displays.",
+      "destination": "explore.html?plate=v5-wpu-group-visible#catalog"
     },
     {
       "id": "four-sparrow-2025",
@@ -103,7 +110,8 @@
       "title": "NYC Parks UAS research begins",
       "summary": "EFPL and Natan Charytan began permitted Four Sparrow Marsh fieldwork and repeat mapping.",
       "plate_id": "archive-four-sparrow-may-team",
-      "details": "Kytt's first-hand account identifies April 18 as the first UAS operation approved by NYC Parks. Wind curtailed that operation; the team returned May 2. The photograph records the May visit."
+      "details": "Kytt's first-hand account identifies April 18 as the first UAS operation approved by NYC Parks. Wind curtailed that operation; the team returned May 2. The photograph records the May visit.",
+      "destination": "explore.html?plate=archive-four-sparrow-may-team#catalog"
     },
     {
       "id": "parks-december-2025",
@@ -122,7 +130,8 @@
       "title": "North Shore and Morningside mapping",
       "summary": "December fieldwork extended the Parks portfolio and continued the Staten Island community partnership.",
       "plate_id": "northshore-controller-session",
-      "details": "North Shore Esplanade was mapped December 1 and Morningside Park December 18. These are separate site activities with their own source dates and products."
+      "details": "North Shore Esplanade was mapped December 1 and Morningside Park December 18. These are separate site activities with their own source dates and products.",
+      "destination": "explore.html?plate=northshore-controller-session#catalog"
     },
     {
       "id": "hemlock-2026",
@@ -139,7 +148,8 @@
       "title": "Ground and aerial field methods",
       "summary": "SDEV3450 and WAC partners connected control/positioning observations with photogrammetry, LiDAR and complementary instruments.",
       "plate_id": "v5-hemlock-field-team",
-      "details": "The selected photogrammetric products are distinct from the logged IF1200A LiDAR acquisition. Private-site detail and raw archives remain outside the portfolio."
+      "details": "The selected photogrammetric products are distinct from the logged IF1200A LiDAR acquisition. Private-site detail and raw archives remain outside the portfolio.",
+      "destination": "explore.html?plate=v5-hemlock-field-team#catalog"
     },
     {
       "id": "unza-2026",
@@ -156,7 +166,8 @@
       "title": "UNZA teaching and exchange",
       "summary": "Field collaboration and working sessions shared acquisition, photogrammetric processing and interpretation methods.",
       "plate_id": "archive-unza-working-session",
-      "details": "The working-session photograph has month-level collection context. The field-team photograph and campus products retain their own capture and mission-record dates."
+      "details": "The working-session photograph has month-level collection context. The field-team photograph and campus products retain their own capture and mission-record dates.",
+      "destination": "explore.html?plate=archive-unza-working-session#catalog"
     },
     {
       "id": "mtukuzi-2026",
@@ -173,7 +184,8 @@
       "title": "Selected-site mapping around Mtukuzi",
       "summary": "Local collaborators and UNZA field colleagues documented village, school, agricultural, river and water-well sites.",
       "plate_id": "zm-village-map",
-      "details": "The observations cover selected sites rather than the wider catchment. Fieldwork also supplied material for Raphael Sutiono and Kytt MacManus's TOPSTSCHOOL contribution."
+      "details": "The observations cover selected sites rather than the wider catchment. Fieldwork also supplied material for Raphael Sutiono and Kytt MacManus's TOPSTSCHOOL contribution.",
+      "destination": "explore.html?plate=zm-village-map#catalog"
     },
     {
       "id": "lamont-current",
@@ -190,7 +202,8 @@
       "title": "Terrain and wind research",
       "summary": "Lamont surface geometry and field methods inform continued investigation of wind observations and airflow.",
       "plate_id": "lamont-pointcloud-oblique",
-      "details": "DURIP supported the IF1200A purchase for an ARO project. Terrain representation is a research input; the displayed photogrammetric sample does not validate a wind model."
+      "details": "DURIP supported the IF1200A purchase for an ARO project. Terrain representation is a research input; the displayed photogrammetric sample does not validate a wind model.",
+      "destination": "explore.html?plate=lamont-pointcloud-oblique#catalog"
     },
     {
       "id": "highbridge-forthcoming",
@@ -209,7 +222,8 @@
       "summary": "Partner coordination and planning extend EFPL's NYC Parks research portfolio.",
       "plate_id": null,
       "visual_label": "Forthcoming work",
-      "details": "No completed Highbridge acquisition or mapped product is presented. Operational dates are not published here."
+      "details": "No completed Highbridge acquisition or mapped product is presented. Operational dates are not published here.",
+      "destination": "#highbridge"
     }
   ]
 }

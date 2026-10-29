@@ -6,9 +6,7 @@
     "flight_minutes": 18.0,
     "reported_mapped_images": 138,
     "capture_gsd_cm": 3.8557,
-    "processed_pixel_cm": 3.8,
-    "height_ft": "300.0",
-    "product_linkage_status": "High-confidence crop crosswalk from source-image footprint, processed extent, and resolution; confirm against the original processing manifest before public release."
+    "processed_pixel_cm": 3.8
   },
   {
     "mission": "Crops-2",
@@ -17,9 +15,7 @@
     "flight_minutes": 15.0,
     "reported_mapped_images": 326,
     "capture_gsd_cm": 1.2852,
-    "processed_pixel_cm": 1.5,
-    "height_ft": "100.0",
-    "product_linkage_status": "High-confidence crop crosswalk from source-image footprint, processed extent, and resolution; confirm against the original processing manifest before public release."
+    "processed_pixel_cm": 1.5
   },
   {
     "mission": "River",
@@ -28,9 +24,7 @@
     "flight_minutes": 15.0,
     "reported_mapped_images": 430,
     "capture_gsd_cm": 0.7722,
-    "processed_pixel_cm": 0.8,
-    "height_ft": "60.0",
-    "product_linkage_status": "Direct mission/product naming match."
+    "processed_pixel_cm": 0.8
   },
   {
     "mission": "Village",
@@ -39,9 +33,7 @@
     "flight_minutes": 17.0,
     "reported_mapped_images": 85,
     "capture_gsd_cm": 5.1435,
-    "processed_pixel_cm": 5.5,
-    "height_ft": "400.0",
-    "product_linkage_status": "Direct mission/product naming match."
+    "processed_pixel_cm": 5.5
   },
   {
     "mission": "Water well",
@@ -50,8 +42,6 @@
     "flight_minutes": 8.0,
     "reported_mapped_images": 122,
     "capture_gsd_cm": 0.254,
-    "processed_pixel_cm": 0.155,
-    "height_ft": null,
-    "product_linkage_status": "Direct mission/product naming match."
+    "processed_pixel_cm": 0.155
   }
 ]

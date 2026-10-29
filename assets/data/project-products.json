@@ -9,7 +9,7 @@
         "Terrain model"
       ],
       "source_platforms": [
-        "Project archive"
+        "Columbia project archive"
       ],
       "source_links": [
         {
@@ -17,7 +17,8 @@
           "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
         }
       ],
-      "limitations": "Student contour and relief layouts illustrate spatial analysis; independent terrain accuracy was not evaluated."
+      "limitations": "Student contour and relief layouts illustrate spatial analysis; independent terrain accuracy was not evaluated.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "lamont-instruction",
@@ -37,37 +38,12 @@
         "Thermal display"
       ],
       "source_platforms": [
-        "ArcGIS SiteScan",
-        "Google Drive",
-        "Project archive"
+        "ArcGIS Site Scan project archive",
+        "Columbia project archive"
       ],
-      "source_links": [
-        {
-          "title": "Lamont Workshop 07-14-2023 · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/be9ea3fd-9933-4b75-a7e3-b30f3c994e99/missions"
-        },
-        {
-          "title": "Lamont-Workshop-10-11-2023 · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/61292112-42e5-4ed7-9bb4-f74be1493a89/missions"
-        },
-        {
-          "title": "SDEV3450-Spring2024 · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/0472c68a-f1cd-4305-996c-b8fe74d668af/missions"
-        },
-        {
-          "title": "Lamont-Workshop-10-5-2026 · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/d592eed3-757b-41c0-ae01-c915128732ca/missions"
-        },
-        {
-          "title": "SDEV-3450 · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/702a9776-e18d-483b-a811-92242f651304/missions"
-        },
-        {
-          "title": "RoseGarden3D · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/2f13699b-9205-49c7-b0a7-b5002b534842/missions"
-        }
-      ],
-      "limitations": "Mission products retain their own dates and sensors. Thermal display colors are qualitative without calibrated temperature data."
+      "source_links": [],
+      "limitations": "Mission products retain their own dates and sensors. Thermal display colors are qualitative without calibrated temperature data.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "hannah-street",
@@ -87,16 +63,12 @@
         "Thermal display"
       ],
       "source_platforms": [
-        "ArcGIS SiteScan",
-        "Project archive"
+        "ArcGIS Site Scan project archive",
+        "Columbia project archive"
       ],
-      "source_links": [
-        {
-          "title": "StatenIslandFieldWork112923 · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/b732c280-8a3d-4d9d-b501-c76371079ceb/missions"
-        }
-      ],
-      "limitations": "Structural reconstruction and thermal displays describe different observations. Subsequent planning use and community outcomes have not been evaluated here."
+      "source_links": [],
+      "limitations": "Structural reconstruction and thermal displays describe different observations. Subsequent planning use and community outcomes have not been evaluated here.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "four-sparrow",
@@ -115,17 +87,12 @@
         "Textured 3D mesh (OBJ)"
       ],
       "source_platforms": [
-        "ArcGIS Site Scan",
-        "ArcGIS SiteScan",
-        "Project archive"
+        "ArcGIS Site Scan project archive",
+        "Columbia project archive"
       ],
-      "source_links": [
-        {
-          "title": "Four-Sparrow-Marsh · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/55dacbc2-0018-41a8-bcac-2834945bf192/missions"
-        }
-      ],
-      "limitations": "Repeat-survey products have different extents and processing identities. They are not a registered change-detection comparison."
+      "source_links": [],
+      "limitations": "Repeat-survey products have different extents and processing identities. They are not a registered change-detection comparison.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "north-shore",
@@ -136,10 +103,11 @@
         "Terrain model"
       ],
       "source_platforms": [
-        "Project archive"
+        "Columbia project archive"
       ],
       "source_links": [],
-      "limitations": "Waterfront imagery and terrain products require field verification and independent accuracy assessment for analytical use."
+      "limitations": "Waterfront imagery and terrain products require field verification and independent accuracy assessment for analytical use.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "morningside",
@@ -156,17 +124,12 @@
         "Terrain model"
       ],
       "source_platforms": [
-        "ArcGIS Site Scan",
-        "ArcGIS SiteScan",
-        "Project archive"
+        "ArcGIS Site Scan project archive",
+        "Columbia project archive"
       ],
-      "source_links": [
-        {
-          "title": "Morningside-Park · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/4e4b0a07-8f1e-4317-9000-85a8c80b603d/missions"
-        }
-      ],
-      "limitations": "Mapped terrain and reconstructed surfaces are research inputs; these displays do not validate drainage or wind models."
+      "source_links": [],
+      "limitations": "Mapped terrain and reconstructed surfaces are research inputs; these displays do not validate drainage or wind models.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "highbridge",
@@ -175,7 +138,8 @@
       "products": [],
       "source_platforms": [],
       "source_links": [],
-      "limitations": "Forthcoming research; no completed spatial product is presented."
+      "limitations": "Forthcoming research; no completed spatial product is presented.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "lamont-research",
@@ -193,16 +157,11 @@
         "Textured 3D mesh (OBJ)"
       ],
       "source_platforms": [
-        "ArcGIS SiteScan",
-        "Project archive"
+        "Columbia project archive"
       ],
-      "source_links": [
-        {
-          "title": "RoseGarden3D · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/2f13699b-9205-49c7-b0a7-b5002b534842/missions"
-        }
-      ],
-      "limitations": "Photogrammetric reconstruction is distinct from LiDAR. The LiDAR display uses relative coordinates because the source CRS label conflicts with coordinate magnitudes; it does not establish georeferencing or accuracy."
+      "source_links": [],
+      "limitations": "Photogrammetric reconstruction is distinct from LiDAR. The LiDAR display uses relative coordinates because the source CRS label conflicts with coordinate magnitudes; it does not establish georeferencing or accuracy.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "hot-unza",
@@ -221,24 +180,18 @@
         "Textured mesh"
       ],
       "source_platforms": [
-        "ArcGIS Site Scan",
-        "ArcGIS SiteScan",
-        "Project archive"
+        "ArcGIS Site Scan project archive",
+        "Columbia project archive"
       ],
-      "source_links": [
-        {
-          "title": "UNZA · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/7a757ef7-e2ac-456e-8503-b3a89f70c154/missions"
-        }
-      ],
-      "limitations": "Campus mapping products and Mtukuzi field photographs document distinct activities; project participation does not establish a measured humanitarian outcome."
+      "source_links": [],
+      "limitations": "Campus mapping products and Mtukuzi field photographs document distinct activities; project participation does not establish a measured humanitarian outcome.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "mtukuzi",
       "title": "Mtukuzi community mapping",
       "place": "Mtukuzi, Eastern Zambia",
       "products": [
-        "3D mesh",
         "3D mesh (I3S)",
         "Digital surface model (DSM)",
         "Digital terrain model (DTM)",
@@ -251,16 +204,11 @@
         "Textured 3D mesh (OBJ)"
       ],
       "source_platforms": [
-        "ArcGIS SiteScan",
-        "Project archive"
+        "Columbia project archive"
       ],
-      "source_links": [
-        {
-          "title": "Eastern-Province · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/a39ea86f-c1f6-44de-8909-08f482fa8305/missions"
-        }
-      ],
-      "limitations": "Capture reports and processing records describe different units. GSD is distinct from independent accuracy; the combined reconstruction lacks ground control and checkpoints."
+      "source_links": [],
+      "limitations": "Capture reports and processing records describe different units. GSD is distinct from independent accuracy; the combined reconstruction lacks ground control and checkpoints.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "hubbard-creek",
@@ -278,33 +226,27 @@
         "Textured 3D mesh (OBJ)"
       ],
       "source_platforms": [
-        "ArcGIS Site Scan",
-        "ArcGIS SiteScan",
-        "Project archive"
+        "ArcGIS Site Scan project archive",
+        "Columbia project archive"
       ],
-      "source_links": [
-        {
-          "title": "Hubbard-County-Park · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/dcfbdd18-b860-4754-ad8b-5d470857c27d/missions"
-        }
-      ],
-      "limitations": "Marsh and channel products describe the mapped surface. Independent positional accuracy and ecological change are not established by these displays."
+      "source_links": [],
+      "limitations": "Marsh and channel products describe the mapped surface. Independent positional accuracy and ecological change are not established by these displays.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "black-rock-forest",
       "title": "Black Rock Forest balloon mapping",
       "place": "Black Rock Forest, Cornwall, New York",
       "products": [],
-      "source_platforms": [
-        "Columbia Climate School"
-      ],
+      "source_platforms": [],
       "source_links": [
         {
           "title": "Columbia account of the October 2017 fieldwork and photo credits",
           "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
         }
       ],
-      "limitations": "Balloon-based source imagery is distinct from later drone work. Infrared colors are not calibrated NDVI; the display does not establish measurement accuracy."
+      "limitations": "Balloon-based source imagery is distinct from later drone work. Infrared colors are not calibrated NDVI; the display does not establish measurement accuracy.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "william-paterson",
@@ -317,20 +259,16 @@
         "Thermal orthomosaic display"
       ],
       "source_platforms": [
-        "ArcGIS Online",
-        "Project archive"
+        "Columbia project archive"
       ],
       "source_links": [
         {
           "title": "William Paterson University Drone Workshop public web map",
           "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
-        },
-        {
-          "title": "Workshop materials and source-data collection",
-          "url": "https://drive.google.com/drive/folders/10gRauC9IyuLNHaux9eq8XCN7QTNiN84B"
         }
       ],
-      "limitations": "Tree observations and reconstructed elevation products are complementary views. Tree-identification performance, inventory completeness and calibrated thermal temperature are not established."
+      "limitations": "Tree observations and reconstructed elevation products are complementary views. Tree-identification performance, inventory completeness and calibrated thermal temperature are not established.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     },
     {
       "case_study_id": "hemlock-hill",
@@ -348,16 +286,12 @@
         "Terrain model"
       ],
       "source_platforms": [
-        "ArcGIS SiteScan",
-        "Google Drive"
+        "ArcGIS Site Scan project archive",
+        "Columbia project archive"
       ],
-      "source_links": [
-        {
-          "title": "Hemlock-Hill-Farm · SiteScan (existing access required)",
-          "url": "https://sitescan.arcgis.com/organizations/59c1b61c-2aec-49fb-b709-9c7f09072f18/projects/55526b6c-b821-444a-a303-fd430e9a944f/missions"
-        }
-      ],
-      "limitations": "The photogrammetric DTM is separate from the logged IF1200A LiDAR acquisition. Ground-control activity does not by itself establish independent checkpoint accuracy, bare-earth validation, calibrated NDVI or agricultural outcomes."
+      "source_links": [],
+      "limitations": "The photogrammetric DTM is separate from the logged IF1200A LiDAR acquisition. Ground-control activity does not by itself establish independent checkpoint accuracy, bare-earth validation, calibrated NDVI or agricultural outcomes.",
+      "display_note": "Product types describe archived processing outputs; only selected reviewed display derivatives are available here. Source datasets are not distributed by this page."
     }
   ]
 }

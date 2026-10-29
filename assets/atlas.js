@@ -15,7 +15,7 @@ function render(){
  visible=catalog.filter(p=>(theme==='all'||(p.program_areas||[]).includes(theme))&&(place==='all'||(p.place_groups||[p.place]).includes(place))&&(kind==='all'||p.kind===kind)&&(!q||[p.title,p.caption,p.place,p.kind,p.credit,p.event,p.project,p.program_or_course,p.photographer,p.creator,p.camera_make,p.camera_model,p.sensor,p.product_type,(p.people_depicted||[]).join(' '),p.source_platform].filter(Boolean).join(' ').toLowerCase().includes(q)));
  $('#catalog-status').textContent=`${visible.length} of ${catalog.length} curated plates shown`;
  $('#catalog-empty').hidden=visible.length>0;
- $('#catalog-grid').innerHTML=visible.map(p=>`<article class="plate-card"><button data-plate="${p.id}" aria-label="Examine ${esc(p.title)}"><img src="${DRONE_ASSET_URL(p.thumb||p.image)}" alt="${esc(p.title)}" loading="lazy"><span class="plate-action">Examine plate ↗</span></button><p class="eyebrow">${esc(p.place)} / ${esc(p.kind)}</p><h3>${esc(p.title)}</h3><p>${esc(p.caption)}</p><p class="small">${esc(p.date||'Date in source notes')} · ${esc(p.credit)}</p></article>`).join('');
+ $('#catalog-grid').innerHTML=visible.map(p=>`<article class="plate-card"><button data-plate="${p.id}" aria-label="Examine ${esc(p.title)}"><img src="${DRONE_ASSET_URL(p.thumb||p.image)}" alt="${esc(p.alt_text||p.alt||p.title)}" ${DRONE_IMAGE_ATTRS(p.image)} loading="lazy"><span class="plate-action">Examine plate ↗</span></button><p class="eyebrow">${esc(p.place)} / ${esc(p.kind)}</p><h3>${esc(p.title)}</h3><p>${esc(p.caption)}</p><p class="small">${esc(p.date||'Date in source notes')} · ${esc(p.credit)}</p></article>`).join('');
  document.querySelectorAll('[data-plate]').forEach(b=>b.onclick=()=>openPlate(b.dataset.plate));
 }
 function openPlate(id){
@@ -23,19 +23,19 @@ function openPlate(id){
  showPlate();$('#plate-dialog').showModal();
 }
 function showPlate(){
- const p=visible[active];$('#plate-image').src=DRONE_ASSET_URL(p.image);$('#plate-image').alt=p.title;
+ const p=visible[active];$('#plate-image').src=DRONE_ASSET_URL(p.image);$('#plate-image').alt=p.alt_text||p.alt||p.title;
  $('#plate-title').textContent=p.title;$('#plate-kind').textContent=p.kind+' / '+p.place;
  $('#plate-caption').textContent=p.caption;$('#plate-position').textContent=`${active+1} / ${visible.length}`;
  $('#plate-meta').innerHTML=DRONE_META.metadataHTML(p);
  $('#plate-provenance').innerHTML=DRONE_META.provenanceHTML(p);
- const original=p.source_url||p.mission_url||(/^https:\/\//.test(p.source)?p.source:null);const sourceLink=$('#plate-source-link');sourceLink.hidden=!original;if(original)sourceLink.href=original;
+ const original=p.public_reference_url;const sourceLink=$('#plate-source-link');sourceLink.hidden=!original;if(original)sourceLink.href=original;else sourceLink.removeAttribute('href');
  $('#plate-download').href=DRONE_ASSET_URL(p.image);$('#plate-prev').disabled=active===0;$('#plate-next').disabled=active===visible.length-1;
 }
 $('#plate-close').onclick=()=>$('#plate-dialog').close();
 $('#plate-prev').onclick=()=>{if(active>0){active--;showPlate();}};$('#plate-next').onclick=()=>{if(active<visible.length-1){active++;showPlate();}};
 $('#plate-dialog').addEventListener('click',e=>{if(e.target===$('#plate-dialog'))e.target.close();});
 document.addEventListener('keydown',e=>{if(!$('#plate-dialog').open)return;if(e.key==='ArrowRight')$('#plate-next').click();if(e.key==='ArrowLeft')$('#plate-prev').click();});
-function compare(side){const p=catalog.find(p=>p.id===$('#compare-'+side).value);if(!p)return;$('#compare-'+side+'-figure').innerHTML=`<img src="${DRONE_ASSET_URL(p.image)}" alt="${esc(p.title)}"><figcaption><b>${esc(p.title)}</b> · ${esc(p.place)}<br>${esc(p.caption)}<br>${esc(p.credit)}</figcaption>`;}
+function compare(side){const p=catalog.find(p=>p.id===$('#compare-'+side).value);if(!p)return;$('#compare-'+side+'-figure').innerHTML=`<img src="${DRONE_ASSET_URL(p.image)}" alt="${esc(p.alt_text||p.alt||p.title)}" ${DRONE_IMAGE_ATTRS(p.image,'(max-width: 720px) calc(100vw - 32px), 46vw')} loading="lazy"><figcaption><b>${esc(p.title)}</b> · ${esc(p.place)}<br>${esc(p.caption)}<br>${esc(p.credit)}</figcaption>`;}
 async function init(){
  try{
   const response=await fetch('assets/data/visual-catalog.json?v=6');if(!response.ok)throw Error('Could not load the visual source catalog');
@@ -59,7 +59,8 @@ async function pointViewer(){
   const response=await fetch('assets/data/lamont-sample.json');if(!response.ok)throw Error('Point sample unavailable');const data=await response.json();
   const canvas=$('#point-canvas'),ctx=canvas.getContext('2d');let yaw=-0.5,pitch=0.65,zoom=1,drag=null;
   const ext=data.extent_xyz,maxSpan=Math.max(ext[0],ext[1],ext[2]),points=data.points,colorMax=data.color_max||65535;
-  $('#point-metadata').innerHTML=[['SOURCE',data.source_file],['DISPLAYED',data.sample_point_count.toLocaleString()+' sampled points'],['SOURCE ARCHIVE',data.source_point_count.toLocaleString()+' points'],['EXTENT',ext.map(x=>x.toFixed(1)).join(' × ')+' m'],['SAMPLING',data.sampling],['COORDINATES',data.horizontal_crs]].map(([a,b])=>`<dt>${a}</dt><dd>${esc(b)}</dd>`).join('');
+  $('#point-metadata').innerHTML=[['SOURCE','Lamont photogrammetric project archive'],['DISPLAYED',data.sample_point_count.toLocaleString()+' sampled points'],['SOURCE ARCHIVE',data.source_point_count.toLocaleString()+' points'],['EXTENT',ext.map(x=>x.toFixed(1)).join(' × ')+' m'],['SAMPLING',data.sampling],['DISPLAY FRAME',data.coordinate_frame],['SOURCE CRS',data.horizontal_crs]].map(([a,b])=>`<dt>${a}</dt><dd>${esc(b)}</dd>`).join('');
+  let renderVersion=0;
   function draw(){
    const w=canvas.clientWidth,h=canvas.clientHeight,dpr=Math.min(devicePixelRatio||1,2);canvas.width=w*dpr;canvas.height=h*dpr;ctx.scale(dpr,dpr);ctx.fillStyle='#112539';ctx.fillRect(0,0,w,h);
    const size=Math.min(w,h)*0.82/maxSpan*zoom,cy=Math.cos(yaw),sy=Math.sin(yaw),cp=Math.cos(pitch),sp=Math.sin(pitch),color=$('#point-color').value;
@@ -69,6 +70,7 @@ async function pointViewer(){
     ctx.fillRect(w/2+xx*size,h/2+py*size,1.8,1.8);
    }
    ctx.fillStyle='#d9e5ef';ctx.font='11px Arial';ctx.fillText('LAMONT / SOURCE POINT SAMPLE',18,25);ctx.fillText('Drag to rotate · source RGB or relative height',18,h-17);
+   canvas.dataset.renderVersion=String(++renderVersion);canvas.dataset.ready='true';canvas.setAttribute('aria-busy','false');
   }
   let scheduled=false;function redraw(){if(!scheduled){scheduled=true;requestAnimationFrame(()=>{scheduled=false;draw();});}}
   canvas.onpointerdown=e=>{drag=[e.clientX,e.clientY];canvas.setPointerCapture(e.pointerId);};canvas.onpointermove=e=>{if(!drag)return;yaw+=(e.clientX-drag[0])*0.01;pitch=Math.max(-1.4,Math.min(1.4,pitch+(e.clientY-drag[1])*0.008));drag=[e.clientX,e.clientY];redraw();};canvas.onpointerup=()=>drag=null;canvas.onpointercancel=()=>drag=null;
@@ -77,4 +79,10 @@ async function pointViewer(){
   new ResizeObserver(redraw).observe(canvas);redraw();
  }catch(e){$('#point-metadata').textContent=e.message;}
 }
-pointViewer();
+// The point sample is optional; ordinary catalog reading does not download it.
+if('IntersectionObserver' in window){
+ const viewerObserver=new IntersectionObserver(entries=>{
+  if(entries.some(entry=>entry.isIntersecting)){viewerObserver.disconnect();pointViewer();}
+ },{rootMargin:'300px'});
+ viewerObserver.observe(document.querySelector('#point-view'));
+}else pointViewer();

@@ -1,47 +1,42 @@
 {
-  "catalog_plate_count": 136,
+  "catalog_plate_count": 109,
+  "program_area_counts": {
+    "teaching": 49,
+    "communities": 34,
+    "parks": 32,
+    "research": 16
+  },
   "topic_counts": {
     "agricultural-fieldwork": 2,
-    "balloon-mapping": 6,
     "coastal": 7,
     "collaboration": 1,
-    "community": 23,
-    "field-gis": 12,
-    "field-methods": 11,
+    "communities": 34,
+    "field-gis": 6,
+    "field-methods": 9,
     "four-sparrow": 1,
     "hemlock-hill": 1,
     "hubbard-creek": 1,
     "instrumentation": 2,
-    "lamont": 47,
+    "lamont": 34,
     "lidar": 1,
-    "mapping": 8,
+    "mapping": 7,
     "morningside": 1,
     "nyc-parks": 2,
-    "parks": 36,
-    "research": 16,
-    "staten-island": 23,
-    "teaching": 89,
+    "parks": 32,
+    "research": 23,
+    "staten-island": 19,
+    "teaching": 68,
     "terrain": 2,
     "terrain-wind": 1,
     "thermal": 2,
     "tree-mapping": 6,
     "unza": 2,
     "water": 1,
-    "zambia": 25
-  },
-  "program_area_counts": {
-    "teaching": 66,
-    "communities": 44,
-    "parks": 36,
-    "research": 16
+    "zambia": 17
   },
   "source_platform_counts": {
-    "ArcGIS Online": 4,
-    "ArcGIS Site Scan": 6,
-    "ArcGIS SiteScan": 17,
-    "Columbia Climate School": 6,
-    "Google Drive": 14,
+    "ArcGIS Site Scan": 20,
     "Project archive": 89
   },
-  "note": "Program memberships overlap. Places remain geography. Web plates are curated display derivatives; scientific originals remain in their source archives."
+  "note": "Program memberships overlap; place is separate. Curated public display derivatives are distinct from research datasets."
 }

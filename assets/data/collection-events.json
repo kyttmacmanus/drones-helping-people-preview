@@ -9,13 +9,8 @@
     ],
     "description": "Three Columbia GIS courses connected low-cost aerial imagery with ground field observations.",
     "sourceNote": "Published image captions and retained source EXIF identify the October 28 trip. Balloon imagery is distinct from later UAS work; infrared colors are not calibrated NDVI.",
-    "plates": [
-      "v5-brf-field-group",
-      "v5-brf-balloon-preparation",
-      "v5-brf-reservoir-aerial",
-      "v5-brf-infrared-aerial"
-    ],
-    "relatedPlateCount": 4
+    "plates": [],
+    "relatedPlateCount": 0
   },
   {
     "id": "callicoon-2022-04-04",
@@ -28,11 +23,9 @@
     "description": "Students connected field observations with drone mapping and jointly developed spatial analyses, including contour and shaded-relief layouts.",
     "sourceNote": "The published account dates the exercise April 4–5, 2022. Exact photograph days and independent map accuracy are not established.",
     "plates": [
-      "archive-callicoon-group",
-      "archive-callicoon-acquisition",
       "archive-callicoon-contours"
     ],
-    "relatedPlateCount": 3
+    "relatedPlateCount": 1
   },
   {
     "id": "lamont-2022-06-07",
@@ -62,12 +55,10 @@
     "sourceNote": "January 30, 2023 camera metadata and the SDEV3450 collection identify this field session. Mission products retain their own metadata.",
     "plates": [
       "drive-lamont-jan2023-landscape",
-      "drive-lamont-jan2023-launch-area",
       "drive-lamont-jan2023-overhead",
-      "drive-lamont-jan2023-side",
       "ss-01-lamont-sdev3450"
     ],
-    "relatedPlateCount": 5
+    "relatedPlateCount": 3
   },
   {
     "id": "lamont-2023-04-10",
@@ -96,12 +87,10 @@
     "description": "Students and educators took part in a CIESIN workshop led by Kytt MacManus and Greg Yetman, with Joshua Fisher coordinating the group. Photographs and mission products document the field and spatial-data context.",
     "sourceNote": "July 14, 2023 field photographs and mission products document the NSF REU/RET workshop. Photographs do not measure learning outcomes.",
     "plates": [
-      "drive-lamont-jul2023-field",
       "drive-lamont-jul2023-group",
-      "drive-lamont-jul2023-group-wide",
       "ss-02-workshop-071423"
     ],
-    "relatedPlateCount": 4
+    "relatedPlateCount": 2
   },
   {
     "id": "lamont-2023-10-11",
@@ -116,10 +105,9 @@
     "plates": [
       "ss-03-dji3optical",
       "ss-04-dji3thermal",
-      "ss-05-mapir",
-      "ss-06-skydio3d"
+      "ss-05-mapir"
     ],
-    "relatedPlateCount": 4
+    "relatedPlateCount": 3
   },
   {
     "id": "staten-island-2023-12-02",
@@ -188,13 +176,12 @@
     "description": "A SDEV3450 class visit combined a drone demonstration with visible-light and thermal group observations. The selected pair shares a camera timestamp of 10:22:02.",
     "sourceNote": "The visible and thermal pair share March 5, 2025 at 10:22:02 in camera metadata. Thermal colors have no calibrated temperature scale here.",
     "plates": [
-      "lamont-march-group-wide",
       "lamont-march-thermal",
       "lamont-march-visible",
       "lamont-ortho",
       "lamont-pointcloud-oblique"
     ],
-    "relatedPlateCount": 5
+    "relatedPlateCount": 4
   },
   {
     "id": "william-paterson-2025-03-11",
@@ -310,9 +297,8 @@
     "description": "The October workshop project includes a DJI survey and a Skydio statue reconstruction. The views document different mission outputs within the same project context.",
     "sourceNote": "October 5, 2026 follows the SiteScan workshop mission dates. Mission photo counts are not summed as unique workshop observations.",
     "plates": [
-      "ss-11-dji-survey",
-      "ss-12-skydio-statue"
+      "ss-11-dji-survey"
     ],
-    "relatedPlateCount": 2
+    "relatedPlateCount": 1
   }
 ]
