@@ -1,0 +1,306 @@
+{
+  "title": "Program timeline",
+  "intro": "Selected milestones in the development of the program, from balloon mapping in 2017 to current field research.",
+  "milestones": [
+    {
+      "id": "black-rock-2017",
+      "year": "2017",
+      "date_label": "October 28, 2017",
+      "date_precision": "day",
+      "status": "completed",
+      "program_areas": [
+        "teaching"
+      ],
+      "case_studies": [
+        "black-rock-forest"
+      ],
+      "title": "Balloon mapping and field GIS",
+      "summary": "Students from three Columbia GIS courses combined balloon aerial imagery with GPS and mobile field observations at Black Rock Forest.",
+      "plate_id": null,
+      "details": "Public Lab balloon kits carried visible and modified-infrared cameras. High winds limited the balloon operation; usable images and ground observations supported GIS instruction.",
+      "destination": "#black-rock-forest"
+    },
+    {
+      "id": "provost-2021",
+      "year": "2021",
+      "date_label": "2021",
+      "date_precision": "year",
+      "status": "completed",
+      "program_areas": [
+        "teaching"
+      ],
+      "case_studies": [
+        "callicoon"
+      ],
+      "title": "Equipment for drone and 3D GIS teaching",
+      "summary": "Columbia's Emerging Technology Grant supported drone and visualization equipment for GIS teaching.",
+      "plate_id": null,
+      "visual_label": "Teaching capability",
+      "details": "The grant supported Drones and AR/VR for 3D Modeling in GIS. Later course fieldwork used that equipment for aerial observation and spatial analysis.",
+      "destination": "#callicoon"
+    },
+    {
+      "id": "callicoon-2022",
+      "year": "2022",
+      "date_label": "April 4–5, 2022",
+      "date_precision": "range",
+      "status": "completed",
+      "program_areas": [
+        "teaching"
+      ],
+      "case_studies": [
+        "callicoon"
+      ],
+      "title": "Callicoon field exercise",
+      "summary": "SDEV3450 students collected drone imagery and field observations during a two-day exercise and used the data to develop spatial analyses.",
+      "plate_id": null,
+      "details": "Kytt MacManus and teaching assistant Juan Nathaniel led the field exercise. Students developed spatial analyses and a joint StoryMap.",
+      "destination": "#callicoon"
+    },
+    {
+      "id": "staten-island-2023",
+      "year": "2023",
+      "date_label": "December 2, 2023",
+      "date_precision": "day",
+      "status": "completed",
+      "program_areas": [
+        "communities"
+      ],
+      "case_studies": [
+        "hannah-street"
+      ],
+      "title": "Staten Island community mapping",
+      "summary": "SDEV4650 students and community partners collected drone imagery around 60 Hannah Street and developed a 3D reconstruction.",
+      "plate_id": "staten-island-2023-rooftop",
+      "details": "Collaboratory support included a teaching drone. Follow-up work helped the Staten Island Urban Center access student StoryMap content and map layers.",
+      "destination": "explore.html?plate=staten-island-2023-rooftop#catalog",
+      "image": {
+        "image": "assets/students/staten-island-2023-rooftop.jpg",
+        "alt_text": "Participants and a marked landing pad on the 60 Hannah Street rooftop.",
+        "width": 1275,
+        "height": 1700
+      }
+    },
+    {
+      "id": "william-paterson-2025",
+      "year": "2025",
+      "date_label": "March 11, 2025",
+      "date_precision": "day",
+      "status": "completed",
+      "program_areas": [
+        "teaching"
+      ],
+      "case_studies": [
+        "william-paterson"
+      ],
+      "title": "William Paterson tree-mapping workshop",
+      "summary": "Nicole Davi hosted a workshop connecting Field Maps tree observations with drone imagery and surface products.",
+      "plate_id": "v5-wpu-group-visible",
+      "details": "Visible and thermal observations complemented tree records and later elevation products. These displays do not establish tree-identification performance.",
+      "destination": "explore.html?plate=v5-wpu-group-visible#catalog",
+      "image": {
+        "image": "assets/v5-history/v5-wpu-group-visible.jpg",
+        "alt_text": "Workshop participants gathered on grass at William Paterson University.",
+        "width": 2200,
+        "height": 1650
+      }
+    },
+    {
+      "id": "four-sparrow-2025",
+      "year": "2025",
+      "date_label": "April–May 2025",
+      "date_precision": "range",
+      "status": "completed",
+      "program_areas": [
+        "parks"
+      ],
+      "case_studies": [
+        "four-sparrow"
+      ],
+      "title": "NYC Parks drone research begins",
+      "summary": "EFPL and Natan Charytan began permitted drone mapping and repeat observations at Four Sparrow Marsh.",
+      "plate_id": "archive-four-sparrow-may-team",
+      "details": "Kytt MacManus identifies April 18 as the first UAS operation approved by NYC Parks. Wind curtailed that operation; the team returned on May 2. The photograph shows the return visit.",
+      "destination": "explore.html?plate=archive-four-sparrow-may-team#catalog",
+      "image": {
+        "image": "assets/discovery-archive/archive-four-sparrow-may-team.jpg",
+        "alt_text": "Field collaborators standing beside the marsh during the Four Sparrow return survey.",
+        "width": 2200,
+        "height": 1649
+      }
+    },
+    {
+      "id": "parks-december-2025",
+      "year": "2025",
+      "date_label": "December 2025",
+      "date_precision": "month",
+      "status": "completed",
+      "program_areas": [
+        "communities",
+        "parks"
+      ],
+      "case_studies": [
+        "north-shore",
+        "morningside"
+      ],
+      "title": "North Shore and Morningside mapping",
+      "summary": "Separate flights mapped North Shore Esplanade on December 1 and Morningside Park on December 18.",
+      "plate_id": "northshore-controller-session",
+      "details": "North Shore continued the Staten Island community collaboration. Morningside surface and terrain products support continuing research.",
+      "destination": "explore.html?plate=northshore-controller-session#catalog",
+      "image": {
+        "image": "assets/students/northshore-controller-session.jpg",
+        "alt_text": "Collaborators using a handheld drone controller during North Shore fieldwork.",
+        "width": 960,
+        "height": 1280
+      }
+    },
+    {
+      "id": "hemlock-2026",
+      "year": "2026",
+      "date_label": "April 15, 2026",
+      "date_precision": "day",
+      "status": "completed",
+      "program_areas": [
+        "teaching"
+      ],
+      "case_studies": [
+        "hemlock-hill"
+      ],
+      "title": "Ground and aerial field methods",
+      "summary": "SDEV3450 students and WAC partners combined positioning observations with photogrammetry, LiDAR and other field instruments.",
+      "plate_id": "v5-hemlock-field-team",
+      "details": "The photogrammetric products and the logged IF1200A LiDAR acquisition are different measurement systems. Ground observations supported the field exercise.",
+      "destination": "explore.html?plate=v5-hemlock-field-team#catalog",
+      "image": {
+        "image": "assets/v5-history/v5-hemlock-field-team.jpg",
+        "alt_text": "Paired camera views of the Hemlock field group and equipment on a grass field; no farm buildings are shown.",
+        "width": 2200,
+        "height": 1467
+      }
+    },
+    {
+      "id": "unza-2026",
+      "year": "2026",
+      "date_label": "June 2026",
+      "date_precision": "month",
+      "status": "completed",
+      "program_areas": [
+        "teaching"
+      ],
+      "case_studies": [
+        "hot-unza"
+      ],
+      "title": "UNZA teaching and exchange",
+      "summary": "University of Zambia and HOT colleagues shared field collection, photogrammetric processing and interpretation methods.",
+      "plate_id": "archive-unza-working-session",
+      "details": "Working sessions and field collaboration used campus mapping as material for teaching and exchange. The working-session photograph is dated to June 2026.",
+      "destination": "explore.html?plate=archive-unza-working-session#catalog",
+      "image": {
+        "image": "assets/discovery-archive/archive-unza-working-session.jpg",
+        "alt_text": "Collaborators seated around a meeting table during the UNZA technical exchange.",
+        "width": 1280,
+        "height": 960
+      }
+    },
+    {
+      "id": "mtukuzi-2026",
+      "year": "2026",
+      "date_label": "June 13, 2026",
+      "date_precision": "day",
+      "status": "completed",
+      "program_areas": [
+        "communities"
+      ],
+      "case_studies": [
+        "mtukuzi"
+      ],
+      "title": "Mapping selected sites around Mtukuzi",
+      "summary": "Local collaborators and UNZA colleagues documented selected village, school, agricultural, river and water-well sites.",
+      "plate_id": "zm-village-map",
+      "details": "The mapping covers selected sites, not the wider catchment. Fieldwork also supplied material for Raphael Sutiono and Kytt MacManus's TOPSTSCHOOL contribution.",
+      "destination": "explore.html?plate=zm-village-map#catalog",
+      "image": {
+        "image": "assets/zambia/village-map.jpg",
+        "alt_text": "Orthomosaic of selected village and school-area buildings, paths, vegetation and cultivated land near Mtukuzi.",
+        "width": 1927,
+        "height": 1700
+      }
+    },
+    {
+      "id": "samara-2026",
+      "year": "2026",
+      "date_label": "August 2026",
+      "date_precision": "month",
+      "status": "completed",
+      "program_areas": [
+        "research"
+      ],
+      "case_studies": [
+        "samara"
+      ],
+      "title": "SAMARA participates in the DARPA Lift Challenge",
+      "summary": "Team SAMARA participated in the DARPA Lift Challenge in Dayton as part of heavy-lift aircraft development connected to aerial logistics for electrification.",
+      "plate_id": null,
+      "visual_label": "Aircraft development",
+      "details": "The team reached the spin-up testing stage. Aircraft development continues with a focus on remote payload delivery and utility operations.",
+      "destination": "#samara",
+      "image": {
+        "image": "assets/project-updates/samara-darpa-banner.jpg",
+        "alt_text": "DARPA Lift Challenge event banner with a collage of competing aircraft.",
+        "width": 1600,
+        "height": 1205
+      }
+    },
+    {
+      "id": "highbridge-forthcoming",
+      "year": "2026",
+      "date_label": "November 16, 2026",
+      "date_precision": "day",
+      "status": "completed",
+      "program_areas": [
+        "parks",
+        "research"
+      ],
+      "case_studies": [
+        "highbridge"
+      ],
+      "title": "Highbridge aerial mapping and 3D documentation",
+      "summary": "Permitted DJI survey flights and a closer-range Skydio mission documented Highbridge Park and its water tower on November 16.",
+      "plate_id": null,
+      "visual_label": "Aerial mapping and 3D documentation",
+      "details": "Initial processing produced orthomosaics, surface and terrain products, point clouds and a textured reconstruction of the tower area.",
+      "destination": "#highbridge",
+      "image": {
+        "image": "assets/project-updates/highbridge-tower-preview.jpg",
+        "alt_text": "The Highbridge water tower, pool and surrounding autumn tree canopy viewed from a drone.",
+        "width": 910,
+        "height": 677
+      }
+    },
+    {
+      "id": "lamont-current",
+      "year": "Ongoing",
+      "date_label": "Current research",
+      "date_precision": "state",
+      "status": "ongoing",
+      "program_areas": [
+        "research"
+      ],
+      "case_studies": [
+        "lamont-research"
+      ],
+      "title": "Terrain and wind research",
+      "summary": "EFPL researchers use terrain and surface geometry to investigate wind observations and airflow at Lamont.",
+      "plate_id": "lamont-pointcloud-oblique",
+      "details": "DURIP supported IF1200A instrumentation for ARO research. Maps and reconstructions describe the site; they do not by themselves test a wind model.",
+      "destination": "explore.html?plate=lamont-pointcloud-oblique#catalog",
+      "image": {
+        "image": "assets/field/lamont-pointcloud-oblique.jpg",
+        "alt_text": "Oblique view of a sampled Lamont photogrammetric point cloud, with exaggerated vertical scale.",
+        "width": 1920,
+        "height": 1280
+      }
+    }
+  ]
+}

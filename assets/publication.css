@@ -1,0 +1,56 @@
+/* Publication access, reflow and interaction states. No external resources. */
+:root{scroll-padding-top:20px}
+*,*::before,*::after{box-sizing:border-box}
+:focus-visible{outline:3px solid #006575;outline-offset:4px}
+main:focus{outline:0}
+button,input,select,summary{min-height:36px}
+nav a,.area-tag,.text-link,.hero-secondary,.community-jump-links a,.milestone-case-links a{min-height:28px;display:inline-flex;align-items:center}
+nav a{padding:8px 9px}
+summary{display:list-item;cursor:pointer;padding-block:8px}
+.filters{gap:8px}
+.filters button{padding:9px 12px;min-height:40px}
+.filters button:focus-visible{outline-offset:3px}
+select,input[type=search]{min-height:40px;font-size:16px}
+.image-open{display:block;width:100%}
+dialog[open]{max-width:calc(100vw - 24px);max-height:calc(100dvh - 24px);overflow:auto}
+dialog button{min-height:40px}
+.dialog-bar{flex-wrap:wrap;gap:8px}
+dialog h2{overflow-wrap:anywhere}
+.contact-route{font-size:13px;line-height:1.6}
+.contact-route a{display:inline-block;min-height:30px;padding-block:4px}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.atlas-controls>*{min-width:0}
+.catalog-grid,.case-grid,.community-sequence,.unza-product-pair,.point-layout,.collection-feature,.compare-grid,.hero{min-width:0}
+img{max-width:100%;height:auto}
+.plate-card img{aspect-ratio:4/3}
+.hero figure>img{aspect-ratio:4/3}
+.atlas-intro .atlas-links{flex-wrap:wrap}
+.table-scroll{max-width:100%;overflow:auto}
+td,th{overflow-wrap:anywhere}
+.dialog-meta dd,.plate-notes dd{overflow-wrap:anywhere}
+@media(max-width:720px){
+ .wrap{width:calc(100% - 32px)}
+ header{column-gap:12px;row-gap:14px}
+ header nav{width:100%;order:3;gap:3px;justify-content:flex-start}
+ header nav a{padding:8px 6px;font-size:12px;min-height:36px}
+ .atlas-controls{display:grid;grid-template-columns:1fr}
+ .atlas-controls label{width:100%}
+ .atlas-controls input,.atlas-controls select{width:100%}
+ .point-controls{flex-wrap:wrap}
+ .point-controls label{min-width:0}
+ .dialog-bar{position:static}
+ .timeline-milestone details>summary{font-size:12px}
+ .milestone-case-links{font-size:12px}
+ .area-tag{font-size:11px;min-height:30px}
+ footer{align-items:flex-start}
+ .collection-intro h1,.atlas-intro h1{overflow-wrap:anywhere}
+}
+@media(max-width:359px){
+ header nav a{font-size:11px;padding-inline:5px}
+ .dhp-wordmark{white-space:normal!important}
+ .case-copy h3{font-size:23px}
+ .milestone-media img{height:160px}
+ .plate-dialog .dialog-bar button{font-size:12px;padding-inline:8px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+@media(forced-colors:active){:focus-visible{outline-color:Highlight}.area-tag,.filters button{border:1px solid CanvasText}}

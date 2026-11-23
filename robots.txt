@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kyttmacmanus.github.io/drones-helping-people-preview/sitemap.xml

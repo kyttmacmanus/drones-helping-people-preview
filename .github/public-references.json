@@ -1,0 +1,42 @@
+{
+  "reviewed_on": "2026-10-28",
+  "policy": "Exact intentionally public destinations; authentication-free retrieval is recorded in PUBLIC_EXTERNAL_LINK_AUDIT.csv. No workspace destinations are approved.",
+  "references": [
+    {
+      "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/",
+      "purpose": "Published Black Rock Forest activity account; link only, not an image republication grant",
+      "decision": "keep",
+      "verified_public": true
+    },
+    {
+      "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/",
+      "purpose": "Published Callicoon teaching account; link only, not an image republication grant",
+      "decision": "keep",
+      "verified_public": true
+    },
+    {
+      "url": "https://topstschool.org/modules.html",
+      "purpose": "Canonical public TOPSTSCHOOL module catalog",
+      "decision": "keep",
+      "verified_public": true
+    },
+    {
+      "url": "https://ciesin.columbia.edu/news/ciesin-staff-develop-open-science-curriculum-nasa-remote-sensing-data-analysis",
+      "purpose": "Published CIESIN curriculum announcement",
+      "decision": "remove",
+      "verified_public": false
+    },
+    {
+      "url": "https://earth2class.org/category/gis-education/",
+      "purpose": "Published Earth2Class GIS education archive",
+      "decision": "keep",
+      "verified_public": true
+    },
+    {
+      "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e",
+      "purpose": "William Paterson intentionally public ArcGIS teaching product; public access verified through item REST metadata",
+      "decision": "keep",
+      "verified_public": true
+    }
+  ]
+}

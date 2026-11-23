@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Drones Helping People app icon</title>
+  <rect width="64" height="64" rx="14" fill="#F2F6F8"/>
+  <g fill="none" stroke="#182C38" stroke-width="3.8" stroke-linecap="round"><path d="M12 19C23 19 20 32 32 32S41 45 52 45"/><path d="M45 12C45 23 32 20 32 32S19 41 19 52"/></g>
+  <g fill="#182C38"><circle cx="12" cy="19" r="4.8"/><circle cx="45" cy="12" r="4.8"/><circle cx="52" cy="45" r="4.8"/><circle cx="19" cy="52" r="4.8"/></g>
+  <circle cx="32" cy="32" r="7" fill="#007F91"/>
+</svg>

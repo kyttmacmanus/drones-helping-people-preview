@@ -1,0 +1,42 @@
+{
+  "catalog_plate_count": 109,
+  "program_area_counts": {
+    "teaching": 49,
+    "communities": 34,
+    "parks": 32,
+    "research": 16
+  },
+  "topic_counts": {
+    "agricultural-fieldwork": 2,
+    "coastal": 7,
+    "collaboration": 1,
+    "communities": 34,
+    "field-gis": 6,
+    "field-methods": 9,
+    "four-sparrow": 1,
+    "hemlock-hill": 1,
+    "hubbard-creek": 1,
+    "instrumentation": 2,
+    "lamont": 34,
+    "lidar": 1,
+    "mapping": 7,
+    "morningside": 1,
+    "nyc-parks": 2,
+    "parks": 32,
+    "research": 23,
+    "staten-island": 19,
+    "teaching": 68,
+    "terrain": 2,
+    "terrain-wind": 1,
+    "thermal": 2,
+    "tree-mapping": 6,
+    "unza": 2,
+    "water": 1,
+    "zambia": 17
+  },
+  "source_platform_counts": {
+    "ArcGIS Site Scan": 20,
+    "Project photographs and products": 89
+  },
+  "note": "Program memberships overlap; place is separate. Curated public display derivatives are distinct from research datasets."
+}

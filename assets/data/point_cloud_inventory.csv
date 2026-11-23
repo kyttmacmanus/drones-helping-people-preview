@@ -1,0 +1,6 @@
+﻿dataset,tile_count,total_points,expanded_size_mb,crs
+Crops 2 Point Cloud,65,18882406,468.246,EPSG:32736
+Crops Point Cloud,94,43504367,1078.782,EPSG:32736
+River Point Cloud,204,59348686,1471.73,EPSG:32736
+Village Point Cloud,27,10657368,264.275,EPSG:32736
+Water Well Point Cloud,55,7709576,191.203,EPSG:32736

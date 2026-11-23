@@ -1,0 +1,104 @@
+{
+  "program_areas": [
+    {
+      "id": "teaching",
+      "title": "Teaching & Workshops",
+      "summary": "Field instruction and shared methods for collecting, processing and interpreting spatial data.",
+      "case_studies": [
+        "black-rock-forest",
+        "callicoon",
+        "lamont-instruction",
+        "william-paterson",
+        "hemlock-hill",
+        "hot-unza"
+      ],
+      "page": "teaching.html"
+    },
+    {
+      "id": "communities",
+      "title": "Communities",
+      "summary": "Community-engaged mapping on Staten Island and around Mtukuzi.",
+      "case_studies": [
+        "hannah-street",
+        "north-shore",
+        "mtukuzi"
+      ],
+      "page": "communities.html"
+    },
+    {
+      "id": "parks",
+      "title": "NYC Parks",
+      "summary": "Permitted mapping and research at Four Sparrow Marsh, North Shore Esplanade, Morningside Park and Highbridge Park.",
+      "case_studies": [
+        "four-sparrow",
+        "north-shore",
+        "morningside",
+        "highbridge"
+      ],
+      "page": "index.html?area=parks#places"
+    },
+    {
+      "id": "research",
+      "title": "Research",
+      "summary": "Terrain, wind, aerial logistics and continuing field-method research.",
+      "case_studies": [
+        "lamont-research",
+        "hubbard-creek",
+        "morningside",
+        "highbridge",
+        "samara"
+      ],
+      "page": "index.html?area=research#places"
+    }
+  ],
+  "case_memberships": {
+    "callicoon": [
+      "teaching"
+    ],
+    "lamont-instruction": [
+      "teaching"
+    ],
+    "hannah-street": [
+      "communities"
+    ],
+    "four-sparrow": [
+      "parks"
+    ],
+    "north-shore": [
+      "communities",
+      "parks"
+    ],
+    "morningside": [
+      "parks",
+      "research"
+    ],
+    "highbridge": [
+      "parks",
+      "research"
+    ],
+    "lamont-research": [
+      "research"
+    ],
+    "samara": [
+      "research"
+    ],
+    "hot-unza": [
+      "teaching"
+    ],
+    "mtukuzi": [
+      "communities"
+    ],
+    "hubbard-creek": [
+      "research"
+    ],
+    "black-rock-forest": [
+      "teaching"
+    ],
+    "william-paterson": [
+      "teaching"
+    ],
+    "hemlock-hill": [
+      "teaching"
+    ]
+  }
+}

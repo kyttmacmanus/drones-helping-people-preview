@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "description": "Check words shown to readers; machine fields, source code symbols and comments are outside this copy check.",
+  "rules": [
+    {
+      "pattern": "\\bcanonical\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\b(?:evidence|source) registry\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\bsource-review\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\bpublic projection\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\bprivate provenance\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\bmetadata schema\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\b(?:publication|privacy|rights) audit\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\bhandback\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\bQA\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\bsanitized\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\bimplementation(?: revision)?\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\bapproved (?:public |display )?derivative\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\b(?:reader-facing|publication status|completion verified|record count)\\b",
+      "issue": "internal_language"
+    },
+    {
+      "pattern": "\\b(?:Four areas of shared work|Mapping in relationship with people and place)\\b",
+      "issue": "too_abstract"
+    }
+  ],
+  "allowed_rules_by_context": {},
+  "reader_json_fields": [
+    "name",
+    "title",
+    "summary",
+    "intro",
+    "question",
+    "contribution",
+    "details",
+    "narrative",
+    "credit",
+    "alt_text",
+    "caption",
+    "uncertainty",
+    "date",
+    "dateLabel",
+    "date_label",
+    "year",
+    "period",
+    "status_label",
+    "kind",
+    "product_type",
+    "place",
+    "project",
+    "event",
+    "program_or_course",
+    "source_label",
+    "source_platform",
+    "date_basis",
+    "processing_context",
+    "scope",
+    "description",
+    "sourceNote",
+    "contributors",
+    "institution",
+    "program",
+    "context",
+    "sampling",
+    "coordinate_frame",
+    "horizontal_crs",
+    "vertical_reference",
+    "limitations",
+    "products",
+    "authors",
+    "provider",
+    "role",
+    "visual_label",
+    "topics",
+    "label",
+    "eyebrow",
+    "heading",
+    "text",
+    "action_label",
+    "body",
+    "image_caption",
+    "image_alt",
+    "source_platforms",
+    "titles",
+    "note",
+    "notes",
+    "date_note",
+    "processing_note",
+    "uncertainty_note"
+  ],
+  "reader_data_files": [
+    "assets/data/program.json",
+    "assets/data/timeline-milestones.json",
+    "assets/data/visual-catalog.json",
+    "assets/data/collection-events.json",
+    "assets/data/teaching-event-register.json",
+    "assets/data/project-products.json",
+    "assets/data/lamont-sample.json"
+  ],
+  "short_ui_literals": [
+    "Close",
+    "Previous",
+    "Next",
+    "Reset",
+    "Color",
+    "Zoom",
+    "Place",
+    "Product",
+    "Source",
+    "Date",
+    "Credit",
+    "Lens",
+    "Processing",
+    "Home",
+    "Methods",
+    "Field atlas",
+    "Communities",
+    "Research",
+    "Teaching",
+    "Title",
+    "Image credit",
+    "Image source",
+    "Image size",
+    "Notes and limitations",
+    "Data",
+    "Extent",
+    "Sampling",
+    "Coordinates"
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "projects": [
+    {
+      "case_study_id": "callicoon",
+      "title": "Callicoon student fieldwork",
+      "place": "Callicoon, New York",
+      "products": [
+        "Map / analysis",
+        "Terrain model"
+      ],
+      "source_platforms": [
+        "Columbia University"
+      ],
+      "source_links": [
+        {
+          "title": "Columbia account of the Callicoon fieldwork",
+          "url": "https://news.climate.columbia.edu/2022/05/18/drone-enabled-geospatial-data-analysis/"
+        }
+      ],
+      "limitations": "Student contour and relief layouts illustrate spatial analysis; independent terrain accuracy was not evaluated.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "lamont-instruction",
+      "title": "Lamont field instruction and workshops",
+      "place": "Lamont-Doherty Earth Observatory",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Gaussian splats",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Site Scan orthomosaic",
+        "Textured 3D mesh (OBJ)",
+        "Thermal display"
+      ],
+      "source_platforms": [
+        "ArcGIS Site Scan",
+        "Columbia University"
+      ],
+      "source_links": [],
+      "limitations": "Mission products retain their own dates and sensors. Thermal display colors are qualitative without calibrated temperature data.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "hannah-street",
+      "title": "60 Hannah Street community fieldwork",
+      "place": "Staten Island",
+      "products": [
+        "3D mesh (I3S)",
+        "3D viewer",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Site Scan orthomosaic",
+        "Textured 3D mesh (OBJ)",
+        "Thermal display"
+      ],
+      "source_platforms": [
+        "ArcGIS Site Scan",
+        "Columbia University"
+      ],
+      "source_links": [],
+      "limitations": "Structural reconstruction and thermal displays describe different observations. Subsequent planning use and community outcomes have not been evaluated here.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "four-sparrow",
+      "title": "Repeated mapping at Four Sparrow Marsh",
+      "place": "Four Sparrow Marsh, Brooklyn",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Gaussian splats",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Terrain model",
+        "Textured 3D mesh (OBJ)"
+      ],
+      "source_platforms": [
+        "ArcGIS Site Scan",
+        "Columbia University"
+      ],
+      "source_links": [],
+      "limitations": "Repeat-survey products have different extents and processing identities. They are not a registered change-detection comparison.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "north-shore",
+      "title": "North Shore Esplanade mapping",
+      "place": "North Shore Esplanade, Staten Island",
+      "products": [
+        "Orthomosaic",
+        "Terrain model"
+      ],
+      "source_platforms": [
+        "Columbia University"
+      ],
+      "source_links": [],
+      "limitations": "Waterfront imagery and terrain products require field verification and independent accuracy assessment for analytical use.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "morningside",
+      "title": "Morningside Park mapping and research",
+      "place": "Morningside Park, Manhattan",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Terrain model"
+      ],
+      "source_platforms": [
+        "ArcGIS Site Scan",
+        "Columbia University"
+      ],
+      "source_links": [],
+      "limitations": "Mapped terrain and reconstructed surfaces are research inputs; these displays do not validate drainage or wind models.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "highbridge",
+      "title": "Highbridge Park aerial mapping and 3D documentation",
+      "place": "Highbridge Park, Manhattan",
+      "products": [
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Orthomosaic",
+        "Photogrammetric point cloud",
+        "Textured 3D mesh"
+      ],
+      "source_platforms": [
+        "SiteScan"
+      ],
+      "source_links": [],
+      "limitations": "SiteScan lists these output types. Positional and vertical accuracy and bare-earth terrain classification have not been independently assessed.",
+      "display_products": [
+        {
+          "alt_text": "A long, narrow orthomosaic shows paths and autumn tree canopy through Highbridge Park against a dark background.",
+          "caption": "Highbridge Park survey orthomosaic, showing the mapped park corridor with the basemap off.",
+          "credit": "Kytt MacManus · Columbia University",
+          "date": "November 16, 2026 (SiteScan mission)",
+          "date_basis": "Date shown in the SiteScan mission. The mission date does not establish the capture time of every source photograph.",
+          "height": 1190,
+          "image": "assets/highbridge/highbridge-orthomosaic.jpg",
+          "label": "Survey orthomosaic",
+          "type_key": "ortho",
+          "uncertainty": "Individual source-image capture times and independent positional accuracy were not verified. This view shows the mapped corridor, not complete park coverage.",
+          "width": 720
+        },
+        {
+          "alt_text": "A textured 3D model of the Highbridge water tower with green roofs and stone walls, viewed obliquely against a black background.",
+          "caption": "Textured reconstruction of the Highbridge water tower, viewed obliquely with the basemap off. Small gaps and edge fragments remain visible.",
+          "credit": "Kytt MacManus · Columbia University",
+          "date": "November 16, 2026 (SiteScan mission)",
+          "date_basis": "Date shown in the SiteScan mission. The mission date does not establish the capture time of every source photograph.",
+          "height": 1190,
+          "image": "assets/highbridge/highbridge-tower-mesh.jpg",
+          "label": "Tower textured mesh",
+          "type_key": "mesh",
+          "uncertainty": "Individual source-image capture times and independent positional accuracy were not verified. Gaps, texture distortion and edge fragments remain in the reconstruction.",
+          "width": 720
+        }
+      ],
+      "display_note": "Selected views show the orthomosaic and tower reconstruction; original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "lamont-research",
+      "title": "Lamont terrain and wind research",
+      "place": "Lamont-Doherty Earth Observatory",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point cloud",
+        "Point-cloud viewer",
+        "Textured 3D mesh (OBJ)"
+      ],
+      "source_platforms": [
+        "Columbia University"
+      ],
+      "source_links": [],
+      "limitations": "Photogrammetric reconstruction is distinct from LiDAR. The LiDAR display uses relative coordinates because the source CRS label conflicts with coordinate magnitudes; it does not establish georeferencing or accuracy.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "hot-unza",
+      "title": "UNZA and HOT teaching and exchange",
+      "place": "Lusaka and international exchange",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Gaussian splats",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Textured 3D mesh (OBJ)",
+        "Textured mesh"
+      ],
+      "source_platforms": [
+        "ArcGIS Site Scan",
+        "Columbia University"
+      ],
+      "source_links": [],
+      "limitations": "Campus mapping products and Mtukuzi field photographs document distinct activities; project participation does not establish a measured humanitarian outcome.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "mtukuzi",
+      "title": "Mtukuzi community mapping",
+      "place": "Mtukuzi, Eastern Zambia",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Gaussian splats",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Source imagery",
+        "Textured 3D mesh (OBJ)"
+      ],
+      "source_platforms": [
+        "Columbia University"
+      ],
+      "source_links": [],
+      "limitations": "Capture reports and processing records describe different units. GSD is distinct from independent accuracy; the combined reconstruction lacks ground control and checkpoints.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "hubbard-creek",
+      "title": "Hubbard Creek mapping",
+      "place": "Long Island, New York",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Gaussian splats",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Textured 3D mesh (OBJ)"
+      ],
+      "source_platforms": [
+        "ArcGIS Site Scan",
+        "Columbia University"
+      ],
+      "source_links": [],
+      "limitations": "Marsh and channel products describe the mapped surface. Independent positional accuracy and ecological change are not established by these displays.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "black-rock-forest",
+      "title": "Black Rock Forest balloon mapping",
+      "place": "Black Rock Forest, Cornwall, New York",
+      "products": [],
+      "source_platforms": [],
+      "source_links": [
+        {
+          "title": "Columbia account of the October 2017 fieldwork and photo credits",
+          "url": "https://news.climate.columbia.edu/2017/12/19/students-practice-gis-remote-sensing-field-work-black-rock-forest/"
+        }
+      ],
+      "limitations": "Balloon-based source imagery is distinct from later drone work. Infrared colors are not calibrated NDVI; the display does not establish measurement accuracy.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "william-paterson",
+      "title": "William Paterson tree mapping",
+      "place": "William Paterson University, New Jersey",
+      "products": [
+        "Field GIS / orthomosaic",
+        "Orthomosaic",
+        "Surface model",
+        "Thermal orthomosaic display"
+      ],
+      "source_platforms": [
+        "Columbia University"
+      ],
+      "source_links": [
+        {
+          "title": "William Paterson University Drone Workshop public web map",
+          "url": "https://www.arcgis.com/home/item.html?id=d734d8103cfe4bac9738969ef744617e"
+        }
+      ],
+      "limitations": "Tree observations and reconstructed elevation products are complementary views. Tree-identification performance, inventory completeness and calibrated thermal temperature are not established.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    },
+    {
+      "case_study_id": "hemlock-hill",
+      "title": "Hemlock Hill field instrumentation",
+      "place": "Hemlock Hill Farm, Westchester County",
+      "products": [
+        "3D mesh (I3S)",
+        "Digital surface model (DSM)",
+        "Digital terrain model (DTM)",
+        "Multispectral camera display",
+        "Orthomosaic",
+        "Photogrammetric point cloud (LAS)",
+        "Photogrammetric point cloud (LAZ)",
+        "Point-cloud viewer",
+        "Terrain model"
+      ],
+      "source_platforms": [
+        "ArcGIS Site Scan",
+        "Columbia University"
+      ],
+      "source_links": [],
+      "limitations": "The photogrammetric DTM is separate from the logged IF1200A LiDAR acquisition. Ground-control activity does not by itself establish independent checkpoint accuracy, bare-earth validation, calibrated NDVI or agricultural outcomes.",
+      "display_products": [],
+      "display_note": "Images are selected views of the mapping products. Original datasets are not distributed here."
+    }
+  ]
+}
