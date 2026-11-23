@@ -18,7 +18,7 @@
 .homepage-v61 .hero figure{padding:0;background:none;border:0;box-shadow:none}
 .hero-panel--people{grid-column:1/-1}
 .homepage-v61 .hero-panel img{width:100%;height:145px;aspect-ratio:auto;object-fit:contain;background:var(--image-surface);border-radius:7px}
-.homepage-v61 .hero-panel--people img{height:258px;object-fit:cover;object-position:center 63%}
+.homepage-v61 .hero-panel--people img{height:auto;aspect-ratio:4/3;object-fit:contain;object-position:center}
 .homepage-v61 .hero-panel--observation img{object-fit:cover}
 .homepage-v61 .hero-panel figcaption{font-size:.8125rem;line-height:1.45;margin:7px 0 0;padding:0}
 .homepage-v61 .hero-panel figcaption b{font-size:.875rem;font-weight:650;display:block;color:var(--ink)}
@@ -82,6 +82,7 @@
 .atlas-example-grid figcaption b,.atlas-example-grid figcaption span{display:block}
 .atlas-example-grid figcaption b{font-weight:650;margin-bottom:4px;color:var(--ink)}
 .homepage-v61 .project-browser{padding-block:32px}
+.project-scope-links{display:flex;flex-wrap:wrap;gap:10px 24px}
 .homepage-v61 #all-projects{border-block:1px solid var(--line);padding:10px 0}
 .homepage-v61 #all-projects>summary{font-size:1.15rem;padding:10px 0;line-height:1.5}
 .homepage-v61 #all-projects>.section-head{padding-top:24px}
@@ -136,12 +137,12 @@
 .about-methods{margin-top:15px}
 .homepage-v61 footer{font-size:.8125rem}
 .homepage-v61 #dialog-atlas,.homepage-v61 dialog p{font-size:.875rem}
-@media(min-width:1500px){.homepage-v61 .hero-panel--people img{height:290px}.homepage-v61 .hero-panel img{height:155px}}
+@media(min-width:1500px){.homepage-v61 .hero-panel img{height:155px}.homepage-v61 .hero-panel--people img{height:auto}}
 @media(max-width:1100px){
  .homepage-v61 .hero{gap:30px}
  .homepage-v61 .hero h1{font-size:2.65rem}
- .homepage-v61 .hero-panel--people img{height:225px}
  .homepage-v61 .hero-panel img{height:128px}
+ .homepage-v61 .hero-panel--people img{height:auto}
  .homepage-v61 .program-area-grid,.selected-project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
  .homepage-v61 .program-area-card>img{height:170px}
  .selected-project figure>img{height:210px}

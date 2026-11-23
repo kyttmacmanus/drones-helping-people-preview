@@ -57,7 +57,7 @@
   document.querySelectorAll('[data-filter]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.filter===area)));
   let count=0;
   document.querySelectorAll('.case-study').forEach(card=>{card.hidden=area!=='all'&&!card.dataset.programAreas.split(' ').includes(area);if(!card.hidden)count++;});
-  $('#results').textContent=`${count} ${count===1?'project':'projects'}${area==='all'?'':' · '+areas.get(area).title}`;
+  $('#results').textContent=`${count} ${count===1?'selected case study':'selected case studies'}${area==='all'?'':' · '+areas.get(area).title}`;
   if(reveal)$('#all-projects').open=true;
  }
  const requestedArea=areas.has(params.get('area'))?params.get('area'):'all';
